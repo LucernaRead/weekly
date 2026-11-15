@@ -259,10 +259,10 @@ shows the Italian E-redirects and the Italian 150 apparatus.
 - `svg/p6-gipi.svg` sha256 `9d5a67c7c0579173bc3cdc6d1c75cc36de65df7c343e298fa843ff9b71de20d8`
 - `svg/p7-mal.svg` sha256 `02ed62e4b9f6d3765561e1f13c034411ffb50d85b6af887c92220ef4a075426b`
 - `svg/p8-siheom.svg` sha256 `63896ee51b9e205b6058d27b918ae7d5bc58411ca15af2ad73b7426dbffe6abe`
-- `Lucerna-VOL2-IT.pdf` (print): 8 pages, 32,551,109 bytes,
-  sha256 `3daf94d0d8ab500b86a221bd6bab737fa8a0bc5244d4d13773af86e1f9daa54c`
-- `Lucerna-VOL2-IT-web.pdf` (web): 8 pages, 3,558,396 bytes (< 10 MB),
-  sha256 `ce556beff78568f82afca371c9f2f3eca58d7473250cd4ae10f6855e4f054e1f`
+- `Lucerna-VOL2-IT.pdf` (print): 8 pages, 30,611,153 bytes (D5 rebuild 2026-11-14; supersedes 32,551,109),
+  sha256 `8fb07b40aa62f540f3805b9c4b431b267774985965bed9206f201474d8377a9f`
+- `Lucerna-VOL2-IT-web.pdf` (web): 8 pages, 2,171,420 bytes (< 10 MB) (D5 rebuild 2026-11-14; supersedes 3,558,396),
+  sha256 `3e086c315435ea84b78f986674c41d58a206c7ec79195361dbb9c0a06fe0ec0f`
 - `cards/` p1–p8 PNGs, 1950×2700 each.
 - `ABSTRACT.txt`: Italian, single line, no ASCII double quotes, real topic
   keywords (ipdong 7 novembre, ultimo weekend delle foglie, stagione del
@@ -287,3 +287,18 @@ shows the Italian E-redirects and the Italian 150 apparatus.
    ≥3-syllable-tail).
 6. No international politics in this issue; Korean domestic politics only
    (CSAT-day measures dated 11 November 19 only), per the editorial line.
+
+## D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `latin`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings; SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run1): **19/19 ALL-GREEN** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: None (no source fix in run1).
+- Deliverables (final run1, in scratch `patched/2026-w45-ko-it/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2-IT.pdf`: 30,611,153 bytes, sha256 `8fb07b40aa62f540f3805b9c4b431b267774985965bed9206f201474d8377a9f` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-IT-web.pdf`: 2,171,420 bytes, sha256 `3e086c315435ea84b78f986674c41d58a206c7ec79195361dbb9c0a06fe0ec0f`.
+  - builder web PDF `2026-w45-ko-it.web.pdf` (shipped original): 2,171,413 bytes, sha256 `07ad06f455c1482ed0b157c527d193ba7fc4ce0ad413d94effcb45ca4477d51a`.
+  - text.md `2026-w45-ko-it.text.md` (new, from build exporter): 28,189 bytes, sha256 `853f18bfcffdbd0e4610421fe97f2d1aaaca652e389b4a96754e14afbc3078fa`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2', 'D-17 ~ D-12', 'IPDONG', 'Tutti' (exporter is_prose rule; not fixed this round).
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.

@@ -14,10 +14,10 @@ Directory: `files/weekly-report-w45-ko-fr/`
 - `svg/` — 8 pages: p1-pyoji, p2-saenghwal, p3-munhwa, p4-seupocheu,
   p5-cheongnyeon, p6-gipi, p7-mal, p8-siheom
 - `cards/` — 8 PNG cards, same basenames
-- `Lucerna-VOL2-FR.pdf` — print PDF, 32,587,981 bytes,
-  sha256 `2fc4e410d120eba3563e9a7809343a87e0610da5b9d9774a44d9754976ccacaa`
-- `Lucerna-VOL2-FR-web.pdf` — web PDF, 3,565,743 bytes,
-  sha256 `4773a934add411954d54dfe0e48cad54a5dba88cd984d1037d9982611594687a`
+- `Lucerna-VOL2-FR.pdf` — print PDF, 30,631,452 bytes (D5 rebuild 2026-11-14; supersedes 32,587,981),
+  sha256 `d5d6dc6672259a6a34413f2bb6e2461b4aa702d6ecf5eb85a7f61e51bd0c6a39`
+- `Lucerna-VOL2-FR-web.pdf` — web PDF, 2,191,580 bytes (D5 rebuild 2026-11-14; supersedes 3,565,743),
+  sha256 `5b08158706b4cfc9639fdc6e62c42e089d53a5def00208d536be0ad165c79b60`
 - `ABSTRACT.txt` — French single line, no ASCII double quotes
 - `WEEKLY-KIT.md` — this file
 
@@ -305,3 +305,18 @@ build (sha256 check against the recorded baseline passes).
    à rebours du Suneung et inscriptions à l'examen d'histoire de Corée ;
    150 exercices de coréen du niveau A2 au niveau B2 pour apprendre le
    coréen en lisant de vrais articles.`
+
+## D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `latin`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings (fr: 1 HEAD TOO WIDE, port-known, same head); SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run2): **18/19 (only G2 baseline residual, D25 adjudication, see below)** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: 1 fix (run1 → run2): content12.py:57 P1 headline `f.head("지금 바로 연습　Exercices immédiats", 25)` → 24 (25pt advance 425.4px > 422.5px column; 24pt = 408.3px). Baseline had the same head over at 426.4px (port-known).
+- Deliverables (final run2, in scratch `patched/2026-w45-ko-fr/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2-FR.pdf`: 30,631,452 bytes, sha256 `d5d6dc6672259a6a34413f2bb6e2461b4aa702d6ecf5eb85a7f61e51bd0c6a39` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-FR-web.pdf`: 2,191,580 bytes, sha256 `5b08158706b4cfc9639fdc6e62c42e089d53a5def00208d536be0ad165c79b60`.
+  - builder web PDF `2026-w45-ko-fr.web.pdf` (shipped original): 2,191,586 bytes, sha256 `540ffe4c5ed8831879e891c3422534f0d09338b345bcb8fef10c9d7f02395421`.
+  - text.md `2026-w45-ko-fr.text.md` (new, from build exporter): 28,228 bytes, sha256 `f4124f70e62274bbe3cde29c2ae6721c8678a53ad84adff622057d506686e242`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G2: 1 defect, citing ONLY the baseline run log (HEAD TOO WIDE, baseline-side pre-existing warning); patched side 0 defects — D25 adjudication (same as W43 ko-fr): not a finding, not blocking. G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2', 'D-17 ~ D-12', 'IPDONG', 'Tous' (exporter is_prose rule; not fixed this round).
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.

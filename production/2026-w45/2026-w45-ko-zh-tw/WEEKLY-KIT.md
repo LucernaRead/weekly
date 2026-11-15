@@ -25,8 +25,8 @@ Directory: `files/weekly-report-w45-ko-zh-tw/`
 |---|---|
 | `svg/p1-pyoji.svg` … `svg/p8-siheom.svg` | 8 SVGs, SHA-256 unchanged vs `scratch/round3-sha256.txt` after the orphan-harness re-render |
 | `cards/p1-pyoji.png` … `cards/p8-siheom.png` | 8 cards, all 8 visually inspected (see Visual check) |
-| `Lucerna-VOL2-ZHTW.pdf` (print) | **33,167,237 bytes**, SHA-256 `0c48d6a99b662e57b5c176ec6a055673b9a23412e6b8098187fb4664579a1358`, 8 pages, page size 1462.5 × 2025 pt |
-| `Lucerna-VOL2-ZHTW-web.pdf` (web) | **3,376,265 bytes**, SHA-256 `43066bd4b7069660a633dd950fa659747d9ae08c136c36d667504ab02f17b13c`, 8 pages, page size 1400 × 1938 pt |
+| `Lucerna-VOL2-ZHTW.pdf` (print) | **32,109,994 bytes**（D5 重建 2026-11-14，取代 33,167,237）, SHA-256 `ff56622ac4d903bbec84acc786afbe1891e7692bb69a8b3f71ef66b3dd9b61d1`, 8 pages, page size 1462.5 × 2025 pt |
+| `Lucerna-VOL2-ZHTW-web.pdf` (web) | **2,582,142 bytes**（D5 重建 2026-11-14，取代 3,376,265）, SHA-256 `61943675a158735ef34280cec81856a3a2b30f028b1814766b4cc91ec93c969b`, 8 pages, page size 1400 × 1938 pt |
 | `WEEKLY-KIT.md` | this file |
 | `ABSTRACT.txt` | Traditional Chinese, single line, no ASCII double quotes (see Abstract) |
 
@@ -429,3 +429,18 @@ the gates above unless noted:
   overwriting them, correcting only the freeze total above (948 → 949) and
   appending this section. No Discord post, no repo insert, no main-chat card/PDF,
   no cron was created by this pass; insertion remains the coordinator's serial step.
+
+## D5 重建記錄（2026-11-14）
+
+- 方法：D5 + §1.1 重建（PLAN §3.1，builder v2）。舊式 svglib 以移植模板 `tools/mechanism-w47/svglib-ko-d5.py` 原樣替換（僅按讀者改寫 `_D5_READER` 為 `cjk`）；`test_d5_routing.py` FAILURES: 0；fix2（`_QUOTE_CLS`）保留。core `core-ko/svglib.py` 已落盤進 production（模板原文，`_D5_READER = "latin"`）；讀者版源文件在 scratch `patched/`，待 closer 同步進 production（見下）。
+- 基線（venv 重建）：TOTAL 150，0 警告；SVG 8/8 與 fanout 逐字節一致；text.md 與 fanout `.text.md.new` 逐字節一致；印 PDF 與 fanout 印 PDF 逐字節一致。issues/ 下本版無 `.text.md`，故以下新 `.text.md` 由構建導出器（`textmd_ko.py`）新建，隨 bundle 出貨。
+- 終門禁（run1）：**19/19 ALL-GREEN** / 19（G1–G16 + D18 + D37；15b 按 D27 僅記錄）。D18 刊頭間距與 D37 副刊頭邊距逐版實測（見家族報告 §4/§6）。P8：抽取 150/150，比對 CLEAN，頁腳餘量與基線一致。
+- 修復：無（run1 無需改源）。
+- 交付物（終版 run1，位於 scratch `patched/2026-w45-ko-zh-tw/`；closer 直接拷原件，絕不重跑 webpdf）：
+  - 印 PDF `Lucerna-VOL2-ZHTW.pdf`：32,099,994 字節，sha256 `ff56622ac4d903bbec84acc786afbe1891e7692bb69a8b3f71ef66b3dd9b61d1`（8 頁，1462.5 × 2025 pt）。
+  - render 網 PDF `Lucerna-VOL2-ZHTW-web.pdf`：2,582,142 字節，sha256 `61943675a158735ef34280cec81856a3a2b30f028b1814766b4cc91ec93c969b`。
+  - builder 網 PDF `2026-w45-ko-zh-tw.web.pdf`（出貨原件）：2,582,143 字節，sha256 `6a6f0d9ddc4fa21a38eff2b0dbed30281e45a49b170b2aa61a47dabd5bea6d5b`。
+  - text.md `2026-w45-ko-zh-tw.text.md`（新建，構建導出器出品）：27,496 字節，sha256 `a63d426999110ff4d8cd68003a5d4922ed10732dced6829f2c5058873a6784cb`；與 fanout `.text.md.new` 逐字節一致；原生校驗器 `verify_textexp_ko.py --edition` ADOPT，0 UNEXPECTED；印/網文字層差 0。
+- 殘留：G15b carryover RC=1（D27 已知 ko 工具缺口，僅記錄）。R1：text.md 漏收已渲染的短拉丁串 'A2→B2'、'D-17 ~ D-12'（導出器 is_prose 規則；本輪不修）。
+- 注意：本 KIT 上方所有 D5 前交付物 pin（印/網字節 + SHA）均已被本節 D5 值取代。D5 印 PDF 較出貨 pin 小約 0.9–2.1 MB（拉丁文改走 Newsreader/Noto Sans 字體子集所致）；文字層一致（印/網差 0），版式不變（8 頁，1462.5 × 2025 pt）。
+- 交接：production 讀者版源文件（`content*.py`、`svglib.py`、`bslib4.py`、`render.py`）尚未與 `patched/` 同步——4 項 run2 修復（fr/nl/pt/ru）與 11 版 D5 svglib 均只在 scratch，僅 `core-ko/svglib.py` 已在 production。closer 須先逐文件 byte-diff 同步 `patched/` 進 production 再按 bundle commit；切勿只 commit 本 KIT + `core-ko/svglib.py`。

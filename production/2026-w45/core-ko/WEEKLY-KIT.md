@@ -92,8 +92,8 @@
 
 - `svg/` — 8 SVGs (p1-pyoji, p2-saenghwal, p3-munhwa, p4-seupocheu, p5-cheongnyeon, p6-gipi, p7-mal, p8-siheom).
 - `cards/` — 8 page PNGs.
-- `Lucerna-VOL2.pdf` — print PDF, 33,125,291 bytes.
-- `Lucerna-VOL2-web.pdf` — web PDF, 3,366,637 bytes (< 10 MB SOP §9 target; Discord delivery is paused, so no post is made).
+- `Lucerna-VOL2.pdf` — print PDF, 32,054,498 bytes (F1 fix 2026-11-14; supersedes D5 32,054,499).
+- `Lucerna-VOL2-web.pdf` — web PDF, 2,471,535 bytes (F1 fix 2026-11-14; supersedes D5 2,471,534; < 10 MB SOP §9 target; Discord delivery is paused, so no post is made).
 - `ABSTRACT.txt` — one line, Simplified Chinese, no ASCII double quotes.
 
 ## Open verification debts (NOT resolved by invention — carried to the parent line)
@@ -105,3 +105,28 @@
 - (e) 한능검 details from secondaries citing the Oct 19, 2026 국사편찬위원회 notice, primary page not directly retrieved.
 - (f) Commons image shortfall — only verified CC0 used, no CC BY-SA, no kimjang-making photo (ssam photo captioned honestly as ssam, not kimjang).
 - (g) Repo insertion is NOT done by this builder (serialized by the parent line; inserts currently BLOCKED behind an unrelated push outage) — this core queues for insert after finalization. No git push, no Discord post, no messages sent by this builder.
+
+## D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `cjk`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings; SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run1): **18/19 (only G11 spill, pre-existing, see below)** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: None (no source fix in run1).
+- Deliverables (final run1, in scratch `patched/2026-w45-ko-zh-cn/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2.pdf`: 32,054,498 bytes, sha256 `10fa4ec51725ec711d2c01c359b5002714ae4dd126b71ba1a6f3b767ac953de7` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-web.pdf`: 2,471,535 bytes, sha256 `300ec2f7c17fbb306a544bb6973020952aa8a5a1739b87592a6b7598f3c20eae`.
+  - builder web PDF `2026-w45-ko-zh-cn.web.pdf` (shipped original): 2,471,530 bytes, sha256 `814dcb593c4fbb77fbd65f872a57e890d52de7a40960972701e2401a733adc50`.
+  - text.md `2026-w45-ko-zh-cn.text.md` (new, from build exporter): 27,428 bytes, sha256 `f16f7984d82b07b8769a472f60b40c2741a48ffae91c738ed5a0beae2a5e389d`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G11: FIXED by F1 fix 2026-11-14 (P7 letters box, last line '上期承诺顺延至 VOL.3。' now inside box, 0 SPILL; box-height fix was infeasible — it would push the P7 teaser 5.8px past the footer rule — so lko was set 20.5→19.5pt instead; see F1 fix section below). G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2' and 'D-17 ~ D-12' (exporter is_prose rule; not fixed this round).
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.
+
+## F1 fix (2026-11-14)
+
+P7 读者来信盒溢出修复（D39 裁定；builder run1 残留 G11，基线同值同行同量 +25.90px，末行 '上期承诺顺延至 VOL.3。'）。
+
+- 修法：盒高修法不可行（需 +32px，预告带底缘 2569.82→2601.82 越过页脚线 2596）。先实测字号修法：来信盒末段 lcn2 20→19pt 仍 3 行、末行仅上移 2.8px（1821.7→1818.9），救不回一行（builder 估计实测证实）。改试同盒韩文段 lko 20.5→19.5pt：实测 5 行并为 4 行，末行上移 34.8px（1821.7→1786.9），盒底 1795.82，余量 8.9px，入框。只改 `content7.py:103` 一处字号（`# D5 fix F1` 注释已加）；`lh` 公式、盒高、预告带位置均不动（预告带底缘仍为 2569.82，余量 26.2px）；文案零改动。
+- 门禁（fix 轮，全量重跑）：19 PASS + 0 FAIL（G11 0 SPILL；G6 0 flags；G15a print=web 差 0 + text.md BYTE-IDENTICAL；其余各门与 builder run1 同值：G10 新增拉丁 95、G14 P8 行数 196→196 / 余量 48.9px、D18 gap 383.9、D37 binding 255.6）。15b carryover RC=1（D27 已知缺口，仅记录）。
+- 新交付物（fix 原件，`fix/2026-w45-ko-zh-cn/`）：印 PDF `Lucerna-VOL2.pdf` 32,054,498 B，sha256 `10fa4ec51725ec711d2c01c359b5002714ae4dd126b71ba1a6f3b767ac953de7`（D5 值 `db2e7a56…` 32,054,499 B 已过期）；render 网 PDF `Lucerna-VOL2-web.pdf` 2,471,535 B，sha256 `300ec2f7c17fbb306a544bb6973020952aa8a5a1739b87592a6b7598f3c20eae`（D5 值 `5c852a29…` 2,471,534 B 已过期）；builder 网 PDF `2026-w45-ko-zh-cn.web.pdf` 2,471,530 B，sha256 `814dcb593c4fbb77fbd65f872a57e890d52de7a40960972701e2401a733adc50`（D5 值 `99d020fe…` 2,471,527 B 已过期）；text.md 27,428 B，sha256 `f16f7984d82b07b8769a472f60b40c2741a48ffae91c738ed5a0beae2a5e389d`（与 builder run1 逐字节一致，文案零改动）。
+- 目检：P7 来信盒底裁切（`fix/work/pages/zh-cn-p7-fix-crop.png`）末行 '上期承诺顺延至 VOL.3。' 完整入框，盒底缘在其下可见。
+- 同步：`content7.py` 三方一致（production `core-ko/` == patched/ == fix/，`diff -q` 已验）；本 KIT 两处复本逐字节一致。日志：`fix/logs/2026-w45-ko-zh-cn-fix/GATES-SUMMARY.txt`（24 行）；builder run1 表归档于 `fix/logs/run2-summaries/GATES-SUMMARY-zh-cn-builder.txt`。

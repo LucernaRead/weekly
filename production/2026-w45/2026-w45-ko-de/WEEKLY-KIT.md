@@ -11,8 +11,8 @@
 
 | file | bytes | sha256 |
 |---|---|---|
-| Lucerna-VOL2.pdf (print, 8 pages) | 32,997,603 | `d60a7de2dca8c8e6a49f93095d7c4fc8a928b21ea79a5c9cecb0de0a0a5811c5` |
-| Lucerna-VOL2-web.pdf (web, 8 pages, < 10 MB SOP target) | 3,546,997 | `2cbdd6355b613829af47f91118db89e2843bcdc3f3d7e91a01e606c65d316652` |
+| Lucerna-VOL2.pdf (print, 8 pages) | 30,615,632 | `c9fbb78b82e6f5d63384865013107b4ef4449918f5804697536dd79a706bfb17` |
+| Lucerna-VOL2-web.pdf (web, 8 pages, < 10 MB SOP target) | 2,176,437 | `2da707260c4749e554ac09a2d10fcfdc2488817be7fb4631d23903becafaa7f0` |
 
 SVG sha256 (final, round 4):
 
@@ -348,3 +348,28 @@ apparatus and become German (W43 ko-de / KO×EN precedent).
 - Repo insertion is the parent line's serialized step (blocked behind an unrelated push outage
   per the core KIT at build time); this builder did not insert, push, or post to Discord.
 - Nothing was sent into the main chat; no cron was created; `weekly-git` was not touched.
+
+## 15. D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `latin`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings; SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run1): **18/19 (only G11 spill, pre-existing, see below)** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: None (no source fix in run1).
+- Deliverables (final run1, in scratch `patched/2026-w45-ko-de/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2-DE.pdf`: 30,615,632 bytes, sha256 `c9fbb78b82e6f5d63384865013107b4ef4449918f5804697536dd79a706bfb17` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-DE-web.pdf`: 2,176,437 bytes, sha256 `2da707260c4749e554ac09a2d10fcfdc2488817be7fb4631d23903becafaa7f0`.
+  - builder web PDF `2026-w45-ko-de.web.pdf` (shipped original): 2,176,439 bytes, sha256 `5874cd38c5f1e4f40d05b3aa7523dc87edf3a2af03d45e3354233b99e06123bf`.
+  - text.md `2026-w45-ko-de.text.md` (new, from build exporter): 28,014 bytes, sha256 `a658cbf1802d2ba58541dac22ce466a2a7851077bee77d2b06b58fea3678eab0`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G11: FIXED by F1 fix 2026-11-14 (P7 letters box, last line 'Ihren besten Text von Seite 8!' now inside box, 0 SPILL; lh +33px; see F1 fix section below). G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2', 'D-17 ~ D-12', 'IPDONG', 'Alle' (exporter is_prose rule; not fixed this round).
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.
+
+## F1 fix (2026-11-14)
+
+P7 读者来信盒溢出修复（D39 裁定；builder run1 残留 G11，基线同值同行同量 +26.50px，末行 'Ihren besten Text von Seite 8!'）。
+
+- 修法：盒高修法。`content7.py:96` `lh` 末常数 +26→+59（+33px；`# D5 fix F1` 注释已加）。盒底 1737.82→1770.82，末行基线 1764.32，余量 6.5px；预告带底缘 2511.82→2544.82，距页脚线 2596 余量 51.2px；预告带正文 y=2510.82，不压线。文案零改动。
+- 门禁（fix 轮，全量重跑）：19 PASS + 0 FAIL（G11 0 SPILL；G6 0 flags；G15a print=web 差 0 + text.md BYTE-IDENTICAL；其余各门与 builder run1 同值：G10 新增拉丁 267、G14 P8 行数 232→234 / 余量 47.9px、D18 gap 276.7、D37 binding 46.8）。15b carryover RC=1（D27 已知缺口，仅记录）。门 12 boxtitle 计数 960→961（P7 盒高变化所致 run 计数，0 DEFECT）。
+- 新交付物（fix 原件，`fix/2026-w45-ko-de/`）：印 PDF `Lucerna-VOL2-DE.pdf` 30,615,632 B，sha256 `c9fbb78b82e6f5d63384865013107b4ef4449918f5804697536dd79a706bfb17`（D5 值 `47be5723…` 30,615,629 B 已过期）；render 网 PDF `Lucerna-VOL2-DE-web.pdf` 2,176,437 B，sha256 `2da707260c4749e554ac09a2d10fcfdc2488817be7fb4631d23903becafaa7f0`（D5 值 `a170a39b…` 2,176,427 B 已过期）；builder 网 PDF `2026-w45-ko-de.web.pdf` 2,176,439 B，sha256 `5874cd38c5f1e4f40d05b3aa7523dc87edf3a2af03d45e3354233b99e06123bf`（D5 值 `f0ebda54…` 2,176,435 B 已过期）；text.md 28,014 B，sha256 `a658cbf1802d2ba58541dac22ce466a2a7851077bee77d2b06b58fea3678eab0`（与 builder run1 逐字节一致，文案零改动）。
+- 目检：P7 来信盒底裁切（`fix/work/pages/de-p7-fix-crop.png`）末行 'Ihren besten Text von Seite 8!' 完整入框，盒底缘在其下可见。
+- 同步：`content7.py` 三方一致（production == patched/ == fix/，`diff -q` 已验）；本 KIT 两处复本逐字节一致。日志：`fix/logs/2026-w45-ko-de-fix/GATES-SUMMARY.txt`（24 行）；builder run1 表归档于 `fix/logs/run2-summaries/GATES-SUMMARY-de-builder.txt`。

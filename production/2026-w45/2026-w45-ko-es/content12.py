@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · 표지 (A2) =================
@@ -11,31 +11,34 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2 · 제2호", 23, "sans", True, OLIVE)
-p.text(975, 92, "매주 한국어로 · Cada semana · 한국 사람이 읽는 한국어를 읽어요", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "2026년 11월 2일(월) ~ 8일(일)", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "SEMANARIO COREANO · VOL.2 · 입동 · 단풍 · 김장", 40, "serif", True, INK, anchor="middle")
-p.text(975, 366, "한국어를 배우는 사람을 위한 주간 신문 — 진짜 한국을, 한국어로", 19, "sans", False, GREY, anchor="middle")
-p.text(975, 394, "TEXTOS EN COREANO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 20, "sans", True, BRICK, anchor="middle")
-p.hline(MX, RIGHT, 412, INK, 3); p.hline(MX, RIGHT, 421, INK, 1.2)
+p.text(MX, 92, "VOL. 2　제2호", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "매주 한국어로　Cada semana　한국 사람이 읽는 한국어를 읽어요", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "2026년 11월 2일(월) ~ 8일(일)", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "SEMANARIO COREANO　VOL.2　입동　단풍　김장", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 366, "한국어를 배우는 사람을 위한 주간 신문 — 진짜 한국을, 한국어로", 16, "sans", False, GREY, anchor="middle")
+p.text(975, 394, "TEXTOS EN COREANO　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 433, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 487, "11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 531, "김장철이 열리고, 수능까지 12일이 남아요. 이번 주의 달력은 오른쪽을 보세요.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 487, "IPDONG", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 531, "Ipdong, el 7 de noviembre · comienza la temporada de kimjang", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "김장철이 열리고, 수능까지 12일이 남아요. 이번 주의 달력은 오른쪽을 보세요.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "IPDONG", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "Ipdong, el 7 de noviembre　comienza la temporada de kimjang", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "톱 뉴스 · Titular", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "겨울이 오는 주간 — 단풍의 끝, 김장의 시작", 44, "serif", True, INK, 1388, 1.2)
+hy = 590
+p.text(MX, hy + 26, "톱 뉴스　Titular", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "겨울이 오는 주간 — 단풍의 끝, 김장의 시작", 53, "serif", True, INK, 1323, 1.06)
 p.text(MX, hy + 30, "토요일 11월 7일은 입동 — 24절기 중 겨울의 첫 절기예요", 25, "serif", False, GREY)
 hy += 46
-p.text(MX, hy + 28, "Lucerna 편집부 · 읽기 레벨: A2", 20, "sans", False, GREY)
+p.text(MX, hy + 28, "Lucerna 편집부　읽기 레벨: A2", 17, "sans", False, GREY)
 hy += 48
+# W45 P1-headline fit (2026-11-09): pull the flow top up 20px so
+# the long W45 feature packs as shipped (box col 1, ex. col 2).
+hy -= 20
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("11월 2일 월요일부터 8일 일요일까지, 이번 주는 겨울이 시작되는 주간이에요. 토요일 11월 7일은 입동이에요. 입동은 24절기 중 겨울의 첫 절기예요.", size=24)
 f.para("단풍의 마지막 주말이에요. 그런데 단풍 절정 날짜는 하나가 아니에요. 내장산은 산림청·국립수목원 예보로 11월 4일이 절정이고, 국립공원공단 예보로는 11월 11일이 절정이에요. 그래서 7일과 8일은 두 예보 사이에 있는, 절정에 가까운 주말이라고만 말할 수 있어요. 월출산과 북한산 이야기는 3면에 있어요.", size=24)
@@ -44,14 +47,14 @@ f.para("수능 카운트다운도 계속돼요. 수능은 11월 19일 목요일�
 f.para("지난 소식도 확인해요. 태풍 참피는 한국 본토에 상륙하지 않았어요. 제주도 남쪽 바다를 지나 10월 26일에 온대저기압으로 바뀌었어요. 야구에서는 KIA가 준플레이오프에서 LG를 3연승으로 이겼어요. 플레이오프는 10월 25일 비 때문에 일정이 바뀌었어요.", size=24)
 f.para("한능검 소식도 있어요. 한국사능력검정시험 81회 접수가 이번 주에 시작돼요. 서울·강원·제주 지역은 11월 6일 오전 10시부터 12시까지 단 2시간만 따로 받아요.", size=24)
 f.gloss("입동 = ipdong · 절정 = apogeo · 김장 = kimchi invernal · 상륙하다 = tocar tierra · 온대저기압 = ciclón extratropical")
-f.box("숫자로 보는 이번 주 · En cifras", [
+f.box("숫자로 보는 이번 주　En cifras", [
     ("7 — 입동은 11월 7일 토요일이에요", "serif", False, INK, 20, 1.35),
     ("17 — 11월 2일에는 수능까지 17일이 남아요 (D-17)", "serif", False, INK, 20, 1.35),
     ("12 — 11월 7일에는 수능까지 12일이 남아요 (D-12)", "serif", False, INK, 20, 1.35),
     ("2 — 서울 한능검 접수는 11월 6일 10시부터 12시까지 단 2시간이에요", "serif", False, INK, 20, 1.35),
     ("415.5 — 한라산 삼각봉에 온 비, 415.5밀리미터 (10월 23~26일)", "serif", False, INK, 20, 1.35),
 ])
-f.head("지금 바로 연습 · Práctica inmediata", 25)
+f.head("지금 바로 연습　Práctica inmediata", 25)
 f.ex("A2", "Completar", "7", "Ipdong es el 7 de noviembre, sábado",
      "입동은 11월 ___일이에요.", size=19.5, gap=6)
 f.ex("A2", "Completar", "김치", "La temporada de kimjang es hacer kimchi de invierno",
@@ -68,8 +71,8 @@ f.end_report()
 
 # ---- calendar box (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "이번 주 달력", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "11월 2일 ~ 8일의 약속", 24, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "날짜가 정해진 일만 모았어요", 19, "sans", False, GREY)
@@ -85,15 +88,15 @@ for i, t in enumerate(topics):
     yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 20, "serif", True, INK, gw - 44, 1.32)
     byy = yy_t + 10
 yy_n = p.para(gx + 22, byy + 12, "11월 1일부터는 가을철 산불조심기간이에요. 산에 갈 때는 불을 조심하세요.", 19, "serif", False, GREY, gw - 44, 1.35)
-p.para(gx + 22, yy_n + 24, "이 다섯 가지 날짜가 이번 주 신문의 뼈대예요.", 19, "serif", False, GREY, gw - 44, 1.35)
-p.para(gx + 22, yy_n + 52, "Estas cinco fechas articulan este número.", 18.5, "sans", False, GREY, gw - 44, 1.35)
-p.text(gx + 22, gy + 636, "자료: 국사편찬위원회 공지 (10월 19일)", 18.5, "sans", False, GREY)
-p.text(gx + 22, gy + 664, "산림청·국립공원공단 예보 (9월 22일)", 19, "sans", False, GREY)
+yy_m = p.para(gx + 22, yy_n + 24, "이 다섯 가지 날짜가 이번 주 신문의 뼈대예요.", 19, "serif", False, GREY, gw - 44, 1.35)
+p.para(gx + 22, yy_m + 2, "Estas cinco fechas articulan este número.", 18.5, "sans", False, GREY, gw - 44, 1.35)
+p.text(gx + 22, gy + 662, "자료: 국사편찬위원회 공지 (10월 19일)", 18.5, "sans", False, GREY)
+p.text(gx + 22, gy + 690, "산림청　국립공원공단 예보 (9월 22일)", 19, "sans", False, GREY)
 
 # ---- contents (col 3) ----
 sy = 1296
-p.rect(gx, sy, gw, 330, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "이번 호의 내용 · Índice", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 330, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "이번 호의 내용　Índice", 24, "sans", True, OLIVE)
 som = [
     ("2면", "김장과 겨울 준비, 한능검", "A2"),
     ("3면", "단풍 마지막 주말", "A2→B1"),
@@ -105,17 +108,18 @@ som = [
 ]
 yy = sy + 82
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 108, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 37
 
 # ---- word of the week (col 3) ----
 my = 1636
-p.text(gx, my + 24, "이번 주의 말 · Palabra de la semana", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "「입동」 — 겨울의 시작을 알리는 절기예요. 입동이 지나면 겨울 준비가 본격적으로 시작돼요. 예: '11월 7일은 입동이에요.'", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "입동 = ipdong, el comienzo del invierno.", 19, "sans", False, GREY, gw, 1.35)
+p.text(gx, my + 24, "이번 주의 말　Palabra de la semana", 22, "sans", True, OLIVE)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "「입동」", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 102, "겨울의 시작을 알리는 절기예요. 입동이 지나면 겨울 준비가 본격적으로 시작돼요. 예: '11월 7일은 입동이에요.'", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 8, "입동 = ipdong, el comienzo del invierno.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -132,8 +136,8 @@ f2.para("토요일은 입동이에요. 단풍 구경을 가면 낮은 길부터 
 f2.end_report()
 # col 3 brief box
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "짧은 소식 · Noticias breves", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "짧은 소식　Noticias breves", 24, "sans", True, OLIVE)
 brefs = [
     ("참피", "참피는 본토에 상륙하지 않고 10월 26일에 온대저기압으로 바뀌었어요. (4면)"),
     ("야구", "KIA가 준플레이오프에서 LG를 3연승으로 이겼어요. (4면)"),
@@ -141,15 +145,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "퀴즈 · Quiz relámpago", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Lee la portada y elige la respuesta correcta · Respuestas en la pág. 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "퀴즈　Quiz relámpago", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Lee la portada y elige la respuesta correcta　Respuestas en la pág. 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "Opción múltiple", "A", "Ipdong = el comienzo del invierno",
       "입동은 무슨 뜻이에요? A. 겨울의 시작 · B. 가을의 끝 · C. 여름의 시작", size=21)
 qf.ex("A2", "Opción múltiple", "A", "Las dos previsiones de Naejangsan: 4 y 11 de noviembre",
@@ -166,11 +170,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · 생활 (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("생활 · Vida cotidiana", "Lucerna", "레벨 A2 · 김장과 겨울 준비, 한능검 · Kimjang, preparar el invierno y el examen de historia")
+p.band("생활　Vida cotidiana", "Lucerna", "레벨 A2　김장과 겨울 준비, 한능검　Kimjang, preparar el invierno y el examen de historia")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("김장철이 왔어요 — 겨울을 준비하는 집", 37)
-f.byline("Lucerna 편집부 · 읽기 레벨: A2")
+f.title("김장철이 왔어요 — 겨울을 준비하는 집", 32)
+f.byline("Lucerna 편집부　읽기 레벨: A2")
 f.para("김장은 겨울 내내 먹는 김치를 담그는 일이에요. 배추를 소금에 절이고, 무와 양념을 넣어 버무려요. 가족이 함께 담그면 하루가 금방 가요. 이웃과 나눠 먹는 집도 있어요.")
 f.para("요즘은 김치를 사서 먹는 집도 많아요. 그래도 김장철이면 시장은 더 바빠져요. 배추와 양념을 사는 사람이 늘어나요. 겨울 김치는 집집마다 맛이 달라요.")
 f.para("김장 말고도 겨울 준비가 많아요. 두꺼운 이불을 꺼내고, 난방이 잘 되는지 봐요. 옷장에서는 겨울옷을 앞으로 꺼내요. 따뜻한 국과 찌개가 식탁에 자주 올라와요.", w=424)
@@ -179,7 +183,7 @@ f.head("산불조심기간이 시작됐어요", 25)
 f.para("11월 1일부터 12월 15일까지는 가을철 산불조심기간이에요. 단풍 구경을 가는 사람이 많아서, 산에서는 불을 더 조심해야 해요. 산에 라이터나 불을 가져가면 벌금을 낼 수 있어요. 벌금은 최대 30만 원이에요.")
 f.para("산에 갈 때는 정해진 길로 다니세요. 담배를 피우지 마세요. 불을 피우지 마세요. 작은 불씨가 큰 산불이 될 수 있어요.", w=384)
 f.gloss("산불 = incendio forestal · 벌금 = multa · 불씨 = chispa")
-f.box("한능검 접수 · Examen de historia", [
+f.box("한능검 접수　Examen de historia", [
     ("시험: 한국사능력검정시험 81회, 11월 28일 토요일, 심화만 봐요", "serif", False, INK, 20, 1.35),
     ("11월 3일(화) 10시 — 인천·경기 접수 시작", "serif", False, INK, 20, 1.35),
     ("11월 6일(금) 10시~12시 — 서울·강원·제주 접수, 단 2시간만 따로 받아요", "serif", False, INK, 20, 1.35),
@@ -193,7 +197,7 @@ f.gloss("아삭하다 = crujiente · 김 = vapor · 깊어지다 = hacerse más 
 f.head("겨울 옷장 정리", 25)
 f.para("옷장 정리는 버리는 일이 아니에요. 작은 옷은 동생에게 물려주고, 낡은 옷은 깨끗이 빨아서 정리해요. 정리가 끝나면 겨울이 와도 두렵지 않아요.")
 f.gloss("물려주다 = pasar a otro · 낡다 = viejo, gastado · 두렵다 = tener miedo")
-f.box("겨울 준비 목록 · Lista de invierno", [
+f.box("겨울 준비 목록　Lista de invierno", [
     ("두꺼운 이불 꺼내기", "serif", False, INK, 20, 1.35),
     ("난방이 잘 되는지 보기", "serif", False, INK, 20, 1.35),
     ("겨울옷 앞으로 꺼내기", "serif", False, INK, 20, 1.35),
@@ -218,7 +222,7 @@ sy3 = cy3 + 24
 # W45-KO fix: facts[0] alone narrows (340) so its final line is not lone 일이에요.
 fw = [CW - 44 - 50 if i == 0 else CW - 44 for i in range(len(facts))]
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, w)) * 30.5 + 33 for t, w in zip(facts, fw)) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "알고 있나요", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -227,9 +231,9 @@ for t, w in zip(facts, fw):
 ey3 = sy3 + sh + 26
 etvous = "당신은? 겨울을 준비할 때 가장 먼저 하는 일은 무엇이에요? 한국어로 두 문장 써서 보내 주세요."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Y tú? Para preparar el invierno, ¿qué haces primero? Escribe dos frases en coreano; envíalas.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "당신은? · ¿Y tú?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "당신은?　¿Y tú?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "¿Y tú? Para preparar el invierno, ¿qué haces primero? Escribe dos frases en coreano; envíalas.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -237,9 +241,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- D-day strip ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "날짜 세는 말 · Contar los días", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "수능까지 남은 날로 날짜를 세는 네 가지 말 · Cuatro formas de contar con la cuenta atrás", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "날짜 세는 말　Contar los días", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "수능까지 남은 날로 날짜를 세는 네 가지 말　Cuatro formas de contar con la cuenta atrás", 20, "sans", False, GREY, anchor="end")
 words = [
     ("D-17", "11월 2일, 수능까지 17일이 남았어요", "2 de noviembre, quedan 17 días"),
     ("D-12", "11월 7일, 수능까지 12일이 남았어요", "7 de noviembre, quedan 12 días"),
@@ -248,7 +252,7 @@ words = [
 ]
 for i, (t, lab, cn) in enumerate(words):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 106, t, 34, "serif", True, OLIVE)
     yy = p.para(bx + 22, dy + 140, lab, 20.5, "serif", False, INK, CW - 44, 1.32)
     p.para(bx + 22, yy + 19, cn, 19, "sans", False, GREY, CW - 44, 1.3)
@@ -256,11 +260,11 @@ p.para(MX, dy + 228, "문장으로 외워요: 「수능까지 17일 남았어요
 
 # ---- P2 exercises ----
 ey = dy + 250
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "연습 · Ejercicios pág. 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la pág. 8 · Los ejercicios mezclan niveles: busca por número", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "연습　Ejercicios pág. 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la pág. 8　Los ejercicios mezclan niveles: busca por número", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · 이해", 25)
+e.head("A　이해", 25)
 e.glossline("Lee los textos de la pág. 2 y elige la respuesta correcta.")
 e.ex("A2", "Opción múltiple", "A", "La temporada de kimjang es hacer kimchi de invierno",
      "김장은 무엇을 담그는 일이에요? A. 김치 · B. 된장 · C. 간장", size=19, gap=6)
@@ -272,7 +276,7 @@ e.ex("A2", "Opción múltiple", "A", "El examen de historia es el sábado 28 de 
      "한능검 시험은 며칠에 있어요? A. 11월 28일 · B. 11월 6일 · C. 11월 19일", size=19, gap=6)
 e.ex("A2", "Opción múltiple", "A", "La inscripción de Seúl es de 10 a 12",
      "한능검 서울 접수는 언제예요? A. 11월 6일 10시부터 12시까지 · B. 11월 3일 하루 종일 · C. 11월 10일 오후", size=19, gap=6, bw=334)
-e.head("B · 말 넣기", 25)
+e.head("B　말 넣기", 25)
 e.glossline("Pon la palabra adecuada en el hueco.")
 e.ex("A2", "Completar", "배추", "La col se sala en salmuera",
      "___를 소금에 절여요.", instr="Completa", size=19, gap=6)
@@ -284,7 +288,7 @@ e.ex("A2", "Completar", "조심", "En el monte, cuidado con el fuego",
      "산에 갈 때는 불을 ___하세요.", instr="Completa", size=19, gap=6)
 e.ex("B1", "Completar", "접수", "La inscripción empieza el 3 de noviembre",
      "한능검 ___가 11월 3일부터 시작돼요.", instr="Completa", size=19, gap=6)
-e.head("C · 숫자와 날짜", 25)
+e.head("C　숫자와 날짜", 25)
 e.glossline("Responde con las cifras y las fechas de las págs. 1 y 2.")
 e.ex("A2", "Completar", "15", "El periodo de prevención dura hasta el 15 de diciembre",
      "산불조심기간은 12월 ___일까지예요.", instr="Completa", size=19, gap=6)
@@ -294,7 +298,7 @@ e.ex("A2", "Completar", "27,000", "La tasa del nivel avanzado es de 27.000 wones
      "한능검 심화 응시료는 ___원이에요.", instr="Completa", size=19, gap=6)
 e.ex("B1", "Completar", "13", "Desde las 13:00 del 6 de noviembre, plazas restantes",
      "11월 6일 ___시부터 남은 자리로 전국 접수가 열려요.", instr="Completa", size=19, gap=6, bw=354)
-e.head("D · 짝 맞추기", 25)
+e.head("D　짝 맞추기", 25)
 e.match_set("A2", "Emparejar",
             ["김장", "월동 준비", "산불조심", "한능검"],
             ["겨울 김치를 담그는 일",

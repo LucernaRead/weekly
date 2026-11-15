@@ -137,8 +137,8 @@ All 8 cards viewed (not only P1/P6/P7/P8): P1 badge/dark band/numbers box/gloss 
 | cards/p6-gipi.png | 857,568 | `7ebb9dbdadcf852d685039a2909bb5c1d5eb2d6619da5cd5608fd6b9ea0eac0e` |
 | cards/p7-mal.png | 728,727 | `3d65615a4f2f1099508a9c3c55fe9fb4b5e05f1e0a96e1d4f4a55d638fb6e4a5` |
 | cards/p8-siheom.png | 1,099,803 | `4b0031affc52ba6c96e062aaaf5d7d5b37c2d53eda8c3ea0b7b6186f5a12d1d0` |
-| Lucerna-VOL2-NL.pdf (print) | 32,552,178 | `dc95ad2cbba52699918006eb85fc8bdf5f45bc57bd9b16ca02d7b7e1e804e10a` |
-| Lucerna-VOL2-NL-web.pdf (web) | 3,547,923 | `4fa8990c62b3cc05e33dd3f290e304911b89bfd0f05f733b7cf2c62c3b62ac99` |
+| Lucerna-VOL2-NL.pdf (print) | 30,612,744 | `74793648bc7f1dae25e363e7023415c263aee92f3cfa7e6494eea680682760d5` |
+| Lucerna-VOL2-NL-web.pdf (web) | 2,173,987 | `6178d2f96b96a85a6a3c22daccc87088edb40b1717044472f9c77cc7b4d90a25` |
 
 Full manifest file: `hidden_files/weekly-report-w45-ko-nl-build/round3-full-sha256.txt`. Files were not modified after the round-3 render, so manifest hashes are the delivery hashes.
 
@@ -162,3 +162,40 @@ Full manifest file: `hidden_files/weekly-report-w45-ko-nl-build/round3-full-sha2
 - Independent proofread not yet performed: this edition is builder-complete, not finally approved.
 - Repo insert (LucernaRead/weekly) is the coordinator's serial step; not done here.
 - Discord delivery remains paused by the user's standing decision; nothing was queued or sent.
+
+## 12. D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `latin`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings; SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run2): **18/19 (only G11 spill, pre-existing, see below)** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: 1 fix (run1 → run2): content7.py P7 error-clinic box `eh` −26.52px (one r[2] line). Under Newsreader, clinic item 2's Dutch line wraps to 2 lines (was 1 under Noto Sans CJK), so eh grew +26.52 and pushed the P7 teaser onto the footer rule (G6 LINEX, D5-introduced). Box content still fits with 14.0px slack at baseline height 778.84; after the fix the teaser ends 2602.34, exactly the baseline position, and G6 passes.
+- Deliverables (final run2, in scratch `patched/2026-w45-ko-nl/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2-NL.pdf`: 30,612,744 bytes, sha256 `74793648bc7f1dae25e363e7023415c263aee92f3cfa7e6494eea680682760d5` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-NL-web.pdf`: 2,173,987 bytes, sha256 `6178d2f96b96a85a6a3c22daccc87088edb40b1717044472f9c77cc7b4d90a25`.
+  - builder web PDF `2026-w45-ko-nl.web.pdf` (shipped original): 2,173,992 bytes, sha256 `86d642e92d255adecaf46356b19a9724c83378c3f1ea4c9f08b627dd89499959`.
+  - text.md `2026-w45-ko-nl.text.md` (new, from build exporter): 28,038 bytes, sha256 `7b2e70c956acef1f98db8ae231e11de1a7d36d81d809fe72d3f1f5cdd441fc2a`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G11: FIXED by F1 fix 2026-11-14 (P7 letters box, last line 'op!' now inside box, 0 SPILL; lh +20px; see F1 fix section below). F-NL-TEASER: FIXED by F2 fix2 2026-11-15 (teaser height 118→98px, bottom back to 2602.34 baseline state; footer text fully on white; see F2 fix2 section below). G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2', 'D-17 ~ D-12', 'IPDONG', 'Alle' (exporter is_prose rule; not fixed this round).
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.
+
+## F1 fix (2026-11-14)
+
+P7 读者来信盒溢出修复（D39 裁定；builder run2 残留 G11，基线同值同行同量 +13.50px，末行 'op!'）。
+
+- 修法：盒高修法。`content7.py:96` `lh` 末常数 +36→+56（+20px；`# D5 fix F1` 注释已加）。盒底 1948.34→1968.34，末行基线 1961.84，余量 6.5px；预告带底缘 2602.34→2622.34，预告带正文 y=2588.34，距页脚线 2596 余量 7.7px，不压线（G6 PASS）。注意：预告带底缘本身越过页脚线 26.3px——基线即已越过 6.3px（2602.34 vs 2596，带底缘盖线但带内正文不压线，门 6 不报），本次 +20px 使越线量加大，属先存形态的延续，非新增门禁项；页脚文字基线 2624 在带底 2622.34 之下，不受影响。文案零改动。
+- 门禁（fix 轮，全量重跑）：19 PASS + 0 FAIL（G11 0 SPILL；G6 0 flags；G15a print=web 差 0 + text.md BYTE-IDENTICAL；其余各门与 builder run2 同值：G10 新增拉丁 260、G14 P8 行数 214→216 / 余量 61.0px、D18 gap 374.2、D37 binding 12.9）。15b carryover RC=1（D27 已知缺口，仅记录）。门 12 boxtitle 计数 992→993（P7 盒高变化所致 run 计数，0 DEFECT）。
+- 新交付物（fix 原件，`fix/2026-w45-ko-nl/`）：印 PDF `Lucerna-VOL2-NL.pdf` 30,612,743 B，sha256 `66a2b30e99144b36205819b94b32584817003e4671d29160b798f0fd366c9694`（D5 值 `c5cd65b0…` 30,612,741 B 已过期）；render 网 PDF `Lucerna-VOL2-NL-web.pdf` 2,173,980 B，sha256 `9665aed297c1e8be08ee4642dbcb3c1c7ad1ee65247ebfa7d9b7d8f8c0cc62be`（D5 值 `ddfde81a…` 2,173,983 B 已过期）；builder 网 PDF `2026-w45-ko-nl.web.pdf` 2,173,980 B，sha256 `392d71d91f4d4477fa4440e7b66291df145bacc8aab3e888165a5d2f5a30e210`（D5 值 `3beb216a…` 2,173,987 B 已过期；与 render 网 PDF 同字节、SHA 不同，系 webpdf 元数据浮动）；text.md 28,038 B，sha256 `7b2e70c956acef1f98db8ae231e11de1a7d36d81d809fe72d3f1f5cdd441fc2a`（与 builder run2 逐字节一致，文案零改动）。
+- 目检：P7 来信盒底裁切（`fix/work/pages/nl-p7-fix-crop.png`）末行 'op!' 完整入框，盒底缘在其下可见。
+- 同步：`content7.py` 三方一致（production == patched/ == fix/，`diff -q` 已验）；本 KIT 两处复本逐字节一致。日志：`fix/logs/2026-w45-ko-nl-fix/GATES-SUMMARY.txt`（24 行）；builder run2 表归档于 `fix/logs/run2-summaries/GATES-SUMMARY-nl-builder.txt`。
+
+## F2 fix2 (2026-11-15)
+
+nl 预告带 F-NL-TEASER 修复（重校 v1 唯一 finding，REPROOF §3；协调员已亲自目检证据条确认属实）。
+
+- 来源：fix 的 lh +20 把预告带底缘从基线 2602.34 推到 2622.34，越页脚线 26.34px，距页脚文字基线仅 1.66px，覆盖约 85% 字高（9.73/11.39px），对比度 1.95:1（白底 5.56:1），页脚文字上半压在深绿带 `#37402f` 上、肉眼难辨。D39(4) 只接受了基线越线（nl −6.3px），fix 报告"属 D39 已裁定的接受项"的说法不准确；G6 PASS 不能作证（页脚文字画在带之上，G6 对此盲区）。
+- 修法：带高修法，不改文案。`content7.py:131` `p.rect(MX, py, RIGHT - MX, 118, ...)` → **98**（`# D5 fix2 F-NL-TEASER` 注释已加）；`:134` print `py + 118` → `py + 98`（保持 print 真实）。带底缘 2622.34→**2602.34**（= 基线态，D39(4) 已接受，越页脚线 6.34px）；lh +20（F1）保持，盒底 1968.34、末行 'op!' 基线 1961.84、余量 6.50px 不变；预告带正文基线 y=2548.34/2588.34 均在带内（2504.34–2602.34）。
+- 门禁（fix2 轮，全量重跑）：19 PASS + 0 FAIL（G11 0 SPILL；G6 0 flags；G15a print=web 差 0 + text.md BYTE-IDENTICAL；其余各门与 fix 轮同值：G10 新增拉丁 260、G14 P8 行数 214→216 / 余量 61.0px、D18 gap 374.2、D37 binding 12.9）。15b carryover RC=1（D27 已知缺口，仅记录）。门 12 boxtitle 计数 993（与 fix 轮同值，0 DEFECT）。
+- 新交付物（fix2 原件，`fix2/2026-w45-ko-nl/`）：印 PDF `Lucerna-VOL2-NL.pdf` 30,612,744 B，sha256 `74793648bc7f1dae25e363e7023415c263aee92f3cfa7e6494eea680682760d5`（F1 fix 值 `66a2b30e…` 30,612,743 B 已过期）；render 网 PDF `Lucerna-VOL2-NL-web.pdf` 2,173,987 B，sha256 `6178d2f96b96a85a6a3c22daccc87088edb40b1717044472f9c77cc7b4d90a25`（F1 fix 值 `9665aed2…` 2,173,980 B 已过期）；builder 网 PDF `2026-w45-ko-nl.web.pdf` 2,173,992 B，sha256 `86d642e92d255adecaf46356b19a9724c83378c3f1ea4c9f08b627dd89499959`（F1 fix 值 `392d71d9…` 2,173,980 B 已过期；与 render 网 PDF 字节不同、SHA 不同，系 webpdf 元数据浮动）；text.md 28,038 B，sha256 `7b2e70c956acef1f98db8ae231e11de1a7d36d81d809fe72d3f1f5cdd441fc2a`（与 fix 轮逐字节一致，文案零改动）。
+- 目检：P7 页脚条（`fix2/logs/2026-w45-ko-nl-fix2/nl-p7-footerstrip-fix2.png`，y 2560–2660，同重校 v1 证据条口径）页脚文字 "Lucerna KOREAANS WEEKBLAD VOL.2 …" 与 "Pagina 7 van 8" 全在白底、清晰可读；预告带裁切（`fix2/logs/2026-w45-ko-nl-fix2/nl-p7-teaser-fix2.png`）标题 "다음 주　Volgende week (VOL.3)" 与正文完整在带内。探针实测：带底缘 2602.34，页脚字形顶缘 ~2612.61，净空约 10.3px 全白底；盒底余量 +6.50px 不变。
+- 同步：`content7.py` 三方一致（production == patched/ == fix2/，`cmp` 已验）；本 KIT 三处复本逐字节一致。日志：`fix2/logs/2026-w45-ko-nl-fix2/GATES-SUMMARY.txt`（24 行）；fix 表归档于 `fix/logs/2026-w45-ko-nl-fix/GATES-SUMMARY.txt`（notes 复本已替换为 fix2 表，D29）。
+- 注记：`audit_nl.py:178` 仍硬编码 height == 118 做预告带检测；已核查门禁脚本（`gates-ko.sh` / `gates-fix.sh` / `gates-reproof.sh` / `gates-fix2.sh`）均不调用 `audit_nl.py`（纯调试脚本），故未改；未来若用它探 P7 须先改 118→98。

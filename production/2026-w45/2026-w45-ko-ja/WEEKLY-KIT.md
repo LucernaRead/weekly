@@ -173,7 +173,7 @@
   - 现象：Hangul 字符级检查 p8 delta −21 vs 预期 −20；逐字差分：`답` −1、`면` −10、`제` −9、`총` −1；家具预期恰好覆盖 `제`/`면`/`총`（8 分隔符 + 页脚），多出的 `답` −1 来自 P8 头：transform 曾把核心头整串换为 `答 · 全解答と解説（1–8ページ）`，丢了韩语 `답`，而 W43 ko-ja 确切头为 `답 · 全解答と解説（1–8ページ）`。
   - Fix-4：`content8.py` P8 头改为 `답 · 全解答と解説（1–8ページ）`；`transform.py` 中该串出现 2 处（REPL 值 + 文档头），两处一并更正并验证旧串残留 0（transform 不重跑——其源串已不存在，改为直接文本编辑）。
   - Round-4 结果：零溢出，预告仍 2517.46；仅 P8 SVG、卡片、PDF 变化；p8 delta −20；P8 比对再验 CLEAN 150=150，keydiff=[137,138]；occlusion 再验 0/0/0。
-  - Round-4 终版 PDF：print 36,249,000 字节、SHA-256 `8974468cd70d781c41669a1cd2ab5f715dd734e0f5c1c10ca42520dc8d6d0881`；web 3,455,146 字节、SHA-256 `ee3b3932d57b70e2d5b7c79b6e6584366d0294c0a1a57336cad6233a410c0af6`；P8 SVG SHA-256 `290118a736219ddf2177ce5ae8d44a7cb1c2eb48e4e2b6933da73dcd3f2bdd19`；P8 卡片 SHA-256 `515bf80ebfd207252a4ef1c3dfd1ce5b2072cd7823940123db0fb71d46d86ba4`。
+  - Round-4 终版 PDF：print 36,192,116 字节、SHA-256 `b01da78582b551b6b8b54972d0269e5f9e16299e892a5ccb5d784a5a115406f1`（D5 重建 2026-11-14，取代 36,249,000）；web 2,602,954 字节、SHA-256 `34fb0b3fb950c499fb5d99dfaa94178e8ac4765a0aa57b7becf56dc54e4e3b3c`（取代 3,455,146）；P8 SVG SHA-256 `290118a736219ddf2177ce5ae8d44a7cb1c2eb48e4e2b6933da73dcd3f2bdd19`；P8 卡片 SHA-256 `515bf80ebfd207252a4ef1c3dfd1ce5b2072cd7823940123db0fb71d46d86ba4`。
   - KIT-only 文字改动后仍重测验证（本轮后 ABSTRACT/KIT 写作不改动渲染产物；PDF 哈希交付前再验，与 round-4 一致）。
 
 ## 14. 门 9 — 图片（payload = 核心，两口径同报）
@@ -253,3 +253,18 @@
 - P8 SVG：SHA-256 `290118a736219ddf2177ce5ae8d44a7cb1c2eb48e4e2b6933da73dcd3f2bdd19`
 - P8 卡片：SHA-256 `515bf80ebfd207252a4ef1c3dfd1ce5b2072cd7823940123db0fb71d46d86ba4`
 - 全量基线：`round4-sha256.txt`（SVG/card/PDF）；交付前再验 PDF 哈希与 round-4 一致。
+
+## 21. D5 重建记录（2026-11-14）
+
+- 方法：D5 + §1.1 重建（PLAN §3.1，builder v2）。舊式 svglib 以移植模板 `tools/mechanism-w47/svglib-ko-d5.py` 原樣替換（僅按讀者改寫 `_D5_READER` 為 `cjk`）；`test_d5_routing.py` FAILURES: 0；fix2（`_QUOTE_CLS`）保留。core `core-ko/svglib.py` 已落盤進 production（模板原文，`_D5_READER = "latin"`）；讀者版源文件在 scratch `patched/`，待 closer 同步進 production（見下）。
+- 基線（venv 重建）：TOTAL 150，0 警告；SVG 8/8 與 fanout 逐字節一致；text.md 與 fanout `.text.md.new` 逐字節一致；印 PDF 與 fanout 印 PDF 逐字節一致。issues/ 下本版無 `.text.md`，故以下新 `.text.md` 由構建導出器（`textmd_ko.py`）新建，隨 bundle 出貨。
+- 終門禁（run1）：**19/19 ALL-GREEN** / 19（G1–G16 + D18 + D37；15b 按 D27 僅記錄）。D18 刊頭間距與 D37 副刊頭邊距逐版實測（見家族報告 §4/§6）。P8：抽取 150/150，比對 CLEAN，頁腳餘量與基線一致。
+- 修复：无（run1 无需改源）。
+- 交付物（終版 run1，位於 scratch `patched/2026-w45-ko-ja/`；closer 直接拷原件，絕不重跑 webpdf）：
+  - 印 PDF `Lucerna-VOL2-JA.pdf`：36,192,116 字節，sha256 `b01da78582b551b6b8b54972d0269e5f9e16299e892a5ccb5d784a5a115406f1`（8 頁，1462.5 × 2025 pt）。
+  - render 網 PDF `Lucerna-VOL2-JA-web.pdf`：2,602,954 字節，sha256 `34fb0b3fb950c499fb5d99dfaa94178e8ac4765a0aa57b7becf56dc54e4e3b3c`。
+  - builder 網 PDF `2026-w45-ko-ja.web.pdf`（出貨原件）：2,602,952 字節，sha256 `8d40f9e5c8072c5b5e439a6b76e4a0332384876df33276739693c429ad252033`。
+  - text.md `2026-w45-ko-ja.text.md`（新建，構建導出器出品）：28,267 字節，sha256 `33b14f1cf96e25af3c2b4c67929b06fc820de79f62d0fbd7a9ee7cb6cb5346c3`；與 fanout `.text.md.new` 逐字節一致；原生校驗器 `verify_textexp_ko.py --edition` ADOPT，0 UNEXPECTED；印/網文字層差 0。
+- 殘留：G15b carryover RC=1（D27 已知 ko 工具缺口，仅记录）。R1：text.md 漏收已渲染的短拉丁串 'A2→B2'、'D-17 ~ D-12'（导出器 is_prose 规则；本轮不修）。
+- 注意：本 KIT 上方所有 D5 前交付物 pin（印/網字節 + SHA）均已被本節 D5 值取代。D5 印 PDF 較出貨 pin 小約 0.9–2.1 MB（拉丁文改走 Newsreader/Noto Sans 字體子集所致）；文字層一致（印/網差 0），版式不變（8 頁，1462.5 × 2025 pt）。
+- 交接：production 讀者版源文件（`content*.py`、`svglib.py`、`bslib4.py`、`render.py`）尚未與 `patched/` 同步——4 項 run2 修復（fr/nl/pt/ru）與 11 版 D5 svglib 均只在 scratch，僅 `core-ko/svglib.py` 已在 production。closer 須先逐文件 byte-diff 同步 `patched/` 進 production 再按 bundle commit；切勿只 commit 本 KIT + `core-ko/svglib.py`。

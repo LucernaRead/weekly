@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 시험과 답 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("시험과 답 · Toets en antwoorden", "Lucerna", "제8면 · 이번 주의 큰 시험 + 모든 답")
+p.band("시험과 답　Toets en antwoorden", "Lucerna", "제8면　이번 주의 큰 시험 + 모든 답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 이번 주 연표", 21, OLIVE, 5)
+f.head("A　이번 주 연표", 21, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "Ipdong op zaterdag 7 november",
      "입동은 11월 ___일이에요. (A. 7 · B. 8)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "Het examen is op donderdag 19 november",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "Seoul, Halloween: 3.271 medewerkers",
      "서울시 할로윈 안전 인력은 ___명이에요. (A. 3,271 · B. 1,620)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "Seoraksan, echt waargenomen: 16 oktober",
      "설악산 실제 관측 절정은 10월 ___일이었어요. (A. 16 · B. 20)", size=13.8, gap=0)
-f.head("B · 일반 문제", 21, OLIVE, 5)
+f.head("B　일반 문제", 21, OLIVE, 5)
 f.ex("A2", "单选", "A", "Dit jaar: 551.864 kandidaten",
      "올해 수험생은 몇 명이에요? A. 551,864명 · B. 1,312명 · C. 3,271명", size=13.8, gap=0)
 f.ex("B1", "单选", "B", "1.312 examenlocaties in het hele land",
@@ -46,7 +46,7 @@ f.ex("B1", "单选", "A", "Inschrijving in Seoul van 10 tot 12 uur",
      "한능검 서울 접수는 언제예요? A. 11월 6일 10시부터 12시까지 · B. 11월 3일 하루 종일 · C. 11월 10일 오후", size=13.8, gap=0)
 f.ex("A2", "单选", "B", "Voorzichtig met vuur tot 15 december",
      "산불조심기간은 언제까지예요? A. 11월 7일까지 · B. 12월 15일까지 · C. 11월 19일까지", size=13.8, gap=0)
-f.head("C · 읽고 답하기", 21, OLIVE, 5)
+f.head("C　읽고 답하기", 21, OLIVE, 5)
 f.para("지민이는 대학생이에요. 이번 주 토요일에 친구와 내장산에 단풍을 보러 가요. 일요일에는 집에서 김장을 도와요. 다음 주에는 한능검 시험을 준비해요. 지민이는 한국사를 좋아해요.", 15, lh=1.3, split=False)
 f.ex("A2", "单选", "B", "Jimin gaat zaterdag naar Naejangsan",
      "지민이는 토요일에 어디에 가요? A. 청송 · B. 내장산 · C. 제주도", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "单选", "B", "Volgende week: voorbereiding op het examen Koreaanse 
      "다음 주에 지민이는 무엇을 준비해요? A. 수능 · B. 한능검 시험 · C. 사과축제", size=13.8, gap=0)
 f.ex("B1", "单选", "C", "Jimin houdt van Koreaanse geschiedenis",
      "지민이는 무엇을 좋아해요? A. 야구 · B. 사과 · C. 한국사", size=13.8, gap=0)
-f.head("D · 문장 만들기", 21, OLIVE, 5)
+f.head("D　문장 만들기", 21, OLIVE, 5)
 f.ex("A2", "造句", "저는 토요일에 내장산에 가요.", "Volgorde: onderwerp + tijd + plaats + werkwoord",
      "저는 / 토요일에 / 내장산에 가요 → ___", instr="Bouw", size=13.8, gap=0)
 f.ex("A2", "造句", "우리는 김장을 도와요.", "Volgorde: onderwerp + lijdend voorwerp + werkwoord",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "지민이는 단풍을 보러 가요.", "보러 가요 = g
      "지민이는 / 단풍을 / 보러 가요 → ___", instr="Bouw", size=13.8, gap=0)
 f.ex("B1", "造句", "수험생은 도서관에서 공부해요.", "Plaats van de handeling: «에서»",
      "수험생은 / 도서관에서 / 공부해요 → ___", instr="Bouw", size=13.8, gap=0)
-f.head("E · 번역", 21, OLIVE, 5)
+f.head("E　번역", 21, OLIVE, 5)
 f.ex("A2", "翻译", "7 november is Ipdong.", "Zie blz. 1",
      "11월 7일은 입동이에요. → ___", instr="Vertaal", size=13.8, gap=0)
 f.ex("A2", "翻译", "Nog 12 dagen tot het examen.", "Zie blz. 5",
@@ -74,7 +74,7 @@ f.ex("B1", "翻译", "특별 조치는 11월 19일에만 적용돼요.", "Zie bl
      "Bijzondere maatregelen gelden alleen op 19 november. → ___", instr="Vertaal", size=13.8, gap=0)
 f.ex("B2", "翻译", "저는 토요일에 내장산에 단풍을 보러 가요.", "Zie blz. 3",
      "Op zaterdag ga ik naar Naejangsan om herfstkleur te zien. → ___", instr="Vertaal", size=13.8, gap=0)
-f.head("F · 이번 주의 말", 21, OLIVE, 5)
+f.head("F　이번 주의 말", 21, OLIVE, 5)
 f.match_set("B2", "词汇配对",
             ["입동", "절정", "김장", "온대저기압"],
             ["겨울의 첫 절기",
@@ -84,7 +84,7 @@ f.match_set("B2", "词汇配对",
             ["a", "b", "c", "d"],
             ["입동=begin van de winter a", "절정=hoogtepunt, de mooiste tijd b", "김장=winterkimchi c", "온대저기압=verandering van de tyfoon op 26 oktober d"],
             instr="Koppel")
-f.head("G · 도서관에서", 21, OLIVE, 5)
+f.head("G　도서관에서", 21, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "Op zaterdag naar Naejangsan",
      "— 토요일에 어디에 가요? — ___에 가요. (A. 내장산 · B. 청송)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "Kimjang = winterkimchi maken",
@@ -95,7 +95,7 @@ f.ex("B1", "完形单选", "A", "Andere criteria, andere data",
      "— 단풍 절정 날짜가 왜 달라요? — ___이 달라서예요. (A. 기준 · B. 날씨)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "Maatregelen alleen op 19 november",
      "— 수능 조치는 언제 적용돼요? — 11월 ___일에만 적용돼요. (A. 19 · B. 7)", size=13.8, gap=0, bw=354)
-f.head("H · 써 보기", 21, OLIVE, 5)
+f.head("H　써 보기", 21, OLIVE, 5)
 MODELO = ("나의 겨울 준비는 김장부터 시작해요. "
           "토요일에는 가족과 함께 배추를 절이고 양념을 버무려요. "
           "일요일에는 두꺼운 이불을 꺼내고 겨울옷을 정리해요. "
@@ -111,13 +111,13 @@ f.para("예: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 답 =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "답 · Antwoorden — per pagina, zoek het nummer op", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Bij elk antwoord een korte notitie in het Nederlands · ✓ = opgave met voorbeeld", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "답　Antwoorden — per pagina, zoek het nummer op", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Bij elk antwoord een korte notitie in het Nederlands　✓ = opgave met voorbeeld", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Pagina {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

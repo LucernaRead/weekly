@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 말 공부 (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("말 공부 · Língua", "Lucerna", "언어 포커스 · 세 가지 레벨, 세 가지 주제 · Três níveis, três temas")
+p.band("말 공부　Língua", "Lucerna", "언어 포커스　세 가지 레벨, 세 가지 주제　Três níveis, três temas")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 입동의 말", 24)
+a.head("A2　입동의 말", 24)
 a.para("겨울이 시작되는 절기를 '입동'이라고 해요. 입동이 지나면 겨울 준비가 본격적으로 시작돼요. 겨울 내내 먹는 김치를 담그는 일을 '김장'이라고 해요.", 21.5)
 a.para("겨울을 나기 위한 준비를 '월동 준비'라고 해요. 두꺼운 이불, 난방, 겨울옷이 월동 준비예요. 입동, 김장, 월동 준비 — 세 말이 이번 주의 겨울을 말해요.", 21.5)
 a.glossline("본격적 = de verdade, pleno · 나다 = passar.")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 날짜 세는 말", 24)
+b.head("B1　날짜 세는 말", 24)
 b.para("한국에서는 중요한 날까지 남은 날짜를 'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월 19일이니까 오늘이 D-17예요. 토요일 11월 7일은 D-12예요.", 21.5)
 b.para("내일이 바로 그날이면 D-1, 오늘이 바로 그날이면 D-데이예요. 달력에서 날짜를 셀 때 자주 쓰는 말이에요.", 21.5)
 b.glossline("남다 = restar, faltar · 바로 = exatamente.")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 예보 읽는 법", 24)
+c.head("B2　예보 읽는 법", 24)
 c.para("예보를 읽을 때는 날짜와 함께 '기준'을 봐야 해요. 산림청은 잎의 50%, 공단은 산 전체의 약 80%를 절정의 기준으로 해요. 기준이 다르면 날짜도 달라져요.", 21.5)
 c.para("그리고 '예상'과 '관측'도 나눠야 해요. 예상은 미리 짐작한 날짜, 관측은 실제로 본 날짜예요. 설악산 실제 관측은 10월 16일이었어요. (3면)", 21.5)
 c.glossline("짐작하다 = supor · 나누다 = distinguir.")
@@ -70,21 +70,21 @@ errs = [
 # W45-KO fix: clinic item 3's correction alone narrows (310) so its final
 # line is 12일 남았어요'. instead of lone 남았어요'.
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44 - 80 if errs.index(r) == 2 else CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "실수 병원 · A clínica dos erros", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "실수 병원　A clínica dos erros", 23, "sans", True, OLIVE)
 yy3 += 54
 for i, (wrong, right, cn) in enumerate(errs):
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44 - 80 if i == 2 else CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「〜부터 〜까지」 — '11월 1일부터 12월 15일까지 산불조심기간이에요.' 기간을 말할 때 쓰는 틀이에요. 물어볼 때는 '〜부터 〜까지예요?'라고 해요."
 wcn = "A estrutura: «de 〜 até 〜». Para perguntar: «〜부터 〜까지예요?»"
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "이번 주의 틀 · A frase-modelo", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "이번 주의 틀　A frase-modelo", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -93,10 +93,10 @@ lt = "「안녕하세요. 저는 대학생이에요. 토요일에는 내장산�
 lcn = "Exemplo da redação, não é uma carta de verdade."
 lko = "Até o fechamento, não chegaram cartas de verdade nem os melhores textos da pág. 8. O exemplo fica; a promessa anterior vale para o VOL.3."
 lcn2 = "Envie sua carta e seu melhor texto da pág. 8!"
-lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 12 + len(wrap(lko, "serif", False, 20.5, CW - 44)) * 29 + 12 + len(wrap(lcn2, "sans", False, 20, CW - 44)) * 29 + 34
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 12 + len(wrap(lko, "serif", False, 20.5, CW - 44)) * 29 + 12 + len(wrap(lcn2, "sans", False, 20, CW - 44)) * 29 + 58  # D5 fix F1 (2026-11-14): P7 letters-box spill, lh +24px
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "독자의 편지 · Cartas dos leitores", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "독자의 편지　Cartas dos leitores", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42) + 10
@@ -107,8 +107,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "이번 주의 문장 · Frases da semana (ao pé da letra, desta edição)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "이번 주의 문장　Frases da semana (ao pé da letra, desta edição)", 27, "sans", True, OLIVE)
 quotes = [
     ("「11월 7일은 입동이에요」", "O dia 7 de novembro é Ipdong.", "1면"),
     ("「절정에 가까운 주말이라고만 말할 수 있어요」", "Só se pode dizer: um fim de semana perto do auge.", "1면"),
@@ -128,9 +128,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 132 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "다음 주 · Na próxima semana (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험이 가까워져요. 플레이오프와 한국시리즈 소식도 전해요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "다음 주　Na próxima semana (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험이 가까워져요. 플레이오프와 한국시리즈 소식도 전해요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-mal.svg")

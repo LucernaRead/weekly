@@ -324,8 +324,8 @@ shipped render; no render change after it (KIT-only text + ABSTRACT.txt added af
 
 ## Delivered files + hashes (round 3, re-verified after KIT/ABSTRACT)
 
-- Print PDF `Lucerna-VOL2-RU.pdf`: **30,916,571 bytes**, sha256 `b4756358b2b821495d18ec66b6db56c3cedba7c964957df252941a52a5907070`
-- Web PDF `Lucerna-VOL2-RU-web.pdf`: **3,622,912 bytes**, sha256 `76e8b5032d0378b53f228e4d6a69d81f48d63987b63ab004bf9282dad81ffb01`
+- Print PDF `Lucerna-VOL2-RU.pdf`: **30,794,411 bytes** (D5 rebuild 2026-11-14; supersedes 30,916,571), sha256 `0dcafe7d13d952c407493bdf4e01a50ad5f3ce7a8590689250b1d384a2237f97`
+- Web PDF `Lucerna-VOL2-RU-web.pdf`: **2,352,003 bytes** (D5 rebuild 2026-11-14; supersedes 3,622,912), sha256 `da6db92d29148b8697149cc3f01275385e85dd24efbb09b5f141b48d7c1fc225`
 - SVG sha256 (round3-full): p1 `d188d1c7355c16396f10f2ae10b089b5d5daeba2d855c99d84b12db0d87b1f1f`,
   p2 `c8ce33ac4786d01bcf92996c8a548e2e1af12929240f56076c6056ba782cd12c`,
   p3 `de57bfbe13f62d13526fa49a3dbabe5e7e5a72859aff60f7639973357ab50abc`,
@@ -358,3 +358,18 @@ COMPLETE and ready for coordinator insert (insertion is serialized by the coordi
 did not post to Discord, did not send cards/PDFs to main chat, did not touch weekly-git, tools/, other editions,
 or shared scratch, and created no crons). No open defects. Known thin margins (not defects): P8 max ink bottom
 2535.73 vs limit 2540 (4.27px; flow-fit guarantees compliance); P7 letter-box inside margin 11.61px.
+
+## D5 rebuild (2026-11-14)
+
+- Method: D5 + §1.1 rebuild (PLAN §3.1, builder v2). Old-style svglib replaced with the ported template `tools/mechanism-w47/svglib-ko-d5.py` verbatim (only `_D5_READER` rewritten per reader: `ru`); `test_d5_routing.py` FAILURES: 0; fix2 (`_QUOTE_CLS`) retained. Core `core-ko/svglib.py` landed in production (template verbatim, `_D5_READER = "latin"`); reader sources live in scratch `patched/` until the closer syncs them into production (see below).
+- Baseline (venv rebuild): TOTAL 150, 0 warnings; SVG 8/8 byte-identical vs fanout; text.md BYTE-IDENTICAL vs fanout `.text.md.new`; print PDF BYTE-IDENTICAL vs fanout print. Issues/ has no `.text.md` for this edition, so the new `.text.md` below is created from the build exporter (`textmd_ko.py`) to ship with the bundle.
+- Final gates (run2): **19/19 ALL-GREEN** of 19 (G1–G16 + D18 + D37; 15b record-only per D27). D18 masthead gap and D37 sub-masthead margin measured per edition (see family report §4/§6). P8: extract 150/150, compare CLEAN, footer slack unchanged vs baseline.
+- Fixes: 1 fix (run1 → run2): content12.py:56 numbers-box title `f.box("숫자로 보는 이번 주　Неделя в цифрах", …)` + `tsize=22` (was default 23; title overran the box right edge +14.7px at 23pt — baseline already +10.5px, D5 widened Cyrillic to Noto Sans; 22pt restores ~+3.5px slack). Clears both G12 boxtitle and G14 creambox (same title).
+- Deliverables (final run2, in scratch `patched/2026-w45-ko-ru/`; closer ships these originals, never re-runs webpdf):
+  - print PDF `Lucerna-VOL2-RU.pdf`: 30,794,411 bytes, sha256 `0dcafe7d13d952c407493bdf4e01a50ad5f3ce7a8590689250b1d384a2237f97` (8 pages, 1462.5 × 2025 pt).
+  - render web PDF `Lucerna-VOL2-RU-web.pdf`: 2,352,003 bytes, sha256 `da6db92d29148b8697149cc3f01275385e85dd24efbb09b5f141b48d7c1fc225`.
+  - builder web PDF `2026-w45-ko-ru.web.pdf` (shipped original): 2,352,037 bytes, sha256 `fe78ee3f3ef80dc5d72e94152dedc2c377844360340697eb1a5ff5d14c13fcaa`.
+  - text.md `2026-w45-ko-ru.text.md` (new, from build exporter): 30,515 bytes, sha256 `2b959fcf1e8a565d5aefaa4ac601af1f3b903c8799b193b8d6de45d1c30c1278`; BYTE-IDENTICAL vs fanout `.text.md.new`; native verifier `verify_textexp_ko.py --edition` ADOPT, 0 UNEXPECTED; print=web text-layer diff 0.
+- Residuals: G15b carryover RC=1 (D27 known ko tool gap, record-only). R1: text.md omits rendered-but-short literals 'A2→B2', 'D-17 ~ D-12' (exporter is_prose rule; not fixed this round). P8 has ~2× the elements of sibling editions in both baseline (2746) and patched (2851) — a ru-edition characteristic, not a D5 artefact; extract 150/150, compare CLEAN.
+- Note: all pre-D5 delivery pins above in this KIT (print/web bytes + SHA) are superseded by the D5 values in this section. The D5 print PDF is ~0.9–2.1 MB smaller than the shipped pin for Latin-reader editions (font-subset change: Latin now in Newsreader/Noto Sans instead of Noto Sans CJK); text layer is identical (print=web diff 0), geometry unchanged (8 pages, 1462.5 × 2025 pt).
+- Handover: production reader sources (`content*.py`, `svglib.py`, `bslib4.py`, `render.py`) are NOT yet synced with `patched/` — the 4 run2 fixes (fr/nl/pt/ru) and all 11 D5 svglibs exist only in scratch except `core-ko/svglib.py`. The closer must byte-diff-sync `patched/` into production before the bundle commit; do not commit this KIT + `core-ko/svglib.py` alone.

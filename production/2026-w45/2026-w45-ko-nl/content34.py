@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · 문화 (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("문화 · Cultuur", "Lucerna", "레벨 A2→B1 · 단풍 마지막 주말 · Het laatste herfstweekend")
+p.band("문화　Cultuur", "Lucerna", "레벨 A2→B1　단풍 마지막 주말　Het laatste herfstweekend")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-feature")
-f.title("단풍의 마지막 주말 — 절정에 가까운 7일과 8일", 37)
-f.byline("Lucerna 편집부 · 읽기 레벨: A2→B1")
+f.title("단풍의 마지막 주말 — 절정에 가까운 7일과 8일", 32)
+f.byline("Lucerna 편집부　읽기 레벨: A2→B1")
 f.para("이번 주말은 단풍의 마지막 주말이에요. 내장산, 월출산, 북한산 이야기가 많아요. 그런데 날짜를 말할 때는 어느 기관의 예보인지 꼭 말해야 해요. 기관마다 절정의 기준이 달라요.")
 f.para("내장산부터 봐요. 산림청·국립수목원 예보(9월 22일 발표)는 단풍나무 잎이 50% 이상 물드는 날을 절정으로 봐요. 그 예보의 내장산 절정은 11월 4일이에요. 국립공원공단·웨더아이 예보는 산 전체가 물드는 것을 절정으로 봐요. 그 예보의 내장산 절정은 11월 11일이에요. 그래서 7일과 8일은 두 예보 사이에 있어요. 절정에 가깝다고 말할 수 있지만, 공식 절정 날짜라고 말하면 안 돼요.", w=424)
 f.para("월출산은 산림청 예보 11월 9일의 바로 앞이에요. 절정을 코앞에 둔 주말이에요. 북한산은 공단 예보 11월 4일의 직후예요. 산 전체로는 절정을 지났지만, 낮은 길은 더 늦게 물들어요. 구간별 공식 수치는 없어요. 기관이 구간별로 값을 내지 않아요.")
@@ -32,7 +32,7 @@ f.head("가을 산책의 옷차림", 25)
 f.para("가을 산책에서는 옷을 겹쳐 입어요. 아침은 춥고 낮에는 따뜻해져요. 겹쳐 입으면 더울 때 벗을 수 있어요.")
 f.para("신발은 편한 것으로 신어요. 산길은 돌이 많아요. 미끄러지지 않는 신발이 좋아요. 물도 챙겨요.")
 f.gloss("겹쳐 입다 = laagjes dragen · 미끄러지다 = uitglijden · 돌 = steen.")
-f.box("단풍 구경 준비물 · Wat meenemen", [
+f.box("단풍 구경 준비물　Wat meenemen", [
     ("물", "serif", False, INK, 20, 1.35),
     ("간식", "serif", False, INK, 20, 1.35),
     ("카메라", "serif", False, INK, 20, 1.35),
@@ -52,7 +52,7 @@ facts = ["내장산 절정: 산림청 11월 4일",
          "북한산 절정: 공단 11월 4일"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "단풍 달력", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -66,9 +66,9 @@ ey3 = cy4 + 18
 etvous = "당신은? 단풍 구경을 가고 싶은 산은 어디예요? 한국어로 두 문장 써서 보내 주세요."
 # W45-KO fix: Korean line alone narrows (330) so final line is 써서 보내 주세요.
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44 - 60)) * 30.5 + 12 + len(wrap("En jij? Naar welke berg wil je om herfstkleur te zien? Schrijf twee zinnen in het Koreaans en stuur ze op.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "당신은? · En jij?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "당신은?　En jij?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44 - 60, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "En jij? Naar welke berg wil je om herfstkleur te zien? Schrijf twee zinnen in het Koreaans en stuur ze op.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -76,11 +76,11 @@ print("P3 col3 ends", ey3 + eh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "연습 · Oefeningen blz. 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "연습　Oefeningen blz. 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op blz. 8　Niveaus kunnen gemengd staan — zoek op nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · 이해", 25)
+e.head("A　이해", 25)
 e.glossline("Lees de teksten op blz. 3 en kies het juiste antwoord.")
 e.ex("A2", "单选", "A", "Naejangsan, Bosdienst: 4 november",
      "내장산 산림청 예보의 절정은 언제예요? A. 11월 4일 · B. 11월 11일 · C. 11월 7일", size=20, gap=7)
@@ -92,7 +92,7 @@ e.ex("A2", "单选", "B", "Cheongsong ter plaatse: 4 tot 8 november",
      "청송 현장 축제는 언제예요? A. 10월 17일 · B. 11월 4일부터 8일까지 · C. 11월 8일에만", size=20, gap=7)
 e.ex("B1", "单选", "A", "Geen officiële waarden per traject",
      "구간별 공식 수치는 있어요? A. 없어요 · B. 있어요 · C. 11월에 나와요", size=20, gap=7)
-e.head("B · 말 넣기", 25)
+e.head("B　말 넣기", 25)
 e.glossline("Vul het juiste woord in.")
 e.ex("A2", "完成句子", "절정", "De mooiste herfstkleur heet 절정",
      "단풍이 가장 아름다운 때를 ___이라고 해요.", instr="Vul in", size=20, gap=7)
@@ -104,7 +104,7 @@ e.ex("A2", "完成句子", "현장", "Feest ter plaatse vanaf 4 november",
      "청송사과축제 ___ 행사는 11월 4일부터예요.", instr="Vul in", size=20, gap=7)
 e.ex("A2", "完成句子", "사과", "Cheongsong is beroemd om zijn appels",
      "청송은 ___로 유명한 곳이에요.", instr="Vul in", size=20, gap=7)
-e.head("C · 숫자와 날짜", 25)
+e.head("C　숫자와 날짜", 25)
 e.glossline("Antwoord met de getallen en datums van blz. 3.")
 e.ex("A2", "完成句子", "4", "Naejangsan, Bosdienst: dag 4.",
      "내장산 산림청 예보의 절정은 11월 ___일이에요.", instr="Vul in", size=20, gap=7)
@@ -114,7 +114,7 @@ e.ex("B1", "完成句子", "9", "Wolchulsan, Bosdienst: dag 9.",
      "월출산 산림청 예보의 절정은 11월 ___일이에요.", instr="Vul in", size=20, gap=7)
 e.ex("B1", "完成句子", "16", "Seoraksan, waargenomen: dag 16.",
      "설악산 실제 관측 절정은 10월 ___일이었어요.", instr="Vul in", size=20, gap=7)
-e.head("D · 짝 맞추기", 25)
+e.head("D　짝 맞추기", 25)
 e.match_set("A2", "词汇配对",
             ["내장산", "월출산", "북한산", "설악산"],
             ["산림청 예보 11월 9일 바로 앞",
@@ -132,11 +132,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · 스포츠 (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("스포츠 · Sport", "Lucerna", "레벨 B1 · 가을야구 소식 · Herfsthonkbalnieuws")
+p.band("스포츠　Sport", "Lucerna", "레벨 B1　가을야구 소식　Herfsthonkbalnieuws")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1180, tag="P4-feature")
-f.title("KIA가 3연승으로 올라갔어요 — 가을야구 소식", 37)
-f.byline("Lucerna 편집부 · 읽기 레벨: B1")
+f.title("KIA가 3연승으로 올라갔어요 — 가을야구 소식", 32)
+f.byline("Lucerna 편집부　읽기 레벨: B1")
 f.para("준플레이오프 결과가 나왔어요. KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요. 1차전은 10월 17일 광주에서 5대 1, 2차전은 10월 18일 광주에서 6대 3, 3차전은 10월 20일 잠실에서 13대 1이었어요. 3차전에서는 김도영이 만루홈런을 쳤고, 나성범이 홈런 두 개를 쳤어요. 4차전(21일)과 5차전(23일)은 열리지 않았어요.")
 f.para("3차전이 열린 잠실야구장은 마지막 프로경기였다고도 전해졌어요. 잠실야구장이 곧 없어지기 때문이에요.")
 f.para("이제 플레이오프예요. KIA와 삼성 라이온즈가 싸워요. 1차전은 10월 25일 대구에서 비 때문에 미뤄졌어요. 바뀐 일정은 1차전 10월 26일 대구, 2차전 10월 27일 대구, 3차전 10월 29일 광주, 4차전 10월 30일 광주, 5차전 11월 1일 대구(필요하면)예요. 다섯 번 싸워서 세 번 이긴 팀이 한국시리즈에 가요.")
@@ -154,8 +154,8 @@ f.end_report()
 
 # ---- ladder diagram (cols 0-2) ----
 ly = 1210
-p.text(MX, ly + 26, "한국시리즈까지의 길 · De weg naar de Korean Series", 26, "sans", True, OLIVE)
-p.hline(MX, COLX[2] + CW, ly + 40, GOLD, 2)
+p.text(MX, ly + 26, "한국시리즈까지의 길　De weg naar de Korean Series", 26, "sans", True, OLIVE)
+p.hline(MX, COLX[2] + CW, ly + 40, OLIVE, 2)
 steps = [
     ("와일드카드", "LG가 두산에\n4대 1로 승리"),
     ("준플레이오프", "KIA가 LG에\n3연승으로 승리"),
@@ -165,7 +165,7 @@ steps = [
 bw, bh, by0 = 320, 118, ly + 58
 for i, (t, d) in enumerate(steps):
     x0 = MX + i * (bw + 26)
-    p.rect(x0, by0, bw, bh, fill=BOX if i != 1 else "#f1ead6", stroke=OLIVE if i == 1 else LINE, sw=1.6 if i == 1 else 1.2)
+    p.rect(x0, by0, bw, bh, fill=BOX if i != 1 else "#f0eee5", stroke=OLIVE if i == 1 else LINE, sw=1.6 if i == 1 else 1.2)
     p.text(x0 + bw / 2, by0 + 40, t, 24, "sans", True, OLIVE, anchor="middle")
     for j, ln in enumerate(d.split("\n")):
         p.text(x0 + bw / 2, by0 + 76 + j * 28, ln, 20, "serif", False, INK, anchor="middle")
@@ -185,7 +185,7 @@ facts = ["준플레이오프: KIA 3연승 (5-1, 6-3, 13-1)",
          "한국시리즈: 11월 2일 발표 (변경 가능)"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "가을야구 달력", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -195,11 +195,11 @@ print("P4 col3 ends", sy3 + sh)
 
 # ---- P4 exercises ----
 ey = 1560
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "연습 · Oefeningen blz. 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "연습　Oefeningen blz. 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op blz. 8　Niveaus kunnen gemengd staan — zoek op nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · 이해", 25)
+e.head("A　이해", 25)
 e.glossline("Lees de teksten op blz. 4 en kies het juiste antwoord.")
 e.ex("B1", "单选", "A", "De winnaar van de halve finale is KIA",
      "준플레이오프에서 이긴 팀은 어디예요? A. KIA · B. LG · C. 삼성", size=20, gap=7)
@@ -211,7 +211,7 @@ e.ex("B1", "单选", "A", "Wedstrijd 1 van de play-off uitgesteld door regen",
      "플레이오프 1차전이 미뤄진 이유는 뭐예요? A. 비 · B. 눈 · C. 정전", size=20, gap=7)
 e.ex("B1", "单选", "B", "Korean Series, aangekondigd: 2 november",
      "발표된 한국시리즈 시작일은 언제예요? A. 10월 25일 · B. 11월 2일 · C. 11월 19일", size=20, gap=7)
-e.head("B · 말 넣기", 25)
+e.head("B　말 넣기", 25)
 e.glossline("Vul het juiste woord in.")
 e.ex("B1", "完成句子", "3연승", "Drie zeges op rij",
      "KIA가 LG를 ___으로 이겼어요.", instr="Vul in", size=20, gap=7)
@@ -223,7 +223,7 @@ e.ex("B1", "完成句子", "온대저기압", "Op 26 oktober werd het een extrat
      "참피는 10월 26일에 ___으로 바뀌었어요.", instr="Vul in", size=20, gap=7)
 e.ex("B1", "完成句子", "기다리고", "kt wacht in de Korean Series",
      "kt wiz는 한국시리즈에서 ___ 있어요.", instr="Vul in", size=20, gap=7)
-e.head("C · 문장 바꾸기", 25)
+e.head("C　문장 바꾸기", 25)
 e.glossline("Zet de zinnen in de verleden tijd. (Het staat allemaal in dit nummer.)")
 e.ex("B1", "句型转换", "KIA가 LG를 이겼어요.", "De verleden tijd van 이기다 is 이겼어요",
      "KIA가 LG를 이겨요. → ___", instr="Herschrijf", size=20, gap=7)
@@ -233,7 +233,7 @@ e.ex("B1", "句型转换", "1차전이 비 때문에 미뤄졌어요.", "De verl
      "1차전이 비 때문에 미뤄져요. → ___", instr="Herschrijf", size=20, gap=7)
 e.ex("B1", "句型转换", "참피가 온대저기압으로 바뀌었어요.", "De verleden tijd van 바뀌다 is 바뀌었어요",
      "참피가 온대저기압으로 바뀌어요. → ___", instr="Herschrijf", size=20, gap=7)
-e.head("D · 짝 맞추기", 25)
+e.head("D　짝 맞추기", 25)
 e.match_set("B1", "词汇配对",
             ["준플레이오프", "플레이오프", "한국시리즈", "온대저기압"],
             ["kt wiz가 기다려요",
