@@ -1,0 +1,23 @@
+=== gates 2026-w46-nl-zh-tw tag=run2 14:17:27
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — HEAD CHECK PASS 0 defects 
+PASS  G3 — rc=0 p1-voorpagina.svg: els=239 news=190 cjk_sans=32 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 p2-leven.svg: els=240 news=186 cjk_sans=54 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 p3-cultuur.svg: els=227 news=180 cjk_sans=47 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 p4-sport.svg: els=207 news=167 cjk_sans=40 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 
+PASS  G4 — render rc=0, print 7401250 B
+PASS  G5 — web 1108735 B <7MB
+PASS  G6 — selftest rc=0 audit rc=0
+PASS  G7 — extract rc=0 noted=150/150
+PASS  G8 — CLEAN, rc=0 keydiff=[137, 138]
+PASS  G9 — baseline: 8/8 rc=0
+PASS  G10 — CJK added 0 chars=[] (Latin added 209, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-nl-zh-tw: 26 boxes, 66 candidates, 0 SPILL, 66 OBSERVE rc=0
+PASS  G12 — BOXTITLE 2026-w46-nl-zh-tw: 25 titles, 325 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal rc=0
+PASS  G13 — EDGE_SCAN 2026-w46-nl-zh-tw: 8 pages, 0 TOUCH, 0 NEAR rc=0
+PASS  G14 — defects=0 rc=0
+PASS  G15a — G15a print chars=36671 web chars=36671 stripped-multiset-diff=0 G15a text.md BYTE-IDENTICAL (39263 bytes) 
+REC   G15b — rc=2 ERROR: no verify_textmd table for reader 'tw' yet — calibrate it from that edition's own SVG/.text.md until its residual is 0, then add it to READER_TABLES in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/tools/verify_textmd.py
+PASS  G15c — verdict: ADOPT (0 UNEXPECTED) rc=0
+PASS  G16 — GRAND TOTAL defective: 0 rc=0
+PASS  D18 — D18 slogan 'ELKE WEEK IN HET NEDERLANDS\u3000每週一期\u3000讀荷蘭人正在讀' end_x=1304.7 date_start_x=1397.9 gap=93.2px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)
+D18/D37: PASS
+PASS  D37 — D37 (PASS - N/A) no P1 pairing/badge line (y>500); pairing line is at y=372, above cream box top 588.0
+=== 2026-w46-nl-zh-tw run2: 19/19 PASS, 0 FAIL (G15b record-only)

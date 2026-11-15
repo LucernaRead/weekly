@@ -45,7 +45,7 @@ f.box("DE WEEK IN CIJFERS　NÚMEROS", [
     ("14 — november: de landelijke intocht in Grave (14 nov.: chegada nacional, Grave)", "serif", False, INK, 20, 1.35),
     ("15 — november: de intocht in Amsterdam, de 88e editie (15 nov.: 88.ª edição)", "serif", False, INK, 20, 1.35),
     ("20:45 — uur: Oranje tegen Griekenland op vrijdag (sex. 20:45)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("NU JIJ　A TUA VEZ", 25)
 f.ex("A2", "complete", "9", "As notícias do Sinterklaas começam a 9 de novembro",
      "Het Sinterklaasjournaal begint op maandag ___ november.", size=19.5, gap=6)
@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "Todas as datas e horas, páginas 2–4.", 19, "sans",
 # ---- inhoud (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DEZE EDITIE　NESTE NÚMERO", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DEZE EDITIE　NESTE NÚMERO", 21.5, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Sint-Maarten: licht en delen", "A2"),
     ("Pag. 3", "Sinterklaasjournaal", "A2→B1"),
@@ -172,11 +172,11 @@ f.para("Het feest gaat over Sint-Maarten, of Martinus. Volgens de legende sneed 
 f.para("Sint-Maarten wordt niet overal in Nederland even uitbundig gevierd. Sterke gebieden zijn het noorden, de stad Utrecht, Noord-Holland boven het IJ, Noord-Brabant en Limburg. In Utrecht, de stad van Sint-Maarten, staat de viering op de lijst van het immaterieel erfgoed. Daar lopen kinderen 's avonds «lichies lope»: met lampionnen zingend langs de deuren.")
 f.para("Wil je meedoen? Maak zelf een lampion van papier en versier hem met vliegerpapier, zodat het licht er mooi doorheen schijnt. Gebruik een ledlampje op batterijen, nooit een kaarsje. En zing een liedje bij elke deur — dan is het feest compleet.")
 f.para("Sint-Maarten valt dit jaar midden in de Sinterklaastijd: maandag begon het Sinterklaasjournaal en zaterdag komt Sinterklaas aan in Grave. Twee feesten van licht en geven, in één week.")
-f.head("DRIE DINGEN VOOR 11 NOVEMBER", 25)
+f.head("DRIE DINGEN VOOR 11 NOVEMBER", 22)
 f.para("Eén: maak een lampion, met een ledlampje erin. Twee: leer een liedje, bijvoorbeeld «Elf november is de dag». Drie: ga zingend langs de deuren — en deel wat je krijgt.")
 f.box("ZO ONTHOUD JE HET　LEMBRA-TE", [
     ("«Sint-Maarten is het feest van het delen: licht, eten en aandacht.» En de lampion gaat aan als het donker wordt.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.gloss("de lampion = a lanterna · delen = partilhar · de mantel = o manto · de bedelaar = o mendigo · het erfgoed = o património · het ledlampje = a luzinha LED.")
 f.end_report()
 

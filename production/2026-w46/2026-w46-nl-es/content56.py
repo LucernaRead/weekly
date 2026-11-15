@@ -139,7 +139,7 @@ capcn = "Datos de práctica: cifras inventadas, no una encuesta real. Pregunta: 
 ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
 p.rect(ix, 200, CW, ch, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DATOS DE PRÁCTICA", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DATOS DE PRÁCTICA", 20.5, "sans", True, OLIVE)
 yy3 += 58
 for lab, val, bw in rows:
     p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)

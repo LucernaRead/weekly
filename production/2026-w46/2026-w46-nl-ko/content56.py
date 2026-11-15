@@ -139,7 +139,7 @@ capcn = "연습용 데이터: 연습용으로 만든 숫자예요, 실제 조사
 ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
 p.rect(ix, 200, CW, ch, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DE GRAFIEK　그래프(연습용 데이터)", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DE GRAFIEK　그래프(연습용 데이터)", 23.5, "sans", True, OLIVE)
 yy3 += 58
 for lab, val, bw in rows:
     p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)

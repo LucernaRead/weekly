@@ -116,7 +116,7 @@ f.end_report()
 
 # ================= ANTWOORDEN =================
 p.hline(MX, RIGHT, 1264, OLIVE, 2)
-p.text(MX, 1302, "ANTWOORDEN　CHIAVE DELLE RISPOSTE — raggruppate per pagina: trova il tuo numero", 25, "sans", True, OLIVE)
+p.text(MX, 1302, "ANTWOORDEN　CHIAVE DELLE RISPOSTE — raggruppate per pagina: trova il tuo numero", 23.5, "sans", True, OLIVE)
 p.text(RIGHT, 1302, "Ogni risposta con una breve nota in italiano　✓ segna il compito di scrittura", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:

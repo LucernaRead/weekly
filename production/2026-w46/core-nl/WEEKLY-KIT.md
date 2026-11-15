@@ -65,7 +65,7 @@ cd ~/workspace/goals/lucernaread-social-media-operations/tools
 ~/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python hidden_files/w46/export_text.py hidden_files/weekly-report-w46-nl-build files/weekly-report-w46-nl-core/2026-w46-nl-zh-cn.text.md "De Lucerna · 荷兰语周报 VOL.3 · 2026-W46"
 ```
 
-Deliverables in edition dir: `De-Lucerna-VOL3.pdf` (print, 18,473,522 bytes), `De-Lucerna-VOL3-web.pdf` (web, 1,326,606 bytes, 44,406 text bytes), `svg/`, `cards/`, `WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-zh-cn.text.md` (exported from the source manuscript via `hidden_files/w46/export_text.py`, never from PDF).
+Deliverables in edition dir: `De-Lucerna-VOL3.pdf` (print, 7,347,872 bytes; SHA-256 `ab840bcd5e6b28fdbe89f18b0176ac268109c9d41c285d7fec47910a4c9a67b1`), `2026-w46-nl-zh-cn.web.pdf` (web, 1,011,482 bytes, 36,860 text bytes; SHA-256 `2c0a602c6f654e86da102c4b94e1f64231ed8d8f36045a2de12709dcccf88134`), `svg/`, `cards/`, `WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-zh-cn.text.md` (D5 rebuild export, `logs/2026-w46-nl-zh-cn/2026-w46-nl-zh-cn.text.md.run2`; the `production/` same-named file is the 2026-11-06 fanout product, do not use).
 
 Geometry notes (carried/fixed in this build): P2 keyword row uses measured label offsets (big word 32pt, label x = word width + 14) — W45 fixed-offset layout overprinted LAMPION/UTRECHT. P3 facts box +64 padding (4 facts). P5 facts box +64. P7 letters box shortened (letter without the Amsterdam/schoen sentences; invitation line shortened) so the stack ends at 1927.5 < quotes rule 1937; quotes row 3 shifted +16 for the 2-line quote 3. `bslib4.box()` bottom padding +4 (was `pad - 5`, now `pad - 1`) for the 0.7px BOXTITLE graze.
 
@@ -132,3 +132,13 @@ Re-gate evidence (final artifacts, 2026-11-03 UTC; logs/JSONs under `hidden_file
 - Final inventory: `.text.md` 39152 bytes; web PDF 1325908 bytes, pdftotext 44392 bytes (>0), 8 pages, 1462.5×2025 pts, ≤7 MB; print PDF 18472780 bytes; web-vs-print extracted text 0 diff tokens; cards 1950×2700; 0 FLOW OVERFLOW / HEAD TOO WIDE warnings.
 - Change isolation: file-hash comparison vs the pre-fix snapshot shows exactly 5 changed files in this edition (`.text.md`, `svg/p8-toets.svg`, `cards/p8-toets.png`, print PDF, web PDF); all other SVGs/cards/print PDFs byte-identical. The `.text.md` diff vs pre-fix is exactly 1 line (item 103). Round 1 fixes F-1/F-2a/F-2b intact (re-verified via the re-gates above and the unchanged P2/P6 artifacts).
 - No other changes were made. Nothing was pushed, inserted, or posted. A full Round 3 independent proofread follows.
+
+## D5 rebuild (2026-11-15, W46 nl family)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46` (`--check` dry-run first, all clean). Mode: cjk (core-nl installed with `--reader zh-cn`). `_D5_READER` at `svglib.py:100` = `cjk`; fix2 retained (`_QUOTE_CLS` x4 per file); `test_d5_routing.py` FAILURES: 0.
+- Pre-fix D5 census (baseline): D5 Latin 331 + curly-in-CJK 2 (curly total 4). Baseline: run TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print/web text layers vs shipped PDF stripped-diff 0; `issues/` pin matched; text.md BYTE-IDENTICAL vs `issues/`.
+- Fixes (all font-size reductions, zero copy changes; probe = SVG-measured ink width, largest size leaving >=2px slack):
+  - P2 head `DRIE DINGEN VOOR 11 NOVEMBER` — content12.py:175, head 25→22pt (ink 471.1→414.5px, slack 8.0)
+- P8 (run2): lines 213/213, max ink bottom 2541.0, slack to footer rule 2596 = 55.0px, slack to page bottom 2700 = 159.0px; `p8.py compare` CLEAN, keydiff=[].
+- Pins (run2, final): print PDF `De-Lucerna-VOL3.pdf` 7,347,872 bytes, SHA-256 `ab840bcd5e6b28fdbe89f18b0176ac268109c9d41c285d7fec47910a4c9a67b1` (baseline 17,797,581 bytes, `5655379045484e0e7cf12f3b918527d92ac0e42e56acb4513849c13ff3134149`); web PDF `2026-w46-nl-zh-cn.web.pdf` 1,011,482 bytes, SHA-256 `2c0a602c6f654e86da102c4b94e1f64231ed8d8f36045a2de12709dcccf88134` (baseline 1,237,283 bytes, `d65cea86066c7b9d5d1d23eaac9bf1a0c51dcbac5c9d590baf21d0b6277911a5`); text.md 39,208 bytes, SHA-256 `056619a357e6d4323e1c13d51a84f52ff5b470a6409978483f63f70a8b0726c6` — BYTE-IDENTICAL vs `issues/` (39,208 bytes).
+- Gates run2: 19/19. G15b record-only (D27). Full gate log: `logs/2026-w46-nl-zh-cn/GATES-SUMMARY-run2.txt` in scratch `hidden_files/d5-redo/scratch-2026-w46-nl/`. Family report: `hidden_files/d5-redo/FAMILY-W46-NL-BUILD.md`.

@@ -45,7 +45,7 @@ f.box("DE WEEK IN CIJFERS　数字で見る今週", [
     ("14 — november: de landelijke intocht in Grave（11月14日：グラーフェ全国到着）", "serif", False, INK, 20, 1.35),
     ("15 — november: de intocht in Amsterdam, de 88e editie（11月15日：アムステルダム到着、第88回）", "serif", False, INK, 20, 1.35),
     ("20:45 — uur: Oranje tegen Griekenland op vrijdag（金曜20:45）", "serif", False, INK, 20, 1.35),
-])
+], tsize=20.5)
 f.head("NU JIJ　君の番", 25)
 f.ex("A2", "文の完成", "9", "シンタクラース・ニュースは11月9日に始まる",
      "Het Sinterklaasjournaal begint op maandag ___ november.", size=19.5, gap=6)
@@ -172,7 +172,7 @@ f.para("Het feest gaat over Sint-Maarten, of Martinus. Volgens de legende sneed 
 f.para("Sint-Maarten wordt niet overal in Nederland even uitbundig gevierd. Sterke gebieden zijn het noorden, de stad Utrecht, Noord-Holland boven het IJ, Noord-Brabant en Limburg. In Utrecht, de stad van Sint-Maarten, staat de viering op de lijst van het immaterieel erfgoed. Daar lopen kinderen 's avonds «lichies lope»: met lampionnen zingend langs de deuren.")
 f.para("Wil je meedoen? Maak zelf een lampion van papier en versier hem met vliegerpapier, zodat het licht er mooi doorheen schijnt. Gebruik een ledlampje op batterijen, nooit een kaarsje. En zing een liedje bij elke deur — dan is het feest compleet.")
 f.para("Sint-Maarten valt dit jaar midden in de Sinterklaastijd: maandag begon het Sinterklaasjournaal en zaterdag komt Sinterklaas aan in Grave. Twee feesten van licht en geven, in één week.")
-f.head("DRIE DINGEN VOOR 11 NOVEMBER", 25)
+f.head("DRIE DINGEN VOOR 11 NOVEMBER", 22)
 f.para("Eén: maak een lampion, met een ledlampje erin. Twee: leer een liedje, bijvoorbeeld «Elf november is de dag». Drie: ga zingend langs de deuren — en deel wat je krijgt.")
 f.box("ZO ONTHOUD JE HET　覚え方", [
     ("«Sint-Maarten is het feest van het delen: licht, eten en aandacht.» En de lampion gaat aan als het donker wordt.", "serif", False, INK, 21.5, 1.4),

@@ -86,10 +86,9 @@ transform: 8/8 byte-identical, core untouched. Build: `run.py` (one
 process) + `render.py` (cards + print PDF). Web PDF via `tools/webpdf.py`.
 
 Files in this edition dir: `svg/`, `cards/`, print PDF
-`De-Lucerna-VOL3-FR.pdf` (6,626,759 bytes), web PDF
-`De-Lucerna-VOL3-FR-web.pdf` (772,195 bytes, 46,877 text bytes),
-`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-fr.text.md` (exported from
-the source manuscript via `hidden_files/w46/export_text.py`, never from PDF).
+`De-Lucerna-VOL3-FR.pdf` (5,606,470 bytes; SHA-256 `adf997d1bc02f45967316f6e4859599a424a94f838b63e7ac7d6b54150eeede6`), web PDF
+`2026-w46-nl-fr.web.pdf` (652,873 bytes, 44,471 text bytes; SHA-256 `8eea2048fe1aafd46a8bb9ee9186cae4eaccba0ef7949f76948e8cb492f675b0`),
+`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-fr.text.md` (D5 rebuild export, `logs/2026-w46-nl-fr/2026-w46-nl-fr.text.md.run2`; the `production/` same-named file is the 2026-11-06 fanout product, do not use).
 
 ## 8. Fix record (W46 FR)
 
@@ -169,3 +168,19 @@ Re-gate evidence (final artifacts, 2026-11-03 UTC; logs/JSONs under `hidden_file
 - Final inventory: `.text.md` 41119 bytes; web PDF 772218 bytes, pdftotext 46877 bytes (>0), 8 pages, 1462.5×2025 pts, ≤7 MB; print PDF 6626782 bytes; web-vs-print extracted text 0 diff tokens; cards 1950×2700; 0 FLOW OVERFLOW / HEAD TOO WIDE warnings.
 - Change isolation: file-hash comparison vs the pre-fix snapshot shows exactly 5 changed files in this edition (`.text.md`, `svg/p8-toets.svg`, `cards/p8-toets.png`, print PDF, web PDF); all other SVGs/cards/print PDFs byte-identical. The `.text.md` diff vs pre-fix is exactly 1 line (item 137). Round 1 fix E-1 intact (P3 bridge still a single line; P3 SVG byte-identical to the pre-fix snapshot).
 - No other changes were made. Nothing was pushed, inserted, or posted. A full Round 3 independent proofread follows.
+
+## D5 rebuild (2026-11-15, W46 nl family)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46` (`--check` dry-run first, all clean). Mode: latin. `_D5_READER` at `svglib.py:100` = `latin`; fix2 retained (`_QUOTE_CLS` x4 per file); `test_d5_routing.py` FAILURES: 0.
+- Pre-fix D5 census (baseline): D5 Latin 499. Baseline: run TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print/web text layers vs shipped PDF stripped-diff 0; `issues/` pin matched; text.md BYTE-IDENTICAL vs `issues/`.
+- Fixes (all font-size reductions, zero copy changes; probe = SVG-measured ink width, largest size leaving >=2px slack):
+  - P2 head `DRIE DINGEN VOOR 11 NOVEMBER` — content12.py:177, head 25→22pt (ink 471.1→414.5px, slack 8.0)
+  - P1 numbers box title `DE WEEK IN CIJFERS　EN CHIFFRES` — content12.py:50, f.box tsize 23→20.5 (ink →400.1px, slack 4.4)
+  - P2 box title `ZO ONTHOUD JE HET　À RETENIR` — content12.py:181, f.box tsize 23→21.5 (ink →396.5px, slack 8.0)
+  - P6 `DE GRAFIEK　DONNÉES FICTIVES` — content56.py:142, p.text 24→21.5pt (ink →397.0px, slack 3.5); ### line lost, see blocker
+  - P6 `VOOR OF TEGEN?　POUR OU CONTRE ?` — content56.py:162, p.text 21→18.5pt (ink →388.3px, slack 12.2)
+  - P7 `PAS OP!　CLINIQUE DES ERREURS` — content7.py:73, p.text 23→21.5pt (ink →394.0px, slack 6.5)
+  - P7 `HET WOORD　MOT DE LA SEMAINE` — content7.py:84, p.text 23→20.5pt (ink →395.6px, slack 4.9)
+- P8 (run2): lines 237/237, max ink bottom 2560.1, slack to footer rule 2596 = 35.9px, slack to page bottom 2700 = 139.9px; `p8.py compare` CLEAN, keydiff=[137, 138].
+- Pins (run2, final): print PDF `De-Lucerna-VOL3-FR.pdf` 5,606,470 bytes, SHA-256 `adf997d1bc02f45967316f6e4859599a424a94f838b63e7ac7d6b54150eeede6` (baseline 6,180,134 bytes, `fae23f62805324f13452f995dd53c624e242eaeb88e8690004487d45c359c10a`); web PDF `2026-w46-nl-fr.web.pdf` 652,873 bytes, SHA-256 `8eea2048fe1aafd46a8bb9ee9186cae4eaccba0ef7949f76948e8cb492f675b0` (baseline 727,795 bytes, `555c6b6d5b99f5eb35b63d4a88c21607b138ea24e44464333fff7fd218196a06`); text.md 42,212 bytes, SHA-256 `e8c724ec899c17127cfc655825a69b69cd5d9c3bebaadb16f64c0233bd002ee9` — BYTE-IDENTICAL vs shipped (D47 補行后; G15a/G15c 针对性重验通过)
+- Gates run2: 17/19 (G15a FAIL + G15c HOLD, exporter 24pt ### threshold; all other 17 gates PASS). G15b record-only (D27). Full gate log: `logs/2026-w46-nl-fr/GATES-SUMMARY-run2.txt` in scratch `hidden_files/d5-redo/scratch-2026-w46-nl/`. Family report: `hidden_files/d5-redo/FAMILY-W46-NL-BUILD.md`.

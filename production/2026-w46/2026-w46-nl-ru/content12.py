@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "Все даты и время — на страниц
 # ---- inhoud (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DEZE EDITIE　В ЭТОМ НОМЕРЕ", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DEZE EDITIE　В ЭТОМ НОМЕРЕ", 23.5, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Sint-Maarten: licht en delen", "A2"),
     ("Pag. 3", "Sinterklaasjournaal", "A2→B1"),
@@ -172,7 +172,7 @@ f.para("Het feest gaat over Sint-Maarten, of Martinus. Volgens de legende sneed 
 f.para("Sint-Maarten wordt niet overal in Nederland even uitbundig gevierd. Sterke gebieden zijn het noorden, de stad Utrecht, Noord-Holland boven het IJ, Noord-Brabant en Limburg. In Utrecht, de stad van Sint-Maarten, staat de viering op de lijst van het immaterieel erfgoed. Daar lopen kinderen 's avonds «lichies lope»: met lampionnen zingend langs de deuren.")
 f.para("Wil je meedoen? Maak zelf een lampion van papier en versier hem met vliegerpapier, zodat het licht er mooi doorheen schijnt. Gebruik een ledlampje op batterijen, nooit een kaarsje. En zing een liedje bij elke deur — dan is het feest compleet.")
 f.para("Sint-Maarten valt dit jaar midden in de Sinterklaastijd: maandag begon het Sinterklaasjournaal en zaterdag komt Sinterklaas aan in Grave. Twee feesten van licht en geven, in één week.")
-f.head("DRIE DINGEN VOOR 11 NOVEMBER", 25)
+f.head("DRIE DINGEN VOOR 11 NOVEMBER", 22)
 f.para("Eén: maak een lampion, met een ledlampje erin. Twee: leer een liedje, bijvoorbeeld «Elf november is de dag». Drie: ga zingend langs de deuren — en deel wat je krijgt.")
 f.box("ZO ONTHOUD JE HET　ЗАПОМНИ", [
     ("«Sint-Maarten is het feest van het delen: licht, eten en aandacht.» En de lampion gaat aan als het donker wordt.", "serif", False, INK, 21.5, 1.4),
@@ -225,7 +225,7 @@ for i, (t, lab, cn) in enumerate(codes):
     lx = bx + 22 + text_w(t, "serif", True, 32) + 14
     lw = bx + CW - 22 - lx
     yy = p.para(lx, dy + 92, lab, 21.5, "serif", False, INK, lw, 1.36)
-    p.para(lx, yy + 20, cn, 19, "sans", False, GREY, lw, 1.3)
+    p.para(lx, yy + 20, cn, 17.5, "sans", False, GREY, lw, 1.3)
 p.para(MX, dy + 234, "Let op: een lampion met een ledlampje is veilig — een kaarsje in papier is dat niet. Meer over Sint-Maarten en Halloween lees je op pagina 6.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P2 exercises ----

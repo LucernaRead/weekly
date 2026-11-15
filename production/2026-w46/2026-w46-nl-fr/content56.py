@@ -139,7 +139,7 @@ capcn = "Données fictives : chiffres inventés, pas une vraie enquête. Questio
 ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
 p.rect(ix, 200, CW, ch, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DONNÉES FICTIVES", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DONNÉES FICTIVES", 21.5, "sans", True, OLIVE)
 yy3 += 58
 for lab, val, bw in rows:
     p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)
@@ -159,7 +159,7 @@ bt = [
 bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
 p.rect(ix, by6, CW, bh, fill="#f0eee5")
 yy3 = by6 + 16
-p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　POUR OU CONTRE ?", 21, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　POUR OU CONTRE ?", 18.5, "sans", True, OLIVE)
 yy3 += 52
 for t, k, b, fl, s, lh in bt:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8

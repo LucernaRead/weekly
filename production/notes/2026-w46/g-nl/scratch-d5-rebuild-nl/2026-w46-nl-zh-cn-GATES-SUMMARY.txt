@@ -1,0 +1,23 @@
+=== gates 2026-w46-nl-zh-cn tag=run2 14:19:24
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — HEAD CHECK PASS 0 defects 
+PASS  G3 — rc=0 p1-voorpagina.svg: els=244 news=192 cjk_sans=33 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=2 p2-leven.svg: els=241 news=188 cjk_sans=53 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 p3-cultuur.svg: els=228 news=181 cjk_sans=47 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 p4-sport.svg: els=209 news=168 cjk_sans=41 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0 
+PASS  G4 — render rc=0, print 7347872 B
+PASS  G5 — web 1011482 B <7MB
+PASS  G6 — selftest rc=0 audit rc=0
+PASS  G7 — extract rc=0 noted=150/150
+PASS  G8 — CLEAN, rc=0 keydiff=[]
+PASS  G9 — baseline: 8/8 rc=0
+PASS  G10 — CJK added 0 chars=[] (Latin added 218, run-split)
+PASS  G11 — SPILL_SWEEP core-nl: 26 boxes, 70 candidates, 0 SPILL, 70 OBSERVE rc=0
+PASS  G12 — BOXTITLE core-nl: 25 titles, 325 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal rc=0
+PASS  G13 — EDGE_SCAN core-nl: 8 pages, 0 TOUCH, 0 NEAR rc=0
+PASS  G14 — defects=0 rc=0
+PASS  G15a — G15a print chars=36860 web chars=36860 stripped-multiset-diff=0 G15a text.md BYTE-IDENTICAL (39208 bytes) 
+REC   G15b — rc=1 CARRYOVER: FAIL
+PASS  G15c — verdict: ADOPT (0 UNEXPECTED) rc=0
+PASS  G16 — GRAND TOTAL defective: 0 rc=0
+PASS  D18 — D18 slogan 'ELKE WEEK IN HET NEDERLANDS\u3000每周一期\u3000读荷兰人正在读' end_x=1304.7 date_start_x=1397.9 gap=93.2px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)
+D18/D37: PASS
+PASS  D37 — D37 (PASS - N/A) no P1 pairing/badge line (y>500); pairing line is at y=372, above cream box top 588.0
+=== 2026-w46-nl-zh-cn run2: 19/19 PASS, 0 FAIL (G15b record-only)

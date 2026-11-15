@@ -92,10 +92,9 @@ core untouched. Build: `run.py` (one process) + `render.py` (cards + print
 PDF). Web PDF via `tools/webpdf.py`.
 
 Files in this edition dir: `svg/`, `cards/`, print PDF
-`De-Lucerna-VOL3-PT.pdf` (6,668,628 bytes), web PDF
-`De-Lucerna-VOL3-PT-web.pdf` (781,796 bytes, 46,692 text bytes),
-`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-pt.text.md` (exported from
-the source manuscript via `hidden_files/w46/export_text.py`, never from PDF).
+`De-Lucerna-VOL3-PT.pdf` (5,611,198 bytes; SHA-256 `609470f61602a13a7d43b30e9f6757ae2a980f294262b863e09577c1de9ad499`), web PDF
+`2026-w46-nl-pt.web.pdf` (657,625 bytes, 44,209 text bytes; SHA-256 `28290b8240c19060be41fa3bd8c8d0b458a963d3794e590efd1ef5464e372ef0`),
+`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-pt.text.md` (D5 rebuild export, `logs/2026-w46-nl-pt/2026-w46-nl-pt.text.md.run2`; the `production/` same-named file is the 2026-11-06 fanout product, do not use).
 
 ## 8. Fix record (W46 PT)
 
@@ -154,3 +153,19 @@ Re-gate evidence (final artifacts, 2026-11-03 UTC; logs/JSONs under `hidden_file
 - Gloss counts P2–P6: 6/5/5/5/5, identical Dutch headwords in order. P6 chart bars measured: widths 160/100/80/60 (values 40/25/20/15), fill `#3e4c2a`, identical in all 11 editions. P7: 8/8 golden sentences verbatim; page tags in order Pagina 1,1,2,3,4,5,6,6. Model essay 89 words; chart-answer arithmetic spot-verified (40+25+20+15=100).
 - Final inventory: `.text.md` 38265 bytes; web PDF 781803 bytes, pdftotext 46689 bytes (>0), 8 pages, 1462.5×2025 pts, ≤7 MB; print PDF 6668637 bytes; web-vs-print extracted text 0 diff tokens; cards 1950×2700; 0 FLOW OVERFLOW / HEAD TOO WIDE warnings.
 - No other changes were made. Observations O-2–O-5: no action, per coordinator rulings.
+
+## D5 rebuild (2026-11-15, W46 nl family)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46` (`--check` dry-run first, all clean). Mode: latin. `_D5_READER` at `svglib.py:100` = `latin`; fix2 retained (`_QUOTE_CLS` x4 per file); `test_d5_routing.py` FAILURES: 0.
+- Pre-fix D5 census (baseline): D5 Latin 494. Baseline: run TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print/web text layers vs shipped PDF stripped-diff 0; `issues/` pin matched; text.md BYTE-IDENTICAL vs `issues/`.
+- Fixes (all font-size reductions, zero copy changes; probe = SVG-measured ink width, largest size leaving >=2px slack):
+  - P2 head `DRIE DINGEN VOOR 11 NOVEMBER` — content12.py:175, head 25→22pt (ink 471.1→414.5px, slack 8.0)
+  - P1 numbers box title `DE WEEK IN CIJFERS　NÚMEROS` — content12.py:48, f.box tsize 23→22 (ink →393.9px, slack 10.6)
+  - P1 contents title `IN DEZE EDITIE　NESTE NÚMERO` — content12.py:90, p.text 24→21.5pt (ink →394.9px, slack 5.6); ### line lost, see blocker
+  - P2 box title `ZO ONTHOUD JE HET　LEMBRA-TE` — content12.py:179, f.box tsize 23→21 (ink →399.2px, slack 5.3)
+  - P6 `DE GRAFIEK　DADOS DE TREINO` — content56.py:142, p.text 24→22pt (ink →392.9px, slack 7.6); ### line lost, see blocker
+  - P6 `VOOR OF TEGEN?　PRÓS E CONTRAS` — content56.py:162, p.text 21→20pt (ink →396.2px, slack 4.3)
+  - P7 `HET WOORD　PALAVRA DA SEMANA` — content7.py:84, p.text 23→20pt (ink →397.2px, slack 3.3)
+- P8 (run2): lines 233/233, max ink bottom 2547.9, slack to footer rule 2596 = 48.1px, slack to page bottom 2700 = 152.1px; `p8.py compare` CLEAN, keydiff=[137, 138].
+- Pins (run2, final): print PDF `De-Lucerna-VOL3-PT.pdf` 5,611,198 bytes, SHA-256 `609470f61602a13a7d43b30e9f6757ae2a980f294262b863e09577c1de9ad499` (baseline 6,196,922 bytes, `e6d6843aa3311d23ea0688cc49cd1dcfa8765616622cb06f448efd22060f074e`); web PDF `2026-w46-nl-pt.web.pdf` 657,625 bytes, SHA-256 `28290b8240c19060be41fa3bd8c8d0b458a963d3794e590efd1ef5464e372ef0` (baseline 734,121 bytes, `36ac9f8820c036f6631677c36df373a460ab262b903f3185f483ae4202eaed4f`); text.md 40,888 bytes, SHA-256 `d27f670e4eb30eaa9241c0e2e16dce8df1dac0b0b72078ba044cc7a15c8993f3` — BYTE-IDENTICAL vs shipped (D47 補行后; G15a/G15c 针对性重验通过)
+- Gates run2: 17/19 (G15a FAIL + G15c HOLD, exporter 24pt ### threshold; all other 17 gates PASS). G15b record-only (D27). Full gate log: `logs/2026-w46-nl-pt/GATES-SUMMARY-run2.txt` in scratch `hidden_files/d5-redo/scratch-2026-w46-nl/`. Family report: `hidden_files/d5-redo/FAMILY-W46-NL-BUILD.md`.

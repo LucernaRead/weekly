@@ -70,7 +70,7 @@ errs = [
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 192
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "PAS OP!　CLINICA DEGLI ERRORI", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "PAS OP!　CLINICA DEGLI ERRORI", 22, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)

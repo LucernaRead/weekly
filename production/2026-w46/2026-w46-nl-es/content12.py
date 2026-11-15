@@ -18,7 +18,7 @@ p.text(975, 262, "De Lucerna", 196, family="UnifrakturMaguntia", anchor="middle"
 p.text(975, 330, "SEMANARIO NEERLANDÉS　VOL.3　SINTERKLAAS　SINT-MAARTEN　ORANJE", 36, "serif", True, OLIVE, anchor="middle", spacing=2)
 p.text(975, 372, "DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS", 16, "sans", False, GREY, anchor="middle")
 # pairing badge (grey, below the band) — ported: y=614, 16pt GREY
-p.text(975, 614, "TEXTOS EN NEERLANDÉS　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 16, "sans", False, GREY, anchor="middle")
+p.text(975, 614, "TEXTOS EN NEERLANDÉS　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 15.5, "sans", False, GREY, anchor="middle")
 p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 
@@ -47,7 +47,7 @@ f.box("DE WEEK IN CIJFERS　EN CIFRAS", [
     ("14 — november: de landelijke intocht in Grave (14 nov.: llegada en Grave)", "serif", False, INK, 20, 1.35),
     ("15 — november: de intocht in Amsterdam, de 88e editie (15 nov.: 88.ª edición)", "serif", False, INK, 20, 1.35),
     ("20:45 — uur: Oranje tegen Griekenland op vrijdag (vie. 20:45)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("NU JIJ　TE TOCA", 25)
 f.ex("A2", "Completar las frases", "9", "El noticiario de Sinterklaas empieza el 9 de noviembre",
      "Het Sinterklaasjournaal begint op maandag ___ november.", size=19.5, gap=6)
@@ -174,11 +174,11 @@ f.para("Het feest gaat over Sint-Maarten, of Martinus. Volgens de legende sneed 
 f.para("Sint-Maarten wordt niet overal in Nederland even uitbundig gevierd. Sterke gebieden zijn het noorden, de stad Utrecht, Noord-Holland boven het IJ, Noord-Brabant en Limburg. In Utrecht, de stad van Sint-Maarten, staat de viering op de lijst van het immaterieel erfgoed. Daar lopen kinderen 's avonds «lichies lope»: met lampionnen zingend langs de deuren.")
 f.para("Wil je meedoen? Maak zelf een lampion van papier en versier hem met vliegerpapier, zodat het licht er mooi doorheen schijnt. Gebruik een ledlampje op batterijen, nooit een kaarsje. En zing een liedje bij elke deur — dan is het feest compleet.")
 f.para("Sint-Maarten valt dit jaar midden in de Sinterklaastijd: maandag begon het Sinterklaasjournaal en zaterdag komt Sinterklaas aan in Grave. Twee feesten van licht en geven, in één week.")
-f.head("DRIE DINGEN VOOR 11 NOVEMBER", 25)
+f.head("DRIE DINGEN VOOR 11 NOVEMBER", 22)
 f.para("Eén: maak een lampion, met een ledlampje erin. Twee: leer een liedje, bijvoorbeeld «Elf november is de dag». Drie: ga zingend langs de deuren — en deel wat je krijgt.")
 f.box("ZO ONTHOUD JE HET　RECUERDA", [
     ("«Sint-Maarten is het feest van het delen: licht, eten en aandacht.» En de lampion gaat aan als het donker wordt.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21.5)
 f.gloss("de lampion: el farolillo · delen: compartir · de mantel: la capa · de bedelaar: el mendigo · het erfgoed: el patrimonio · het ledlampje: la lamparita LED.")
 f.end_report()
 

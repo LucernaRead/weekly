@@ -88,10 +88,9 @@ Build: `run.py` (one process) + `render.py` (cards + print PDF). Web PDF
 via `tools/webpdf.py`.
 
 Files in this edition dir: `svg/`, `cards/`, print PDF
-`De-Lucerna-VOL3-ES.pdf` (6,642,975 bytes), web PDF
-`De-Lucerna-VOL3-ES-web.pdf` (776,058 bytes, 46,675 text bytes),
-`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-es.text.md` (exported from
-the source manuscript via `hidden_files/w46/export_text.py`, never from PDF).
+`De-Lucerna-VOL3-ES.pdf` (5,608,124 bytes; SHA-256 `50b722208ebc18cf578336a57ac1a3e4fe27c0e79ab7dc8ddd6fed0911b0abae`), web PDF
+`2026-w46-nl-es.web.pdf` (654,522 bytes, 44,378 text bytes; SHA-256 `bc1eb2d67fc29e3739689fac5074e99ab465f07a76b8b5d9998a4c8f94bc2560`),
+`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-es.text.md` (D5 rebuild export, `logs/2026-w46-nl-es/2026-w46-nl-es.text.md.run2`; the `production/` same-named file is the 2026-11-06 fanout product, do not use).
 
 ## 8. Fix record (W46 ES)
 
@@ -152,3 +151,17 @@ Re-gate evidence (final artifacts, 2026-11-03 UTC; logs/JSONs under `hidden_file
 - Gloss counts P2–P6: 6/5/5/5/5, identical Dutch headwords in order. P6 chart bars measured: widths 160/100/80/60 (values 40/25/20/15), fill `#3e4c2a`, identical in all 11 editions. P7: 8/8 golden sentences verbatim; page tags in order Pagina 1,1,2,3,4,5,6,6. Model essay 89 words; chart-answer arithmetic spot-verified (40+25+20+15=100).
 - Final inventory: `.text.md` 37510 bytes; web PDF 776057 bytes, pdftotext 46675 bytes (>0), 8 pages, 1462.5×2025 pts, ≤7 MB; print PDF 6642975 bytes; web-vs-print extracted text 0 diff tokens; cards 1950×2700; 0 FLOW OVERFLOW / HEAD TOO WIDE warnings.
 - No other changes were made. Observations O-2–O-5: no action, per coordinator rulings.
+
+## D5 rebuild (2026-11-15, W46 nl family)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46` (`--check` dry-run first, all clean). Mode: latin. `_D5_READER` at `svglib.py:100` = `latin`; fix2 retained (`_QUOTE_CLS` x4 per file); `test_d5_routing.py` FAILURES: 0.
+- Pre-fix D5 census (baseline): D5 Latin 494. Baseline: run TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print/web text layers vs shipped PDF stripped-diff 0; `issues/` pin matched; text.md BYTE-IDENTICAL vs `issues/`.
+- Fixes (all font-size reductions, zero copy changes; probe = SVG-measured ink width, largest size leaving >=2px slack):
+  - P2 head `DRIE DINGEN VOOR 11 NOVEMBER` — content12.py:177, head 25→22pt (ink 471.1→414.5px, slack 8.0)
+  - P1 numbers box title `DE WEEK IN CIJFERS　EN CIFRAS` — content12.py:50, f.box tsize 23→22 (ink →396.9px, slack 7.6)
+  - P2 box title `ZO ONTHOUD JE HET　RECUERDA` — content12.py:181, f.box tsize 23→21.5 (ink →400.1px, slack 4.4)
+  - P6 `DE GRAFIEK　DATOS DE PRÁCTICA` — content56.py:142, p.text 24→20.5pt (ink →391.5px, slack 9.0); ### line lost, see blocker
+  - P1 pairing badge — content12.py:21, p.text 16→15.5pt, middle-anchored (end 1450.9→1436.3px, margin −11.4→+3.2px vs cream left 1439.5)
+- P8 (run2): lines 241/241, max ink bottom 2560.1, slack to footer rule 2596 = 35.9px, slack to page bottom 2700 = 139.9px; `p8.py compare` CLEAN, keydiff=[137, 138].
+- Pins (run2, final): print PDF `De-Lucerna-VOL3-ES.pdf` 5,608,124 bytes, SHA-256 `50b722208ebc18cf578336a57ac1a3e4fe27c0e79ab7dc8ddd6fed0911b0abae` (baseline 6,193,665 bytes, `44e9ddd6b700d22377b6005f4777790be232f4c5298fbb91064312df25f58303`); web PDF `2026-w46-nl-es.web.pdf` 654,522 bytes, SHA-256 `bc1eb2d67fc29e3739689fac5074e99ab465f07a76b8b5d9998a4c8f94bc2560` (baseline 730,929 bytes, `48cc1c2b3b2212ba0d186f8c30d714bafc8fda10d31d88cd0152027d5070efee`); text.md 41,868 bytes, SHA-256 `3f6a4098e3f627a83bbfc50f2034965dd968747512dd930087e74163bb68f121` — BYTE-IDENTICAL vs shipped (D47 補行后; G15a/G15c 针对性重验通过)
+- Gates run2: 17/19 (G15a FAIL + G15c HOLD, exporter 24pt ### threshold; all other 17 gates PASS). G15b record-only (D27). Full gate log: `logs/2026-w46-nl-es/GATES-SUMMARY-run2.txt` in scratch `hidden_files/d5-redo/scratch-2026-w46-nl/`. Family report: `hidden_files/d5-redo/FAMILY-W46-NL-BUILD.md`.

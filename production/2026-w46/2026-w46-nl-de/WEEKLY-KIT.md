@@ -83,10 +83,9 @@ transform: 8/8 byte-identical, core untouched. Build: `run.py` (one
 process) + `render.py` (cards + print PDF). Web PDF via `tools/webpdf.py`.
 
 Files in this edition dir: `svg/`, `cards/`, print PDF
-`De-Lucerna-VOL3-DE.pdf` (6,644,100 bytes), web PDF
-`De-Lucerna-VOL3-DE-web.pdf` (774,922 bytes, 46,586 text bytes),
-`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-de.text.md` (exported from
-the source manuscript via `hidden_files/w46/export_text.py`, never from PDF).
+`De-Lucerna-VOL3-DE.pdf` (5,604,980 bytes; SHA-256 `c85eb233c7782e69858d38c20f0d396ecc062cb23bbb50fa56b6d8d50d752887`), web PDF
+`2026-w46-nl-de.web.pdf` (651,370 bytes, 44,400 text bytes; SHA-256 `b9627c7dbc29236b3244e043a76e7128eca81956dcf8989cc4b3e595d8a830cc`),
+`WEEKLY-KIT.md`, `ABSTRACT.txt`, `2026-w46-nl-de.text.md` (D5 rebuild export, `logs/2026-w46-nl-de/2026-w46-nl-de.text.md.run2`; the `production/` same-named file is the 2026-11-06 fanout product, do not use).
 
 ## 8. Fix record (W46 DE)
 
@@ -152,3 +151,18 @@ Re-gate evidence (final artifacts, 2026-11-03 UTC; logs/JSONs under `hidden_file
 - Gloss counts P2–P6: 6/5/5/5/5, identical Dutch headwords in order. P6 chart bars measured: widths 160/100/80/60 (values 40/25/20/15), fill `#3e4c2a`, identical in all 11 editions. P7: 8/8 golden sentences verbatim; page tags in order Pagina 1,1,2,3,4,5,6,6. Model essay 89 words; chart-answer arithmetic spot-verified (40+25+20+15=100).
 - Final inventory: `.text.md` 38262 bytes; web PDF 774922 bytes, pdftotext 46586 bytes (>0), 8 pages, 1462.5×2025 pts, ≤7 MB; print PDF 6644100 bytes; web-vs-print extracted text 0 diff tokens; cards 1950×2700; 0 FLOW OVERFLOW / HEAD TOO WIDE warnings.
 - No other changes were made. Observations O-2–O-5: no action, per coordinator rulings.
+
+## D5 rebuild (2026-11-15, W46 nl family)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46` (`--check` dry-run first, all clean). Mode: latin. `_D5_READER` at `svglib.py:100` = `latin`; fix2 retained (`_QUOTE_CLS` x4 per file); `test_d5_routing.py` FAILURES: 0.
+- Pre-fix D5 census (baseline): D5 Latin 496. Baseline: run TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print/web text layers vs shipped PDF stripped-diff 0; `issues/` pin matched; text.md BYTE-IDENTICAL vs `issues/`.
+- Fixes (all font-size reductions, zero copy changes; probe = SVG-measured ink width, largest size leaving >=2px slack):
+  - P2 head `DRIE DINGEN VOOR 11 NOVEMBER` — content12.py:177, head 25→22pt (ink 471.1→414.5px, slack 8.0)
+  - P1 numbers box title `DE WEEK IN CIJFERS　IN ZAHLEN` — content12.py:50, f.box tsize 23→21.5 (ink 421.6→394.0px, slack 10.5)
+  - P1 `IN HET KORT　KURZ GEMELDET` — content12.py:134, p.text 24→22.5pt (ink 424.6→398.0px, slack 2.5); ### line lost, see blocker
+  - P2 box title `ZO ONTHOUD JE HET　MERK ES DIR` — content12.py:181, f.box tsize 23→20 (ink 452.0→393.0px, slack 11.5)
+  - P6 `VOOR OF TEGEN?　PRO UND KONTRA` — content56.py:162, p.text 21→19.5pt (ink 426.9→396.4px, slack 4.1)
+  - P7 `HET WOORD　WORT DER WOCHE` — content7.py:84, p.text 23→21.5pt (ink 416.9→389.7px, slack 10.8)
+- P8 (run2): lines 227/227, max ink bottom 2560.0, slack to footer rule 2596 = 36.0px, slack to page bottom 2700 = 140.0px; `p8.py compare` CLEAN, keydiff=[137, 138].
+- Pins (run2, final): print PDF `De-Lucerna-VOL3-DE.pdf` 5,604,980 bytes, SHA-256 `c85eb233c7782e69858d38c20f0d396ecc062cb23bbb50fa56b6d8d50d752887` (baseline 6,194,387 bytes, `4ba753d022db16927c76f907dcaccc6defe47949fea5c3880cb95be77630c241`); web PDF `2026-w46-nl-de.web.pdf` 651,370 bytes, SHA-256 `b9627c7dbc29236b3244e043a76e7128eca81956dcf8989cc4b3e595d8a830cc` (baseline 730,817 bytes, `6f9ce924f4c761fd22d8f0751fdbbc0b9e05e3eea2339f09176f28784085e056`); text.md 40,835 bytes, SHA-256 `67857267c3afbee3923b67c4f040975cb9fe7b0462ab0df88276107ff27f130e` — BYTE-IDENTICAL vs shipped (D47 補行后; G15a/G15c 针对性重验通过)
+- Gates run2: 17/19 (G15a FAIL + G15c HOLD, exporter 24pt ### threshold; all other 17 gates PASS). G15b record-only (D27). Full gate log: `logs/2026-w46-nl-de/GATES-SUMMARY-run2.txt` in scratch `hidden_files/d5-redo/scratch-2026-w46-nl/`. Family report: `hidden_files/d5-redo/FAMILY-W46-NL-BUILD.md`.
