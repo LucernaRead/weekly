@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 测验与答案 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("测验与答案 · テストと答え", "Lucerna", "第 8 版 · 本周大测验 + 全部答案 · 今週のテストと全解答")
+p.band("测验与答案　テストと答え", "Lucerna", "第8版　本周大测验 + 全部答案　今週のテストと全解答")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判断对错 · 正しいか間違いか", 21, OLIVE, 5)
+f.head("A　判断对错　正しいか間違いか", 21, OLIVE, 5)
 f.ex("A2", "完形单选", "A", "立冬は11月7日。",
      "立冬在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("A2", "完形单选", "B", "立冬は24節気の19番目で、18番目ではない。",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "新作は11月7日に公開される。",
      "新片《我们仅有一次的人生》11月7日上映。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "B", "記者節は11月8日で、11月7日ではない。",
      "中国记者节在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
-f.head("B · 本周大测验 · 総合クイズ", 21, OLIVE, 5)
+f.head("B　本周大测验　総合クイズ", 21, OLIVE, 5)
 f.ex("A2", "单选", "B", "現物販売は11月13日まで続く。",
      "双11 现货一直卖到哪天? A. 11月11日 · B. 11月13日 · C. 10月31日", size=13.8, gap=0)
 f.ex("A2", "单选", "A", "節気の瞬間は17時52分。",
@@ -50,7 +50,7 @@ f.ex("B1", "单选", "A", "かごAは値引きのあと270元を支払う。",
      "篮子A实付多少钱? A. 270元 · B. 320元 · C. 240元", size=13.8, gap=0)
 f.ex("B1", "单选", "B", "決勝は11月15日北京時間3時に始まる。",
      "总决赛在北京时间哪天? A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点", size=13.8, gap=0)
-f.head("C · 完成句子 · 文を完成させよう", 21, OLIVE, 5)
+f.head("C　完成句子　文を完成させよう", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "立冬", "立冬は11月7日。",
      "11月7日是___。", instr="空欄に入れよう", size=13.8, gap=0)
 f.ex("A2", "完成句子", "直降", "zhíjiàng — 価格そのものが下がること。",
@@ -71,7 +71,7 @@ f.ex("B1", "完成句子", "记者", "jìzhě — インタビューしてニュ
      "采访和写新闻的人,叫___。", instr="空欄に入れよう", size=13.8, gap=0)
 f.ex("B1", "完成句子", "立减", "lìjiǎn — 決済時に差し引かれる。",
      "结算时直接减掉的钱叫___。", instr="空欄に入れよう", size=13.8, gap=0)
-f.head("D · 读一读,答一答 · 読んで答えよう", 21, OLIVE, 5)
+f.head("D　读一读,答一答　読んで答えよう", 21, OLIVE, 5)
 f.para("小红住在北京。11月7日星期六是立冬,她早上和妈妈一起包饺子,中午吃了热热的饺子。下午,她在网上买了一条围巾,现货第二天就到了。11月8日星期日,她给奶奶打了电话,问奶奶冷不冷。奶奶说,家里很暖和,让她多穿衣服。", 15, lh=1.3, split=False)
 f.ex("A2", "单选", "A", "小紅は北京に住んでいる。",
      "小红住在哪里? A. 北京 · B. 上海 · C. 广州", size=13.8, gap=0)
@@ -85,14 +85,14 @@ f.ex("B2", "单选", "A", "順序：餃子、それから買い物、それか�
      "这段话的顺序是什么? A. 先包饺子,再买围巾,再打电话 · B. 先打电话,再包饺子 · C. 先买围巾,再包饺子", size=13.8, gap=0)
 f.ex("B1", "完成句子", "北京", "小紅は北京に住んでいる。",
      "小红住在___。", instr="空欄に入れよう", size=13.8, gap=0)
-f.head("E · 情景说话 · 会話の場面", 21, OLIVE, 5)
+f.head("E　情景说话　会話の場面", 21, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "現物商品はすぐ発送され、予約販売の待ち時間はない。",
      "— 现货几天能到? — 买了就能___,不用等预售。(A. 发货 · B. 退货)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "北の家庭は立冬に餃子を食べる。",
      "— 立冬吃什么? — 北方吃___,南方吃法各不同。(A. 饺子 · B. 月饼)", size=13.8, gap=0)
 f.ex("B2", "完形单选", "A", "6ページのルール：データが先、広告は最後。",
      "— 这条新闻说最低价,可信吗? — 先看___,再看广告。(A. 数据 · B. 评论)", size=13.8, gap=0)
-f.head("F · 写一写 · 書いてみよう", 21, OLIVE, 5)
+f.head("F　写一写　書いてみよう", 21, OLIVE, 5)
 MODELO = ("这个周末是立冬。星期六早上,我和妈妈一起包饺子,吃了热热的饺子,身体很暖和。"
           "下午,我去买了一件毛衣,现货第二天就到了。星期日,我给奶奶打了电话,问她冷不冷。"
           "冬天来了,我想多陪陪家人,过一个暖和的冬天。"
@@ -106,15 +106,15 @@ f.para("モデル解答：" + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · 全解答と解説（1–8ページ）", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "解説はすべて日本語 · ✓ = 作文の課題", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　全解答と解説（1–8ページ）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "解説はすべて日本語　✓ = 作文の課題", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— {pg} ページ —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+    af.para(f"— {pg}ページ —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "写作":

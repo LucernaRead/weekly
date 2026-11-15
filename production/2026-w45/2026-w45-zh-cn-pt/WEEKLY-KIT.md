@@ -64,14 +64,14 @@
   "As barras partem de 0 (3 px = 1 yuan). Apenas dados de prática — não
   são preços reais de loja. As contas das cestas estão no artigo acima."
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2-PT.pdf` (47,047,752 bytes, 8 pages),
-  web PDF `Lucerna-VOL2-PT-web.pdf` (3,252,004 bytes, 8 pages, JPEG pages
+  `cards/`, print PDF `Lucerna-VOL2-PT.pdf` (36,069,695 bytes, 8 pages),
+  web PDF `Lucerna-VOL2-PT-web.pdf` (2,329,290 bytes, 8 pages, JPEG pages
   q85 @1400 px — under the 10 MB Discord ceiling, though this builder
   does not deliver via Discord).
   - Print PDF SHA-256:
-    `4190684793377b7ac853df3f190e048637323162f9dada01d74d23c613329872`
+    `e575ff2193f8a54107879fc97a927eb32efe25c5648ce03481589d5b349e8125`
   - Web PDF SHA-256:
-    `0bc2e29083679ec6ce1acaeb27371174b6e4b95e97a560488a3968aba50500aa`
+    `47280429293a63aaf05dd567c8cf9acda42a13fdc311aee6bc15ec01d6a75a2c`
 - **Images:** 6 photos, same files and placements as the core — P1 1, P2 1,
   P3 2, P4 1, P5 1, P6 0, P7 0, P8 0. Credits translated to the PT column
   form ("Foto: … — CC0 (Wikimedia Commons)"; Based5290:
@@ -338,3 +338,29 @@ differs in 6 timestamp bytes only). Mechanical gates re-run: occlusion
 edition 0 / core 0 / NEW 0, p8 compare CLEAN (150=150, keydiff []),
 gloss 10 calls / 33 items = core. A full independent reproof follows;
 this record does NOT declare the edition finalized.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 44,297,485 B
+（MANIFEST pin 一致）；
+p8 抽 139/150；普查拉丁 468（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 G6 occlusion TEXTX + D37 margin −56.9px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-pt.pdf` 36,069,695 B，sha256 `e575ff2193f8a54107879fc97a927eb32efe25c5648ce03481589d5b349e8125`；
+网 PDF `2026-w45-zh-cn-pt.web.pdf` 2,329,290 B（< 7 MB），sha256 `47280429293a63aaf05dd567c8cf9acda42a13fdc311aee6bc15ec01d6a75a2c`；
+text.md `2026-w45-zh-cn-pt.text.md` 44,143 B，sha256 `9f6e0db1a2bdfde6597ad29f08da3480c4f6f0275b163f5258e5bcb5aaaa5be1`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 47,047,752 B；网 3,252,004 B
+；印 sha256 `4190684793377b7ac853df3f190e048637323162f9dada01d74d23c613329872`；网 sha256 `0bc2e29083679ec6ce1acaeb27371174b6e4b95e97a560488a3968aba50500aa`。
+
+
+pt KIT L330-337 (Gate 10 self-run record): “print PDF byte-identical (47,047,752 B, sha 41906847…); the delivered web PDF … keeps sha 0bc2e290…” — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,329,289 B，sha256 `8c58c8d917bb…`）在独立重校重建时被重校 run 的网 PDF（2,329,290 B，sha256 `47280429293a…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

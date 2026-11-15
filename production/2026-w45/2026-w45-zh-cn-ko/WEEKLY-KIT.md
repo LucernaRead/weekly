@@ -240,10 +240,10 @@ was found by a full rendered-text scan.
   - p7-ciyu d6f551b42b9ae4316241d84351e6ba5b803b40f5d33037f55354a9a3
   - p8-ceyan c2d0cfc7226b42a52d87068923f5a1ce238a83e60dfaabfbba9a667ff7d8b2b5
 - Cards: 8 PNGs, each 1950×2700.
-- Print PDF `Lucerna-VOL2.pdf`: **42,233,918 bytes, 8 pages**,
-  sha256 c8f8de1ec602a433f2a2f2f8aa89e888da1228aaaa57febda9f77c64a7e79c7d.
-- Web PDF `Lucerna-VOL2-web.pdf`: **3,074,264 bytes, 8 pages**
-  (< 10 MB), sha256 dd03c90138f02fad070220915f6e8af9d21128043fd101c69f2b99b08468510b.
+- Print PDF `Lucerna-VOL2.pdf`: **38,364,975 bytes, 8 pages**,
+  sha256 ec84d54266b91fa5740f3812c0e8d02cb1d97f7bbb2ff78ab60e18a34bc91998.
+- Web PDF `Lucerna-VOL2-web.pdf`: **2,678,072 bytes, 8 pages**
+  (< 7 MB), sha256 b3639b102e7beb6d6dc2e2cb9c71afa15c097493e853d2a625c71ac0bcb52c7f.
 - ABSTRACT.txt: Korean single line, no ASCII double quotes (174 chars),
   naming 双11 spot sales/direct cuts, 立冬 Nov 7, S16 quarter-finals/
   semi-final, AI film + winter film, Lucerna, 중국어 간체, A2–B2,
@@ -258,3 +258,24 @@ was found by a full rendered-text scan.
   adjudicated PASS in §8 (complete key item, not a continuation).
 - The web PDF is rendered from the same final SVGs as the print PDF
   (JPEG pages q85 @1400 px, same pipeline as the core).
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="cjk"`（variant KR），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 41,446,171 B
+（MANIFEST pin 一致）；
+p8 抽 150/150；普查拉丁 249（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-ko.pdf` 38,364,975 B，sha256 `ec84d54266b91fa5740f3812c0e8d02cb1d97f7bbb2ff78ab60e18a34bc91998`；
+网 PDF `2026-w45-zh-cn-ko.web.pdf` 2,678,072 B（< 7 MB），sha256 `b3639b102e7beb6d6dc2e2cb9c71afa15c097493e853d2a625c71ac0bcb52c7f`；
+text.md `2026-w45-zh-cn-ko.text.md` 44,925 B，sha256 `d7641bcd605ac9b1c13a5df3ac498780bece69952224994d2c4e0defccfd99de`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 42,233,918 B；网 3,074,264 B
+；印 sha256 `c8f8de1ec602a433f2a2f2f8aa89e888da1228aaaa57febda9f77c64a7e79c7d`；网 sha256 `dd03c90138f02fad070220915f6e8af9d21128043fd101c69f2b99b08468510b`。
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。

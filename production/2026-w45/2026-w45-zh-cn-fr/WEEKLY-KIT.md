@@ -95,8 +95,8 @@ does NOT finalise the edition: a fresh full independent reproof is still owed.
   款」 p. 2; 「水开始结冰」 p. 3; 「三场都输了」 p. 4; 「小局一场没赢」 p. 4;
   「故事够不够好」 p. 5; 「别以后，就现在」 p. 5.
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2-FR.pdf` (46,662,604 bytes, 8 pages),
-  web PDF `Lucerna-VOL2-FR-web.pdf` (3,265,050 bytes, 8 pages, JPEG
+  `cards/`, print PDF `Lucerna-VOL2-FR.pdf` (36,069,393 bytes, 8 pages),
+  web PDF `Lucerna-VOL2-FR-web.pdf` (2,337,687 bytes, 8 pages, JPEG
   pages q85 @1400 px — under the 10 MB ceiling).
   SHA-256 (post-fix round 2026-10-28): print `2f1dbc24cf5265564a0adee556c542cf0ca4cea24270daf6b1d0e9f7ed2c1969`,
   web `107dbffeb82e97e9d4fe9f2fe78e51f871481f6e067ea5d188b2456eac29778d`.
@@ -469,3 +469,28 @@ cd ../../tools
 - **No Discord delivery, no repo insert, no main-chat delivery** was
   done by this builder, per the task and the standing delivery pause.
   `ABSTRACT.txt` is delivered in the edition dir for insert.py.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 44,300,753 B
+（MANIFEST pin 漂移，见家族报告 §2）；
+p8 抽 150/150；普查拉丁 477（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 G6 occlusion TEXTX ×7 (caron runs)；F2 D37 P1 subhead margin −6.2px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-fr.pdf` 36,069,393 B，sha256 `92053656c7de7fbac013930b8039d3c82b3f2df328bfdfda3168b6f3ddc70f70`；
+网 PDF `2026-w45-zh-cn-fr.web.pdf` 2,337,687 B（< 7 MB），sha256 `9ae84b5fb3a157287b33a71fbca08b074e41e9d512845705c3268412892ed4dc`；
+text.md `2026-w45-zh-cn-fr.text.md` 43,734 B，sha256 `198c6ad07198718b7ae001330aa8d00d2c2687d964ce52b685f7484ebbdc90bb`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 46,662,604 B；网 3,265,050 B
+；印 sha256 `2f1dbc24cf5265564a0adee556c542cf0ca4cea24270daf6b1d0e9f7ed2c1969`；网 sha256 `107dbffeb82e97e9d4fe9f2fe78e51f871481f6e067ea5d188b2456eac29778d`。
+
+fr KIT L101-102 (SHA-256 post-fix round 2026-10-28): print 2f1dbc24…; web 107dbffe… — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,337,671 B，sha256 `61c368ee9461…`）在独立重校重建时被重校 run 的网 PDF（2,337,687 B，sha256 `9ae84b5fb3a1…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

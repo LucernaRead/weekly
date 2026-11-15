@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 词语精讲 =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("词语 · Языковой фокус", "Lucerna", "语言聚焦 · 三个级别,三个主题 · Три уровня, три темы")
+p.band("词语　Языковой фокус", "Lucerna", "语言聚焦　三个级别,三个主题　Три уровня, три темы")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 双11与冬天 · Покупки", 24)
+a.head("A2　双11与冬天　Покупки", 24)
 a.para("Слова недели о покупках: 现货 (xiànhuò — в наличии), 直降 (zhíjiàng — прямое снижение), 立减 (lìjiǎn — скидка на кассе), 结算页 (jiésuàn yè — страница кассы). Зимние слова: 立冬 (lìdōng — Начало зимы), 补冬 (bǔdōng — питание перед зимой), 厚衣服 (hòu yīfu — тёплая одежда).", 21.5)
 a.glossline("Счётные слова всё ещё важны: 一件毛衣 (свитер), 一条围巾 (шарф), 一部电影 (фильм).")
 a.ex("A2", "完成句子", "件", "Для свитера счётное слово — jiàn.",
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 时间与日期 · Время и даты", 24)
+b.head("B1　时间与日期　Время и даты", 24)
 b.para("В китайском время идёт от большого к малому: год, месяц, день, день недели, часть дня, час. Примеры из этого номера: 「11月7日星期六17点52分」 (суббота, 7 ноября, 17:52), 「11月10日星期二20点」 (вторник, 10 ноября, 20:00), 「11月15日凌晨3点」 (15 ноября, 3 часа ночи). Самая большая единица первой, ничего не переставлено.", 21.5)
 b.glossline("Так русское «субботний вечер, 7 ноября» становится 11月7日星期六晚上.")
 b.ex("B1", "单选", "B", "língchén — глубокая ночь после полуночи.",
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 读新闻 · Читаем новости", 24)
+c.head("B2　读新闻　Читаем новости", 24)
 c.para("Когда в истории есть утверждение (说法), различайте три вида предложений: утверждения (说法), данные (数据) и рекламу (广告). Пример — страница 6: 「最低价」 — это утверждение, 270元 из учебных корзин — учебные данные, а страница кассы показывает, что вы платите на самом деле.", 21.5)
 c.glossline("Спрашивайте о каждой цене: чьё это число и где оно написано?")
 c.ex("B2", "单选", "C", "zuìdījià — реклама, а не измеренные данные.",
@@ -68,21 +68,21 @@ errs = [
     ("「立冬在星期六十一月七日」", "→ 「立冬在11月7日,星期六。」", "Время: от большого к малому."),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易错诊所 · Клиника ошибок", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易错诊所　Клиника ошибок", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「先看评价,再下单。」(Сначала проверьте отзывы, потом заказывайте.) Конструкция 先…再… задаёт порядок действий. Ещё: 「先看天气,再出门。」"
 wcn = "Сначала X, потом Y."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本周句式 · Конструкция недели", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本周句式　Конструкция недели", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -95,9 +95,9 @@ lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lc
 # an explicit open invitation for real letters); the sans wrap measures
 # Cyrillic with the same SC face, so the height formula above (sans, 20pt)
 # matches the render path. Verified in the build log.
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "读者园地 · Уголок читателей", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "读者园地　Уголок читателей", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -106,8 +106,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本周金句 · Фразы недели (дословно, из статей этого номера)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本周金句　Фразы недели (дословно, из статей этого номера)", 27, "sans", True, OLIVE)
 quotes = [
     ("「不用等11月11日」", "Не нужно ждать 11 ноября.", "Страница 1"),
     ("「下单就能发货」", "Заказал — и уже отправлено.", "Страница 2"),
@@ -127,9 +127,9 @@ for i, (q, en, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 150 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期预告 · На следующей неделе (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "双11当天11月11日星期三,包裹到了吗?S16淘汰赛打完了,谁进了决赛?总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期预告　На следующей неделе (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "双11当天11月11日星期三,包裹到了吗?S16淘汰赛打完了,谁进了决赛?总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-ciyu.svg")

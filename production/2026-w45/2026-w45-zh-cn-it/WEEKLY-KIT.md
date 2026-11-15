@@ -64,12 +64,12 @@
   esercizio — non sono prezzi reali. I calcoli sono nell'articolo qui
   sopra.” P4 has no score chart, for the reason given in the core KIT.
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2.pdf` (46,262,363 bytes, 8 pages,
-  SHA-256 `612959385fedcfd660f0892efe6964007b2aa8a14a5dffafa137b743f05a4efa`),
-  web PDF `Lucerna-VOL2-web.pdf` (3,262,810 bytes, 8 pages, JPEG pages
+  `cards/`, print PDF `Lucerna-VOL2.pdf` (36,060,116 bytes, 8 pages,
+  SHA-256 `b4d64aded34bfc09b3b7e65f7cd5f21487d9bd66f0f1084bb28a57adf625f4c2`),
+  web PDF `Lucerna-VOL2-web.pdf` (2,319,429 bytes, 8 pages, JPEG pages
   q85 @1400 px — under the 10 MB Discord ceiling, though this builder does
   not deliver via Discord),
-  SHA-256 `742c01caaa149105addc903dd08739b3c143a6314c973471a0c934c4bed4b621`.
+  SHA-256 `b83c75f5f2386cd61e462a110aa408158523d309119ae560688dd884cedf9796`.
   (Superseded pre-fix pins, 2026-10-28 fix: print 46,262,380 B /
   `799d95f4…77cc`, web 3,262,614 B / `93e8056d…527d66` — see "Fix record"
   at the end of this KIT.)
@@ -409,3 +409,28 @@ Full log: `hidden_files/weekly-report-w45-zh-cn-it-build/fixlog/FIXLOG.md`
   NEW vs core 0; `p8.py compare` CLEAN 150=150 keydiff []; gloss 10 calls /
   33 items = core; P8 header claim "Tutte le note in italiano" now true
   (distinctive-English-word scan over all 8 new SVGs: NONE on every page).
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 44,289,766 B
+（MANIFEST pin 漂移，见家族报告 §2）；
+p8 抽 150/150；普查拉丁 464（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 G6 occlusion TEXTX ×7 (caron runs)。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-it.pdf` 36,060,116 B，sha256 `b4d64aded34bfc09b3b7e65f7cd5f21487d9bd66f0f1084bb28a57adf625f4c2`；
+网 PDF `2026-w45-zh-cn-it.web.pdf` 2,319,429 B（< 7 MB），sha256 `b83c75f5f2386cd61e462a110aa408158523d309119ae560688dd884cedf9796`；
+text.md `2026-w45-zh-cn-it.text.md` 43,543 B，sha256 `43b50acae92c48ba8842b2be2b807a1e879e49f2d890373e787e431d105d6e13`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 46,262,363 B；网 3,262,810 B
+；印 sha256 `612959385fedcfd660f0892efe6964007b2aa8a14a5dffafa137b743f05a4efa`；网 sha256 `742c01caaa149105addc903dd08739b3c143a6314c973471a0c934c4bed4b621`。
+
+it KIT L398-402 (Change set record): “New PDF pins: print 46,262,363 B, SHA-256 `61295938…`; web 3,262,810 B, SHA-256 `742c01ca…`” — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,319,419 B，sha256 `6402aa316f3b…`）在独立重校重建时被重校 run 的网 PDF（2,319,429 B，sha256 `b83c75f5f238…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

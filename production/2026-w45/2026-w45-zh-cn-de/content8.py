@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 测验与答案 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("测验与答案 · Test & Lösungen", "Lucerna", "第 8 版 · 本周大测验 + 全部答案 · Der Test der Woche und alle Lösungen")
+p.band("测验与答案　Test & Lösungen", "Lucerna", "第8版　本周大测验 + 全部答案　Der Test der Woche und alle Lösungen")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判断对错 · Richtig oder falsch", 21, OLIVE, 5)
+f.head("A　判断对错　Richtig oder falsch", 21, OLIVE, 5)
 f.ex("A2", "完形单选", "A", "Winteranfang ist am 7. Nov.",
      "立冬在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("A2", "完形单选", "B", "立冬 ist der 19. Solarterm, nicht der 18.",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "Der neue Film startet am 7. Nov.",
      "新片《我们仅有一次的人生》11月7日上映。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "B", "Der Journalistentag ist am 8. Nov., nicht am 7.",
      "中国记者节在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
-f.head("B · 本周大测验 · Das große Quiz", 21, OLIVE, 5)
+f.head("B　本周大测验　Das große Quiz", 21, OLIVE, 5)
 f.ex("A2", "单选", "B", "Die Spot-Verkäufe laufen bis zum 13. Nov.",
      "双11 现货一直卖到哪天? A. 11月11日 · B. 11月13日 · C. 10月31日", size=13.8, gap=0)
 f.ex("A2", "单选", "A", "Der Solarterm-Moment ist 17:52 Uhr.",
@@ -50,7 +50,7 @@ f.ex("B1", "单选", "A", "Korb A zahlt nach dem Abzug 270 Yuan.",
      "篮子A实付多少钱? A. 270元 · B. 320元 · C. 240元", size=13.8, gap=0)
 f.ex("B1", "单选", "B", "Finale: 15. Nov., 03:00 Uhr Pekinger Zeit.",
      "总决赛在北京时间哪天? A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点", size=13.8, gap=0)
-f.head("C · 完成句子 · Sätze vervollständigen", 21, OLIVE, 5)
+f.head("C　完成句子　Sätze vervollständigen", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "立冬", "Winteranfang ist am 7. Nov.",
      "11月7日是___。", instr="Ausfüllen", size=13.8, gap=0)
 f.ex("A2", "完成句子", "直降", "zhíjiàng — der Preis selbst sinkt.",
@@ -71,7 +71,7 @@ f.ex("B1", "完成句子", "记者", "jìzhě — Journalist: interviewt, schrei
      "采访和写新闻的人,叫___。", instr="Ausfüllen", size=13.8, gap=0)
 f.ex("B1", "完成句子", "立减", "lìjiǎn — wird an der Kasse abgezogen.",
      "结算时直接减掉的钱叫___。", instr="Ausfüllen", size=13.8, gap=0)
-f.head("D · 读一读,答一答 · Lesen & antworten", 21, OLIVE, 5)
+f.head("D　读一读,答一答　Lesen & antworten", 21, OLIVE, 5)
 f.para("小红住在北京。11月7日星期六是立冬,她早上和妈妈一起包饺子,中午吃了热热的饺子。下午,她在网上买了一条围巾,现货第二天就到了。11月8日星期日,她给奶奶打了电话,问奶奶冷不冷。奶奶说,家里很暖和,让她多穿衣服。", 15, lh=1.3, split=False)
 f.ex("A2", "单选", "A", "Xiao Hong wohnt in Peking.",
      "小红住在哪里? A. 北京 · B. 上海 · C. 广州", size=13.8, gap=0)
@@ -85,14 +85,14 @@ f.ex("B2", "单选", "A", "Reihenfolge: Teigtaschen, dann Einkaufen, dann Anruf.
      "这段话的顺序是什么? A. 先包饺子,再买围巾,再打电话 · B. 先打电话,再包饺子 · C. 先买围巾,再包饺子", size=13.8, gap=0)
 f.ex("B1", "完成句子", "北京", "Xiao Hong wohnt in Peking.",
      "小红住在___。", instr="Ausfüllen", size=13.8, gap=0)
-f.head("E · 情景说话 · Im Gespräch", 21, OLIVE, 5)
+f.head("E　情景说话　Im Gespräch", 21, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "Spot-Ware: sofort versandt, keine Vorverkaufswartezeit.",
      "— 现货几天能到? — 买了就能___,不用等预售。(A. 发货 · B. 退货)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "Nordchinesische Familien essen an 立冬 Teigtaschen.",
      "— 立冬吃什么? — 北方吃___,南方吃法各不同。(A. 饺子 · B. 月饼)", size=13.8, gap=0)
 f.ex("B2", "完形单选", "A", "Regel von Seite 6: erst Daten, dann Werbung.",
      "— 这条新闻说最低价,可信吗? — 先看___,再看广告。(A. 数据 · B. 评论)", size=13.8, gap=0)
-f.head("F · 写一写 · Schreiben", 21, OLIVE, 5)
+f.head("F　写一写　Schreiben", 21, OLIVE, 5)
 MODELO = ("这个周末是立冬。星期六早上,我和妈妈一起包饺子,吃了热热的饺子,身体很暖和。"
           "下午,我去买了一件毛衣,现货第二天就到了。星期日,我给奶奶打了电话,问她冷不冷。"
           "冬天来了,我想多陪陪家人,过一个暖和的冬天。"
@@ -106,13 +106,13 @@ f.para("Mustertext: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · Lösungen — nach Seiten, mit einer Anmerkung zu jeder Antwort", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Alle Anmerkungen auf Deutsch · ✓ = die Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　Lösungen — nach Seiten, mit einer Anmerkung zu jeder Antwort", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Alle Anmerkungen auf Deutsch　✓ = die Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Seite {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

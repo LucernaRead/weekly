@@ -75,8 +75,8 @@ clinic/readers' notes and all 150 P8 answer notes.
   Ladenpreise. Die Rechnungen stehen im Artikel oben.” P4 has no score
   chart, for the reason given in the core KIT.
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2-DE.pdf` (48,987,273 bytes, 8 pages),
-  web PDF `Lucerna-VOL2-DE-web.pdf` (3,241,736 bytes, 8 pages, JPEG
+  `cards/`, print PDF `Lucerna-VOL2-DE.pdf` (36,076,971 bytes, 8 pages),
+  web PDF `Lucerna-VOL2-DE-web.pdf` (2,345,563 bytes, 8 pages, JPEG
   pages q85 @1400 px — under the 10 MB Discord ceiling, though this
   builder does not deliver via Discord).
 - **Phrases of the week (P7):** 8 phrases, each verbatim from this
@@ -473,3 +473,28 @@ This fix closes the Gate 10 provenance gap only. It does NOT
 finalize the edition — a full independent reproof follows, per
 SOP §8.4. `tools/tables.json` was not touched (the P8 separator
 form discrepancy stays recorded only, per the proof).
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 46,626,827 B
+（MANIFEST pin 一致）；
+p8 抽 139/150；普查拉丁 476（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 D37 P1 subhead margin −16.9px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-de.pdf` 36,076,971 B，sha256 `c85be5e151bf342d631611e20477587d851a44786abfdf4470d9b11a22860d82`；
+网 PDF `2026-w45-zh-cn-de.web.pdf` 2,345,563 B（< 7 MB），sha256 `4ae014c6ee098841b2bb46ec46c1d05d5a1b21d8e3137833927f5b12983fcbdc`；
+text.md `2026-w45-zh-cn-de.text.md` 42,848 B，sha256 `3e5fa046a2d6a1642d50e3cb997c37ca546c4261659274337a05d4c828ef4374`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 48,987,273 B；网 3,241,736 B
+。
+
+de KIT L449-451 (pre/post byte-identity record, 2026-10-28 fix): print 48,987,273 B sha256 f5b4a70d…; web 3,241,736 B sha256 56a96518… — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,345,557 B，sha256 `f78ddfd2f717…`）在独立重校重建时被重校 run 的网 PDF（2,345,563 B，sha256 `4ae014c6ee09…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

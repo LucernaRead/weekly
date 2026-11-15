@@ -64,8 +64,8 @@
   equivalent in the article paragraph). P4 has no score chart, for the
   reason given under “Honesty limits” below.
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2.pdf` (44,361,569 bytes, 8 pages),
-  web PDF `Lucerna-VOL2-web.pdf` (3,141,620 bytes, 8 pages, JPEG pages
+  `cards/`, print PDF `Lucerna-VOL2.pdf` (36,099,402 bytes, 8 pages),
+  web PDF `Lucerna-VOL2-web.pdf` (2,356,537 bytes, 8 pages, JPEG pages
   q85 @1400 px — under the 10 MB Discord ceiling, though this builder does
   not deliver via Discord).
 - **Phrases of the week (P7):** 8 phrases, each verbatim from this issue's
@@ -401,3 +401,26 @@ cd ../../tools
   is still owed (separately assigned). No Discord delivery, no main-chat
   card/PDF delivery, no cron, no weekly-git touch was made by this
   finisher.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare n/a — core）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 42,821,540 B
+（MANIFEST pin 一致）；
+p8 抽 139/150；普查拉丁 452（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-en.pdf` 36,099,402 B，sha256 `5faeca4e9b0b0cc099d499146baa2c59ec79aba97d4436bfe07720eaa70835dc`；
+网 PDF `2026-w45-zh-cn-en.web.pdf` 2,356,537 B（< 7 MB），sha256 `0b9dcafe481d624db8c3884a2d05f88f90d5668255948db9b4ef95a5a4fccc64`；
+text.md `2026-w45-zh-cn-en.text.md` 41,332 B，sha256 `e3611423849e5f0f7942a05e2366f65d2dee39e4f9229803e572e9114c0a8f19`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 44,361,569 B；网 3,141,620 B
+。
+
+core KIT L395-396 (port-era rebuild record): print 44,361,569 B (was 44,360,790); web 3,141,620 B — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。

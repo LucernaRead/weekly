@@ -49,11 +49,11 @@
   yuan, i.e. widths 810 / 537 / 480 px, starting at x = 325 — rects and
   label positions/text verified byte-identical to the core SVG.
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2.pdf` (38,103,379 bytes, 8 pages,
-  sha256 `a938d5a679a88bc675d347ab60644fd0bcc41ac7d73c3f4584610843176190c1`),
-  web PDF `Lucerna-VOL2-web.pdf` (3,252,467 bytes, 8 pages, JPEG pages
+  `cards/`, print PDF `Lucerna-VOL2.pdf` (36,280,064 bytes, 8 pages,
+  sha256 `ef7fc00afd36e10dfebbf169e280a471f288680e4a0afed3aef5d37fcd253e5a`),
+  web PDF `Lucerna-VOL2-web.pdf` (2,533,330 bytes, 8 pages, JPEG pages
   q85 @1400 px — under the 10 MB ceiling, sha256
-  `cf7fbef3ebbd30392abbd847250a22464d043db5da150841b98459f9fe7db634`).
+  `5c9bb7dbcfaa9540093c0a6033a9839a9e5d48c14d5747b7c5cce2dea8732998`).
 - **Phrases of the week (P7):** 8 phrases, each verbatim from this issue's
   own articles, with Russian translations and (Страница N) tags:
   「不用等11月11日」 p. 1; 「下单就能发货」 p. 2; 「先看结算页,再付款」 p. 2;
@@ -436,3 +436,28 @@ post-fix
 **Status: FIX DONE, NOT FINALIZED.** A full independent reproof
 follows, per SOP §8.4; nothing is inserted, posted, or declared shipped
 on this record.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="ru"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 36,975,038 B
+（MANIFEST pin 漂移，见家族报告 §2）；
+p8 抽 139/150；普查拉丁 243（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 D37 P1 subhead margin −0.9px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-ru.pdf` 36,280,064 B，sha256 `ef7fc00afd36e10dfebbf169e280a471f288680e4a0afed3aef5d37fcd253e5a`；
+网 PDF `2026-w45-zh-cn-ru.web.pdf` 2,533,330 B（< 7 MB），sha256 `5c9bb7dbcfaa9540093c0a6033a9839a9e5d48c14d5747b7c5cce2dea8732998`；
+text.md `2026-w45-zh-cn-ru.text.md` 51,661 B，sha256 `4b9ff08ba063d2b4325b4f4a310ab58932c8086afa0ae69927c863e1a99e8f04`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 38,103,379 B；网 3,252,467 B
+；印 sha256 `a938d5a679a88bc675d347ab60644fd0bcc41ac7d73c3f4584610843176190c1`；网 sha256 `cf7fbef3ebbd30392abbd847250a22464d043db5da150841b98459f9fe7db634`。
+
+ru KIT L413 (Pre/post byte-identity record): print 38,103,379 B sha256 `a938d5a6…6190c1`, web 3,252,467 B sha256 `cf7fbef3…db634` — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,533,343 B，sha256 `86c2ea652bcb…`）在独立重校重建时被重校 run 的网 PDF（2,533,330 B，sha256 `5c9bb7dbcfaa…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

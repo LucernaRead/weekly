@@ -50,12 +50,12 @@
   in Dutch: "De balken zijn vanaf 0 getekend (3 px = 1 yuan). Alleen
   oefendata — geen echte winkelprijzen."
 - **Files:** 8 SVGs in `svg/`, 8 full-page PNG cards at 1950×2700 in
-  `cards/`, print PDF `Lucerna-VOL2-NL.pdf` (47,427,799 bytes, 8 pages,
-  sha256 `1be5629f53595f761d8648d365a200b19e16266f850ed7c580b2dfab2ccfe1cc`),
-  web PDF `Lucerna-VOL2-NL-web.pdf` (3,208,683 bytes, 8 pages, JPEG pages
+  `cards/`, print PDF `Lucerna-VOL2-NL.pdf` (36,070,750 bytes, 8 pages,
+  sha256 `4f36f5f9eb3cf720de519bbf1c950f89f2f4caa683d8fbb48b034be37535d1d8`),
+  web PDF `Lucerna-VOL2-NL-web.pdf` (2,336,558 bytes, 8 pages, JPEG pages
   q85 @1400 px — under the 10 MB Discord ceiling, though this builder
   does not deliver via Discord; sha256
-  `6b0c0a2582fb8f6cd0483de5a6e3c409122be8048b928f9ecd300ca9ff99a9fd`).
+  `3f147ebd357003aec80e0be900153e1ec0b95203492c468a60f3f682f3bc59e0`).
 - **Phrases of the week (P7):** 8 phrases, each verbatim from this issue's
   own articles and each occurring exactly twice in the final SVGs
   (punctuation-stripped count, article + P7): 「不用等11月11日」 p. 1;
@@ -421,3 +421,28 @@ still follows (this section is a fix record, not finalisation).
   reproduction (freeze does not use `render.py`); recorded here for the
   coordinator. Toolchain this round: `tools/venv/bin/python` Python 3.12.3,
   PIL 13.0.0, CairoSVG 2.9.1.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 46,617,953 B
+（MANIFEST pin 一致）；
+p8 抽 139/150；普查拉丁 465（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 G6 occlusion TEXTX + D37 margin −59.7px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-nl.pdf` 36,070,750 B，sha256 `4f36f5f9eb3cf720de519bbf1c950f89f2f4caa683d8fbb48b034be37535d1d8`；
+网 PDF `2026-w45-zh-cn-nl.web.pdf` 2,336,558 B（< 7 MB），sha256 `3f147ebd357003aec80e0be900153e1ec0b95203492c468a60f3f682f3bc59e0`；
+text.md `2026-w45-zh-cn-nl.text.md` 42,330 B，sha256 `cf676465c4981366472a2764c24dbb404886d44ac9884a05b78fc28e8776fb1b`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 47,427,799 B；网 3,208,683 B
+；印 sha256 `1be5629f53595f761d8648d365a200b19e16266f850ed7c580b2dfab2ccfe1cc`；网 sha256 `6b0c0a2582fb8f6cd0483de5a6e3c409122be8048b928f9ecd300ca9ff99a9fd`。
+
+nl KIT L381-382 (Pre-fix baselines record): print 47,427,799 B `1be5629f…`; web 3,208,683 B `6b0c0a25…` — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,336,563 B，sha256 `31c1a0e53f17…`）在独立重校重建时被重校 run 的网 PDF（2,336,558 B，sha256 `3f147ebd3570…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

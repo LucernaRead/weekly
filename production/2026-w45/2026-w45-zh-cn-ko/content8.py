@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 测验与答案 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("测验与答案 · 시험과 정답", "Lucerna", "第 8 版 · 本周大测验 + 全部答案 · 이번 주 시험과 모든 정답")
+p.band("测验与答案　시험과 정답", "Lucerna", "第8版　本周大测验 + 全部答案　이번 주 시험과 모든 정답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判断对错 · 참·거짓", 21, OLIVE, 5)
+f.head("A　判断对错　참　거짓", 21, OLIVE, 5)
 f.ex("A2", "完形单选", "A", "입동은 11월 7일이에요.",
      "立冬在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("A2", "完形单选", "B", "立冬은 18번째가 아니라 19번째 절기예요.",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "새 영화는 11월 7일에 개봉해요.",
      "新片《我们仅有一次的人生》11月7日上映。(A. 对 · B. 错)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "B", "기자절은 11월 7일이 아니라 11월 8일이에요.",
      "中国记者节在11月7日。(A. 对 · B. 错)", size=13.8, gap=0)
-f.head("B · 本周大测验 · 종합 퀴즈", 21, OLIVE, 5)
+f.head("B　本周大测验　종합 퀴즈", 21, OLIVE, 5)
 f.ex("A2", "单选", "B", "현물 판매는 11월 13일까지 계속돼요.",
      "双11 现货一直卖到哪天? A. 11月11日 · B. 11月13日 · C. 10月31日", size=13.8, gap=0)
 f.ex("A2", "单选", "A", "절기 시각은 17:52예요.",
@@ -50,7 +50,7 @@ f.ex("B1", "单选", "A", "장바구니 A는 인하 후 270위안을 내요.",
      "篮子A实付多少钱? A. 270元 · B. 320元 · C. 240元", size=13.8, gap=0)
 f.ex("B1", "单选", "B", "결승은 11월 15일 베이징 시간 03:00에 시작해요.",
      "总决赛在北京时间哪天? A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点", size=13.8, gap=0)
-f.head("C · 完成句子 · 문장 완성", 21, OLIVE, 5)
+f.head("C　完成句子　문장 완성", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "立冬", "입동은 11월 7일이에요.",
      "11月7日是___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("A2", "完成句子", "直降", "zhíjiàng — 가격 자체가 내려가요.",
@@ -71,7 +71,7 @@ f.ex("B1", "完成句子", "记者", "jìzhě — 기자는 인터뷰하고 뉴�
      "采访和写新闻的人,叫___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("B1", "完成句子", "立减", "lìjiǎn — 결제할 때 깎여요.",
      "结算时直接减掉的钱叫___。", instr="빈칸 채우기", size=13.8, gap=0)
-f.head("D · 读一读,答一答 · 읽고 답하기", 21, OLIVE, 5)
+f.head("D　读一读,答一答　읽고 답하기", 21, OLIVE, 5)
 f.para("小红住在北京。11月7日星期六是立冬,她早上和妈妈一起包饺子,中午吃了热热的饺子。下午,她在网上买了一条围巾,现货第二天就到了。11月8日星期日,她给奶奶打了电话,问奶奶冷不冷。奶奶说,家里很暖和,让她多穿衣服。", 15, lh=1.3, split=False)
 f.ex("A2", "单选", "A", "샤오훙은 베이징에 살아요.",
      "小红住在哪里? A. 北京 · B. 上海 · C. 广州", size=13.8, gap=0)
@@ -85,14 +85,14 @@ f.ex("B2", "单选", "A", "순서: 만두 빚기, 그다음 쇼핑, 그다음 �
      "这段话的顺序是什么? A. 先包饺子,再买围巾,再打电话 · B. 先打电话,再包饺子 · C. 先买围巾,再包饺子", size=13.8, gap=0)
 f.ex("B1", "完成句子", "北京", "샤오훙은 베이징에 살아요.",
      "小红住在___。", instr="빈칸 채우기", size=13.8, gap=0)
-f.head("E · 情景说话 · 대화 상황", 21, OLIVE, 5)
+f.head("E　情景说话　대화 상황", 21, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "현물 상품은 바로 발송돼요, 예약 판매를 기다릴 필요가 없어요.",
      "— 现货几天能到? — 买了就能___,不用等预售。(A. 发货 · B. 退货)", size=13.8, gap=0)
 f.ex("B1", "完形单选", "A", "북방 가정은 立冬에 만두를 먹어요.",
      "— 立冬吃什么? — 北方吃___,南方吃法各不同。(A. 饺子 · B. 月饼)", size=13.8, gap=0)
 f.ex("B2", "完形单选", "A", "6면의 규칙: 데이터가 먼저, 광고가 나중에.",
      "— 这条新闻说最低价,可信吗? — 先看___,再看广告。(A. 数据 · B. 评论)", size=13.8, gap=0)
-f.head("F · 写一写 · 써 보기", 21, OLIVE, 5)
+f.head("F　写一写　써 보기", 21, OLIVE, 5)
 MODELO = ("这个周末是立冬。星期六早上,我和妈妈一起包饺子,吃了热热的饺子,身体很暖和。"
           "下午,我去买了一件毛衣,现货第二天就到了。星期日,我给奶奶打了电话,问她冷不冷。"
           "冬天来了,我想多陪陪家人,过一个暖和的冬天。"
@@ -106,13 +106,13 @@ f.para("모델 답안: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · 모든 정답과 해설 (1–8면)", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "해설은 모두 한국어 · ✓ = 쓰기 과제", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　모든 정답과 해설 (1–8면)", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "해설은 모두 한국어　✓ = 쓰기 과제", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— 제 {pg} 면 —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

@@ -41,10 +41,10 @@ weekly repo, or main chat.
 
 ## 2. Measured quantities (this edition, measured — not copied)
 
-- Print PDF: 8 pages, 41,688,105 bytes,
-  SHA-256 `239fc08d022d90481a80a7f7bfc1da23f31916e62f3838af0b64421b1083f32c`
-- Web PDF: 8 pages, 3,118,383 bytes (<10 MB),
-  SHA-256 `d783b566028a6c43e90b2b2dc95ae9d657791f4ceea4c5dffd89760764a7df5d`
+- Print PDF: 8 pages, 39,301,074 bytes,
+  SHA-256 `9fb681a0783f38e9d73ca8a46eb7a2efc03a562afd155b81cbc85ef538ee13a3`
+- Web PDF: 8 pages, 2,827,176 bytes (<7 MB),
+  SHA-256 `7fa68f4b71cffdeb82d7c751eab256203b1b7ea5f58fcde265270d15425263d0`
 - Cards: 8 PNG, each 1950×2700 (verified with Pillow).
 - Visible text extracted from the 8 shipped SVGs (`<text>` node strings):
   18,130 characters without whitespace / 19,948 with whitespace, per page
@@ -385,3 +385,24 @@ A/B/C/D/E/F exercise heads (読んで選ぼう / 単語を入れよう / ペア�
   second-confirmed by direct search.
 - If the coordinator's proof changes any note text, the change must go
   through source + a full one-process re-render, never a patched SVG.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="cjk"`（variant JP），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 41,326,311 B
+（MANIFEST pin 一致）；
+p8 抽 150/150；普查拉丁 249（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-ja.pdf` 39,301,074 B，sha256 `9fb681a0783f38e9d73ca8a46eb7a2efc03a562afd155b81cbc85ef538ee13a3`；
+网 PDF `2026-w45-zh-cn-ja.web.pdf` 2,827,176 B（< 7 MB），sha256 `7fa68f4b71cffdeb82d7c751eab256203b1b7ea5f58fcde265270d15425263d0`；
+text.md `2026-w45-zh-cn-ja.text.md` 45,068 B，sha256 `75336505b089205a2e512f7e0541254cb5c08c303c2467f69759ada28a1e0f80`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 41,688,105 B；网 3,118,383 B
+；印 sha256 `239fc08d022d90481a80a7f7bfc1da23f31916e62f3838af0b64421b1083f32c`；网 sha256 `d783b566028a6c43e90b2b2dc95ae9d657791f4ceea4c5dffd89760764a7df5d`。
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。

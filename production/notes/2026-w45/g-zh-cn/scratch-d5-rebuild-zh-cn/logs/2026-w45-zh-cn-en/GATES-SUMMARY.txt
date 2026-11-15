@@ -1,0 +1,22 @@
+W45 zh-cn 2026-w45-zh-cn-en gates summary
+G1 run: PASS — rc=0 TOTAL=150 FLOW=0 HEAD=0 ALL-DONE=True
+G2 head_check: PASS — rc=0 defects=0
+G3 d5_census: PASS — rc=0 lat=0 cyr=0 curly_cjk=0 noto_sans_elements=0
+G4 render: PASS — rc=0 print=36099402 B sha=5faeca4e9b0b
+G5 webpdf: PASS — rc=0 web=2356537 B (<7MB) sha=0b9dcafe481d
+G6 occlusion: PASS — selftest rc=0 audit rc=0 flags=0
+G7 p8 extract: PASS — extracted 150/150 missing=[]
+G8 p8 compare: PASS — exit=0 status=CLEAN missing=[] extra=[] keydiff=[]
+G9 freeze: PASS — baseline 8/8 rc=0 diff rc=0 added-CJK=0
+G10 spill_sweep: PASS — rc=0 SPILL=0
+G11 boxtitle: PASS — rc=0 DEFECT=0
+G12 pdf_edge: PASS — rc=0 TOUCH=0 NEAR=0
+G13 creambox: PASS — rc=0 CREAMBOX PASS 0 defects
+G14 text layer: PASS — print chars=78394 web chars=78394 multiset diff=0
+G15a text.md: PASS — patched textexp BYTE-IDENTICAL vs baseline export
+G15b verify_textmd: RECORDED — patched rc=1 residual SVG/MD=240/2642 | baseline-control rc=1 residual SVG/MD=226/2512 (D27 calibration gap)
+G15c native verify: PASS — rc=0 UNEXPECTED=0 ADOPT: 0 UNEXPECTED
+G16 census_quotes: PASS — rc=0 defective=0
+D18 masthead: PASS — gaps=[553.3, 400.1]
+D37 P1 subhead: PASS — right_edge=1411.1 box_left=1439.5 margin=28.4
+ALL-GREEN

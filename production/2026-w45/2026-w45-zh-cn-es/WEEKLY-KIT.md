@@ -320,8 +320,8 @@ honesty limits, is in the core KIT
 |---|---|---|
 | `svg/` ×8 | — | (baseline hashes in §4 for the pre-edit run) |
 | `cards/` ×8 (1950×2700 PNG) | — | — |
-| `Lucerna-VOL2-ES.pdf` (print, 8 pp) | 50,133,157 | e53d52040d1990edbb3c89aa6a3e0fc29d83c9325de75e3f1f65aed911543c46 |
-| `Lucerna-VOL2-ES-web.pdf` (web, 8 pp, JPEG q85 @1400 px) | 3,242,033 (< 10 MB) | 0ee7547e5d24a835cb349a4037fa94adf279c3350b73a26dacb414609baa573c |
+| `Lucerna-VOL2-ES.pdf` (print, 8 pp) | 36,067,980 | 0bab5e9457e751d3bbe7746321f55f0b195c35493f828231bb6f78ef38891e66 |
+| `Lucerna-VOL2-ES-web.pdf` (web, 8 pp, JPEG q85 @1400 px) | 2,327,289 (< 7 MB) | 1732e62a4d3bb8be0a3bcaafe86af17419d0a38b095642fc35953f92dc93bdf7 |
 | `WEEKLY-KIT.md` (this file) | — | — |
 | `ABSTRACT.txt` (Spanish, single line, no ASCII double quotes) | — | — |
 
@@ -498,3 +498,29 @@ scratch: `hidden_files/w45/zh-cn-es-fix/work/microfix/` (gate10b).
   main-chat delivery, cron, or subagent activity.
 - **Status:** MICRO-FIX ROUND 2 DONE, NOT finalized — a full
   independent reproof follows per SOP §8.4.
+
+## D5 重建记录 (2026-11-14)
+
+D5 + §1.1 合并重建 + D3 canonical p8 切换（builder：subagent，2026-11-14；待独立重校 + closer 落仓）。
+安装：hand-port（`scripts/d5_port_zhcn.py`，installer 在 face= 引擎上 FATAL，见家族报告 §1），
+`_D5_READER="latin"`（variant SC），routing test FAILURES: 0，fix2 保留。
+Canonical：fanout svglib 重打 canonical §2a（`apply_canon.py`；fr/it/ru 用 caron-preserving 变体，
+见家族报告 §4）；canon-only 验收 10/10 抽 150/150、compare exit 0（本版：150/150，
+compare CLEAN）。
+基线（修前）：run TOTAL 150 / FLOW 0 / HEAD 0；印 PDF 47,359,098 B
+（MANIFEST pin 一致）；
+p8 抽 139/150；普查拉丁 472（修前 >0）。
+门禁（run2）：ALL-GREEN（16 门 + D18 + D37）。run1 缺陷与修法见家族报告 §6；本版 run1：
+F0 G12 pdf_edge BLOCKED (rc=2)；F1 G6 occlusion TEXTX + D37 margin −46.5px。
+新交付物（run2，builder 原件）：印 PDF `2026-w45-zh-cn-es.pdf` 36,067,980 B，sha256 `0bab5e9457e751d3bbe7746321f55f0b195c35493f828231bb6f78ef38891e66`；
+网 PDF `2026-w45-zh-cn-es.web.pdf` 2,327,289 B（< 7 MB），sha256 `1732e62a4d3bb8be0a3bcaafe86af17419d0a38b095642fc35953f92dc93bdf7`；
+text.md `2026-w45-zh-cn-es.text.md` 43,358 B，sha256 `bc74ef6b4e81c689715a279b5b938501e02b1e52cbc7c0910c54a245f183d83a`（导出器新建，15a 与基线导出逐字节一致）。
+D5 前值（port-era pin）：印 50,133,157 B；网 3,242,033 B
+；印 sha256 `e53d52040d1990edbb3c89aa6a3e0fc29d83c9325de75e3f1f65aed911543c46`；网 sha256 `0ee7547e5d24a835cb349a4037fa94adf279c3350b73a26dacb414609baa573c`。
+
+
+es KIT L408-411 (Gate 10 fix record): “all 18 delivered files … byte-identical to their pre-fix hashes (print PDF 50,133,157 B, web PDF 3,242,033 B, SHAs unchanged)” — historical, unchanged.
+
+注意：本 KIT 内 dated fix-log 记录保留 port-era 数值（历史测量，非当前 pin）；当前 pin 以本节为准。
+
+Closer 补记（2026-11-15）：网 PDF pin 已按发货文件重测——builder run2 原件（2,327,277 B，sha256 `3910a91d1819…`）在独立重校重建时被重校 run 的网 PDF（2,327,289 B，sha256 `1732e62a4d3b…`）覆盖，全仓 SHA 扫查证实 builder 原件无其他副本；重校 run 10/10 ALL-GREEN，印/网文字层多重集差 0，内容逐字相同，仅 fontTools 跨次字节漂移。印 PDF 与 text.md pin 不变。

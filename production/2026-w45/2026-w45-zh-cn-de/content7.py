@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 词语精讲 =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("词语 · Sprachfokus", "Lucerna", "语言聚焦 · 三个级别,三个主题 · Drei Niveaus, drei Themen")
+p.band("词语　Sprachfokus", "Lucerna", "语言聚焦　三个级别,三个主题　Drei Niveaus, drei Themen")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 双11与冬天 · Einkaufen", 24)
+a.head("A2　双11与冬天　Einkaufen", 24)
 a.para("Einkaufswörter dieser Woche: 现货 (xiànhuò, auf Lager), 直降 (zhíjiàng, eine direkte Senkung), 立减 (lìjiǎn, Abzug an der Kasse), 结算页 (jiésuàn yè, die Kassenseite). Winterwörter: 立冬 (lìdōng, Winteranfang), 补冬 (bǔdōng, vor dem Winter gut essen), 厚衣服 (hòu yīfu, warme Kleidung).", 21.5)
 a.glossline("Zählwörter zählen weiterhin: 一件毛衣 (ein Pullover), 一条围巾 (ein Schal), 一部电影 (ein Film).")
 a.ex("A2", "完成句子", "件", "毛衣 nimmt das Zählwort 件 jiàn.",
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 时间与日期 · Zeit & Daten", 24)
+b.head("B1　时间与日期　Zeit & Daten", 24)
 b.para("Chinesisch ordnet Zeiten groß → klein: Jahr, Monat, Tag, Wochentag, Tageszeit, Stunde. Beispiele aus dieser Ausgabe: 「11月7日星期六17点52分」 (Sa., 7. Nov., 17:52 Uhr), 「11月10日星期二20点」 (Di., 10. Nov., 20:00 Uhr), 「11月15日凌晨3点」 (15. Nov., 3 Uhr nachts). Die größte Einheit zuerst, nichts in falscher Reihenfolge.", 21.5)
 b.glossline("So wird aus „Samstagabend, 7. November“ 11月7日星期六晚上.")
 b.ex("B1", "单选", "B", "凌晨 língchén — die kleinen Stunden nach Mitternacht.",
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 读新闻 · Nachrichten lesen", 24)
+c.head("B2　读新闻　Nachrichten lesen", 24)
 c.para("Wenn eine Geschichte eine Behauptung (说法) enthält, trennen Sie drei Arten von Sätzen: Behauptungen (说法), Daten (数据) und Werbung (广告). Seite 6 ist das Beispiel: 「最低价」 ist eine Behauptung, die 270元 der Übungskörbe sind Übungsdaten, und die Kassenseite zeigt, was Sie wirklich zahlen.", 21.5)
 c.glossline("Fragen Sie bei jedem Preis: Wessen Zahl ist das, und wo steht sie?")
 c.ex("B2", "单选", "C", "「最低价」 ist Werbung, keine gemessenen Daten.",
@@ -68,21 +68,21 @@ errs = [
     ("「立冬在星期六十一月七日」", "→ 「立冬在11月7日,星期六。」", "Zeiten: groß → klein, Wochentag zuletzt."),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易错诊所 · Fehlerklinik", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易错诊所　Fehlerklinik", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「先看评价,再下单。」(Erst prüfen, dann bestellen.) 先…再… gibt die Reihenfolge an. Mehr: 「先看天气,再出门。」"
 wcn = "Muster: 先 … 再 … — erst X, dann Y."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本周句式 · Satzmuster", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本周句式　Satzmuster", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -93,9 +93,9 @@ lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lc
 # NOTE: the disclosure above mixes Chinese and English in one string; the
 # sans wrap measures CJK and Latin with the same SC face, so the height
 # formula above (sans, 20pt) matches the render path. Verified in the build log.
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "读者园地 · Leserecke", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "读者园地　Leserecke", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -104,8 +104,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本周金句 · Sätze der Woche (wörtlich, aus den Artikeln dieser Ausgabe)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本周金句　Sätze der Woche (wörtlich, aus den Artikeln dieser Ausgabe)", 27, "sans", True, OLIVE)
 quotes = [
     ("「不用等11月11日」", "Man muss nicht bis zum 11. Nov. warten.", "S. 1"),
     ("「下单就能发货」", "Bestellen — und es wird versandt.", "S. 2"),
@@ -125,9 +125,9 @@ for i, (q, en, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 150 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期预告 · Nächste Woche (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "双11当天11月11日星期三,包裹到了吗?S16淘汰赛打完了,谁进了决赛?总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期预告　Nächste Woche (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "双11当天11月11日星期三,包裹到了吗?S16淘汰赛打完了,谁进了决赛?总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-ciyu.svg")
