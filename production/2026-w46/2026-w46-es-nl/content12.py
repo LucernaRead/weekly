@@ -23,7 +23,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 37, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "DE CAMPAGNE BEGINT VRIJDAG 13　STAKING WOENSDAG 11", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Hoofdverhaal　zie pagina 2 en 6", 18, "sans", False, GOOSE, anchor="end")
@@ -89,7 +89,7 @@ p.text(gx + 22, byy + 102, "Vijf sleutels — geen verzonnen cijfers.", 19, "san
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 22.5, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El miércoles 11, huelga", "A2"),
     ("Pág. 3", "San Martín y el otoño", "A2→B1"),

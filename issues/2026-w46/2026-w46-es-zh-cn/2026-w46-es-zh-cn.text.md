@@ -82,13 +82,11 @@ Lucerna en español: cada semana, la
 
 España real contigo. ¡Bienvenidos!
 
-讲解｜la huelga general 大罢工 · la
+讲解｜la huelga general 大罢工 · la campaña
 
-campaña electoral 竞选活动 · el voto por
+electoral 竞选活动 · el voto por correo 邮寄投
 
-correo 邮寄投票 · la jornada de reflexión 投
-
-票前静默日。
+票 · la jornada de reflexión 投票前静默日。
 
 LA SEMANA EN CIFRAS　数字看本周
 
@@ -453,9 +451,9 @@ primero», es «el uno»: el 1 de
 
 noviembre.
 
-译注｜la huelga 罢工 · el sindicato 工会
+译注｜la huelga 罢工 · el sindicato 工会 ·
 
-· el salario 工资 · el alquiler 租金 · los
+el salario 工资 · el alquiler 租金 · los
 
 servicios mínimos 最低服务保障。
 
@@ -493,11 +491,11 @@ salen en la página 7, «Cartas de los
 
 lectores».
 
-11 月 11 日周三你做什么：罢工、上班还是
+11 月 11 日周三你做什么：罢工、上班还
 
-待在家里？你最担心什么：工资、住房还
+是待在家里？你最担心什么：工资、住房
 
-是物价？写两句西班牙语寄给编辑部。
+还是物价？写两句西班牙语寄给编辑部。
 
 LOS DÍAS DE LA SEMANA　这样说日期
 
@@ -766,9 +764,9 @@ nuevo en la mesa. Tres fiestas, una
 
 misma tarde de otoño.
 
-译注｜la capa 斗篷 · el mendigo 乞丐 ·
+译注｜la capa 斗篷 · el mendigo 乞丐 · el
 
-el veranillo 小阳春 · la gaita 风笛 · el
+veranillo 小阳春 · la gaita 风笛 · el
 
 magosto 栗子节。
 
@@ -822,9 +820,9 @@ Martín en tu país? Escribe dos frases
 
 en español.
 
-你吃过烤栗子吗？你的国家有“小阳春”
+你吃过烤栗子吗？你的国家有“小阳春”吗？
 
-吗？写两句寄来。
+写两句寄来。
 
 EJERCICIOS　第3版练习
 
@@ -888,9 +886,7 @@ B　PALABRAS DEL TEXTO
 
 用方框里的词填空。
 
-capa · mendigo · castañas · gaita ·
-
-veranillo
+capa · mendigo · castañas · gaita · veranillo
 
 A2
 
@@ -1079,11 +1075,9 @@ para: cambia de camiseta.
 
 译注｜la fase de grupos 小组赛 · el
 
-seleccionador 国家队主教练 · la lista 征
+seleccionador 国家队主教练 · la lista 征召
 
-召名单 · la plaza 名额 · el amistoso 友
-
-谊赛。
+名单 · la plaza 名额 · el amistoso 友谊赛。
 
 EL DOMINGO 8, DOS CITAS
 
@@ -1426,11 +1420,11 @@ Infamia》上线）
 
 牙对英格兰）
 
-译注｜el sobre 信封 · la papeleta 选票
+译注｜el sobre 信封 · la papeleta 选票 · el
 
-· el censo 选民名册 · la jornada de
+censo 选民名册 · la jornada de reflexión
 
-reflexión 投票前静默日。
+投票前静默日。
 
 INFAMIA
 
@@ -2284,9 +2278,9 @@ promesa pasa al VOL.4.
 
 读者来信与第 8 版最佳作文，故本期登载
 
-编辑部示例信，承诺顺延至 VOL.4。欢迎来
+编辑部示例信，承诺顺延至 VOL.4。欢迎
 
-信！
+来信！
 
 FRASES DE LA SEMANA　本周金句（逐字摘自本期文章）
 

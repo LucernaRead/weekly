@@ -8,7 +8,7 @@ Build dir: `hidden_files/weekly-report-w46-es-ru-build/` (copy of the W46 core b
 
 150 exercises — A2 50 · B1 72 · B2 28. By page: 10/18/18/18/18/18/12/38.
 8 pages, 1950×2700. Final build log: zero FLOW OVERFLOW / zero HEAD TOO WIDE.
-Print PDF `La-Lucerna-VOL3-RU.pdf` 4,602,049 B; web PDF `La-Lucerna-VOL3-RU-web.pdf` 557,986 B (<7 MB), text layer 54,733 B via `pdftotext`, byte-identical to the print PDF's text.
+Print PDF `La-Lucerna-VOL3-es-ru.pdf` 3,776,995 B; web PDF `2026-w46-es-ru.web.pdf` 664,679 B (<7 MB), text layer 54,419 B via `pdftotext`, byte-identical to the print PDF's text.
 `.text.md` exported from this edition's own SVG text layer (never from PDF).
 
 ## 2. Furniture (W45 ES×RU KIT §2, VOL.1→VOL.3 only)
@@ -55,3 +55,15 @@ As in the core: 13 Nov campaign start and 29 Nov vote lead the issue; the unveri
 ## 7. Reproduction
 
 `python3 hidden_files/w46/build_one.py ru t_ru` (copies the fixed core build, applies `t_ru.py` + `t_ru2.py`, runs `run.py`, renders via `tools/venv`, gates freeze/p8/occlusion). Gate outputs: `hidden_files/w46/es-ru-diff.json`, `es-ru-p8-compare.json`, `es-ru-occlusion.json`, `es-ru-build.log`; gate record in `hidden_files/w46/es-gates.log`. Independent proofread (§8.4 SOP) still outstanding — do not claim finalisation.
+
+## D5 rebuild (2026-11-15)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target es --reader ru --week 2026-w46` (`--check` dry-run clean first). Mode ru (old branch, D26); `_D5_READER = "ru"`. Routing test `test_d5_routing.py` FAILURES: 0. fix2 retained (`_QUOTE_CLS` x4).
+- Pre-fix census (baseline build): D5 Latin-in-CJK 345, D5 Cyrillic-in-CJK 253, curly-in-CJK 0, curly total 0 (all Newsreader). Run2 census: Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly total 0 all Newsreader; Noto Sans 789 (ru Cyrillic correctly in Noto Sans, D26 old branch).
+- run1 gates 17/19; run1 -> run2 fixes (font-size reduction only, no copy changes):
+- `content12.py:71` — P1 guide 19 -> 18 (margin 5.8px)
+- run2 gates 19/19 ALL-GREEN. G8 CLEAN (core-es P8 compare; keydiff [137, 138]). G10 CJK added 1 (P6 U+3000 run-split, as W45 es); Latin added 165 (run-split). G12 26 titles, 376 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal. G14 0 defects; P8 234 rows, slack 42.7px. G15a text-layer diff 0; text.md DIFF 94 lines, native verifier ADOPT (REWRAP 22, 0 UNEXPECTED). G15b CARRYOVER FAIL svg=5491 md=6883 (record-only, D27).
+- D18 gap 150.0px; D37 N/A (no badge line in the box zone; strapline y=372 above box top 588); D39(4) P7 band bottom vs footer 2596: -6.8px.
+- Old (baseline build) print `La-Lucerna-VOL3-es-ru.pdf` 4,111,508 B SHA256 `fb75fd94164845c1b922f5f8544eb56d00e26cb16f7ebb249e288e33ae9a5e4e`; web 543,432 B SHA256 `868a3ab3898ce1633dcd2f30be09ef7186659ed34e142ae6ae34d21452b1ab4c`.
+- New (run2) print `La-Lucerna-VOL3-es-ru.pdf` 3,776,995 B SHA256 `90665b4d609dc9d478d22c10678053adce89d0b9e6837feb06e6b421b660f0e8`; web `2026-w46-es-ru.web.pdf` 664,679 B SHA256 `3c0e1155dbf7f93ff2f3ca2852c14e058776b7e79eee8caaaa3d3ccc48abcf57`; text.md 54,065 B SHA256 `1659e089e12b78806eb28fad85b25259bf599d8099b1a25475a662d22b64f90c` (textexp output, `logs/2026-w46-es-ru/2026-w46-es-ru.text.md.run2`; the `<slug>.text.md` in the edition dir is the stale 2026-11-06 fanout artifact — do NOT sync it).
+- Logs: `logs/2026-w46-es-ru/GATES-SUMMARY.txt` (run2), `logs/2026-w46-es-ru/g*-run2.log`, `logs/2026-w46-es-ru/census-run2.json`, `logs/2026-w46-es-ru/freeze-diff-run2.json`. D5 report: `notes/g-es/scratch-d5-rebuild-es/2026-w46-es-ru-D5-REPORT.md`.

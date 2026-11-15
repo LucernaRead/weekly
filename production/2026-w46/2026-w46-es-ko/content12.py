@@ -47,7 +47,7 @@ f.box("LA SEMANA EN CIFRAS　이번 주 숫자", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29 (29일 선거까지 20일 남았어요)", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre (11월 11일, 총파업 24시간이에요)", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre (CIS 주택 지표, 10월이에요)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　바로 연습해요", 25)
 f.ex("A2", "문장 완성", "13", "선거 운동은 11월 13일 금요일에 시작해요",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)

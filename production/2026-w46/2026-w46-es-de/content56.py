@@ -19,7 +19,7 @@ f.para("No hace falta ir al colegio electoral para votar: el voto por correo lle
 f.para("El voto por correo se pide desde la convocatoria y hasta el jueves 19 de noviembre, en cualquier oficina de Correos o por internet, en la web de Correos. La Oficina del Censo Electoral envía la documentación a la dirección indicada a partir del lunes 9 de noviembre. Después, votas en casa, con calma, y envías el sobre.")
 f.para("Y si prefieres votar en persona, el domingo 29 los colegios electorales abren de 9:00 a 20:00, con tu documento de identidad. El sábado 28, jornada de reflexión, no hay propaganda ni actos de campaña: un día de silencio antes de votar.")
 f.para("Y el viernes 13, la otra cita de la semana joven: llega a HBO Max «Infamia», un thriller español de seis episodios con Susana Abaitua, que adapta la novela de la escritora gallega Ledicia Costas. La serie tuvo su estreno mundial en el festival de series de Cádiz.")
-f.box("EL PLAN DE LA SEMANA　Wochenplan", tsize=20, paras=[
+f.box("EL PLAN DE LA SEMANA　Wochenplan", tsize=19.5, paras=[
     ("1. El lunes 9: llega la documentación del voto por correo a casa (Montag: Briefwahl-Unterlagen werden verschickt)", "serif", False, INK, 21, 1.36),
     ("2. El miércoles 11: huelga general de 24 horas (Mittwoch: 24 Stunden Generalstreik)", "serif", False, INK, 21, 1.36),
     ("3. El jueves 12: Chequia–España, 20:45, en Praga (Donnerstagabend: Tschechien gegen Spanien)", "serif", False, INK, 21, 1.36),

@@ -82,13 +82,11 @@ Lucerna en español: cada semana, la
 
 España real contigo. ¡Bienvenidos!
 
-譯注｜la huelga general 大罷工 · la
+譯注｜la huelga general 大罷工 · la campaña
 
-campaña electoral 競選活動 · el voto por
+electoral 競選活動 · el voto por correo 郵寄投
 
-correo 郵寄投票 · la jornada de reflexión 投
-
-票前靜默日。
+票 · la jornada de reflexión 投票前靜默日。
 
 LA SEMANA EN CIFRAS　數字看本週
 
@@ -453,9 +451,9 @@ primero», es «el uno»: el 1 de
 
 noviembre.
 
-譯注｜la huelga 罷工 · el sindicato 工會
+譯注｜la huelga 罷工 · el sindicato 工會 ·
 
-· el salario 工資 · el alquiler 租金 · los
+el salario 工資 · el alquiler 租金 · los
 
 servicios mínimos 最低服務保障。
 
@@ -493,11 +491,11 @@ salen en la página 7, «Cartas de los
 
 lectores».
 
-11 月 11 日週三你做什麼：罷工、上班還是
+11 月 11 日週三你做什麼：罷工、上班還
 
-待在家裡？你最擔心什麼：工資、住房還
+是待在家裡？你最擔心什麼：工資、住房
 
-是物價？寫兩句西班牙語寄給編輯部。
+還是物價？寫兩句西班牙語寄給編輯部。
 
 LOS DÍAS DE LA SEMANA　這樣說日期
 
@@ -766,9 +764,9 @@ nuevo en la mesa. Tres fiestas, una
 
 misma tarde de otoño.
 
-譯注｜la capa 斗篷 · el mendigo 乞丐 ·
+譯注｜la capa 斗篷 · el mendigo 乞丐 · el
 
-el veranillo 小陽春 · la gaita 風笛 · el
+veranillo 小陽春 · la gaita 風笛 · el
 
 magosto 栗子節。
 
@@ -888,9 +886,7 @@ B　PALABRAS DEL TEXTO
 
 用方框裡的詞填空。
 
-capa · mendigo · castañas · gaita ·
-
-veranillo
+capa · mendigo · castañas · gaita · veranillo
 
 A2
 
@@ -1079,11 +1075,9 @@ para: cambia de camiseta.
 
 譯注｜la fase de grupos 小組賽 · el
 
-seleccionador 國家隊主教練 · la lista 徵
+seleccionador 國家隊主教練 · la lista 徵召
 
-召名單 · la plaza 名額 · el amistoso 友
-
-誼賽。
+名單 · la plaza 名額 · el amistoso 友誼賽。
 
 EL DOMINGO 8, DOS CITAS
 
@@ -1426,11 +1420,11 @@ Infamia》上線）
 
 牙對英格蘭）
 
-譯注｜el sobre 信封 · la papeleta 選票
+譯注｜el sobre 信封 · la papeleta 選票 · el
 
-· el censo 選民名冊 · la jornada de
+censo 選民名冊 · la jornada de reflexión
 
-reflexión 投票前靜默日。
+投票前靜默日。
 
 INFAMIA
 
@@ -2284,9 +2278,9 @@ promesa pasa al VOL.4.
 
 讀者來信與第 8 版最佳作文，故本期登載
 
-編輯部示例信，承諾順延至 VOL.4。歡迎來
+編輯部示例信，承諾順延至 VOL.4。歡迎
 
-信！
+來信！
 
 FRASES DE LA SEMANA　本週金句（逐字摘自本期文章）
 

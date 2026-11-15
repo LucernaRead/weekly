@@ -24,7 +24,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 40, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "WAHLKAMPF AB FREITAG, 13.　GENERALSTREIK MI., 11.", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "TITELTHEMA　SEITEN 2 UND 6", 18, "sans", False, GOOSE, anchor="end")
@@ -47,7 +47,7 @@ f.box("LA SEMANA EN CIFRAS　ZAHLEN", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29 (20 Tage bis zur Wahl)", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre (der Streik am 11. November dauert 24 Stunden)", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre (CIS-Wohnungsbarometer, Oktober)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("AHORA TÚ　DU BIST DRAN", 25)
 f.ex("A2", "完成句子", "13", "Der Wahlkampf beginnt am Freitag, 13. November",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)

@@ -8,7 +8,7 @@ Build dir: `hidden_files/weekly-report-w46-es-ko-build/` (copy of the W46 core b
 
 150 exercises — A2 50 · B1 72 · B2 28. By page: 10/18/18/18/18/18/12/38.
 8 pages, 1950×2700. Final build log: zero FLOW OVERFLOW / zero HEAD TOO WIDE.
-Print PDF `La-Lucerna-VOL3-KO.pdf` 9,348,939 B (CJK font embedding); web PDF `La-Lucerna-VOL3-KO-web.pdf` 853,808 B (<7 MB), text layer 48,417 B via `pdftotext`, byte-identical to the print PDF's text.
+Print PDF `La-Lucerna-VOL3-es-ko.pdf` 5,299,605 B; web PDF `2026-w46-es-ko.web.pdf` 680,397 B (<7 MB), text layer 48,127 B via `pdftotext`, byte-identical to the print PDF's text.
 `.text.md` exported from this edition's own SVG text layer (never from PDF).
 
 ## 2. Furniture (W45 ES×KO KIT §§4–5, VOL.1→VOL.3 only)
@@ -68,3 +68,15 @@ Four mid-word splits under the binding tools README #16 orphan standard (window 
 - Full README #16 orphan scan (independent implementation, window 10–45, ≥3-syllable tails, all pages): 9 candidates, 0 TRUE splits. The 8 Round 1 false positives recur byte-identically (word-boundary breaks, adjudicated as such in Round 1 — see FIX-REPORT.md for the full list) plus 1 new candidate at the fixed D-3 site (`(토요일에` → `세스타오에서…`), adjudicated FALSE POSITIVE: the break falls at the space between the complete words `토요일에` and `세스타오에서` in the source string, i.e. a word-boundary wrap, not a mid-word split. Builder `es_ko_orphan.py`: 0 reports, groupings agree.
 - PDFs: print `La-Lucerna-VOL3-KO.pdf` 9,349,457 B; web `La-Lucerna-VOL3-KO-web.pdf` 854,202 B (<7 MB) via `tools/webpdf.py`; `pdftotext` 48,448 B, byte-identical web vs print (`cmp` passed). `.text.md` regenerated with `hidden_files/w46/es_textmd.py` from the edition's own SVG text layer (48,561 B; diff vs pre-fix = exactly the 4 fixed passages; headers preserved verbatim).
 - Gate outputs + build log + orphan scans: `hidden_files/w46/es-fix/`; fix report: `hidden_files/w46/es-fix/FIX-REPORT.md`. Round 2 independent proofread still outstanding — this record does not replace it. M-1 (KO P3 gloss separator) untouched per the fix brief. No other edition touched.
+
+## D5 rebuild (2026-11-15)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target es --reader ko --week 2026-w46` (`--check` dry-run clean first). Mode cjk; `_D5_READER = "ko"`. Routing test `test_d5_routing.py` FAILURES: 0. fix2 retained (`_QUOTE_CLS` x4).
+- Pre-fix census (baseline build): D5 Latin-in-CJK 341, D5 Cyrillic-in-CJK 0, curly-in-CJK 1, curly total 1 (all Newsreader). Run2 census: Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly total 1 all Newsreader; Noto Sans 0.
+- run1 gates 18/19; run1 -> run2 fixes (font-size reduction only, no copy changes):
+- `content12.py:50` — P1 numbers f.box tsize added 21.5 (was default 23) (margin 4.2px)
+- run2 gates 19/19 ALL-GREEN. G8 CLEAN (core-es P8 compare; keydiff [137, 138]). G10 CJK added 1 (P6 U+3000 run-split, as W45 es); Latin added 216 (run-split). G12 34 titles, 574 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal. G14 0 defects; P8 223 rows, slack 41.7px. G15a text-layer diff 0; text.md DIFF 132 lines, native verifier ADOPT (REWRAP 34, 0 UNEXPECTED). G15b CARRYOVER FAIL svg=6225 md=9044 (record-only, D27).
+- D18 gap 131.8px; D37 margin=282.8px; D39(4) P7 band bottom vs footer 2596: -83.9px.
+- Old (baseline build) print `La-Lucerna-VOL3-es-ko.pdf` 8,514,627 B SHA256 `5cf35487a01228fc6db1b0144c4f1bc8c6c8cc1a557d21b9e7b23639aa040fd2`; web 802,701 B SHA256 `c1faa875bdc45011f03ebf41249b08c1e093dae86440382550c84c349568e73c`.
+- New (run2) print `La-Lucerna-VOL3-es-ko.pdf` 5,299,605 B SHA256 `c164f504706130c0e1d4c02d220f8b264697df62217ce8fc737080ea9aeedeb0`; web `2026-w46-es-ko.web.pdf` 680,397 B SHA256 `73b9e0ae129bbfc7fc36e94ba79260966fc650eb7f724bd205a8068f4c1b7500`; text.md 48,248 B SHA256 `84325a4d67aba838e20aff4a0e27b2dc8ad82eaaa9f18cc04dbe1aa807001a07` (textexp output, `logs/2026-w46-es-ko/2026-w46-es-ko.text.md.run2`; the `<slug>.text.md` in the edition dir is the stale 2026-11-06 fanout artifact — do NOT sync it).
+- Logs: `logs/2026-w46-es-ko/GATES-SUMMARY.txt` (run2), `logs/2026-w46-es-ko/g*-run2.log`, `logs/2026-w46-es-ko/census-run2.json`, `logs/2026-w46-es-ko/freeze-diff-run2.json`. D5 report: `notes/g-es/scratch-d5-rebuild-es/2026-w46-es-ko-D5-REPORT.md`.

@@ -46,7 +46,7 @@ f.box("LA SEMANA EN CIFRAS　数字看本周", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29（距 29 日大选 20 天）", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre（11 月 11 日大罢工持续 24 小时）", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre（CIS 住房晴雨表数据）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　即学即练", 25)
 f.ex("A2", "完成句子", "13", "竞选 11 月 13 日周五开始",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)

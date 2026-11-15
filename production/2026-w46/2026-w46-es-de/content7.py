@@ -76,7 +76,7 @@ for _w, _r, _n in errs:
 eh = _sim - 200 + 12
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　TYPISCHE FEHLER", 20, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　TYPISCHE FEHLER", 18.5, "sans", True, OLIVE)
 yy3 += 44
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 17, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
@@ -87,7 +87,7 @@ wt = "« la huelga general » es el paro de todos a la vez, un día entero: el m
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("huelga general = Generalstreik: Alle legen an einem Tag die Arbeit nieder. Streikwoche; Wahlkampf ab Freitag, 13.", "sans", False, 20, CW - 44)) * 29 + 42
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "LA PALABRA　WORT DER WOCHE", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "LA PALABRA　WORT DER WOCHE", 21.5, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "huelga general = Generalstreik: Alle legen an einem Tag die Arbeit nieder. Streikwoche; Wahlkampf ab Freitag, 13.", 20, "sans", False, GREY, CW - 44, 1.42)

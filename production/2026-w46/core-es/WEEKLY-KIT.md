@@ -92,3 +92,13 @@
 - 视觉校对：8 张 1950×2700 渲染 PNG 全幅目视（P1 插图与快讯框、P6 双图标签与数值、P7 预告框与页脚间距、P8 答案块底部余量）；另做家具带同基线墨迹间距目视扫描（P1 顶带／刊头带、各内页栏眉带、页脚带），除登记的 P1 目录 4.0px 间隙（与 W45 核心同模式、无重叠）外无同行碰撞。
 - 发现并修复的缺陷见 §6 第 6 条。最终状态：**零已知缺陷**（独立校对仍待做；按 SOP §8.4，修复版仍须经过新一轮完整独立校对）。
 - 未入仓、未发 Discord、未往主聊天发卡片或 PDF。
+
+## D5 rebuild (2026-11-15)
+
+- Template core (not a shipped edition; MANIFEST-W46.md). Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target es --reader de --week 2026-w46` (`--check` dry-run clean first). Mode latin; `_D5_READER = "de"`. Routing test `test_d5_routing.py` FAILURES: 0. fix2 retained (`_QUOTE_CLS` x4). `--patch-core` NOT run (D40); closer syncs `core-es/svglib.py` to `production/core-es/`.
+- Pre-fix census (baseline build): D5 Latin-in-CJK 348, curly-in-CJK 3, curly total 6. Run2 census: Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly total 6 all Newsreader.
+- run1 -> run2 fixes (font-size reduction only, same titles as the zh-cn reader edition): `content12.py:49` P1 numbers f.box tsize added 21.5 (was default 23); `content56.py:28` P5 plan f.box tsize added 22 (was default 23). Creambox baseline-vs-patched run2: PASS 0 defects (run1: 2 defects — the same two titles).
+- D5 cross-check vs the (es, zh-cn) reader-dir build (run2): text.md differs in exactly 10 lines (slug header, y=372 strapline, 8 page separators `— PÁGINA n —` vs `— 第n版 —`); web-PDF text-layer multiset diff 270/134 chars, all from those furniture lines + footers. The shipped (es, zh-cn) edition's canonical source is the reader dir (baseline reader build text layer == issues PDF, diff 0); the core template is NOT the shipped edition.
+- Old (baseline build) print `La-Lucerna-VOL3.pdf` 17,764,569 B SHA256 `b99dd7ac9166f03714c87ef056e99663a6bb8f4cd9109eb5251f24261824cacb`; web 997,433 B SHA256 `074d5d96181ceb7df02c4ef02271acf3fd8ef17eac24b14708cb23e86089b920`.
+- New (run2) print `La-Lucerna-VOL3.pdf` 4,868,743 B SHA256 `b971199d4deb8fd439a88d27d9deb715d857480984d302f04770e05e223ac6ca`; web `2026-w46-es-core.web.pdf` 751,027 B SHA256 `a939169bf8f68f8f6b918f0102b7e78eb686acc88cd040c1db0603f419daea37`; text.md 44,731 B SHA256 `295aa165b49b048e4aaefb9757e38f9e2082e4d70d9b83e6401822e386658a1c` (`logs/2026-w46-es-core/2026-w46-es-core.text.md.run2`).
+- Logs: `logs/2026-w46-es-core/census-run2.json`, `logs/creambox-core-es-run2.json`.

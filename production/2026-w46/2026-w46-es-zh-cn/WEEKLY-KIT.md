@@ -12,7 +12,7 @@ W45 Spanish shipped no separate zh-cn build: the W45 es-zh-cn repo edition is th
 
 150 exercises — A2 50 · B1 72 · B2 28. By page: 10/18/18/18/18/18/12/38.
 8 pages, 1950×2700. Final build log: zero FLOW OVERFLOW / zero HEAD TOO WIDE.
-Print PDF `La-Lucerna-VOL3-ZH-CN.pdf` 17,612,019 B (SC font embedding); web PDF `La-Lucerna-VOL3-ZH-CN-web.pdf` 1,083,484 B (<7 MB), text layer 44,933 B via `pdftotext`, byte-identical to the print PDF's text.
+Print PDF `La-Lucerna-VOL3-es-zh-cn.pdf` 4,874,811 B; web PDF `2026-w46-es-zh-cn.web.pdf` 756,631 B (<7 MB), text layer 44,633 B via `pdftotext`, byte-identical to the print PDF's text.
 `.text.md` exported from this edition's own SVG text layer (never from PDF).
 
 ## 3. The only three deltas vs the core (verified by `freeze.py diff`)
@@ -43,3 +43,16 @@ As in the core: 13 Nov campaign start and 29 Nov vote lead the issue; the unveri
 ## 7. Reproduction
 
 `python3 hidden_files/w46/build_one.py zh-cn t_zhcn` (copies the fixed core build, applies `t_zhcn.py`, runs `run.py`, renders via `tools/venv`, gates freeze/p8/occlusion). Gate outputs: `hidden_files/w46/es-zh-cn-diff.json`, `es-zh-cn-p8-compare.json`, `es-zh-cn-occlusion.json`, `es-zh-cn-build.log`; gate record in `hidden_files/w46/es-gates.log`. Independent proofread (§8.4 SOP) still outstanding — do not claim finalisation.
+
+## D5 rebuild (2026-11-15)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target es --reader zh-cn --week 2026-w46` (`--check` dry-run clean first). Mode cjk; `_D5_READER = "zh-cn"`. Routing test `test_d5_routing.py` FAILURES: 0. fix2 retained (`_QUOTE_CLS` x4).
+- Pre-fix census (baseline build): D5 Latin-in-CJK 339, D5 Cyrillic-in-CJK 0, curly-in-CJK 3, curly total 6 (all Newsreader). Run2 census: Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly total 6 all Newsreader; Noto Sans 0.
+- run1 gates 18/19; run1 -> run2 fixes (font-size reduction only, no copy changes):
+- `content12.py:49` — P1 numbers f.box tsize added 21.5 (was default 23) (margin 5.3px)
+- `content56.py:28` — P5 plan f.box tsize added 22 (was default 23) (margin 4.5px)
+- run2 gates 19/19 ALL-GREEN. G8 CLEAN (core-es P8 compare; keydiff [137, 138]; zh-cn keydiff [] — core-es is the zh-cn template). G10 CJK added 1 (P6 U+3000 run-split, as W45 es); Latin added 221 (run-split). G12 28 titles, 354 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal. G14 0 defects; P8 200 rows, slack 58.4px. G15a text-layer diff 0; text.md DIFF 86 lines, native verifier ADOPT (REWRAP 23, 0 UNEXPECTED). G15b CARRYOVER FAIL svg=5905 md=7977 (record-only, D27).
+- D18 gap 103.0px; D37 N/A (no badge line in the box zone; strapline y=372 above box top 588); D39(4) P7 band bottom vs footer 2596: +4.6px (pre-existing, baseline identical).
+- Old (baseline build) print `La-Lucerna-VOL3-es-zh-cn.pdf` 16,098,719 B SHA256 `85b59aa553fcff1053c41e4fbd271c1c48301b3b92e6a077e0ac67baf423f9ef`; web 976,795 B SHA256 `a635f4250e466c7c1c955ea5e32c642a7f4230e1b1e92ddd3aca8ada6cca9792`.
+- New (run2) print `La-Lucerna-VOL3-es-zh-cn.pdf` 4,874,811 B SHA256 `75783010e42b644b7a191b92a539bcc3d225372f4e2316cfc47170c9bd4015b5`; web `2026-w46-es-zh-cn.web.pdf` 756,631 B SHA256 `d33dae9eabbeeb01e78e7336b3ad918962126f36e22a4b012538260a5515cc60`; text.md 44,710 B SHA256 `bb704230b486d73d976168f9d11588b9e60d424fe2770a81d11a2acbabc6d35a` (textexp output, `logs/2026-w46-es-zh-cn/2026-w46-es-zh-cn.text.md.run2`; the `<slug>.text.md` in the edition dir is the stale 2026-11-06 fanout artifact — do NOT sync it).
+- Logs: `logs/2026-w46-es-zh-cn/GATES-SUMMARY.txt` (run2), `logs/2026-w46-es-zh-cn/g*-run2.log`, `logs/2026-w46-es-zh-cn/census-run2.json`, `logs/2026-w46-es-zh-cn/freeze-diff-run2.json`. D5 report: `notes/g-es/scratch-d5-rebuild-es/2026-w46-es-zh-cn-D5-REPORT.md`.

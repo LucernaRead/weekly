@@ -46,7 +46,7 @@ f.box("LA SEMANA EN CIFRAS　Numbers", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29 (20 days to the election)", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre (the 11 November strike lasts 24 hours)", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre (CIS housing barometer, October)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("AHORA TÚ　Now you try", 25)
 f.ex("A2", "Sentence completion", "13", "The campaign starts on Friday 13 November",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)

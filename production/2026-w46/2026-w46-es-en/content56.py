@@ -25,7 +25,7 @@ f.box("EL PLAN DE LA SEMANA　The plan", [
     ("3. El jueves 12: Chequia–España, 20:45, en Praga (Czechia v Spain, evening)", "serif", False, INK, 21, 1.36),
     ("4. El viernes 13: empieza la campaña; se estrena «Infamia» (campaign starts; Infamia premieres)", "serif", False, INK, 21, 1.36),
     ("5. Y el domingo 15: España–Inglaterra, 20:45, en el Metropolitano (Spain v England)", "serif", False, INK, 21, 1.36),
-])
+], tsize=21.5)
 f.gloss("el sobre = envelope · la papeleta = ballot paper · el censo = electoral roll · la jornada de reflexión = reflection day.")
 f.end_report()
 

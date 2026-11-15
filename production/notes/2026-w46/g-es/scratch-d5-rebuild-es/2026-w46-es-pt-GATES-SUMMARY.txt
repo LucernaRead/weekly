@@ -1,0 +1,23 @@
+GATES-SUMMARY 2026-w46-es-pt tag=run2
+SCORED 19/19
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — patched 0 defects (baseline-side findings: 0, D25)
+PASS  G3 — Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly 0 all Newsreader; Noto Sans 0
+PASS  G4 — G4 render rc=0 print La-Lucerna-VOL3-es-pt.pdf 3482901 B pages=8
+PASS  G5 — G5 web 412608 B <7MB
+PASS  G6 — /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-es/patched/2026-w46-es-pt/svg: 0 flags 
+PASS  G7 — extract noted=150/150
+PASS  G8 — CLEAN, keydiff [137, 138]
+PASS  G9 — baseline: 8/8
+PASS  G10 — CJK added 1 (Latin added 266, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-es-pt: 27 boxes, 69 candidates, 0 SPILL, 69 OBSERVE
+PASS  G12 — BOXTITLE 2026-w46-es-pt: 22 titles, 272 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+PASS  G13 — EDGE_SCAN 2026-w46-es-pt: 8 pages, 0 TOUCH, 0 NEAR
+PASS  G14 — CREAMBOX PASS 0 defects; P8 241->241 lines, slack 43.7->43.7px
+PASS  G15a — print chars=44639 web chars=44639 stripped-multiset-diff=0; text.md DIFF 140 diff-lines
+G15b (record-only): rc=? — ERROR: no verify_textmd table for reader 'pt' yet — calibrate it from that edition's own SVG/.text.md until its residual is 0, then add it to READER_TABLES in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/tools/verify_textmd.py
+PASS  G15c — verdict: ADOPT (0 UNEXPECTED)
+PASS  G16 — GRAND TOTAL defective: 0
+PASS  D18 — gap=129.4px
+PASS  D37 — N/A — no badge line in box zone; strapline y=372 above box top 588
+D39(4) P7 band bottom=2512.1 vs footer 2596: -83.9px

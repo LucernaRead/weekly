@@ -23,7 +23,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 35, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "LA CAMPAGNE COMMENCE VENDREDI 13　GRÈVE MERCREDI 11", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "À LA UNE　VOIR PAGES 2 ET 6", 18, "sans", False, GOOSE, anchor="end")
@@ -42,7 +42,7 @@ f.para("Y el que quiera votar por correo tiene que pedirlo antes del jueves 19: 
 f.para("El domingo 15, la selección cierra la fase de grupos de la Liga de Naciones contra Inglaterra, en el Metropolitano, a las 20:45.")
 f.para("Esta es la tercera edición de La Lucerna en español: cada semana, la España real contigo. ¡Bienvenidos!")
 f.bridge("Notes — la huelga general = la grève générale · la campaña electoral = la campagne électorale · el voto por correo = le vote par correspondance · la jornada de reflexión = la journée de réflexion.")
-f.box("LA SEMANA EN CIFRAS　EN CHIFFRES", tsize=20, paras=[
+f.box("LA SEMANA EN CIFRAS　EN CHIFFRES", tsize=19, paras=[
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29 (20 jours avant le vote)", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre (la grève du 11 novembre dure 24 heures)", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre (baromètre logement du CIS, octobre)", "serif", False, INK, 20.5, 1.35),
@@ -89,7 +89,7 @@ p.text(gx + 22, byy + 102, "Cinq clés, sans chiffres inventés.", 19, "sans", F
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　SOMMAIRE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　SOMMAIRE", 23.5, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El miércoles 11, huelga", "A2"),
     ("Pág. 3", "San Martín y el otoño", "A2→B1"),
@@ -182,7 +182,7 @@ f.box("EL CALENDARIO　LE CALENDRIER", [
     ("Viernes 13 — a las 00:00 empieza la campaña electoral del 29-N (la campagne commence à minuit)", "serif", False, INK, 21, 1.36),
     ("Sábado 14 — final de la Copa Federación en Sestao, 19:00 (finale de la Coupe de la Fédération à Sestao)", "serif", False, INK, 21, 1.36),
     ("Domingo 15 — Liga de Naciones: España–Inglaterra, 20:45, en el Metropolitano (Ligue des nations : Espagne–Angleterre)", "serif", False, INK, 21, 1.36),
-])
+], tsize=21)
 f.head("DECIR LA FECHA", 25)
 f.para("En español, la fecha se dice así: «el miércoles 11 de noviembre». Primero el día de la semana, luego el número y luego el mes. Los días y los meses van en minúscula: miércoles, noviembre. Y ojo: el primero del mes no es «el primero», es «el uno»: el 1 de noviembre.", 23)
 f.gloss("la huelga = la grève · el sindicato = le syndicat · el salario = le salaire · el alquiler = le loyer · los servicios mínimos = les services minimums.")

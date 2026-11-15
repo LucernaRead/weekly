@@ -46,7 +46,7 @@ f.box("LA SEMANA EN CIFRAS　今週の数字", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29（29日の投票日まであと20日）", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre（11月11日のゼネストは24時間）", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre（CIS住宅調査・10月）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　すぐ練習", 25)
 f.ex("A2", "文の完成", "13", "選挙戦は11月13日（金）に始まる",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)

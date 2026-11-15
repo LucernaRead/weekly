@@ -8,7 +8,7 @@ Build dir: `hidden_files/weekly-report-w46-es-de-build/` (copy of the W46 core b
 
 150 exercises — A2 50 · B1 72 · B2 28. By page: 10/18/18/18/18/18/12/38.
 8 pages, 1950×2700. Final build log: zero FLOW OVERFLOW / zero HEAD TOO WIDE.
-Print PDF `La-Lucerna-VOL3-DE.pdf` 4,641,027 B; web PDF `La-Lucerna-VOL3-DE-web.pdf` 527,654 B (<7 MB), text layer 47,074 B via `pdftotext`, byte-identical to the print PDF's text.
+Print PDF `La-Lucerna-VOL3-es-de.pdf` 3,484,405 B; web PDF `2026-w46-es-de.web.pdf` 414,135 B (<7 MB), text layer 46,738 B via `pdftotext`, byte-identical to the print PDF's text.
 `.text.md` exported from this edition's own SVG text layer (never from PDF).
 
 ## 2. Furniture (W43 ES×DE precedent, VOL.1→VOL.3 only)
@@ -76,3 +76,20 @@ Defect D-6 (BLOCKING, DE only, P2 ¿Y TÚ? box): the German question used transi
 - Re-gates (final artifacts, independently re-run): `tools/freeze.py diff` — added CJK 0 on every page, edition CJK 0; `tools/p8.py compare` — CLEAN, 150/150, keydiff=[137, 138] (adjudicated re-aiming, unchanged); `tools/occlusion_audit.py` — 0 flags, selftest OK (all 6 planted classes fired exactly once, clean controls silent); same-baseline scan — 0 reports (1,589 `<text>` parsed); counts re-measured from SVGs — 150, stem sequences per page 10/18/18/18/18/18/12/38, all seq-ok; P7 quotes — 8/8 Spanish quotes verbatim in exactly one article page + P7, 8 translation lines with `(Página N)` tags, Q6 fixed translation re-verified verbatim; defective string `Was sorgt dich` — 0 occurrences in the joined edition text and in every SVG; corrected question renders complete in the joined text (1 occurrence).
 - PDFs: print `La-Lucerna-VOL3-DE.pdf` 4,641,045 B; web `La-Lucerna-VOL3-DE-web.pdf` 527,672 B (<7 MB) via `tools/webpdf.py`; `pdftotext` 47,070 B (>0), byte-identical web vs print (`cmp` passed; +5 B vs Round 2's 47,065 B = exactly the `beunruhigt`/`sorgt` length delta). `.text.md` regenerated with `hidden_files/w46/es_textmd.py` from the edition's own SVG text layer (47,077 B; diff vs pre-fix = exactly the one fixed line; header preserved verbatim).
 - Visual: DE P2 card viewed full-frame — the corrected question renders completely and grammatically inside the ¿Y TÚ? box, no overflow/overlap; P1/P8 spot-checked, clean and unchanged. Gate outputs + build log: `hidden_files/w46/es-fix-round3/`; fix report: `hidden_files/w46/es-fix-round3/FIX-REPORT.md`. Round 3 independent proofread still outstanding — this record does not replace it. No other edition touched. The Round 2 correction on the "`12 de noviembre`" record claim (frozen-core inheritance in P8 item 122, not a defect) was left untouched, as instructed.
+
+## D5 rebuild (2026-11-15)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target es --reader de --week 2026-w46` (`--check` dry-run clean first). Mode latin; `_D5_READER = "de"`. Routing test `test_d5_routing.py` FAILURES: 0. fix2 retained (`_QUOTE_CLS` x4).
+- Pre-fix census (baseline build): D5 Latin-in-CJK 502, D5 Cyrillic-in-CJK 0, curly-in-CJK 2, curly total 2 (all Newsreader). Run2 census: Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly total 2 all Newsreader; Noto Sans 0.
+- run1 gates 16/19; run1 -> run2 fixes (font-size reduction only, no copy changes):
+- run1 G6 TEXTX: P1 band headline overlapped the translation line by 103.8x25.0px; fixed by the band size above.
+- `content12.py:27` — band headline 46 -> 40 (gap +25.4px)
+- `content12.py:50` — P1 numbers f.box tsize added 22 (was default 23) (margin 4.7px)
+- `content56.py:22` — P5 plan tsize 20 -> 19.5 (margin 8.1px)
+- `content7.py:79` — P7 errors 20 -> 18.5 (margin 11.3px)
+- `content7.py:90` — P7 word 23 -> 21.5 (margin 7.9px)
+- run2 gates 19/19 ALL-GREEN. G8 CLEAN (core-es P8 compare; keydiff [137, 138]). G10 CJK added 1 (P6 U+3000 run-split, as W45 es); Latin added 249 (run-split). G12 24 titles, 277 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal. G14 0 defects; P8 239 rows, slack 43.7px. G15a text-layer diff 0; text.md DIFF 76 lines, native verifier ADOPT (REWRAP 20, 0 UNEXPECTED). G15b CARRYOVER FAIL svg=5703 md=7064 (record-only, D27).
+- D18 gap 21.1px; D37 margin=60.3px; D39(4) P7 band bottom vs footer 2596: -25.9px.
+- Old (baseline build) print `La-Lucerna-VOL3-es-de.pdf` 4,069,616 B SHA256 `237ca537416d641d2d4f7652d2837a0122813439b4b62fefed3a2a278a23d6c1`; web 495,807 B SHA256 `f45aed12bf1b897cb98c7f91e387ab1d7e9469476351510429c0e78504bbd896`.
+- New (run2) print `La-Lucerna-VOL3-es-de.pdf` 3,484,405 B SHA256 `b69ef08674d8f8c42b8d73ab8bfc4037025c52d023f6da6c92b7d2321ea5113c`; web `2026-w46-es-de.web.pdf` 414,135 B SHA256 `2ffab127a3b85cbd4ca68e64f30a96901514a98678efff01649a7e1f517d42ec`; text.md 46,929 B SHA256 `3887e34ee0aadc057daf5f9273159cfb10ace8c808a9e5a64c0347d568647b20` (textexp output, `logs/2026-w46-es-de/2026-w46-es-de.text.md.run2`; the `<slug>.text.md` in the edition dir is the stale 2026-11-06 fanout artifact — do NOT sync it).
+- Logs: `logs/2026-w46-es-de/GATES-SUMMARY.txt` (run2), `logs/2026-w46-es-de/g*-run2.log`, `logs/2026-w46-es-de/census-run2.json`, `logs/2026-w46-es-de/freeze-diff-run2.json`. D5 report: `notes/g-es/scratch-d5-rebuild-es/2026-w46-es-de-D5-REPORT.md`.

@@ -23,7 +23,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 39.5, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "A CAMPANHA COMEÇA SEXTA, 13　GREVE NA QUARTA, 11", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "A manchete desta edição　ver páginas 2 e 6", 18, "sans", False, GOOSE, anchor="end")
@@ -174,7 +174,7 @@ f.para("El miércoles 11 de noviembre hay huelga general en toda España: un par
 f.para("La convocan Comisiones Obreras (CCOO) y la Unión General de Trabajadores (UGT), junto con la Confederación General del Trabajo (CGT), la Confederación Nacional del Trabajo (CNT) y la Confederación de Sindicatos de Inquilinas, entre otras organizaciones. El lema es «Salarios, vivienda y precios».")
 f.para("¿Qué piden? Subir los salarios, bajar el precio de la vivienda, regular el alquiler y frenar la subida de los precios. La huelga llega dos días antes de que empiece la campaña electoral, el viernes 13.")
 f.para("En un día de huelga, no todo se para igual: hay servicios mínimos en el transporte y en la sanidad. Los servicios mínimos de esta huelga se anuncian antes del miércoles: consulta los avisos de tu ciudad y de tu empresa.")
-f.box("EL CALENDARIO　O calendário da semana", tsize=19, paras=[
+f.box("EL CALENDARIO　O calendário da semana", tsize=18.5, paras=[
     ("Lunes 9 — la selección se concentra en Las Rozas; la documentación del voto por correo empieza a llegar a casa (a seleção se concentra; chegam os documentos do voto pelo correio)", "serif", False, INK, 21, 1.36),
     ("Martes 10 — último día de calma antes de la huelga: los sindicatos ultiman los servicios mínimos (últimos preparativos antes da greve)", "serif", False, INK, 21, 1.36),
     ("Miércoles 11 — huelga general de 24 horas; San Martín, castañas y vino nuevo (greve geral; São Martinho)", "serif", False, INK, 21, 1.36),

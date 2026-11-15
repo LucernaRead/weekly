@@ -1,0 +1,23 @@
+GATES-SUMMARY 2026-w46-es-ru tag=run2
+SCORED 19/19
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — patched 0 defects (baseline-side findings: 0, D25)
+PASS  G3 — Latin 0 / Cyrillic 0 / curly-in-CJK 0; curly 0 all Newsreader; Noto Sans 789
+PASS  G4 — G4 render rc=0 print La-Lucerna-VOL3-es-ru.pdf 3776995 B pages=8
+PASS  G5 — G5 web 664679 B <7MB
+PASS  G6 — /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-es/patched/2026-w46-es-ru/svg: 0 flags 
+PASS  G7 — extract noted=150/150
+PASS  G8 — CLEAN, keydiff [137, 138]
+PASS  G9 — baseline: 8/8
+PASS  G10 — CJK added 1 (Latin added 165, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-es-ru: 27 boxes, 79 candidates, 0 SPILL, 79 OBSERVE
+PASS  G12 — BOXTITLE 2026-w46-es-ru: 26 titles, 376 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+PASS  G13 — EDGE_SCAN 2026-w46-es-ru: 8 pages, 0 TOUCH, 0 NEAR
+PASS  G14 — CREAMBOX PASS 0 defects; P8 237->234 lines, slack 42.7->42.7px
+PASS  G15a — print chars=44545 web chars=44545 stripped-multiset-diff=0; text.md DIFF 94 diff-lines
+G15b (record-only): CARRYOVER: FAIL svg=5491 md=6883 — CARRYOVER: FAIL
+PASS  G15c — verdict: ADOPT (0 UNEXPECTED)
+PASS  G16 — GRAND TOTAL defective: 0
+PASS  D18 — gap=150.0px
+PASS  D37 — N/A — no badge line in box zone; strapline y=372 above box top 588
+D39(4) P7 band bottom=2589.2 vs footer 2596: -6.8px

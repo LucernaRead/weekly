@@ -24,7 +24,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!", 37, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "LA CAMPAGNA INIZIA VENERDÌ 13　SCIOPERO MERCOLEDÌ 11", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Il tema di copertina　vedi le pagine 2 e 6", 18, "sans", False, GOOSE, anchor="end")
@@ -47,7 +47,7 @@ f.box("LA SEMANA EN CIFRAS　IN CIFRE", [
     ("20 — días faltan el lunes 9 para las elecciones del domingo 29 (20 giorni al voto)", "serif", False, INK, 20.5, 1.35),
     ("24 — horas dura la huelga general del miércoles 11 de noviembre (lo sciopero dell'11 novembre dura 24 ore)", "serif", False, INK, 20.5, 1.35),
     ("91,4 — % que pide más vivienda pública, según el CIS de octubre (barometro casa del CIS, ottobre)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　TOCCA A TE", 25)
 f.ex("A2", "完成句子", "13", "La campagna inizia venerdì 13 novembre",
      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)
@@ -90,7 +90,7 @@ p.text(gx + 22, byy + 102, "Cinque chiavi, zero numeri inventati.", 19, "sans", 
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　IL NUMERO", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　IL NUMERO", 23.5, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El miércoles 11, huelga", "A2"),
     ("Pág. 3", "San Martín y el otoño", "A2→B1"),
@@ -183,7 +183,7 @@ f.box("EL CALENDARIO　IL CALENDARIO", [
     ("Viernes 13 — a las 00:00 empieza la campaña electoral del 29-N (la campagna inizia a mezzanotte)", "serif", False, INK, 21, 1.36),
     ("Sábado 14 — final de la Copa Federación en Sestao, 19:00 (finale di Coppa Federazione a Sestao)", "serif", False, INK, 21, 1.36),
     ("Domingo 15 — Liga de Naciones: España–Inglaterra, 20:45, en el Metropolitano (Nations League: Spagna–Inghilterra)", "serif", False, INK, 21, 1.36),
-])
+], tsize=21.5)
 f.head("DECIR LA FECHA", 25)
 f.para("En español, la fecha se dice así: «el miércoles 11 de noviembre». Primero el día de la semana, luego el número y luego el mes. Los días y los meses van en minúscula: miércoles, noviembre. Y ojo: el primero del mes no es «el primero», es «el uno»: el 1 de noviembre.", 23)
 f.gloss("la huelga = lo sciopero · el sindicato = il sindacato · el salario = il salario · el alquiler = l'affitto · los servicios mínimos = i servizi minimi.")
