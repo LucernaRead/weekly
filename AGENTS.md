@@ -162,7 +162,7 @@ Make it from that secondary story's content, with the same rules as the lead ima
 ## Add a moving picture
 
 A lead story can have a moving picture in place of its still image: a short silent loop, like a living photograph.
-The site shows it with no controls. It plays in a loop. Readers who turned motion off in their system see the still image.
+The site shows it with no controls. It plays in a loop. The cover shows only the moving picture.
 
 1. Cut the video to 2–15 seconds. Make the last frame meet the first frame, so the loop does not jump.
 2. Run `sh tools/motion.sh <video file> <week> <target language>`.
