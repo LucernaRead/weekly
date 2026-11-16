@@ -1,0 +1,24 @@
+GATES-SUMMARY 2026-w46-zh-cn-ru round=fix
+  G1: PASS  TOTAL=150 FLOW=0 HEAD=0
+  G2: PASS  head_check rc=0 findings=0
+  G3: PASS  D5_lat=0 D5_cyr=0 curly_cjk=0 noto_sans=798
+  G4: PASS  render rc=0 print=yes 29054076 B
+  G5: PASS  web 2321118 B
+  G6: FAIL  flags=1 [[TEXTX] p1-touiban.svg 'ǒ' — ink overlaps 'bāogu' by 3.2x15.8px]
+  G7: PASS  p8 extract 150/150
+  G8: PASS  CLEAN keydiff=[]
+  G9: PASS  freeze 8/8 rc=0
+  G10: PASS  cjk_added=0 latin_added=111 latin_unexpected=111
+  G11: PASS  spill=0 observe=105 set==baseline:True (baseline spill=0 observe=79)
+  G12: PASS  defect=0 observe=0 marginal=0
+  G13: PASS  touch=0 near=0
+  G14: PASS  defects=0 P8 p8-ceyan.svg: lines 242->242 slack_footer 43.0->43.0
+  G15a: PASS  print/web multiset diff=0; text.md.new==fanout .new: True; pdfdiff vs issues: verdict: IDENTICAL [page 1: identical (2417 chars)]
+  G15b: RECORD  rc=1   8x 'ты' |   7x '周' | CARRYOVER: FAIL
+  G15c: PASS  ADOPT: 2026-w46-zh-cn-ru.text.md.new: 934 entries vs ref 933; ADOPT furniture 98, ADOPT word-split 1, UNEXPECTED 0
+  G16: PASS  defective quotes=0
+  D18: PASS  gap=253.5px date_x=1511.2 slogan_end=1257.7 clusters=3
+  D37: PASS  end=1427.0 margin=12.5 (band, y=612) text='ТЕКСТЫ НА КИТАЙСКОМ (УПРОЩЁННОМ)\u3000ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+  D37-sub: PASS  end=1209.6 margin=229.9 text='给学中文的人的周报 — Читай настоящий Китай по-китайски'
+ALL-GREEN: False (PASS 19 FAIL 1 of 21)
+textexp rc=0

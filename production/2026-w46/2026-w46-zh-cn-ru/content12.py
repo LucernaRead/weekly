@@ -20,7 +20,7 @@ p.text(975, 372, "给学中文的人的周报 — Читай настоящий 
 p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 # pairing badge: which text, which explanation language, which reader
-p.text(975, 612, "ТЕКСТЫ НА КИТАЙСКОМ (УПРОЩЁННОМ)　ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ", 16, "sans", False, GREY, anchor="middle")
+p.text(975, 612, "ТЕКСТЫ НА КИТАЙСКОМ (УПРОЩЁННОМ)　ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ", 15.5, "sans", False, GREY, anchor="middle")
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)

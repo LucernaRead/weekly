@@ -176,3 +176,5 @@ ru.json` with `hidden_files/w46/transform.py`, then run as above.
 - 修复 0 处：run1 即终轮（18/21，残留 G6 + G15a 已裁定项），无需降字号。
 
 - 同步方向：单向 patched → production（本 KIT 由生产 KIT 复制 + 追加本节，旧章节逐字节未动）。
+
+- Fix — D65（P1 读者行 D37 侵入，2026-11-16 fix worker；reproof v2 PASS）：`content12.py:23` 16 → 15.5pt；D37 bbox 法余量 +8.6（基线 +3.2 / 终轮 −6.1）；fix 轮门禁 19/21（残留仅 G6 caron，已裁定 D62；G15b 仅记录；G15a fix 轮 PASS，家族级 vs 发前旧版仍 FAIL，D61/D67）。
