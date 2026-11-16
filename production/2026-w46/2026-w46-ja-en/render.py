@@ -8,7 +8,7 @@ import cairosvg
 from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-en")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVGS = sorted(glob.glob(os.path.join(BASE, "svg", "*.svg")))
 assert len(SVGS) == 8, SVGS
 
@@ -32,3 +32,15 @@ print_pdf = os.path.join(BASE, "Lucerna-VOL3-EN.pdf")
 with open(print_pdf, "wb") as fh:
     writer.write(fh)
 print("print PDF:", print_pdf, os.path.getsize(print_pdf))
+
+# web PDF via tools/webpdf.py (vector text layer, SOP appendix 4)
+import subprocess, sys
+web_pdf = os.path.join(BASE, "Lucerna-VOL3-EN-web.pdf")
+tools = os.path.expanduser("~/workspace/weekly-git/tools")
+r = subprocess.run([sys.executable, os.path.join(tools, "webpdf.py"), os.path.join(BASE, "svg"), web_pdf],
+                   capture_output=True, text=True)
+print(r.stdout)
+print(r.stderr, file=sys.stderr)
+if r.returncode != 0:
+    raise SystemExit(f"webpdf.py failed: {r.returncode}")
+print("web PDF:", web_pdf, os.path.getsize(web_pdf))

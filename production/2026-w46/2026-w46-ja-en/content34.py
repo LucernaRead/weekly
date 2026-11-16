@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · 文化 (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("文化 · ぶんか", "Lucerna", "レベル A2→B1 · 七五三と酉の市 · Shichi-Go-San and Tori-no-ichi")
+p.band("文化　ぶんか", "Lucerna", "レベル A2→B1　七五三と酉の市　Shichi-Go-San and Tori-no-ichi")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P3-feature")
-f.title("七五三 — 着物の子どもと神社", 37)
-f.byline("Lucerna編集部 · 読むレベル：A2→B1")
+f.title("七五三 — 着物の子どもと神社", 32)
+f.byline("Lucerna編集部　読むレベル：A2→B1")
 f.para("七五三は、3歳と5歳と7歳の子どものお祝いです。男の子は3歳と5歳、女の子は3歳と7歳でお祝いします。11月15日ごろに、神社へお参りに行きます。")
 f.para("子どもは、着物やはかまを着ます。家族と写真を撮ります。神社では、千歳飴をもらいます。今の形は、江戸時代に始まったと言われています。")
 f.para("兵庫県の西宮神社では、例年5,000組以上が七五三参りに来るそうです。11月15日だけではありません。いこーよの調査（10月21日までの回答、七五三の家庭200）では、お参りは「11月上旬」が26%でいちばん多く、「11月15日」は3%でした。日にちは、家族によってちがいます。")
@@ -37,7 +37,7 @@ cal = ["9日（月）読書週間が終わります",
        "19日（木）酉の市・二の酉"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in cal) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "今週の文化カレンダー", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -46,9 +46,9 @@ for t in cal:
 ey3 = sy3 + sh + 26
 etvous = "あなたは？七五三の日に、どんな写真を撮りたいですか。日本語で2文、書いて送ってください。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("What kind of photo would you like to take on Shichi-Go-San? Write two sentences in Japanese and send them in.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "あなたは？ · Your turn", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "あなたは？　Your turn", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "What kind of photo would you like to take on Shichi-Go-San? Write two sentences in Japanese and send them in.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -56,11 +56,11 @@ print("P3 col3 ends", ey3 + eh)
 
 # ---- P3 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · Page 3 exercises", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Answers on page 8 · Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　Page 3 exercises", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.bridge("第3版の文章を読んで、正しい答えを選んでください。")
 e.ex("A2", "multiple choice", "A", "Shichi-Go-San celebrates children aged 3, 5 and 7",
      "七五三は、だれのお祝いですか。 A. 3歳・5歳・7歳の子ども · B. 20歳の大人 · C. 100歳のお年寄り", size=19, gap=6)
@@ -72,7 +72,7 @@ e.ex("B1", "multiple choice", "A", "Tori-no-ichi's Ni-no-tori is November 19 (Th
      "二の酉はいつですか。 A. 19日（木） · B. 7日（土） · C. 15日（日）", size=19, gap=6)
 e.ex("A2", "multiple choice", "C", "There is no San-no-tori in 2026",
      "2026年の酉の市は、どうですか。 A. 三の酉まであります · B. 一の酉だけです · C. 二の酉までです", size=19, gap=6)
-e.head("B · ことば", 25)
+e.head("B　ことば", 25)
 e.bridge("言葉や数字を入れてください。")
 e.ex("A2", "fill-in", "神社", "Shichi-Go-San children go to a shrine to pray",
      "七五三の子どもは、___ へお参りに行きます。", instr="Fill in", size=19, gap=6)
@@ -84,7 +84,7 @@ e.ex("A2", "fill-in", "15", "Shichi-Go-San centres on about November 15",
      "七五三は、11月 ___ 日ごろに行います。", instr="Fill in", size=19, gap=6)
 e.ex("B1", "fill-in", "26", "Early November visits were 26% in the survey",
      "調査では、「11月上旬」は ___ %でした。", instr="Fill in", size=19, gap=6)
-e.head("C · 文を作りましょう", 25)
+e.head("C　文を作りましょう", 25)
 e.bridge("言葉を並べて、正しい文を作ってください。")
 e.ex("B1", "sentence building", "七五三は子どものお祝いです。", "subject + description",
      "七五三は / 子どもの / お祝いです → ___", instr="Build a sentence", size=19, gap=6)
@@ -94,7 +94,7 @@ e.ex("B1", "sentence building", "千歳飴をもらいます。", "object + verb
      "千歳飴を / もらいます → ___", instr="Build a sentence", size=19, gap=6)
 e.ex("B1", "sentence building", "酉の市で熊手を買います。", "Buying a kumade at Tori-no-ichi",
      "酉の市で / 熊手を / 買います → ___", instr="Build a sentence", size=19, gap=6)
-e.head("D · ペアにしましょう", 25)
+e.head("D　ペアにしましょう", 25)
 e.match_set("B1", "matching",
             ["七五三", "千歳飴", "熊手", "酉の市"],
             ["11月の酉の日に開くお祭り",
@@ -112,17 +112,17 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · スポーツ (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("スポーツ · 体育", "Lucerna", "レベル B1 · 日本シリーズ4連勝 · Four straight Japan Series wins")
+p.band("スポーツ　体育", "Lucerna", "レベル B1　日本シリーズ4連勝　Four straight Japan Series wins")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P4-feature")
-f.title("4連勝 — 接戦の日本シリーズ", 37)
-f.byline("Lucerna編集部 · 読むレベル：B1")
+f.title("4連勝 — 接戦の日本シリーズ", 32)
+f.byline("Lucerna編集部　読むレベル：B1")
 f.para("日本シリーズは、10月24日（土よう日）に始まりました。福岡ソフトバンクホークスと、横浜DeNAベイスターズの対戦でした。第1戦は、ソフトバンクが3対1で勝ちました。第2戦も、ソフトバンクが4対3で勝ちました。2試合とも、延長戦でした。")
 f.para("第3戦は、10月27日（火よう日）、福岡でした。ソフトバンクが2対1で勝ちました。延長10回に、正木智也選手のサヨナラホームランで決まりました。第4戦は、10月28日（水よう日）に、ソフトバンクが4対2で勝ちました。")
 f.para("ソフトバンクが4連勝で日本一になりました。2年連続、13度目の日本一です。第5戦から第7戦は、行われませんでした。シリーズのMVPは、正木智也選手です。4試合とも、2点差以内の接戦でした。第1戦から第3戦まで、3試合連続の延長戦は、日本シリーズで初めてだそうです。")
 f.gloss("接戦 a close game · サヨナラ a walk-off (sayonara) · 連続 in a row.")
 f.head("シリーズの記録", 25)
-f.box("日本シリーズの記録 · Series record", [
+f.box("日本シリーズの記録　Series record", [
     ("第1戦 — 10月24日（土）横浜：ソフトバンク 3-1 DeNA（延長11回）", "serif", False, INK, 20, 1.35),
     ("第2戦 — 10月25日（日）横浜：ソフトバンク 4-3 DeNA（延長10回）", "serif", False, INK, 20, 1.35),
     ("第3戦 — 10月27日（火）福岡：ソフトバンク 2-1 DeNA（延長10回）", "serif", False, INK, 20, 1.35),
@@ -142,7 +142,7 @@ cy3 = caption(p, ix, 490, CW, "横浜スタジアム。第1戦と第2戦は、�
 ot = "4連勝は、4試合とも勝つことです。2年連続の日本一は、去年も今年も優勝した、という意味です。13度目は、13回目です。"
 oy = cy3 + 24
 oh = 62 + len(wrap(ot, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("※記録は各試合の報道によるものです。", "serif", False, 19.5, CW - 44)) * 27 + 20 + 8
-p.rect(ix, oy, CW, oh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, oy, CW, oh, fill=BOX)
 yy3 = oy + 16
 p.text(ix + 22, yy3 + 26, "4連勝の意味", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -152,17 +152,17 @@ print("P4 col3 ends", oy + oh)
 
 # ---- sumo box (full width) ----
 ty = 1490
-p.text(MX, ty + 26, "大相撲九州場所が始まりました · The Kyushu sumo tournament has begun", 26, "sans", True, OLIVE)
-p.hline(MX, RIGHT, ty + 40, GOLD, 2)
+p.text(MX, ty + 26, "大相撲九州場所が始まりました　The Kyushu sumo tournament has begun", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, ty + 40, OLIVE, 2)
 p.para(MX, ty + 78, "大相撲の九州場所は、8日（日よう日）に福岡国際センターで始まりました。横綱は大の里と豊昇龍です。10月26日に発表された番付では、美ノ海が新小結になりました。沖縄県の力士で初めての三役だそうです。玉鷲は、41歳11か月で再入幕しました。場所は、22日（日よう日）までです。今週の勝敗は、次号でお知らせします。", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1840
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · Page 4 exercises", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Answers on page 8 · Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　Page 4 exercises", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.bridge("第4版の文章を読んで、正しい答えを選んでください。")
 e.ex("B1", "multiple choice", "B", "Game 3: SoftBank won 2–1",
      "第3戦のスコアは？ A. 4-2 · B. 2-1 · C. 1-2", size=19, gap=6)
@@ -174,7 +174,7 @@ e.ex("B1", "multiple choice", "B", "The Series MVP is Masaki Tomoya",
      "シリーズのMVPはだれですか。 A. 山川選手 · B. 正木選手 · C. 筒香選手", size=19, gap=6)
 e.ex("B1", "multiple choice", "A", "Games 5 to 7 were not played",
      "第5戦から第7戦は、どうなりましたか。 A. 行われませんでした · B. 横浜で行われました · C. 福岡で行われました", size=19, gap=6)
-e.head("B · 数字", 25)
+e.head("B　数字", 25)
 e.bridge("第4版の数字を入れてください。")
 e.ex("B1", "fill-in", "2", "SoftBank scored 2 in Game 3",
      "第3戦、ソフトバンクは ___ 点取りました。", instr="Fill in", size=19, gap=6)
@@ -186,7 +186,7 @@ e.ex("B1", "fill-in", "13", "SoftBank's 13th title",
      "ソフトバンクは ___ 度目の日本一です。", instr="Fill in", size=19, gap=6)
 e.ex("B1", "fill-in", "3", "The first three games all went to extra innings",
      "第1戦から第3戦まで、___ 試合連続の延長戦でした。", instr="Fill in", size=19, gap=6)
-e.head("C · ことばと記録", 25)
+e.head("C　ことばと記録", 25)
 e.bridge("第4版の記事から答えてください。")
 e.ex("B1", "multiple choice", "B", "接戦 = a close game",
      "「接戦」とは何ですか。 A. 大差の試合 · B. 点差が小さい試合 · C. 試合がないこと", size=19, gap=6)
@@ -196,7 +196,7 @@ e.ex("B1", "multiple choice", "B", "The new komusubi is Umi-no-umi",
      "新小結になったのはだれですか。 A. 玉鷲 · B. 美ノ海 · C. 大の里", size=19, gap=6)
 e.ex("B1", "multiple choice", "A", "The sumo tournament runs to November 22 (Sunday)",
      "九州場所はいつまでですか。 A. 22日（日） · B. 15日（日） · C. 28日（水）", size=19, gap=6)
-e.head("D · 正しい・正しくない", 25)
+e.head("D　正しい・正しくない", 25)
 e.bridge("文が正しければ○、正しくなければ×を書いてください。")
 e.ex("B1", "true/false", "○", "SoftBank won four straight to take the title",
      "ソフトバンクは、4連勝しました。", instr="True or false?", size=19, gap=6)

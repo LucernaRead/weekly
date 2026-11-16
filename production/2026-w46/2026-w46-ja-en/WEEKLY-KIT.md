@@ -156,3 +156,43 @@ still required.
   label, P7 phrases 2× verbatim, keys-flow end-y 2532.0;
   web PDF 2,318,038 bytes (< 7 MB), 46,160 pdftotext bytes, byte-identical to the print PDF (27,837,881 bytes); text.md 45,553 bytes. P8 card visually checked at full frame: key 42
   correct, no overflow, overlap, or tofu.
+
+## 补记：D5 字体重建（2026-11-15）
+
+D5 字体重建：日语目标版的拉丁/西里尔字母由 Noto Sans/Serif CJK JP 改为 Newsreader（拉丁）/ Noto Sans（西里尔），弯引号归 Newsreader（fix2）；其余内容、字号、版式逐字节复现已发版。重建在 `hidden_files/d5-redo/scratch-2026-w46-ja/` 内完成，只改 `patched/`，由 closer 同步进 production。
+
+### D5 交付物 pin（run2 终轮实测）
+
+- 印 PDF：`Lucerna-VOL3-EN.pdf 24205030B sha=c8491232b704129e`
+- 网 PDF：`Lucerna-VOL3-EN-web.pdf 2158336B sha=638f0be9d432984b`
+- text.md：`45421B sha=08bded92f44739baba5f572f54ae75dd60c18adac27ed79c51562c582a358e95`
+- text.md 全 SHA-256：`08bded92f44739baba5f572f54ae75dd60c18adac27ed79c51562c582a358e95`
+- 印 PDF 全 SHA-256：`c8491232b704129eba2e6e482440a58ff3812312bab54e6faa2dc56700fd8217`
+- 网 PDF 全 SHA-256：`638f0be9d432984b13ee5f9e003f4afe79910c1058eeef078cc8f2b3b3b0b201`
+
+### D5 重建节
+
+- 装机：`bin/install.py`（模板 `tools/mechanism-w47/svglib-ja-d5.py`，与 W47 production `core-ja/svglib.py` 逐字节相同；`_D5_READER = "latin"`，`svglib.py:122`；fix2 提及 6 处，`_QUOTE_CLS` 4 处，kinsoku `NO_START` 在位；`test_d5_routing.py` FAILURES: 0）。
+- 修前普查（基线）：Latin in CJK 397、Cyrillic in CJK 0、curly_total 0、curly_in_CJK 0；修后普查 0（G3 PASS）。
+- 逐条修复（只降字号，不改文案；探针余量见家族报告 §1–§6）：
+  - `content12.py:86` 18.5→18.0：F1 P1 credit line boxtitle +6.5px (W45 F1 precedent)
+- run2 门禁：
+  - G1: PASS rc=0 TOTAL=150 FLOW=0 HEAD=0
+  - G2: PASS rc=0 defects=0
+  - G3: PASS rc=0 latin=0 cyr=0 curly_cjk=0 curly_total=0 noto_sans=0
+  - G4: PASS Lucerna-VOL3-EN.pdf 24205030B sha=c8491232b704129e
+  - G5: PASS Lucerna-VOL3-EN-web.pdf 2158336B sha=638f0be9d432984b
+  - G6: PASS rc=0 flags=[]
+  - G7: PASS rc=0 noted=150/150
+  - G8: PASS rc=0 CLEAN keydiff=[137, 138]
+  - G9: PASS rc=0 8/8
+  - G10: PASS rc=0 cjk_added={} latin_added=214 keys=['cjk_added_total', 'core_svg', 'edition_svg', 'latin_added_total', 'latin_added_unexpected_total', 'pages', 'runtime']
+  - G11: PASS rc=1 SPILL=1 OBSERVE=97 vs baseline 1: same set
+  - G12: PASS rc=0 DEFECT=0
+  - G13: PASS rc=0 EDGE_SCAN 2026-w46-ja-en: 8 pages, 0 TOUCH, 0 NEAR
+  - G14: PASS rc=0 defects=0 observes=0 p8rows=835->854 slack_footer=47.2->47.2 ratio_med=1.013 bold_med=1.04 reg_med=1.0
+  - G16: PASS rc=0 defective=0
+  - D18: PASS gap=318.4px
+  - D37: PASS y612 over=-1136.6pt end=302.9 | sub over=-50.7pt end=1388.8
+  - G15b：仅记录（D27，共享校验器对 ja 格式未校准）
+  - ALL-GREEN=True (G15b excluded per D27)

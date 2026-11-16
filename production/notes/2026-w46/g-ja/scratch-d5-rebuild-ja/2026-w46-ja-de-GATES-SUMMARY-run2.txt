@@ -1,0 +1,26 @@
+GATES-SUMMARY 2026-w46-ja-de round=run2 baseline_mode=False
+ALL-GREEN=True (G15b excluded per D27)
+G1: PASS rc=0 TOTAL=150 FLOW=0 HEAD=0
+G2: PASS rc=0 defects=0
+G3: PASS rc=0 latin=0 cyr=0 curly_cjk=0 curly_total=0 noto_sans=0
+G4: PASS Lucerna-VOL3-DE.pdf 24212672B sha=861832c22b3c5372
+G5: PASS Lucerna-VOL3-DE-web.pdf 2165879B sha=ea350e958d3e861e
+G6: PASS rc=0 flags=[]
+G7: PASS rc=0 noted=150/150
+G8: PASS rc=0 CLEAN keydiff=[137, 138]
+G9: PASS rc=0 8/8
+G10: PASS rc=0 cjk_added={} latin_added=208 keys=['cjk_added_total', 'core_svg', 'edition_svg', 'latin_added_total', 'latin_added_unexpected_total', 'pages', 'runtime']
+G11: PASS rc=1 SPILL=1 OBSERVE=94 vs baseline 1: same set
+G12: PASS rc=0 DEFECT=0
+G13: PASS rc=0 EDGE_SCAN 2026-w46-ja-de: 8 pages, 0 TOUCH, 0 NEAR
+G14: PASS rc=0 defects=0 observes=0 p8rows=840->859 slack_footer=39.9->39.9 ratio_med=1.012 bold_med=1.04 reg_med=1.0
+G15a: PASS print=22168 web=22168 issues=22293 diff pw=0 pi=125 wi=125 vs_issues_top=[('·', 124), ('—', 1)] pdfdiff_rc=0(verdict: IDENTICAL)
+G15b: FAIL rc=1 (record-only, D27) CARRYOVER: FAIL
+G15c: PASS rc=0 verdict: ADOPT (0 UNEXPECTED)
+G16: PASS rc=0 defective=0
+D18: PASS gap=297.9px
+D37: PASS y612 over=-1111.5pt end=328.0 | sub over=-55.4pt end=1384.1
+P8: {'text_elements': 867, 'max_y': 2624.0, 'slack_px': 76.0}
+print: Lucerna-VOL3-DE.pdf 24212672B sha=861832c22b3c5372
+web: Lucerna-VOL3-DE-web.pdf 2165879B sha=ea350e958d3e861e
+text.md.new: 46228B sha=8481f9bbac7b8d3a2f2a5aac54270ffbb6abd69f657e8f64c7b6278391e26d69

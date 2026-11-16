@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 若者・エンタメ (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("若者・エンタメ · 청년", "Lucerna", "レベル B1 · 11月11日の分かち合い · 11월 11일의 나눔")
+p.band("若者・エンタメ　청년", "Lucerna", "レベル B1　11月11日の分かち合い　11월 11일의 나눔")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P5-feature")
-f.title("「1」が4つ並ぶ日、友達と分ける", 37)
-f.byline("Lucerna編集部 · 読むレベル：B1")
+f.title("「1」が4つ並ぶ日、友達と分ける", 32)
+f.byline("Lucerna編集部　読むレベル：B1")
 f.para("11月11日は、ポッキーの日です。細いお菓子を、友達と分け合う日です。1本ずつ、箱から出して、友達に渡します。SNSでは、友達とポッキーの写真を送り合う人もいます。")
 f.para("ポッキーの日は、買うだけの日ではありません。だれかと分ける日です。学校や会社で、「はい、どうぞ」と渡す人もいます。細いお菓子が、人と人をつなぎます。")
 f.para("友達と分けて、楽しい11月11日にしましょう。")
@@ -31,7 +31,7 @@ words5 = ["分ける — 友達とお菓子を分けること",
           "晴れ着 — お祝いの日に着る服"]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in words5) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "11月11日のことば", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -41,7 +41,7 @@ nums5 = ["74% — 写真館で撮る家庭（調査）",
          "71% — 神社でご祈祷を受ける家庭（調査）"]
 ny3 = sy3 + sh + 26
 nh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in nums5) + 32
-p.rect(ix, ny3, CW, nh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ny3, CW, nh, fill=BOX)
 yy3 = ny3 + 16
 p.text(ix + 22, yy3 + 26, "七五三の調査の数字", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -51,9 +51,9 @@ p.para(ix + 22, yy3 + 18, "※数字は、いこーよの調査（10月21日ま�
 ey3 = ny3 + nh + 26
 etvous = "あなたは？ポッキーを、だれに渡したいですか。日本語で2文、書いて、送ってください。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("누구에게 포키를 건네고 싶나요? 일본어로 두 문장을 써서 보내 주세요.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "あなたは？ · 당신의 차례", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "あなたは？　당신의 차례", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "누구에게 포키를 건네고 싶나요? 일본어로 두 문장을 써서 보내 주세요.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -61,11 +61,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · 5면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "답은 8면 · 수준이 섞여 있어요 — 번호를 찾으세요", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　5면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면　수준이 섞여 있어요 — 번호를 찾으세요", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.bridge("第5版の文章を読んで、正しい答えを選んでください。")
 e.ex("B1", "객관식", "A", "포키데이는 친구들과 과자를 나누는 날이다",
      "ポッキーの日は、どんな日ですか。 A. 友達と分ける日 · B. 一人で食べる日 · C. 買わない日", size=19, gap=6)
@@ -77,7 +77,7 @@ e.ex("B1", "객관식", "A", "가정의 71%가 신사에서 기도를 받는다�
      "調査では、神社でご祈祷を受ける家庭は何%ですか。 A. 71% · B. 74% · C. 3%", size=19, gap=6)
 e.ex("B1", "객관식", "C", "시치고상 사진은 가족의 추억이다",
      "写真は、何になりますか。 A. ゴミ · B. 宿題 · C. 家族の思い出", size=19, gap=6)
-e.head("B · 数字", 25)
+e.head("B　数字", 25)
 e.bridge("第5版の数字を入れてください。")
 e.ex("B1", "빈칸 채우기", "11", "포키데이는 11월 11일이다",
      "ポッキーの日は11月 ___ 日です。", instr="빈칸을 채우세요", size=19, gap=6)
@@ -89,7 +89,7 @@ e.ex("B1", "빈칸 채우기", "71", "가정의 71%가 기도를 받는다",
      "神社でご祈祷を受ける家庭は ___ %でした。", instr="빈칸을 채우세요", size=19, gap=6)
 e.ex("B1", "빈칸 채우기", "200", "설문은 시치고상 가정 200곳을 대상으로 했다",
      "調査は、七五三の家庭 ___ を対象にしました。", instr="빈칸을 채우세요", size=19, gap=6)
-e.head("C · 正しい・正しくない", 25)
+e.head("C　正しい・正しくない", 25)
 e.bridge("正しければ○、正しくなければ×を書いてください。")
 e.ex("B1", "참/거짓", "×", "포키데이는 사기만 하는 날이 아니다",
      "ポッキーの日は、買うだけの日です。", instr="참 or 거짓?", size=19, gap=6)
@@ -99,7 +99,7 @@ e.ex("B1", "참/거짓", "×", "사진관을 이용하는 가정: 71%",
      "写真館で撮る家庭は71%でした。", instr="참 or 거짓?", size=19, gap=6)
 e.ex("B1", "참/거짓", "○", "포키데이는 11월 11일이다",
      "ポッキーの日は、11月11日です。", instr="참 or 거짓?", size=19, gap=6)
-e.head("D · 文を完成しましょう", 25)
+e.head("D　文を完成しましょう", 25)
 e.bridge("第5版の文を完成してください。")
 e.ex("B1", "빈칸 채우기", "分けます", "分ける = 나누다",
      "細いお菓子を、友達と ___ 。", instr="빈칸을 채우세요", size=19, gap=6)
@@ -117,11 +117,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 深読み (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深読み · ふかよみ", "Lucerna", "レベル B2 · 紅葉の見頃は南へ · 단풍철은 남쪽으로")
+p.band("深読み　ふかよみ", "Lucerna", "レベル B2　紅葉の見頃は南へ　단풍철은 남쪽으로")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P6-feature")
-f.title("見頃を追いかけて、南へ", 37)
-f.byline("Lucerna編集部 · 読むレベル：B2")
+f.title("見頃を追いかけて、南へ", 32)
+f.byline("Lucerna編集部　読むレベル：B2")
 f.para("紅葉の見頃は、北から南へ移ります。ウェザーニューズの10月29日の「第3回紅葉見頃予想」では、東京の高尾山は11月13日ごろから、広島の宮島は11月21日ごろから、京都の嵐山は11月23日ごろから見頃だそうです。")
 f.para("同じ発表では、宮城県の鳴子峡は、もう見頃だそうです。11月初めの寒さで、色づきが進みました。その後は、気温が高めの日が多くなります。中旬以降に見頃になる場所は、平年よりやや遅くなる所が多いそうです。")
 f.para("日本気象株式会社の9月2日の予想では、東京の紅葉は11月29日ごろ、大阪は12月4日ごろです。どちらも、平年並みの予想です。予報の日にちは、見頃が始まる目安です。いちばん美しい日を表すものではありません。")
@@ -137,7 +137,7 @@ facts6 = ["13 — 高尾山は11月13日ごろから見頃",
           "29 — 東京の紅葉は11月29日ごろ（日本気象）"]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts6) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "今週の数字", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -148,7 +148,7 @@ words6 = ["追いかける — 後を追って行くこと",
           "落葉 — 木から落ちた葉"]
 wy3 = sy3 + sh + 26
 wh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in words6) + 32
-p.rect(ix, wy3, CW, wh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, wy3, CW, wh, fill=BOX)
 yy3 = wy3 + 16
 p.text(ix + 22, yy3 + 26, "紅葉のことば", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -158,9 +158,9 @@ print("P6 col3 ends", wy3 + wh)
 
 # ---- practice chart (full width) ----
 chy = 1500
-p.text(MX, chy + 26, "グラフを読もう · 그래프 읽기", 26, "sans", True, OLIVE)
-p.text(RIGHT, chy + 26, "練習用データ · 연습용 데이터", 21, "sans", True, BRICK, anchor="end")
-p.hline(MX, RIGHT, chy + 40, GOLD, 2)
+p.text(MX, chy + 26, "グラフを読もう　그래프 읽기", 26, "sans", True, OLIVE)
+p.text(RIGHT, chy + 26, "練習用データ　연습용 데이터", 21, "sans", True, OLIVE, anchor="end")
+p.hline(MX, RIGHT, chy + 40, OLIVE, 2)
 p.text(MX, chy + 78, "秋の休みに、どこへ行きたいですか（練習用データ — 実際の調査ではありません）", 22, "serif", True, INK)
 chart = [("山", 34), ("神社", 26), ("公園", 24), ("町", 16)]
 byy = chy + 104
@@ -173,11 +173,11 @@ p.para(MX, byy + 22, "このグラフは練習用データです。数字は全�
 
 # ---- P6 exercises ----
 ey = 1900
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · 6면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "답은 8면 · 수준이 섞여 있어요 — 번호를 찾으세요", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　6면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면　수준이 섞여 있어요 — 번호를 찾으세요", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.bridge("第6版の文章を読んで、正しい答えを選んでください。")
 e.ex("B2", "객관식", "B", "다카오산의 단풍은 11월 13일(금요일)경부터 절정이다",
      "高尾山の見頃はいつごろからですか。 A. 11月9日 · B. 11月13日ごろ · C. 12月4日", size=19, gap=6)
@@ -189,7 +189,7 @@ e.ex("B2", "객관식", "A", "11월 중순 이후에 절정을 맞는 곳은 대
      "中旬以降に見頃になる場所は、どうですか。 A. 平年よりやや遅い所が多い · B. 平年より早い所が多い · C. 平年と同じです", size=19, gap=6)
 e.ex("B2", "객관식", "B", "예보 날짜는 가장 좋은 계절의 시작을 알린다",
      "予報の日にちは、何ですか。 A. いちばん美しい日 · B. 見頃が始まる目安 · C. 落葉の日", size=19, gap=6)
-e.head("B · グラフ", 25)
+e.head("B　グラフ", 25)
 e.bridge("練習用データのグラフを見て答えてください。")
 e.ex("B2", "빈칸 채우기", "山", "산이 그래프에서 1위이다",
      "「行きたい場所」で1位は ___ です。", instr="빈칸을 채우세요", size=19, gap=6)
@@ -203,7 +203,7 @@ e.ex("B2", "빈칸 채우기", "60", "34 + 26 = 60",
      "山と神社を合わせると ___ %です。", instr="빈칸을 채우세요", size=19, gap=6)
 e.ex("B2", "빈칸 채우기", "100", "네 항목을 합하면 100%이다",
      "4つの数字を全部足すと ___ %になります。", instr="빈칸을 채우세요", size=19, gap=6)
-e.head("C · 数字と事実", 25)
+e.head("C　数字と事実", 25)
 e.bridge("第6版の数字を入れてください。")
 e.ex("B2", "빈칸 채우기", "23", "아라시야마의 단풍은 11월 23일(월요일)경부터 절정이다",
      "嵐山は11月 ___ 日ごろから見頃です。", instr="빈칸을 채우세요", size=19, gap=6)
@@ -213,7 +213,7 @@ e.ex("B2", "빈칸 채우기", "4", "오사카의 단풍은 12월 4일(금요일
      "大阪の紅葉は12月 ___ 日ごろです。", instr="빈칸을 채우세요", size=19, gap=6)
 e.ex("B2", "빈칸 채우기", "29", "웨더뉴스 예보는 10월 29일(목요일) 발표였다",
      "ウェザーニューズの予報は10月 ___ 日でした。", instr="빈칸을 채우세요", size=19, gap=6)
-e.head("D · 正しい・正しくない", 25)
+e.head("D　正しい・正しくない", 25)
 e.bridge("正しければ○、正しくなければ×を書いてください。")
 e.ex("B2", "참/거짓", "×", "단풍철이 남쪽에서 북쪽으로 이동한다는 것은 틀렸다",
      "紅葉の見頃は、南から北へ移ります。", instr="참 or 거짓?", size=19, gap=6)
