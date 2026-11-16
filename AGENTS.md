@@ -130,12 +130,14 @@ Follow W45 (`covers/2026-w45/`): the lead story carries its image, and the other
 Each week has one lead image per target language. The image goes with that week's lead story in that target language.
 The 12 covers share these 12 images. The site puts each image into that story's picture place on every cover.
 
-From 2026-w46, four secondary stories per target language also have a picture place (`MORE_IMAGES` in `tools/cover.mjs`):
+From 2026-w46, six secondary stories per target language also have a picture place (`MORE_IMAGES` in `tools/cover.mjs`):
 
 | Story | Place on the page | Aspect | File |
 |---|---|---|---|
+| `more[0]` | under the lead, above the headline | 3:2, at least 800 px wide | `images/<target language>-0.webp` |
 | `more[1]`, `more[2]` | narrow column, small picture beside the text | 1:1, at least 400 px wide | `images/<target language>-1.webp`, `-2.webp` |
 | `more[3]` | feature of the second group, above the headline | 3:2, at least 800 px wide | `images/<target language>-3.webp` |
+| `more[4]` | under the feature, above the headline | 3:2, at least 800 px wide | `images/<target language>-4.webp` |
 | `more[5]` | rail story, above the headline | 3:2, at least 800 px wide | `images/<target language>-5.webp` |
 
 A secondary picture is optional for lint. Without it, the site shows a placeholder in that place.

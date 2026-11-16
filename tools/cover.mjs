@@ -36,9 +36,9 @@ export const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko'
 export const FIRST_GENERATED_WEEK = '2026-w46';
 /**
  * Secondary stories and where the site places them (NYT front-page grid):
- *   more[0] under the lead, headline only · more[1], more[2] the narrow column of the second group, each with a
- *   square thumbnail · more[3] the feature of the second group, with a 3:2 picture · more[4] under the feature ·
- *   more[5] the rail story, with a 3:2 picture.
+ *   more[0] under the lead, with a 3:2 picture · more[1], more[2] the narrow column of the second group, each with a
+ *   square thumbnail · more[3] the feature of the second group, with a 3:2 picture · more[4] under the feature, with
+ *   a 3:2 picture · more[5] the rail story, with a 3:2 picture.
  */
 export const MORE_COUNT = 6;
 /**
@@ -49,7 +49,7 @@ export const MORE_COUNT = 6;
  */
 export const PAGE_ANCHORS_REQUIRED = true;
 /** more index → picture aspect [w, h]. File: covers/<week>/images/<target>-<index>.webp (lint rule 10). */
-export const MORE_IMAGES = { 1: [1, 1], 2: [1, 1], 3: [3, 2], 5: [3, 2] };
+export const MORE_IMAGES = { 0: [3, 2], 1: [1, 1], 2: [1, 1], 3: [3, 2], 4: [3, 2], 5: [3, 2] };
 
 /** Masthead and the small line under it, per reader language (the site replaces the masthead per edition). */
 const MASTHEAD = {
