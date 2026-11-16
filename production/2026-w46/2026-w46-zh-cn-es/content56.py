@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 青年 (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("青年 · Juventud", "Lucerna", "Level B1 · 老电影重映 · 读书月 · Vuelve un clásico y Mes de la Lectura")
+p.band("青年　Juventud", "Lucerna", "Level B1　老电影重映　读书月　Vuelve un clásico y Mes de la Lectura")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-feature")
-f.title("老电影回来了,你去看吗?", 37)
-f.byline("Redacción Lucerna · Nivel de lectura B1")
+f.title("老电影回来了,你去看吗?", 32)
+f.byline("Redacción Lucerna　Nivel de lectura B1")
 f.para("11月13日星期五,一部老电影要重映了:《海上钢琴师》。这部电影是1998年的意大利电影,导演是朱塞佩·托纳托雷,讲的是一个在船上出生、长大,从来没有下过船的钢琴师的故事。")
 f.para("这一次重映,是4K修复版:老电影,新画面,声音和画面都更清楚了。这部电影在中国很受欢迎,豆瓣上有190多万人打分,分数是9.3分。2019年,它第一次在中国上映;现在,它又回来了。")
 f.para("为什么老电影还要重映?因为好故事不会老。有人第一次看,有人再看一次:第一次看故事,第二次看音乐,第三次看人生选择——下船,还是不下船?")
@@ -23,7 +23,7 @@ f.head("读书月:书,要走出去读", 25)
 f.para("深圳读书月还在进行。11月7日,国际美术馆日:在艺术品中间读书,听一场关于阅读的讲座。11月14日,文化馆之夜:读者亲手摸古籍、抄经典。读书不只在家里,还可以走出去,在美术馆、在文化馆里读。")
 f.para("读书月有七个场馆一起参加:美术馆、科学馆、图书馆、文化馆,还有湾区之眼。11月1日开幕,主题是悦读深圳、阅连世界。")
 f.gloss("jiǎngzuò 讲座 — una charla, una conferencia · chǎngguǎn 场馆 — una sede, un espacio cultural.")
-f.box("这一周的高频词 · Palabras clave", [
+f.box("这一周的高频词　Palabras clave", [
     ("重映 — una película vieja proyectada de nuevo: 4K修复版,画面更清楚。", "serif", False, INK, 20, 1.35),
     ("看电影之前,先看简介,再决定要不要买票。", "serif", False, INK, 20, 1.35),
 ])
@@ -40,18 +40,18 @@ facts = ["1998年 — 《海上钢琴师》第一次上映",
          "11月14日 — 深圳读书月文化馆之夜"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "电影小日历 · Fechas de cine", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "电影小日历　Fechas de cine", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "你呢?你会去看重映的老电影吗?这个月,你在读什么书?写两句中文寄来。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Y tú? ¿Verías un clásico reestrenado? ¿Qué lees este mes? Escribe dos frases en chino.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "说说你自己 · ¿Y tú?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "说说你自己　¿Y tú?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "¿Y tú? ¿Verías un clásico reestrenado? ¿Qué lees este mes? Escribe dos frases en chino.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -59,11 +59,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "练习 · Ejercicios", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "练习　Ejercicios", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　答案见第8版", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · 读一读选一选 · Lee y elige", 25)
+e.head("A　读一读选一选　Lee y elige", 25)
 e.glossline("Lee la página 5 y elige la mejor respuesta.")
 e.ex("B1", "单选", "A", "El pianista nunca bajó del barco.",
      "《海上钢琴师》讲的是谁? A. 从没下过船的钢琴师 · B. 船长 · C. 画家", size=19, gap=6)
@@ -75,7 +75,7 @@ e.ex("B1", "单选", "B", "Mes de la Lectura: inicio el 1 nov.",
      "深圳读书月哪天开幕? A. 11月7日 · B. 11月1日 · C. 11月14日", size=19, gap=6)
 e.ex("B1", "单选", "B", "Noche cultural: 14 de noviembre.",
      "文化馆之夜在哪天? A. 11月7日 · B. 11月14日 · C. 11月1日", size=19, gap=6)
-e.head("B · 词语填空 · Huecos", 25)
+e.head("B　词语填空　Huecos", 25)
 e.glossline("Rellena cada hueco con la palabra correcta.")
 e.ex("B1", "完成句子", "重映", "chóngyìng — volver a proyectar una película vieja.",
      "老电影11月13日___了。", instr="Completa", size=19, gap=6)
@@ -87,7 +87,7 @@ e.ex("B1", "完成句子", "讲座", "jiǎngzuò — charla sobre lectura, en el
      "美术馆日,还有一场关于阅读的___。", instr="Completa", size=19, gap=6)
 e.ex("A2", "完成句子", "场馆", "chǎngguǎn — siete sedes en el Mes de la Lectura.",
      "读书月有七个___一起参加。", instr="Completa", size=19, gap=6)
-e.head("C · 时间与数字 · Horas y números", 25)
+e.head("C　时间与数字　Horas y números", 25)
 e.glossline("Responde con fechas y números de la p. 5.")
 e.ex("B1", "完成句子", "1998", "Estreno original: 1998.",
      "《海上钢琴师》是___年的电影。", instr="Completa", size=19, gap=6)
@@ -97,7 +97,7 @@ e.ex("B1", "完成句子", "190", "Más de 1,9 millones la puntuaron en Douban."
      "豆瓣上有___多万人打分。", instr="Completa", size=19, gap=6)
 e.ex("B1", "完成句子", "7", "Siete sedes en el Mes de la Lectura.",
      "读书月有___个场馆一起参加。", instr="Completa", size=19, gap=6)
-e.head("D · 词语配对 · Empareja", 25)
+e.head("D　词语配对　Empareja", 25)
 e.match_set("B1", "词汇配对",
             ["重映", "修复", "讲座", "场馆"],
             ["办活动的地方,美术馆、图书馆",
@@ -115,11 +115,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 深读 (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深读 · Lectura profunda", "Lucerna", "Level B2 · 包裹深读 · Por qué el pico de paquetes viene en olas")
+p.band("深读　Lectura profunda", "Lucerna", "Level B2　包裹深读　Por qué el pico de paquetes viene en olas")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1180, tag="P6-feature")
-f.title("包裹的高峰,为什么分三波?", 37)
-f.byline("Redacción Lucerna · Nivel de lectura B2")
+f.title("包裹的高峰,为什么分三波?", 32)
+f.byline("Redacción Lucerna　Nivel de lectura B2")
 f.para("今年的双11,快递的高峰分三波,不是一天。第一波在10月20日到21日,第二波在10月31日,第三波在11月11日,也是最大的一波。为什么会这样?因为双11本身分三段:现货先卖,高潮场再来,最后一天收尾。")
 f.para("先说第一波。10月20日晚上8点,淘宝和天猫付尾款、现货开售,很多人同一天付钱、下单。云仓的单量一下子到了日常的2.5倍。快递网点那天通宵收件,包裹开始一波一波地走。")
 f.para("再说小高峰和大高峰。报道说,小高峰的单量约是日常的1.5倍,大高峰约是日常的3到4倍。10月31日是第二波,11月11日是第三波,也是最高峰:那天,各大平台都进入收尾,更多人下单,包裹也最多。")
@@ -133,8 +133,8 @@ f.end_report()
 
 # ---- reported-multiples chart (cols 0-2) ----
 ly = 1210
-p.text(MX, ly + 26, "快递单量:日常的几倍 · Volúmenes de paquetes reportados (múltiplos de un día normal)", 26, "sans", True, OLIVE)
-p.hline(MX, COLX[2] + CW, ly + 40, GOLD, 2)
+p.text(MX, ly + 26, "快递单量:日常的几倍　Volúmenes de paquetes reportados (múltiplos de un día normal)", 26, "sans", True, OLIVE)
+p.hline(MX, COLX[2] + CW, ly + 40, OLIVE, 2)
 rows = [("日常", 1.0, "1 倍"), ("小高峰", 1.5, "约 1.5 倍"), ("首波 10月20日", 2.5, "2.5 倍"), ("大高峰 11月11日", 3.5, "3 到 4 倍")]
 SCALE = 220.0
 by0 = ly + 60
@@ -142,7 +142,7 @@ for i, (name, val, lab) in enumerate(rows):
     yy = by0 + i * 50
     p.text(MX, yy + 30, name, 24, "sans", True, INK)
     bw_ = val * SCALE
-    p.rect(MX + 260, yy + 4, bw_, 30, fill=OLIVE if i == 0 else GOLD)
+    p.rect(MX + 260, yy + 4, bw_, 30, fill=OLIVE)
     p.text(MX + 260 + bw_ + 16, yy + 30, lab, 24, "serif", True, INK)
 p.para(MX, by0 + 4 * 50 + 12, "Barras desde 0; la última está en 3,5, el centro del rango 3–4 reportado. Múltiplos reportados por 第一财经, 23 oct. (almacenes en la nube y mensajeros); no son conteos de paquetes. Solo práctica de lectura.", 20.5, "serif", False, GREY, 1388, 1.4)
 
@@ -154,9 +154,9 @@ facts = ["三波高峰 — 10月20日,10月31日,11月11日",
          "先看结算页,再确认收货"]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "深读要点 · Puntos clave", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "深读要点　Puntos clave", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -165,18 +165,18 @@ qs = ["1. 这是说法,还是数据?",
       "2. 数据是谁量的?哪一天?",
       "3. 预报和事实,分得清吗?"]
 qh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 14 for t in qs) + 30
-p.rect(ix, ay3, CW, qh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ay3, CW, qh, fill="#f0eee5")
 yy3 = ay3 + 16
-p.text(ix + 22, yy3 + 26, "读新闻三问 · Tres preguntas", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "读新闻三问　Tres preguntas", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in qs:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 8
 ey3 = ay3 + qh + 26
 etvous = "你呢?你的包裹等了几天?你会先打开看一看吗?写两句中文寄来。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Y tú? ¿Cuántos días tardó tu paquete? ¿Lo abres y lo revisas primero? Escribe dos frases en chino.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill=BOX)
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "说说你自己 · ¿Y tú?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "说说你自己　¿Y tú?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "¿Y tú? ¿Cuántos días tardó tu paquete? ¿Lo abres y lo revisas primero? Escribe dos frases en chino.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -184,11 +184,11 @@ print("P6 col3 ends", ey3 + eh)
 
 # ---- P6 exercises ----
 ey = 1560
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "练习 · Ejercicios", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "练习　Ejercicios", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　答案见第8版", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · 读一读选一选 · Lee y elige", 25)
+e.head("A　读一读选一选　Lee y elige", 25)
 e.glossline("Lee la página 6 y elige la mejor respuesta.")
 e.ex("B2", "单选", "A", "El pico de paquetes viene en tres olas.",
      "快递高峰分几波? A. 三波 · B. 一波 · C. 五波", size=19, gap=6)
@@ -200,7 +200,7 @@ e.ex("B2", "单选", "B", "Mercancía adelantada: +35 % interanual.",
      "顺丰前置货量比去年多了多少? A. 20% · B. 35% · C. 50%", size=19, gap=6)
 e.ex("B2", "单选", "B", "Abre el paquete y revisa antes de confirmar.",
      "包裹到了以后,先做什么? A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月", size=19, gap=6)
-e.head("B · 词语填空 · Huecos", 25)
+e.head("B　词语填空　Huecos", 25)
 e.glossline("Rellena cada hueco con la palabra correcta.")
 e.ex("B2", "完成句子", "三波", "sānbō — el pico viene en tres olas.",
      "快递高峰分___。", instr="Completa", size=19, gap=6)
@@ -212,7 +212,7 @@ e.ex("B2", "完成句子", "排队", "páiduì — los paquetes esperan si el ú
      "前端多,末端慢,包裹就要___。", instr="Completa", size=19, gap=6)
 e.ex("B2", "完成句子", "预报", "yùbào — un pronóstico, aún no un hecho.",
      "天气预报是___,不是已经发生的事。", instr="Completa", size=19, gap=6)
-e.head("C · 图表读数 · Lee el gráfico", 25)
+e.head("C　图表读数　Lee el gráfico", 25)
 e.glossline("Lee el gráfico de la página 6.")
 e.ex("B2", "完成句子", "1.5", "Un pico pequeño: unas 1,5 veces un día normal.",
      "小高峰约是日常的___倍。", instr="Completa", size=19, gap=6)
@@ -222,7 +222,7 @@ e.ex("B2", "完成句子", "3.5", "La última barra está en 3,5, el centro de 3
      "图里大高峰画的是___倍。", instr="Completa", size=19, gap=6)
 e.ex("B2", "完成句子", "20", "La recepción local subió un 20 % aprox.",
      "末端网点收件量多了约___%。", instr="Completa", size=19, gap=6)
-e.head("D · 词语配对 · Empareja", 25)
+e.head("D　词语配对　Empareja", 25)
 e.match_set("B2", "词汇配对",
             ["说法", "数据", "预报", "前置"],
             ["还没发生的事,先猜一猜",

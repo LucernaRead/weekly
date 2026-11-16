@@ -2,17 +2,17 @@
 
 ## 第 1 版 · 头版
 
-每周读中文 · Lire du vrai chinois, chaque semaine
+每周读中文　Lire du vrai chinois, chaque semaine
 
 2026年11月9日（周一）— 15日（周日）
 
 Lucerna
 
-简体中文版 · VOL.3 · 双11 · 消防日 · S16
+简体中文版　VOL.3　双11　消防日　S16
 
 给学中文的人的周报 — Lire la vraie Chine, en chinois
 
-TEXTES EN CHINOIS SIMPLIFIÉ · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES
+TEXTES EN CHINOIS SIMPLIFIÉ　EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES
 
 双11到了,包裹一波一波地来
 
@@ -20,15 +20,15 @@ TEXTES EN CHINOIS SIMPLIFIÉ · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LE
 
 双11×S16
 
-La semaine de shopping rencontre la finale · voir pages 2 et 4
+La semaine de shopping rencontre la finale　voir pages 2 et 4
 
-头条 · À la une
+头条　À la une
 
 双11到了,包裹也要到了
 
 11月11日星期三是双11,高潮场从前一天晚上8点开始——先买,再等包裹来
 
-Rédaction Lucerna · Niveau de lecture A2
+Rédaction Lucerna　Niveau de lecture A2
 
 今年的双11,现货从10月12日就开始卖了。京东10月12日晚上8点开始卖现货,淘宝和天猫10月20日晚上8点现货开售,现货一直卖到11月13日。
 
@@ -44,7 +44,7 @@ Rédaction Lucerna · Niveau de lecture A2
 
 gāocháochǎng 高潮场 — la grande vente · bāoguǒ 包裹 — un colis · gāofēng 高峰 — un pic, le moment le plus chargé · jiésuàn 结算 — la caisse, le règlement.
 
-数字看本周 · Chiffres de la semaine
+数字看本周　Chiffres de la semaine
 
 10 nov. 20:00 — grande vente (高潮场)
 
@@ -54,7 +54,7 @@ gāocháochǎng 高潮场 — la grande vente · bāoguǒ 包裹 — un colis ·
 
 15 nov. 03:00 — finale S16 (Pékin)
 
-即学即练 · Essaie tout de suite
+即学即练　Essaie tout de suite
 
 完成句子
 
@@ -106,9 +106,9 @@ La vente en stock dure jusqu'au 13 novembre.
 
 Compléter la phrase
 
-本周日历 · Cette semaine
+本周日历　Cette semaine
 
-11月9日—15日 · 9–15 nov.
+11月9日—15日　9–15 nov.
 
 Ce qui se passe cette semaine
 
@@ -128,7 +128,7 @@ Toutes les heures, heure de Pékin
 
 Bouclage : 2 nov. — résultats à venir
 
-本期目录 · Sommaire
+本期目录　Sommaire
 
 2版
 
@@ -160,9 +160,11 @@ S16:瑞士轮打完,八强出炉
 
 全部
 
-本周词 · Mot de la semaine
+本周词　Mot de la semaine
 
-「包裹」 bāoguǒ — un colis. Ce qu'on achète au Double 11 est mis dans un colis et livré jusqu'à toi. Exemple : 「我的包裹到了,去快递柜拿。」
+「包裹」 bāoguǒ
+
+un colis. Ce qu'on achète au Double 11 est mis dans un colis et livré jusqu'à toi. Exemple : 「我的包裹到了,去快递柜拿。」
 
 快递柜(资料图)。包裹到了,先看取件码,再去快递柜拿。
 
@@ -172,7 +174,7 @@ Photo: Map hobby — CC0 (Wikimedia Commons)
 
 这一周又买东西,又看比赛:周一消防日,周三双11,周日凌晨还有总决赛。先看好日历,再安排时间吧。
 
-快讯 · Brèves
+快讯　Brèves
 
 消防日
 
@@ -184,9 +186,9 @@ Photo: Map hobby — CC0 (Wikimedia Commons)
 
 《海上钢琴师》4K修复版11月13日重映。(第 5 版)
 
-闪电问答 · Quiz éclair
+闪电问答　Quiz éclair
 
-Lis la page 1 et choisis · 答案见第 8 版
+Lis la page 1 et choisis　答案见第8版
 
 单选
 
@@ -212,15 +214,15 @@ La finale S16, c'est à 03:00 heure de Pékin, le 15 novembre.
 
 S16总决赛在北京时间几点? A. 凌晨3点 · B. 早上6点 · C. 晚上8点
 
-生活 · La vie
+生活　La vie
 
 Lucerna
 
-Level A2 · 双11那一周 · 天冷了 · Semaine de shopping et jours plus froids
+Level A2　双11那一周　天冷了　Semaine de shopping et jours plus froids
 
 双11那一周:买、等、收包裹
 
-Rédaction Lucerna · Niveau de lecture A2
+Rédaction Lucerna　Niveau de lecture A2
 
 双11不是一天,是一段时间。现货从10月开始卖,11月10日晚上8点高潮场开始,11月11日是正日子,现货一直卖到11月13日。
 
@@ -238,7 +240,7 @@ qǔjiànmǎ 取件码 — un code de retrait pour colis · kuàidìguì 快递�
 
 Les prévisions disent : l'air froid arrive du 4 au 7 novembre, et beaucoup d'endroits connaîtront leurs températures les plus basses de la seconde moitié de l'année. Au nord, Harbin pourrait passer sous zéro en journée ; au sud, des villes comme Wuhan et Hefei pourraient rester sous 15 degrés le 8 novembre. Habille-toi selon l'endroit où tu vis — une seule règle ne convient pas à tout le pays.
 
-Exemple d'entraînement · 练习例子
+Exemple d'entraînement　练习例子
 
 一件毛衣 260 元,一条围巾 90 元,一起 350 元。
 
@@ -252,7 +254,7 @@ Exemple d'entraînement · 练习例子
 
 yángròutāng 羊肉汤 — soupe de mouton · rètāng 热汤 — soupe chaude · áoyè 熬夜 — veiller tard.
 
-本周生活小日历 · Dates clés
+本周生活小日历　Dates clés
 
 周一 11月9日 — 全国消防日
 
@@ -272,17 +274,17 @@ Photo: Paul Gilmore — CC0 (Wikimedia Commons)
 
 冷空气 11 月 4 日到 7 日来。
 
-你知道吗 · Le savais-tu ?
+你知道吗　Le savais-tu ?
 
 你呢?这个双11,你买了什么?你的包裹到了吗?写两句中文寄来。
 
 Et toi ? Qu'as-tu acheté pour ce 双11 ? Ton colis est-il arrivé ? Écris deux phrases en chinois.
 
-说说你自己 · Et toi ?
+说说你自己　Et toi ?
 
 Et toi ? Qu'as-tu acheté pour ce 双11 ? Ton colis est-il arrivé ? Écris deux phrases en chinois.
 
-双11词语卡 · Mots du shopping
+双11词语卡　Mots du shopping
 
 Quatre mots que tu verras dans chaque appli de shopping
 
@@ -312,11 +314,11 @@ le chauffage commence dans le nord
 
 Retiens la phrase : 「包裹到了,先看取件码,再去快递柜拿。」
 
-练习 · Exercices
+练习　Exercices
 
-Réponses page 8 · 答案见第 8 版
+Réponses page 8　答案见第8版
 
-A · 读一读选一选 · Lire et choisir
+A　读一读选一选　Lire et choisir
 
 Lis la page 2 et choisis la meilleure réponse.
 
@@ -350,7 +352,7 @@ Vérifie le code de retrait avant d'ouvrir le casier.
 
 去快递柜拿包裹,先看什么? A. 天气预报 · B. 取件码 · C. 电影票
 
-B · 词语填空 · Mots à trous
+B　词语填空　Mots à trous
 
 Remplis chaque blanc avec le bon mot.
 
@@ -404,7 +406,7 @@ màijiā — un vendeur ; le contacter en cas de problème.
 
 Compléter
 
-C · 数字与日期 · Nombres
+C　数字与日期　Nombres
 
 Utilise l'exemple d'entraînement de cette page.
 
@@ -440,7 +442,7 @@ La remise directe dans l'exemple est de 60 yuans.
 
 Compléter
 
-D · 词语配对 · Appariement
+D　词语配对　Appariement
 
 词汇配对
 
@@ -474,15 +476,15 @@ Associe les mots
 
 ## 第 3 版 · 文化
 
-文化 · Culture
+文化　Culture
 
 Lucerna
 
-Level A2→B1 · 消防日与读书月 · Journée du feu et Mois de la lecture
+Level A2→B1　消防日与读书月　Journée du feu et Mois de la lecture
 
 11月9日,先学会保护自己
 
-Rédaction Lucerna · Niveau de lecture A2→B1
+Rédaction Lucerna　Niveau de lecture A2→B1
 
 11月9日星期一,是全国消防日。今年是第35个全国消防日。11月也是消防宣传月,今年的主题是:全民消防、生命至上——提高自防自救能力。
 
@@ -512,27 +514,27 @@ Photo: Gerda Arendt — CC0 (Wikimedia Commons)
 
 11月14日 — 深圳读书月文化馆之夜
 
-节日小日历 · Dates des fêtes
+节日小日历　Dates des fêtes
 
 读书月:11月1日开始,深圳七个文化场馆一起办活动。
 
 文化馆之夜:11月14日,亲手摸古籍、抄经典。
 
-读书月 · Mois de la lecture
+读书月　Mois de la lecture
 
 你呢?你参加过消防演练吗?这个月,你在读什么书?写两句中文寄来。
 
 Et toi ? As-tu déjà participé à un exercice d'évacuation ? Que lis-tu ce mois-ci ? Écris deux phrases en chinois.
 
-说说你自己 · Et toi ?
+说说你自己　Et toi ?
 
 Et toi ? As-tu déjà participé à un exercice d'évacuation ? Que lis-tu ce mois-ci ? Écris deux phrases en chinois.
 
-练习 · Exercices
+练习　Exercices
 
-Réponses page 8 · 答案见第 8 版
+Réponses page 8　答案见第8版
 
-A · 读一读选一选 · Lire et choisir
+A　读一读选一选　Lire et choisir
 
 Lis la page 3 et choisis la meilleure réponse.
 
@@ -566,7 +568,7 @@ Garde la voie d'évacuation dégagée — ne bloque pas le couloir.
 
 楼道里应该怎么样? A. 逃生路一直通着 · B. 放很多东西 · C. 关上所有的门
 
-B · 词语填空 · Mots à trous
+B　词语填空　Mots à trous
 
 Remplis chaque blanc avec le bon mot.
 
@@ -618,7 +620,7 @@ gǔjí — vieux livres ; on peut toucher la reliure.
 
 Compléter
 
-C · 数字与日期 · Nombres
+C　数字与日期　Nombres
 
 Réponds avec les dates et les chiffres de la page 3.
 
@@ -654,7 +656,7 @@ Le Mois de la lecture a commencé le 1er novembre.
 
 Compléter
 
-D · 词语配对 · Appariement
+D　词语配对　Appariement
 
 词汇配对
 
@@ -684,15 +686,15 @@ D · 词语配对 · Appariement
 
 Associe les mots
 
-体育 · Sport
+体育　Sport
 
 Lucerna
 
-Level B1 · S16 瑞士轮打完 · Mondial S16 : phase suisse terminée
+Level B1　S16瑞士轮打完　Mondial S16 : phase suisse terminée
 
 S16:瑞士轮打完,八强出炉
 
-Rédaction Lucerna · Niveau de lecture B1
+Rédaction Lucerna　Niveau de lecture B1
 
 《英雄联盟》全球总决赛S16的瑞士轮,在11月1日打完了。八支队进了淘汰赛:韩国的GEN、DK、T1,中国的IG、TES、BLG,欧洲的KC,北美的LYON。
 
@@ -708,7 +710,7 @@ Rédaction Lucerna · Niveau de lecture B1
 
 chūlú 出炉 — (pour une liste) sortir, être définitif · nèizhàn 内战 — un match entre deux équipes de la même région · dān bài 单败 — élimination directe : perdre une fois et tu es éliminé.
 
-S16 赛程 · Calendrier S16 (heure de Pékin)
+S16赛程　Calendrier S16 (heure de Pékin)
 
 四分之一决赛 — 11月4日 TES对IG,5日 GEN对LYON,6日 DK对BLG,7日 T1对KC,早上6点,BO5
 
@@ -732,7 +734,7 @@ Photo: Syced — CC0 (Wikimedia Commons)
 
 11月15日 03:00 — 总决赛(北京时间)
 
-体育小日历 · Dates sportives
+体育小日历　Dates sportives
 
 出炉
 
@@ -746,13 +748,13 @@ nèizhàn — deux équipes de la même région jouent l'une contre l'autre.
 
 dānbài — perdre une fois et tu rentres chez toi.
 
-看比赛的中文 · Mots des matchs
+看比赛的中文　Mots des matchs
 
-练习 · Exercices
+练习　Exercices
 
-Réponses page 8 · 答案见第 8 版
+Réponses page 8　答案见第8版
 
-A · 读一读选一选 · Lire et choisir
+A　读一读选一选　Lire et choisir
 
 Lis la page 4 et choisis la meilleure réponse.
 
@@ -786,7 +788,7 @@ La finale commence à 03:00 heure de Pékin, le 15 novembre.
 
 总决赛在北京时间哪天? A. 11月14日 · B. 11月15日凌晨3点 · C. 11月8日
 
-B · 词语填空 · Mots à trous
+B　词语填空　Mots à trous
 
 Remplis chaque blanc avec le bon mot.
 
@@ -840,7 +842,7 @@ bànyè — 03:00, c'est le milieu de la nuit.
 
 Compléter
 
-C · 读赛程 · Le programme
+C　读赛程　Le programme
 
 Lis le programme de la page 4.
 
@@ -876,7 +878,7 @@ TES对IG在11月___日。
 
 Compléter
 
-D · 词语配对 · Appariement
+D　词语配对　Appariement
 
 词汇配对
 
@@ -910,15 +912,15 @@ Associe les mots
 
 ## 第 5 版 · 青年
 
-青年 · Jeunesse
+青年　Jeunesse
 
 Lucerna
 
-Level B1 · 老电影重映 · 读书月 · Un classique revient et Mois de la lecture
+Level B1　老电影重映　读书月　Un classique revient et Mois de la lecture
 
 老电影回来了,你去看吗?
 
-Rédaction Lucerna · Niveau de lecture B1
+Rédaction Lucerna　Niveau de lecture B1
 
 11月13日星期五,一部老电影要重映了:《海上钢琴师》。这部电影是1998年的意大利电影,导演是朱塞佩·托纳托雷,讲的是一个在船上出生、长大,从来没有下过船的钢琴师的故事。
 
@@ -938,7 +940,7 @@ chóngyìng 重映 — ressortir, montrer de nouveau · xiūfù 修复 — resta
 
 jiǎngzuò 讲座 — une conférence · chǎngguǎn 场馆 — un lieu, un lieu culturel.
 
-这一周的高频词 · Mots de la semaine
+这一周的高频词　Mots de la semaine
 
 重映 — un vieux film montré de nouveau : 4K修复版,画面更清楚。
 
@@ -956,21 +958,21 @@ Photo: Based5290 — Public domain (Wikimedia Commons)
 
 11月14日 — 深圳读书月文化馆之夜
 
-电影小日历 · Dates cinéma
+电影小日历　Dates cinéma
 
 你呢?你会去看重映的老电影吗?这个月,你在读什么书?写两句中文寄来。
 
 Et toi ? Irais-tu voir un classique ressorti en salle ? Que lis-tu ce mois-ci ? Écris deux phrases en chinois.
 
-说说你自己 · Et toi ?
+说说你自己　Et toi ?
 
 Et toi ? Irais-tu voir un classique ressorti en salle ? Que lis-tu ce mois-ci ? Écris deux phrases en chinois.
 
-练习 · Exercices
+练习　Exercices
 
-Réponses page 8 · 答案见第 8 版
+Réponses page 8　答案见第8版
 
-A · 读一读选一选 · Lire et choisir
+A　读一读选一选　Lire et choisir
 
 Lis la page 5 et choisis la meilleure réponse.
 
@@ -1004,7 +1006,7 @@ La nuit culturelle, c'est le 14 novembre.
 
 文化馆之夜在哪天? A. 11月7日 · B. 11月14日 · C. 11月1日
 
-B · 词语填空 · Mots à trous
+B　词语填空　Mots à trous
 
 Remplis chaque blanc avec le bon mot.
 
@@ -1058,7 +1060,7 @@ chǎngguǎn — sept lieux participent au Mois de la lecture.
 
 Compléter
 
-C · 时间与数字 · Horaires
+C　时间与数字　Horaires
 
 Réponds avec les dates et les chiffres de la page 5.
 
@@ -1094,7 +1096,7 @@ Sept lieux participent au Mois de la lecture.
 
 Compléter
 
-D · 词语配对 · Appariement
+D　词语配对　Appariement
 
 词汇配对
 
@@ -1124,15 +1126,15 @@ D · 词语配对 · Appariement
 
 Associe les mots
 
-深读 · Lecture approfondie
+深读　Lecture approfondie
 
 Lucerna
 
-Level B2 · 包裹深读 · Pourquoi le pic des colis vient par vagues
+Level B2　包裹深读　Pourquoi le pic des colis vient par vagues
 
 包裹的高峰,为什么分三波?
 
-Rédaction Lucerna · Niveau de lecture B2
+Rédaction Lucerna　Niveau de lecture B2
 
 今年的双11,快递的高峰分三波,不是一天。第一波在10月20日到21日,第二波在10月31日,第三波在11月11日,也是最大的一波。为什么会这样?因为双11本身分三段:现货先卖,高潮场再来,最后一天收尾。
 
@@ -1152,7 +1154,7 @@ qiánzhì 前置 — placé à l'avance, avancé tôt · mòduān 末端 — le 
 
 shuōfǎ 说法 — une affirmation, ce que quelqu'un dit · shùjù 数据 — des données, des chiffres mesurés · yùbào 预报 — une prévision, ce qui est prédit, pas encore un fait.
 
-快递单量:日常的几倍 · Volumes de colis rapportés (multiples d'un jour normal)
+快递单量:日常的几倍　Volumes de colis rapportés (multiples d'un jour normal)
 
 日常
 
@@ -1180,7 +1182,7 @@ Barres à partir de 0 ; la dernière barre est dessinée à 3,5, le milieu de la
 
 先看结算页,再确认收货
 
-深读要点 · Points clés
+深读要点　Points clés
 
 1. 这是说法,还是数据?
 
@@ -1188,21 +1190,21 @@ Barres à partir de 0 ; la dernière barre est dessinée à 3,5, le milieu de la
 
 3. 预报和事实,分得清吗?
 
-读新闻三问 · Trois questions
+读新闻三问　Trois questions
 
 你呢?你的包裹等了几天?你会先打开看一看吗?写两句中文寄来。
 
 Et toi ? Combien de jours a mis ton colis ? L'ouvres-tu d'abord pour vérifier ? Écris deux phrases en chinois.
 
-说说你自己 · Et toi ?
+说说你自己　Et toi ?
 
 Et toi ? Combien de jours a mis ton colis ? L'ouvres-tu d'abord pour vérifier ? Écris deux phrases en chinois.
 
-练习 · Exercices
+练习　Exercices
 
-Réponses page 8 · 答案见第 8 版
+Réponses page 8　答案见第8版
 
-A · 读一读选一选 · Lire et choisir
+A　读一读选一选　Lire et choisir
 
 Lis la page 6 et choisis la meilleure réponse.
 
@@ -1236,7 +1238,7 @@ Ouvre le colis et vérifie avant de confirmer la réception.
 
 包裹到了以后,先做什么? A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
 
-B · 词语填空 · Mots à trous
+B　词语填空　Mots à trous
 
 Remplis chaque blanc avec le bon mot.
 
@@ -1290,7 +1292,7 @@ yùbào — une prévision est prédite, pas encore un fait.
 
 Compléter
 
-C · 图表读数 · Lire le graphique
+C　图表读数　Lire le graphique
 
 Lis le graphique de la page 6.
 
@@ -1326,7 +1328,7 @@ Les réceptions des points locaux ont augmenté d'environ 20 %.
 
 Compléter
 
-D · 词语配对 · Appariement
+D　词语配对　Appariement
 
 词汇配对
 
@@ -1360,13 +1362,13 @@ Associe les mots
 
 ## 第 7 版 · 词语精讲
 
-词语 · Le point langue
+词语　Le point langue
 
 Lucerna
 
-语言聚焦 · 三个级别,三个主题 · Trois niveaux, trois thèmes
+语言聚焦　三个级别,三个主题　Trois niveaux, trois thèmes
 
-A2 · 双11与包裹 · Le shopping
+A2　双11与包裹　Le shopping
 
 Mots du shopping pour cette semaine : 高潮场 (gāocháochǎng, la grande vente), 包裹 (bāoguǒ, un colis), 取件码 (qǔjiànmǎ, un code de retrait), 快递柜 (kuàidìguì, un casier à colis). Mots de sécurité : 消防 (xiāofáng, prévention incendie), 疏散 (shūsàn, évacuer), 自救 (zìjiù, autosauvetage).
 
@@ -1404,7 +1406,7 @@ Les colis prennent 个 — pas 只 ni 条.
 
 Encore un pour s'entraîner : 「我的包裹到了吗?」 (Mon colis est-il arrivé ?) Quand tu attends un colis, demande d'abord, puis va au casier.
 
-B1 · 时间与日期 · Heures et dates
+B1　时间与日期　Heures et dates
 
 Le chinois donne les heures du grand au petit : année, mois, jour, jour de la semaine, moment de la journée, heure. Exemples de ce numéro : 「11月9日星期一」 (lun. 9 nov.), 「11月10日星期二20点」 (mar. 10 nov., 20 h 00), 「11月15日星期日凌晨3点」 (dim. 15 nov., 3 h du matin). La plus grande unité d'abord, rien dans le désordre.
 
@@ -1444,7 +1446,7 @@ Compléter
 
 Deux mots de plus : 凌晨 (língchén), ce sont les petites heures après minuit, avant l'aube ; 傍晚 (bàngwǎn), c'est le court moment juste avant la nuit.
 
-B2 · 读新闻 · Lire les nouvelles
+B2　读新闻　Lire les nouvelles
 
 Quand une histoire contient une affirmation (说法), sépare trois sortes de phrases : les affirmations (说法), les données (数据) et les prévisions (预报). La page 6 est l'exemple : 「最大的一波」 est une affirmation sur le 11 novembre, les multiples 1,5 et 2,5 sont des données rapportées, et les températures de l'air froid sont une prévision — prédite, pas encore un fait.
 
@@ -1508,21 +1510,21 @@ Ordre : nombre + classificateur + nom.
 
 Les heures vont du grand au petit : le jour de la semaine en dernier.
 
-易错诊所 · Clinique des erreurs
+易错诊所　Clinique des erreurs
 
 「先看取件码,再开柜门。」(Vérifie le code, puis ouvre le casier.) Le cadre 先…再… donne l'ordre des actions.
 
 Cadre : 先 … 再 … — d'abord X, puis Y.
 
-本周句式 · Structure de phrase
+本周句式　Structure de phrase
 
 「你好!我住在北京。11月9日学校做了消防演练,我学会了走楼梯。双11我买了一本书,包裹两天就到了。周日凌晨,我想看S16总决赛!」
 
 编辑部示例信,不是真实来信。VOL.2曾预告本期刊登真实来信和最佳作文;截至11月2日截稿,仍未收到,本期仍刊示例,继续征集。延期不是取消。Note de la rédaction : VOL.2 promettait de vraies lettres dans VOL.3 ; aucune n'est arrivée au 2 nov. L'exemple reste. Reporté, pas annulé.
 
-读者园地 · Coin des lecteurs
+读者园地　Coin des lecteurs
 
-本周金句 · Phrases de la semaine (mot pour mot, tirées des propres articles de ce numéro)
+本周金句　Phrases de la semaine (mot pour mot, tirées des propres articles de ce numéro)
 
 「双11的正日子」
 
@@ -1556,19 +1558,19 @@ Le pic des colis vient en trois vagues.
 
 En cas d'incendie, ne prends pas l'ascenseur.
 
-下期预告 · La semaine prochaine (VOL.4)
+下期预告　La semaine prochaine (VOL.4)
 
 S16总决赛打完了,谁是冠军?包裹都到了吗?还有你们的来信和第8版最佳作文。下周见!
 
 ## 第 8 版 · 测验与答案
 
-测验与答案 · Test et corrigés
+测验与答案　Test et corrigés
 
 Lucerna
 
-第 8 版 · 本周大测验 + 全部答案 · Le test de cette semaine et tous les corrigés
+第8版　本周大测验 + 全部答案　Le test de cette semaine et tous les corrigés
 
-A · 判断对错 · Vrai ou faux
+A　判断对错　Vrai ou faux
 
 完形单选
 
@@ -1618,7 +1620,7 @@ Mois de la lecture : 1er nov., pas le 9.
 
 深圳读书月11月9日开幕。(A. 对 · B. 错)
 
-B · 本周大测验 · Le grand quiz
+B　本周大测验　Le grand quiz
 
 单选
 
@@ -1680,7 +1682,7 @@ La finale commence à 03:00 heure de Pékin, le 15 novembre.
 
 总决赛在北京时间哪天? A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点
 
-C · 完成句子 · Compléter
+C　完成句子　Compléter
 
 完成句子
 
@@ -1782,7 +1784,7 @@ qiánzhì — marchandises placées près de l'acheteur.
 
 Compléter
 
-D · 读一读,答一答 · Lire et répondre
+D　读一读,答一答　Lire et répondre
 
 小林住在深圳。11月9日星期一,学校做了消防演练,小林学会了走楼梯、不坐电梯。11月11日星期三,小林在网上买的书到了,他用取件码打开快递柜,拿到了包裹。11月14日星期六晚上,小林和妈妈一起去文化馆,亲手摸了摸古籍。周日凌晨3点,他想早起看S16总决赛。
 
@@ -1826,7 +1828,7 @@ Xiao Lin vit à Shenzhen.
 
 Compléter
 
-E · 情景说话 · En conversation
+E　情景说话　En conversation
 
 完形单选
 
@@ -1846,7 +1848,7 @@ La règle de la page 6 : les données d'abord, la pub en dernier.
 
 — 这条新闻说最大一波,可信吗? — 先看___,再看广告。(A. 数据 · B. 评论)
 
-F · 写一写 · Rédaction
+F　写一写　Rédaction
 
 这一周是双11那一周。星期一,学校做了消防演练,我学会了走楼梯、不坐电梯。星期二晚上8点,高潮场开始了,我买了一本书。星期三,我的包裹到了,我用取件码打开快递柜,拿到了书。星期六晚上,我和妈妈一起去文化馆,亲手摸了摸古籍,很有意思。星期日凌晨3点,我想早起看S16总决赛。这一周,又忙又开心,冬天真的来了,我要多穿衣服,不着凉。
 
@@ -1860,8 +1862,8 @@ Rédaction
 
 Modèle :
 
-答案 · Corrigés — par page, avec une note pour chaque réponse
+答案　Corrigés — par page, avec une note pour chaque réponse
 
-Toutes les notes en français · ✓ = la rédaction
+Toutes les notes en français　✓ = la rédaction
 
 写作

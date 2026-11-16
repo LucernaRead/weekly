@@ -1,0 +1,24 @@
+GATES-SUMMARY 2026-w46-zh-cn-en round=run2
+  G1: PASS  TOTAL=150 FLOW=0 HEAD=0
+  G2: PASS  head_check rc=0 findings=0
+  G3: PASS  D5_lat=0 D5_cyr=0 curly_cjk=0 noto_sans=0
+  G4: PASS  render rc=0 print=yes
+  G5: PASS  web 2086219 B
+  G6: FAIL  flags=1 ["[TEXTX] p1-touiban.svg 'ǒ' — ink overlaps 'bāogu' by 3.2x15.8px"]
+  G7: PASS  p8 extract 150/150
+  G8: PASS  CLEAN keydiff=[]
+  G9: PASS  freeze 8/8 rc=0
+  G10: PASS  cjk_added=0 latin_added=285 latin_unexpected=285
+  G11: PASS  spill=0 observe=86 set==baseline:True
+  G12: PASS  defect=0 observe=0 marginal=0
+  G13: PASS  touch=0 near=0
+  G14: PASS  defects=0 P8 p8-ceyan.svg: lines 231->231 slack_footer 47.2->47.2
+  G15a: FAIL  print/web multiset diff=0; text.md.new==fanout .new: True; pdfdiff vs issues: verdict: 1 page(s) differ
+  G15b: RECORD  rc=1   11x '形' |   10x 'national' | CARRYOVER: FAIL
+  G15c: PASS  ADOPT /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-zh-cn/patched/core-zh-cn/2026-w46-zh-cn-en.text.md.new: 926 entries vs ref 925; ADOPT furniture 98, ADOPT word-split 1, UNEXPECTED 0
+  G16: PASS  defective quotes=0
+  D18: PASS  gap=386.8px date_x=1512.6 slogan_end=1125.8 clusters=3
+  D37: PASS  end=1411.1 margin=28.4 ink_end=1411.0 text='简体中文正文\u3000英语讲解 — Simplified Chinese text\u3000Ex'
+  D37-sub: PASS  end=1171.9 margin=267.6 ink_end=1171.9 text='给学中文的人的周报 — Read the real China, in Chin'
+ALL-GREEN: False (PASS 18 FAIL 2 of 21)
+textexp rc=0

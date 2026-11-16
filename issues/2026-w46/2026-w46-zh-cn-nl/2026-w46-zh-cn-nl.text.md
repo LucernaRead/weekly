@@ -2,17 +2,17 @@
 
 ## 第 1 版 · 头版
 
-每周读中文 · Lees echt Chinees, elke week
+每周读中文　Lees echt Chinees, elke week
 
 2026年11月9日（周一）— 15日（周日）
 
 Lucerna
 
-简体中文版 · VOL.3 · 双11 · 消防日 · S16
+简体中文版　VOL.3　双11　消防日　S16
 
 给学中文的人的周报 — Lees het echte China, in het Chinees
 
-TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+TEKSTEN IN HET CHINEES (VEREENVOUDIGD)　UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
 
 双11到了,包裹一波一波地来
 
@@ -20,15 +20,15 @@ TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS — DE EDITIE
 
 双11×S16
 
-Winkelweek ontmoet de finale · zie pagina's 2 en 4
+Winkelweek ontmoet de finale　zie pagina's 2 en 4
 
-头条 · Hoofdverhaal
+头条　Hoofdverhaal
 
 双11到了,包裹也要到了
 
 11月11日星期三是双11,高潮场从前一天晚上8点开始——先买,再等包裹来
 
-Redactie Lucerna · Leesniveau A2
+Redactie Lucerna　Leesniveau A2
 
 今年的双11,现货从10月12日就开始卖了。京东10月12日晚上8点开始卖现货,淘宝和天猫10月20日晚上8点现货开售,现货一直卖到11月13日。
 
@@ -44,7 +44,7 @@ Redactie Lucerna · Leesniveau A2
 
 gāocháochǎng 高潮场 — de piekverkoopperiode · bāoguǒ 包裹 — een pakket · gāofēng 高峰 — een piek, de drukste tijd · jiésuàn 结算 — de kassa, de rekening betalen.
 
-数字看本周 · Deze week in cijfers
+数字看本周　Deze week in cijfers
 
 10 nov., 20:00 — de piekverkoop (高潮场) begint
 
@@ -54,7 +54,7 @@ gāocháochǎng 高潮场 — de piekverkoopperiode · bāoguǒ 包裹 — een p
 
 15 nov., 03:00 — de S16-finale (Peking-tijd)
 
-即学即练 · Probeer het nu
+即学即练　Probeer het nu
 
 完成句子
 
@@ -106,9 +106,9 @@ De spotverkoop loopt tot 13 november.
 
 Vul de zin in
 
-本周日历 · Deze week
+本周日历　Deze week
 
-11月9日—15日 · 9–15 nov.
+11月9日—15日　9–15 nov.
 
 Wat gebeurt er deze week
 
@@ -128,7 +128,7 @@ Alle tijden Peking-tijd
 
 Deadline: 2 nov. — nog geen uitslagen
 
-本期目录 · Inhoud
+本期目录　Inhoud
 
 2版
 
@@ -160,9 +160,11 @@ S16:瑞士轮打完,八强出炉
 
 全部
 
-本周词 · Woord van de week
+本周词　Woord van de week
 
-「包裹」 bāoguǒ — een pakket. Wat je op Double 11 koopt, zit in een pakket en komt in je handen. Voorbeeld: 「我的包裹到了,去快递柜拿。」
+「包裹」 bāoguǒ
+
+een pakket. Wat je op Double 11 koopt, zit in een pakket en komt in je handen. Voorbeeld: 「我的包裹到了,去快递柜拿。」
 
 快递柜(资料图)。包裹到了,先看取件码,再去快递柜拿。
 
@@ -172,7 +174,7 @@ Photo: Map hobby — CC0 (Wikimedia Commons)
 
 这一周又买东西,又看比赛:周一消防日,周三双11,周日凌晨还有总决赛。先看好日历,再安排时间吧。
 
-快讯 · Kort nieuws
+快讯　Kort nieuws
 
 消防日
 
@@ -184,9 +186,9 @@ Photo: Map hobby — CC0 (Wikimedia Commons)
 
 《海上钢琴师》4K修复版11月13日重映。(第 5 版)
 
-闪电问答 · Snelle quiz
+闪电问答　Snelle quiz
 
-Lees pagina 1 en kies · 答案见第 8 版
+Lees pagina 1 en kies　答案见第8版
 
 单选
 
@@ -212,15 +214,15 @@ De S16-finale: 15 nov., 03:00 Peking-tijd.
 
 S16总决赛在北京时间几点? A. 凌晨3点 · B. 早上6点 · C. 晚上8点
 
-生活 · Het leven
+生活　Het leven
 
 Lucerna
 
-Level A2 · 双11那一周 · 天冷了 · Winkelweek & koudere dagen
+Level A2　双11那一周　天冷了　Winkelweek & koudere dagen
 
 双11那一周:买、等、收包裹
 
-Redactie Lucerna · Leesniveau A2
+Redactie Lucerna　Leesniveau A2
 
 双11不是一天,是一段时间。现货从10月开始卖,11月10日晚上8点高潮场开始,11月11日是正日子,现货一直卖到11月13日。
 
@@ -238,7 +240,7 @@ qǔjiànmǎ 取件码 — een ophaalcode voor pakketten · kuàidìguì 快递�
 
 De voorspelling zegt: koude lucht 4–7 november, en veel plaatsen zien hun laagste temperaturen van de tweede helft van het jaar. In het noorden kan Harbin overdag onder het vriespunt komen; in het zuiden kunnen steden als Wuhan en Hefei op 8 november onder de 15 graden blijven. Kleed je naar de plaats waar je woont — één regel past niet voor het hele land.
 
-Oefenvoorbeeld · 练习例子
+Oefenvoorbeeld　练习例子
 
 一件毛衣 260 元,一条围巾 90 元,一起 350 元。
 
@@ -252,7 +254,7 @@ Oefenvoorbeeld · 练习例子
 
 yángròutāng 羊肉汤 — schapensoep · rètāng 热汤 — hete soep · áoyè 熬夜 — laat opblijven.
 
-本周生活小日历 · Data deze week
+本周生活小日历　Data deze week
 
 周一 11月9日 — 全国消防日
 
@@ -272,17 +274,17 @@ Photo: Paul Gilmore — CC0 (Wikimedia Commons)
 
 冷空气 11 月 4 日到 7 日来。
 
-你知道吗 · Wist je dat?
+你知道吗　Wist je dat?
 
 你呢?这个双11,你买了什么?你的包裹到了吗?写两句中文寄来。
 
 En jij? Wat heb je deze 双11 gekocht? Is je pakket al aangekomen? Schrijf twee zinnen in het Chinees.
 
-说说你自己 · En jij?
+说说你自己　En jij?
 
 En jij? Wat heb je deze 双11 gekocht? Is je pakket al aangekomen? Schrijf twee zinnen in het Chinees.
 
-双11词语卡 · Winkelwoorden
+双11词语卡　Winkelwoorden
 
 Vier woorden die je in elke winkelapp ziet
 
@@ -312,11 +314,11 @@ de verwarming begint in het noorden
 
 Onthoud de zin: 「包裹到了,先看取件码,再去快递柜拿。」
 
-练习 · Oefeningen
+练习　Oefeningen
 
-Antwoorden op pagina 8 · 答案见第 8 版
+Antwoorden op pagina 8　答案见第8版
 
-A · 读一读选一选 · Lees en kies
+A　读一读选一选　Lees en kies
 
 Lees pagina 2 en kies het beste antwoord.
 
@@ -350,7 +352,7 @@ Controleer de ophaalcode voordat je het pakketkluisje opent.
 
 去快递柜拿包裹,先看什么? A. 天气预报 · B. 取件码 · C. 电影票
 
-B · 词语填空 · Woordblanks
+B　词语填空　Woordblanks
 
 Vul elke leegte in met het juiste woord.
 
@@ -404,7 +406,7 @@ màijiā — een verkoper; neem contact op bij een probleem.
 
 Vul in
 
-C · 数字与日期 · Getallen
+C　数字与日期　Getallen
 
 Gebruik het oefenvoorbeeld op deze pagina.
 
@@ -440,7 +442,7 @@ De directe korting in het voorbeeld: 60 yuan.
 
 Vul in
 
-D · 词语配对 · Koppelen
+D　词语配对　Koppelen
 
 词汇配对
 
@@ -474,15 +476,15 @@ Koppel de woorden
 
 ## 第 3 版 · 文化
 
-文化 · Cultuur
+文化　Cultuur
 
 Lucerna
 
-Level A2→B1 · 消防日与读书月 · Branddag & Leesmaand
+Level A2→B1　消防日与读书月　Branddag & Leesmaand
 
 11月9日,先学会保护自己
 
-Redactie Lucerna · Leesniveau A2→B1
+Redactie Lucerna　Leesniveau A2→B1
 
 11月9日星期一,是全国消防日。今年是第35个全国消防日。11月也是消防宣传月,今年的主题是:全民消防、生命至上——提高自防自救能力。
 
@@ -512,27 +514,27 @@ Photo: Gerda Arendt — CC0 (Wikimedia Commons)
 
 11月14日 — 深圳读书月文化馆之夜
 
-节日小日历 · Festivaldata
+节日小日历　Festivaldata
 
 读书月:11月1日开始,深圳七个文化场馆一起办活动。
 
 文化馆之夜:11月14日,亲手摸古籍、抄经典。
 
-读书月 · Leesmaand
+读书月　Leesmaand
 
 你呢?你参加过消防演练吗?这个月,你在读什么书?写两句中文寄来。
 
 En jij? Heb je meegedaan aan een brandoefening? Wat lees je deze maand? Schrijf twee zinnen in het Chinees.
 
-说说你自己 · En jij?
+说说你自己　En jij?
 
 En jij? Heb je meegedaan aan een brandoefening? Wat lees je deze maand? Schrijf twee zinnen in het Chinees.
 
-练习 · Oefeningen
+练习　Oefeningen
 
-Antwoorden op pagina 8 · 答案见第 8 版
+Antwoorden op pagina 8　答案见第8版
 
-A · 读一读选一选 · Lees en kies
+A　读一读选一选　Lees en kies
 
 Lees pagina 3 en kies het beste antwoord.
 
@@ -566,7 +568,7 @@ Houd de vluchtroute vrij — blokkeer de gang niet.
 
 楼道里应该怎么样? A. 逃生路一直通着 · B. 放很多东西 · C. 关上所有的门
 
-B · 词语填空 · Woordblanks
+B　词语填空　Woordblanks
 
 Vul elke leegte in met het juiste woord.
 
@@ -618,7 +620,7 @@ gǔjí — oude boeken; de lezer raakt de binding aan.
 
 Vul in
 
-C · 数字与日期 · Getallen
+C　数字与日期　Getallen
 
 Antwoord met data en getallen van pagina 3.
 
@@ -654,7 +656,7 @@ Leesmaand: begonnen op 1 nov.
 
 Vul in
 
-D · 词语配对 · Koppelen
+D　词语配对　Koppelen
 
 词汇配对
 
@@ -684,15 +686,15 @@ D · 词语配对 · Koppelen
 
 Koppel de woorden
 
-体育 · Sport
+体育　Sport
 
 Lucerna
 
-Level B1 · S16 瑞士轮打完 · Worlds S16: Zwitserse fase klaar
+Level B1　S16瑞士轮打完　Worlds S16: Zwitserse fase klaar
 
 S16:瑞士轮打完,八强出炉
 
-Redactie Lucerna · Leesniveau B1
+Redactie Lucerna　Leesniveau B1
 
 《英雄联盟》全球总决赛S16的瑞士轮,在11月1日打完了。八支队进了淘汰赛:韩国的GEN、DK、T1,中国的IG、TES、BLG,欧洲的KC,北美的LYON。
 
@@ -708,7 +710,7 @@ Redactie Lucerna · Leesniveau B1
 
 chūlú 出炉 — (van een lijst) uitkomen, definitief worden · nèizhàn 内战 — een wedstrijd tussen twee teams uit dezelfde regio · dān bài 单败 — enkele eliminatie: één keer verliezen en je bent eruit.
 
-S16 赛程 · S16-schema (Peking-tijd)
+S16赛程　S16-schema (Peking-tijd)
 
 四分之一决赛 — 11月4日 TES对IG,5日 GEN对LYON,6日 DK对BLG,7日 T1对KC,早上6点,BO5
 
@@ -732,7 +734,7 @@ Photo: Syced — CC0 (Wikimedia Commons)
 
 11月15日 03:00 — 总决赛(北京时间)
 
-体育小日历 · Sportdata
+体育小日历　Sportdata
 
 出炉
 
@@ -746,13 +748,13 @@ nèizhàn — twee teams uit dezelfde regio tegen elkaar.
 
 dānbài — één keer verliezen en je gaat naar huis.
 
-看比赛的中文 · Wedstrijdwoorden
+看比赛的中文　Wedstrijdwoorden
 
-练习 · Oefeningen
+练习　Oefeningen
 
-Antwoorden op pagina 8 · 答案见第 8 版
+Antwoorden op pagina 8　答案见第8版
 
-A · 读一读选一选 · Lees en kies
+A　读一读选一选　Lees en kies
 
 Lees pagina 4 en kies het beste antwoord.
 
@@ -786,7 +788,7 @@ De finale begint 15 nov. om 03:00 Peking-tijd.
 
 总决赛在北京时间哪天? A. 11月14日 · B. 11月15日凌晨3点 · C. 11月8日
 
-B · 词语填空 · Woordblanks
+B　词语填空　Woordblanks
 
 Vul elke leegte in met het juiste woord.
 
@@ -840,7 +842,7 @@ bànyè — 03:00 is midden in de nacht.
 
 Vul in
 
-C · 读赛程 · Het schema
+C　读赛程　Het schema
 
 Lees het schema op pagina 4.
 
@@ -876,7 +878,7 @@ TES对IG在11月___日。
 
 Vul in
 
-D · 词语配对 · Koppelen
+D　词语配对　Koppelen
 
 词汇配对
 
@@ -910,15 +912,15 @@ Koppel de woorden
 
 ## 第 5 版 · 青年
 
-青年 · Jeugd
+青年　Jeugd
 
 Lucerna
 
-Level B1 · 老电影重映 · 读书月 · Een klassieker terug & Leesmaand
+Level B1　老电影重映　读书月　Een klassieker terug & Leesmaand
 
 老电影回来了,你去看吗?
 
-Redactie Lucerna · Leesniveau B1
+Redactie Lucerna　Leesniveau B1
 
 11月13日星期五,一部老电影要重映了:《海上钢琴师》。这部电影是1998年的意大利电影,导演是朱塞佩·托纳托雷,讲的是一个在船上出生、长大,从来没有下过船的钢琴师的故事。
 
@@ -938,7 +940,7 @@ chóngyìng 重映 — heruitbrengen, opnieuw vertonen · xiūfù 修复 — res
 
 jiǎngzuò 讲座 — een lezing · chǎngguǎn 场馆 — een locatie, een culturele locatie.
 
-这一周的高频词 · Sleutelwoorden
+这一周的高频词　Sleutelwoorden
 
 重映 — een oude film opnieuw vertoond: 4K修复版,画面更清楚。
 
@@ -956,21 +958,21 @@ Photo: Based5290 — Public domain (Wikimedia Commons)
 
 11月14日 — 深圳读书月文化馆之夜
 
-电影小日历 · Filmdata
+电影小日历　Filmdata
 
 你呢?你会去看重映的老电影吗?这个月,你在读什么书?写两句中文寄来。
 
 En jij? Zou je een heruitgebrachte klassieker bekijken? Wat lees je deze maand? Schrijf twee zinnen in het Chinees.
 
-说说你自己 · En jij?
+说说你自己　En jij?
 
 En jij? Zou je een heruitgebrachte klassieker bekijken? Wat lees je deze maand? Schrijf twee zinnen in het Chinees.
 
-练习 · Oefeningen
+练习　Oefeningen
 
-Antwoorden op pagina 8 · 答案见第 8 版
+Antwoorden op pagina 8　答案见第8版
 
-A · 读一读选一选 · Lees en kies
+A　读一读选一选　Lees en kies
 
 Lees pagina 5 en kies het beste antwoord.
 
@@ -1004,7 +1006,7 @@ Cultuuravond: 14 november.
 
 文化馆之夜在哪天? A. 11月7日 · B. 11月14日 · C. 11月1日
 
-B · 词语填空 · Woordblanks
+B　词语填空　Woordblanks
 
 Vul elke leegte in met het juiste woord.
 
@@ -1058,7 +1060,7 @@ chǎngguǎn — zeven locaties doen mee aan de Leesmaand.
 
 Vul in
 
-C · 时间与数字 · Tijden & getallen
+C　时间与数字　Tijden & getallen
 
 Antwoord met data en getallen van pagina 5.
 
@@ -1094,7 +1096,7 @@ Zeven locaties doen mee aan de Leesmaand.
 
 Vul in
 
-D · 词语配对 · Koppelen
+D　词语配对　Koppelen
 
 词汇配对
 
@@ -1124,15 +1126,15 @@ D · 词语配对 · Koppelen
 
 Koppel de woorden
 
-深读 · Diep lezen
+深读　Diep lezen
 
 Lucerna
 
-Level B2 · 包裹深读 · Waarom de pakketpiek in golven komt
+Level B2　包裹深读　Waarom de pakketpiek in golven komt
 
 包裹的高峰,为什么分三波?
 
-Redactie Lucerna · Leesniveau B2
+Redactie Lucerna　Leesniveau B2
 
 今年的双11,快递的高峰分三波,不是一天。第一波在10月20日到21日,第二波在10月31日,第三波在11月11日,也是最大的一波。为什么会这样?因为双11本身分三段:现货先卖,高潮场再来,最后一天收尾。
 
@@ -1152,7 +1154,7 @@ qiánzhì 前置 — van tevoren geplaatst, vroeg naar voren geschoven · mòdu�
 
 shuōfǎ 说法 — een bewering, wat iemand zegt · shùjù 数据 — data, gemeten getallen · yùbào 预报 — een voorspelling, wat voorspeld wordt, nog geen feit.
 
-快递单量:日常的几倍 · Gerapporteerde pakketvolumes (veelvouden van een normale dag)
+快递单量:日常的几倍　Gerapporteerde pakketvolumes (veelvouden van een normale dag)
 
 日常
 
@@ -1180,7 +1182,7 @@ Balken vanaf 0; de laatste is getekend op 3,5, het midden van het gerapporteerde
 
 先看结算页,再确认收货
 
-深读要点 · Kernpunten
+深读要点　Kernpunten
 
 1. 这是说法,还是数据?
 
@@ -1188,21 +1190,21 @@ Balken vanaf 0; de laatste is getekend op 3,5, het midden van het gerapporteerde
 
 3. 预报和事实,分得清吗?
 
-读新闻三问 · Drie vragen
+读新闻三问　Drie vragen
 
 你呢?你的包裹等了几天?你会先打开看一看吗?写两句中文寄来。
 
 En jij? Hoeveel dagen deed je pakket erover? Open je het eerst en controleer je het? Schrijf twee zinnen in het Chinees.
 
-说说你自己 · En jij?
+说说你自己　En jij?
 
 En jij? Hoeveel dagen deed je pakket erover? Open je het eerst en controleer je het? Schrijf twee zinnen in het Chinees.
 
-练习 · Oefeningen
+练习　Oefeningen
 
-Antwoorden op pagina 8 · 答案见第 8 版
+Antwoorden op pagina 8　答案见第8版
 
-A · 读一读选一选 · Lees en kies
+A　读一读选一选　Lees en kies
 
 Lees pagina 6 en kies het beste antwoord.
 
@@ -1236,7 +1238,7 @@ Open het pakket en controleer het voordat je de ontvangst bevestigt.
 
 包裹到了以后,先做什么? A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
 
-B · 词语填空 · Woordblanks
+B　词语填空　Woordblanks
 
 Vul elke leegte in met het juiste woord.
 
@@ -1290,7 +1292,7 @@ yùbào — een voorspelling, nog geen feit.
 
 Vul in
 
-C · 图表读数 · Lees de grafiek
+C　图表读数　Lees de grafiek
 
 Lees de grafiek op pagina 6.
 
@@ -1326,7 +1328,7 @@ De lokale instroom steeg ongeveer 20%.
 
 Vul in
 
-D · 词语配对 · Koppelen
+D　词语配对　Koppelen
 
 词汇配对
 
@@ -1360,13 +1362,13 @@ Koppel de woorden
 
 ## 第 7 版 · 词语精讲
 
-词语 · Taalfocus
+词语　Taalfocus
 
 Lucerna
 
-语言聚焦 · 三个级别,三个主题 · Drie niveaus, drie onderwerpen
+语言聚焦　三个级别,三个主题　Drie niveaus, drie onderwerpen
 
-A2 · 双11与包裹 · Winkelen
+A2　双11与包裹　Winkelen
 
 Winkelwoorden deze week: 高潮场 (gāocháochǎng, de piekverkoopperiode), 包裹 (bāoguǒ, een pakket), 取件码 (qǔjiànmǎ, een ophaalcode), 快递柜 (kuàidìguì, een pakketkluisje). Veiligheidswoorden: 消防 (xiāofáng, brandpreventie), 疏散 (shūsàn, evacueren), 自救 (zìjiù, zelfredding).
 
@@ -1404,7 +1406,7 @@ Pakketten nemen 个 — niet 只 of 条.
 
 Nog één om te oefenen: 「我的包裹到了吗?」 (Is mijn pakket aangekomen?) Als je op een pakket wacht, vraag het eerst en ga dan naar het kluisje.
 
-B1 · 时间与日期 · Tijd & data
+B1　时间与日期　Tijd & data
 
 Het Chinees geeft tijden groot → klein: jaar, maand, dag, weekdag, dagdeel, uur. Voorbeelden uit dit nummer: 「11月9日星期一」 (ma 9 nov.), 「11月10日星期二20点」 (di 10 nov., 20:00), 「11月15日星期日凌晨3点」 (zo 15 nov., 3 uur 's nachts). De grootste eenheid eerst, niets door elkaar.
 
@@ -1444,7 +1446,7 @@ Vul in
 
 Nog twee woorden: 凌晨 (língchén) zijn de kleine uurtjes na middernacht, vóór de dageraad; 傍晚 (bàngwǎn) is het korte stukje vlak voor het donker.
 
-B2 · 读新闻 · Nieuws lezen
+B2　读新闻　Nieuws lezen
 
 Als een verhaal een bewering (说法) bevat, scheid dan drie soorten zinnen: beweringen (说法), data (数据) en voorspellingen (预报). Pagina 6 is het voorbeeld: 「最大的一波」 is een bewering over 11 november, de veelvouden 1,5 en 2,5 zijn gerapporteerde data, en de temperaturen van de koude lucht zijn een voorspelling — voorspeld, nog geen feit.
 
@@ -1508,21 +1510,21 @@ Volgorde: getal + telwoord + zelfstandig naamwoord.
 
 Tijden gaan groot → klein: weekdag het laatst.
 
-易错诊所 · Foutenkliniek
+易错诊所　Foutenkliniek
 
 「先看取件码,再开柜门。」(Controleer de code en open het kluisje.) De structuur 先…再… geeft de volgorde van de handelingen.
 
 Structuur: 先 … 再 … — eerst X, dan Y.
 
-本周句式 · Zinsstructuur
+本周句式　Zinsstructuur
 
 「你好!我住在北京。11月9日学校做了消防演练,我学会了走楼梯。双11我买了一本书,包裹两天就到了。周日凌晨,我想看S16总决赛!」
 
 编辑部示例信,不是真实来信。VOL.2曾预告本期刊登真实来信和最佳作文;截至11月2日截稿,仍未收到,本期仍刊示例,继续征集。延期不是取消。Opmerking van de redactie: VOL.2 beloofde echte brieven in VOL.3; er kwam er geen vóór 2 nov. Het voorbeeld blijft staan. Uitgesteld, niet geannuleerd.
 
-读者园地 · Lezershoek
+读者园地　Lezershoek
 
-本周金句 · Zinnen van de week (letterlijk, uit de artikelen van dit nummer)
+本周金句　Zinnen van de week (letterlijk, uit de artikelen van dit nummer)
 
 「双11的正日子」
 
@@ -1556,19 +1558,19 @@ De pakketpiek komt in drie golven.
 
 Neem bij brand de lift niet.
 
-下期预告 · Volgende week (VOL.4)
+下期预告　Volgende week (VOL.4)
 
 S16总决赛打完了,谁是冠军?包裹都到了吗?还有你们的来信和第8版最佳作文。下周见!
 
 ## 第 8 版 · 测验与答案
 
-测验与答案 · Toets & antwoorden
+测验与答案　Toets & antwoorden
 
 Lucerna
 
-第 8 版 · 本周大测验 + 全部答案 · De toets van deze week en alle antwoorden
+第8版　本周大测验 + 全部答案　De toets van deze week en alle antwoorden
 
-A · 判断对错 · Waar of onwaar
+A　判断对错　Waar of onwaar
 
 完形单选
 
@@ -1618,7 +1620,7 @@ De Leesmaand begon op 1 nov., niet op 9 nov.
 
 深圳读书月11月9日开幕。(A. 对 · B. 错)
 
-B · 本周大测验 · De grote quiz
+B　本周大测验　De grote quiz
 
 单选
 
@@ -1680,7 +1682,7 @@ De finale begint 15 nov. om 03:00 Peking-tijd.
 
 总决赛在北京时间哪天? A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点
 
-C · 完成句子 · Maak af
+C　完成句子　Maak af
 
 完成句子
 
@@ -1782,7 +1784,7 @@ qiánzhì — goederen van tevoren dicht bij de koper geplaatst.
 
 Vul in
 
-D · 读一读,答一答 · Lees en antwoord
+D　读一读,答一答　Lees en antwoord
 
 小林住在深圳。11月9日星期一,学校做了消防演练,小林学会了走楼梯、不坐电梯。11月11日星期三,小林在网上买的书到了,他用取件码打开快递柜,拿到了包裹。11月14日星期六晚上,小林和妈妈一起去文化馆,亲手摸了摸古籍。周日凌晨3点,他想早起看S16总决赛。
 
@@ -1826,7 +1828,7 @@ Xiao Lin woont in Shenzhen.
 
 Vul in
 
-E · 情景说话 · In gesprek
+E　情景说话　In gesprek
 
 完形单选
 
@@ -1846,7 +1848,7 @@ De regel van pagina 6: data eerst, reclame het laatst.
 
 — 这条新闻说最大一波,可信吗? — 先看___,再看广告。(A. 数据 · B. 评论)
 
-F · 写一写 · Schrijven
+F　写一写　Schrijven
 
 这一周是双11那一周。星期一,学校做了消防演练,我学会了走楼梯、不坐电梯。星期二晚上8点,高潮场开始了,我买了一本书。星期三,我的包裹到了,我用取件码打开快递柜,拿到了书。星期六晚上,我和妈妈一起去文化馆,亲手摸了摸古籍,很有意思。星期日凌晨3点,我想早起看S16总决赛。这一周,又忙又开心,冬天真的来了,我要多穿衣服,不着凉。
 
@@ -1860,8 +1862,8 @@ Schrijven
 
 Voorbeeldtekst:
 
-答案 · Antwoorden — per pagina, met een toelichting bij elk antwoord
+答案　Antwoorden — per pagina, met een toelichting bij elk antwoord
 
-Alle toelichting in het Nederlands · ✓ = de schrijfopdracht
+Alle toelichting in het Nederlands　✓ = de schrijfopdracht
 
 写作

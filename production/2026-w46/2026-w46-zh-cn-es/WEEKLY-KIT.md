@@ -220,3 +220,24 @@ es.json` with `hidden_files/w46/transform.py`, then run as above.
 - **Re-render:** full re-render of all 10 editions from source (run.py → render.py → `tools/webpdf.py` → textmd.py, same drivers as the D3/D4 fix); 0 FLOW OVERFLOW / HEAD TOO WIDE in every driver log; counts 150 (A2 56 / B1 69 / B2 25), per-page 10/18/18/18/18/18/12/38, writing model 164. `.text.md` regenerated from the source manuscript: diff vs the pre-fix copy is exactly 1 changed line (line 1379, the stem) in this edition; headers verbatim. Change footprint vs the pre-fix snapshot: exactly 5 content files changed per edition (`.text.md`, print PDF, web PDF, `svg/p7-ciyu.svg`, `cards/p7-ciyu.png`) plus this KIT append — all other 15 edition files byte-identical, including P8 SVG + card (hash proof in the fix report).
 - **Re-gates on final artifacts (all 10):** occlusion audit 0 flags (selftest OK); freeze `--strict-cjk` added CJK 0 every page for the 8 Latin/RU editions, JA total added 4908 and KO total added 4304 (identical to the Round 1/2 adjudicated figures; core P7 CJK total 741 → 739, exactly the 2 removed characters, all other pages unchanged); p8.py extract 150/150 + compare CLEAN, keydiff [] per edition (D3/D4 keys 25.d/26.c/27.b/99.a/100.b verified in this edition's native P8 rendering); rowcheck section 1 CLEAN all 8 pages (section 2 crash on hardcoded `p6-verdieping.svg` is the known N/A; note: the copied gate script's relative `../files` path crashed from `hidden_files/w46`, re-run with absolute paths — script in the fix dir patched); counts/phrases/chart/kinsoku as in the D3/D4 record; web PDFs 8 pages, ≤ 7 MB, pdftotext bytes > 0 and byte-identical web vs print; freeze baseline for the core 8/8 SHA-identical. Visual: P7 at full frame in all 10 editions — fixed stem clean on one line, no overflow/re-wrap orphan, error clinic + A2 column unchanged and consistent. SVG-text multiset diff vs pre-fix rebuilds: the ONLY string change in every edition is the item-101 stem. Gate evidence: `hidden_files/w46/zh-cn-fix-round3/gates/`. The ES `p.` fix and the D3/D4 key fixes survive unchanged (verified by grep + registry dump diff = exactly the stem line).
 - **This edition after this fix:** `.text.md` 42757 bytes; web PDF 2497476 bytes; pdftotext 45795 bytes (web == print, −6 bytes vs the pre-fix figure — exactly the 2 removed CJK characters); print PDF 42127045 bytes. The figures in the "Gates (final render)" section above describe the PRE-fix render; the figures in this record supersede them.- **Status after this fix:** re-gated clean by the fix worker; Round 3 independent proofread (P7 scope per the Round 2 verdict §5) is still owed before shipping. No push, no insert, no Discord post, no chat dump.
+
+## 补记：D5 字体重建（2026-11-16）
+
+### D5 pin 块
+
+- `_D5_READER = "latin"`（`svglib.py:132`）；D1 fix 1 处、Newsreader 11 处（fanout §1.1 + D1 装机，D1+D5 一次做）。
+- fix2 块 + `_QUOTE_CLS`（`svglib.py`，`_QUOTE_CLS` 4 处）：U+201C/U+201D/U+2019 改走 Newsreader。
+- 字体面：SC（已发版 SC 面，W45 zh-cn 先例）。
+- 导出器 `hidden_files/style-port-zh-cn/textexp_zh_cn.py`；原生校验器 `verify_textexp_zh_cn.py` ADOPT。
+- 重建报告：`hidden_files/d5-redo/FAMILY-W46-ZH-CN-BUILD.md`（本版 § 对应章节）。
+
+### 重建节
+
+- 基线：fanout §1.1 移植 + D1 装机，10/10 路由测试 FAILURES: 0；基线门禁见报告 §1。
+- run1 → 修复 → run2：修复 1 处（只降字号、不改文案），见下表；run2 门禁：终轮 run2：18/21 PASS（另 G15b 仅记录）；残留 FAIL：G6, G15a（G6 斜体 caron 量测 artifact + G15a §1.1 移植丢 1 个 —，均为已裁定项，见报告；G15b 仅记录）。
+
+| 文件:行 | 旧字号 | 新字号 | 越界量 | 探针余量 | 门禁 |
+|---|---|---|---|---|---|
+| `content12.py:23` | 16 | 14 | 46.5 | 17.4 | D37 |
+
+- 同步方向：单向 patched → production（本 KIT 由生产 KIT 复制 + 追加本节，旧章节逐字节未动）。

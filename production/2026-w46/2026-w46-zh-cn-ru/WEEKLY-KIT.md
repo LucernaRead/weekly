@@ -158,3 +158,21 @@ ru.json` with `hidden_files/w46/transform.py`, then run as above.
 - **Re-gates on final artifacts (RU only):** occlusion audit 0 flags (selftest OK — planted classes BOXTITLE/COVER/EDGE/FOOTER/LINEX/TEXTX fired 1 each, clean controls silent; stated explicitly: the audit is blind to this contrast class and this verdict rests on geometry + visual, not on the audit); freeze `freeze.py diff --strict-cjk` added CJK 0, exit 0; p8.py extract 150/150 + compare CLEAN, missing=[], extra_count=0, keydiff=[]; P8 SVG + card byte-identical to the Round 3 hashes (20/20 P8 proof re-confirmed for RU: SVG `cdf804c1…958a116`, card `21daa9b9…4495`); PDF text layer web == print byte-identical, 8 pages, web PDF ≤ 7 MB. Visual: RU P7 at full frame + band/footer crop — footer fully legible on paper, band + teaser lines clean, no overlap with the footer rule or any other element, 21.48 px clear of the last phrase row's ink. Gate evidence: `hidden_files/w46/zh-cn-fix-round4/gates/`. Band-bottom comparison across all 10 editions after this fix (footer baseline 2624): core/FR/IT/JA/KO 2514.00, ES 2527.96, PT 2523.98, DE 2554.48, RU 2566.52, NL 2607.52 — RU is now inside the family range; no other edition needs this fix.
 - **This edition after this fix:** `.text.md` 51674 bytes (unchanged); web PDF 2275749 bytes; pdftotext 55435 bytes (web == print; +1 byte vs the Round 3 figure 55434 — exactly one added blank-line separator in `pdftotext` output where the teaser/footer baseline gap grew from 21.48 to 91.48 px; non-blank lines and the character stream are identical, zero changed text lines); print PDF 30430934 bytes. The figures in the "Gates (final render)" section above and in the D5 record describe earlier renders; the PDF figures in this record supersede them (`.text.md` figure unchanged).
 - **Status after this fix:** re-gated clean by the fix worker; RU-P7-only Round 4 independent proofread (per the Round 3 verdict §4.6) is still owed before shipping. No push, no insert, no Discord post, no chat dump.
+
+## 补记：D5 字体重建（2026-11-16）
+
+### D5 pin 块
+
+- `_D5_READER = "ru"`（`svglib.py:132`）；D1 fix 1 处、Newsreader 11 处（fanout §1.1 + D1 装机，D1+D5 一次做）。
+- fix2 块 + `_QUOTE_CLS`（`svglib.py`，`_QUOTE_CLS` 4 处）：U+201C/U+201D/U+2019 改走 Newsreader。
+- 字体面：SC（Cyrillic 经 Noto Sans，D26 旧分支）。
+- 导出器 `hidden_files/style-port-zh-cn/textexp_zh_cn.py`；原生校验器 `verify_textexp_zh_cn.py` ADOPT。
+- 重建报告：`hidden_files/d5-redo/FAMILY-W46-ZH-CN-BUILD.md`（本版 § 对应章节）。
+
+### 重建节
+
+- 基线：fanout §1.1 移植 + D1 装机，10/10 路由测试 FAILURES: 0；基线门禁见报告 §1。
+- run1 即终轮：修复 0 处（只降字号、不改文案），见下表；run2 门禁：终轮 run1：18/21 PASS（另 G15b 仅记录）；残留 FAIL：G6, G15a（G6 斜体 caron 量测 artifact + G15a §1.1 移植丢 1 个 —，均为已裁定项，见报告；G15b 仅记录）。
+- 修复 0 处：run1 即终轮（18/21，残留 G6 + G15a 已裁定项），无需降字号。
+
+- 同步方向：单向 patched → production（本 KIT 由生产 KIT 复制 + 追加本节，旧章节逐字节未动）。

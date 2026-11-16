@@ -17,8 +17,8 @@ nativeLabel: "한국어"
 exercises: 150
 pages: 8
 pdf: 2026-w46-zh-cn-ko.pdf
-pdfBytes: 2526513
-pdfSha256: 734a6cc183c9781bc1f636bc3ded44c68e1fae20314c9e4cd59c609e7141979c
+pdfBytes: 2504829
+pdfSha256: 1ebfece3658377c15e98d6a9baaf4672028333ca6676e949e025bca3cb8000ad
 discordThread: "1562312827774042172"
 draft: false
 ---
