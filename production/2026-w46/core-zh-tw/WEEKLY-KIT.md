@@ -117,3 +117,23 @@ Fixes applied at the source (build `content*.py` / `ABSTRACT.txt`), full re-rend
 - **Re-gate:** core baseline 8/8 SVGs byte-identical (freeze.py baseline); p8.py compare CLEAN, 150/150 noted both, keydiff=[]; core p8 extract 150/150. Occlusion audit: selftest OK (all 6 planted classes fired, clean controls silent), 0 flags, 0 NEW vs core. P7 phrases 8/8 at exactly 2 occurrences. Simplified-residue spot scan clean (core CJK set; Latin editions add 0 CJK).
 - **Final files:** print PDF 14116006 bytes, SHA-256 68d7f9d4d34a7fd6c994e81f9f2b888e4c64f1c3ad647a5316139ba6e80d9715; web PDF 2008249 bytes (< 7 MB), SHA-256 d54c2e57db1be0d5eaf068483d85b2bc065fbdfe2cb3a31ab2ccbed3d03dd0d5; pdftotext 45561 bytes on both PDFs, byte-identical print vs web; text.md 46350 bytes (exported from the edition's own SVG text layer, H1 preserved verbatim).
 - **Gate evidence:** `hidden_files/w46/zh-tw-fix/gates/` (freeze/p8/occlusion JSONs + txt), render logs `hidden_files/w46/zh-tw-fix/render-*.log`, `webpdf-textmd.log`; full report `hidden_files/w46/zh-tw-fix/FIX-REPORT.md`.
+
+## D5 rebuild (2026-11-16, §1.1 + D5)
+
+- Scope: §1.1 port (fanout) + D5 font routing in one rebuild; only font
+  sizes changed, never wording. This build supersedes the §1.1 pins above.
+- Install: `d5_port_zhtw.py --target zh-tw --reader en`
+  (mode latin, variant TC); routing FAILURES: 0;
+  fix2 retained (`_QUOTE_CLS` x4, fix2 block x1); D1 fix 1.
+- Baseline D5 census: Latin 577 / Cyrillic
+  0 / curly-in-CJK 0.
+- Gates (run1): TOTAL: 17/19 PASS.
+- Deliverables (builder originals, patched/):
+  - print `Lucerna-VOL3.pdf` 5,487,327 B
+    SHA-256 `4d5b8a5bd8790246346dbfc5cb676cfb971a4b164e14c7745f05b2b8e3cccdc0`
+  - web `2026-w46-zh-tw-en.web.pdf` 1,524,374 B SHA-256 `886f5b22a8812b5d0d01671be7f23df96e707e74200bfa64c1fd0de092c688e8`
+  - text `2026-w46-zh-tw-en.text.md.new` 47,637 B SHA-256 `94a69e96bc43918507435ee980708f4764a146ab10317bf8be6f741b5d1e43a6`
+    (D5 joiner export; gate 15a REFLOW accepted per D30 — content-identical,
+    line breaks only; native verifier ADOPT)
+- Fixes (font size only):
+- (none — run1 ALL-GREEN apart from accepted residuals)

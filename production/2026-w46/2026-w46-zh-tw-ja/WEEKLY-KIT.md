@@ -49,3 +49,23 @@ Fixes applied at the source (build `content*.py` / `ABSTRACT.txt`), full re-rend
 - **Re-gate:** freeze diff --strict-cjk total 6445 added CJK, byte-identical to Round 1 (adjudicated: reader-native Japanese script + quoted CJK terms; no fix added CJK); p8.py compare CLEAN, 150/150 noted both, keydiff=[]. Occlusion audit: selftest OK (all 6 planted classes fired, clean controls silent), 0 flags, 0 NEW vs core. P7 phrases 8/8 at exactly 2 occurrences. Simplified-residue spot scan clean (core CJK set; Latin editions add 0 CJK).
 - **Final files:** print PDF 12005689 bytes, SHA-256 37674a87b94a12120a91fbdff335acc1b4203a87dc315d71bf1201cb255c3f51; web PDF 2208932 bytes (< 7 MB), SHA-256 e8c2d34519a206860e63efbf749d1a2b7c7874a2ae9fce0c57379906ff2577f6; pdftotext 51271 bytes on both PDFs, byte-identical print vs web; text.md 51992 bytes (exported from the edition's own SVG text layer, H1 preserved verbatim).
 - **Gate evidence:** `hidden_files/w46/zh-tw-fix/gates/` (freeze/p8/occlusion JSONs + txt), render logs `hidden_files/w46/zh-tw-fix/render-*.log`, `webpdf-textmd.log`; full report `hidden_files/w46/zh-tw-fix/FIX-REPORT.md`.
+
+## D5 rebuild (2026-11-16, §1.1 + D5)
+
+- Scope: §1.1 port (fanout) + D5 font routing in one rebuild; only font
+  sizes changed, never wording. This build supersedes the §1.1 pins above.
+- Install: `d5_port_zhtw.py --target zh-tw --reader ja`
+  (mode cjk, variant JP); routing FAILURES: 0;
+  fix2 retained (`_QUOTE_CLS` x4, fix2 block x1); D1 fix 1.
+- Baseline D5 census: Latin 283 / Cyrillic
+  0 / curly-in-CJK 0.
+- Gates (run2): TOTAL: 18/19 PASS.
+- Deliverables (builder originals, patched/):
+  - print `Lucerna-VOL3-JA.pdf` 10,357,989 B
+    SHA-256 `e58162ee734b63accd8b362e4831ae2f666909ea0b988a49a7c2f0cc8d6b2207`
+  - web `2026-w46-zh-tw-ja.web.pdf` 2,059,919 B SHA-256 `37156d13b4f297d5e0905cf861690d0d10fe591e2620509a8b1ccfc629b58138`
+  - text `2026-w46-zh-tw-ja.text.md.new` 54,698 B SHA-256 `a02ae6e46ddf30516af81d430aeca4d4c3647ce0102c316fef023c1e31df1077`
+    (D5 joiner export; gate 15a REFLOW accepted per D30 — content-identical,
+    line breaks only; native verifier ADOPT)
+- Fixes (font size only):
+- `content56.py:21` P5 gloss (arts-in-the-park) size: 20.5 → 19.5 (over by +5.5px right (G12/G14 run1); probe margin 12.4px inside box (was +5.5px over; real-ink probe))

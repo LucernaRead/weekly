@@ -49,3 +49,23 @@ Fixes applied at the source (build `content*.py` / `ABSTRACT.txt`), full re-rend
 - **Re-gate:** freeze diff --strict-cjk total 5267 added CJK, byte-identical to Round 1 (adjudicated: reader-native Korean script + quoted CJK terms; no fix added CJK); p8.py compare CLEAN, 150/150 noted both, keydiff=[]. Occlusion audit: selftest OK (all 6 planted classes fired, clean controls silent), 0 flags, 0 NEW vs core. P7 phrases 8/8 at exactly 2 occurrences. Simplified-residue spot scan clean (core CJK set; Latin editions add 0 CJK).
 - **Final files:** print PDF 10063572 bytes, SHA-256 ef3a2547e59eafaf2085e5d66633cdeb1923482ff6ebe5b43f3c85f02f1a2463; web PDF 1891878 bytes (< 7 MB), SHA-256 7e1542719e8510d8b5f86ccebe89e245d933cce53015ecb725aceff05d0ffe38; pdftotext 49384 bytes on both PDFs, byte-identical print vs web; text.md 50130 bytes (exported from the edition's own SVG text layer, H1 preserved verbatim).
 - **Gate evidence:** `hidden_files/w46/zh-tw-fix/gates/` (freeze/p8/occlusion JSONs + txt), render logs `hidden_files/w46/zh-tw-fix/render-*.log`, `webpdf-textmd.log`; full report `hidden_files/w46/zh-tw-fix/FIX-REPORT.md`.
+
+## D5 rebuild (2026-11-16, §1.1 + D5)
+
+- Scope: §1.1 port (fanout) + D5 font routing in one rebuild; only font
+  sizes changed, never wording. This build supersedes the §1.1 pins above.
+- Install: `d5_port_zhtw.py --target zh-tw --reader ko`
+  (mode cjk, variant KR); routing FAILURES: 0;
+  fix2 retained (`_QUOTE_CLS` x4, fix2 block x1); D1 fix 1.
+- Baseline D5 census: Latin 282 / Cyrillic
+  0 / curly-in-CJK 0.
+- Gates (run1): TOTAL: 18/19 PASS.
+- Deliverables (builder originals, patched/):
+  - print `Lucerna-VOL3-KO.pdf` 6,598,426 B
+    SHA-256 `c50a994489749dc8adbabd4789dffb699803f4ba303fdd696c0c4bd09d87c9c0`
+  - web `2026-w46-zh-tw-ko.web.pdf` 1,713,006 B SHA-256 `644b7747b87e93a5e0cba3d895dbd0eb3bad549d049b349a5eba96284adb30ff`
+  - text `2026-w46-zh-tw-ko.text.md.new` 52,890 B SHA-256 `141a571cd9198e29ce4647c7e801c46a6f0eecd10568c5474f6697cf76f82cdf`
+    (D5 joiner export; gate 15a REFLOW accepted per D30 — content-identical,
+    line breaks only; native verifier ADOPT)
+- Fixes (font size only):
+- (none — run1 ALL-GREEN apart from accepted residuals)

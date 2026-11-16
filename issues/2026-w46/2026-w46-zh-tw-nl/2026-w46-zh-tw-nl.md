@@ -17,8 +17,8 @@ nativeLabel: "Nederlands"
 exercises: 150
 pages: 8
 pdf: 2026-w46-zh-tw-nl.pdf
-pdfBytes: 1990345
-pdfSha256: b2b5de57e11a3053d2c3d448c20b992f2b9bd37de46ffcf8e54e8fb3b0b8e066
+pdfBytes: 1494129
+pdfSha256: 443d0c2b558f0c7d3cc2e3e11638a1dbec188b3f0b349b9f2738a261bf3af8a0
 discordThread: "1562312921759875144"
 draft: false
 ---

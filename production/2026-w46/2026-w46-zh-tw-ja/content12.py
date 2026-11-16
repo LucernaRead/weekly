@@ -7,27 +7,28 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-tw-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P1 · front
 CURPAGE[0] = 1
 p = BSPage4()
-p.text(975, 218, "Lucerna", 168, "serif", True, INK, anchor="middle", family="UnifrakturMaguntia")
-p.hline(MX, RIGHT, 268, INK, 3)
-p.text(975, 316, "繁體中文版 · VOL.3 · 2026年11月9日(一)至11月15日(日) · 台灣 / 香港", 27, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 340, GOLD, 2)
-p.text(975, 378, "中国語（繁体字）テキスト · 日本語の解説 — 日本語読者のための版", 21, "sans", True, OLIVE, anchor="middle")
-p.text(975, 410, "雙11購物節 · 旅展落幕 · 藝趣嘉年華——本週台港最熱的三件事", 30, "sans", True, BRICK, anchor="middle")
+p.text(975, 218, "Lucerna", 196, "serif", True, INK, anchor="middle", family="UnifrakturMaguntia")
+p.hline(MX, RIGHT, 268, OLIVE, 2)
+moth(p, 150, 268)
+p.text(975, 316, "繁體中文版　VOL.3　2026年11月9日(一)至11月15日(日)　台灣 / 香港", 34, "sans", True, OLIVE, anchor="middle", spacing=8)
+p.hline(MX, RIGHT, 340, OLIVE, 2)
+p.text(975, 378, "中国語（繁体字）テキスト　日本語の解説 — 日本語読者のための版", 21, "sans", True, OLIVE, anchor="middle")
+p.text(975, 410, "雙11購物節　旅展落幕　藝趣嘉年華——本週台港最熱的三件事", 30, "sans", True, OLIVE, anchor="middle")
 hl = "雙11來了!旅展落幕,購物車先列好"
 p.text(975, 518, hl, 96, "serif", True, INK, anchor="middle")
 if text_w(hl, "serif", True, 96) > RIGHT - MX:
     print("  !! P1 HEADLINE TOO WIDE", text_w(hl, "serif", True, 96))
-p.text(975, 572, "週三11月11日全年最大檔 · 旅展123國、1600攤 · 週末銅鑼灣免費嘉年華", 27, "serif", False, GREY, anchor="middle")
+p.text(975, 572, "週三11月11日全年最大檔　旅展123國、1600攤　週末銅鑼灣免費嘉年華", 27, "serif", False, GREY, anchor="middle")
 
 f = Flow(p, [(COLX[0], 3 * CW + 2 * GUT)], 640, 1935, tag="P1-lead")
 f.title("旅展週一落幕,四天一次看完世界", 40)
-f.byline("編集部だより · 出典：台湾観光協会の発表と報道（10月16〜27日）")
+f.byline("編集部だより　出典：台湾観光協会の発表と報道（10月16〜27日）")
 f.para("2026 ITF 台灣國際旅展,週一(11月9日)在台北南港展覽館一館落幕。旅展四天,一次看完123個國家及城市,1,600個攤位,從機票、飯店、餐券,到郵輪、南極行程,一次看完。今年旅展邁入第40年、第34屆,正式改名「ITF 台灣國際旅展」,主題是「世界旅人,台灣啟程」。")
 f.para("四天裡,大會舞台有多國文化展演,每日下午2點有吉祥物大遊行。旅展不只在現場:部分航空公司的線上旅展延長到11月中下旬,在家也能比價。買票、買券之前,要先看清楚使用日期和條件,不要只看折扣有多大。")
 f.gloss("2026年ITF台湾国際旅展は月曜日（11月9日）に南港展覧館で閉幕しました。4日間で123の国と都市、1,600のブースが集まりました。40周年・第34回を迎え、正式名称はITF台湾国際旅展となりました。一部航空会社のオンライン旅展は11月中下旬まで続きます。買う前に日程と条件を確認しましょう。")
@@ -39,9 +40,9 @@ f.end_report()
 
 rx = COLX[3]
 by = 640
-p.rect(rx, by, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 470, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "旅展四天小檔 · 旅展ファイル", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "旅展四天小檔　旅展ファイル", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "日期:11月6日(五)到11月9日(一)",
     "地點:台北南港展覽館一館1樓、4樓",
@@ -51,9 +52,9 @@ for t in [
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
 by2 = by + 488
-p.rect(rx, by2, CW, 560, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by2, CW, 560, fill=BOX)
 yy = by2 + 18
-p.text(rx + 22, yy + 26, "本週大事 · 今週の出来事", 25, "sans", True, OLIVE); yy += 58
+p.text(rx + 22, yy + 26, "本週大事　今週の出来事", 25, "sans", True, OLIVE); yy += 58
 for t in [
     "週一 11/9 旅展最後一天,18:00閉幕",
     "週三 11/11 雙11購物節,全年最大檔",
@@ -65,13 +66,14 @@ for t in [
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.3) + 9
 by3 = by2 + 578
-p.rect(rx, by3, CW, 250, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(rx, by3, CW, 250, fill="#f0eee5")
 yy = by3 + 18
-p.text(rx + 22, yy + 26, "本週一詞 · 今週のことば", 25, "sans", True, OLIVE); yy += 56
-p.para(rx + 22, yy + 21, "「實付金額」 — 割引やクーポンを使った後に、実際に支払う最終金額です。この数字を比べましょう。割引の見出しではありません。", 20, "sans", False, GREY, CW - 44, 1.35)
+p.text(rx + 22, yy + 26, "本週一詞　今週のことば", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 21, "「實付金額」", 20, "sans", False, GREY, italic=True)
+p.para(rx + 22, yy + 48, "割引やクーポンを使った後に、実際に支払う最終金額です。この数字を比べましょう。割引の見出しではありません。", 20, "sans", False, GREY, CW - 44, 1.35)
 
-q = Flow(p, [(COLX[i], CW) for i in range(4)], 2035, 2540, tag="P1-quiz")
-q.head("快速測驗 · クイッククイズ", 26)
+q = Flow(p, [(COLX[i], CW) for i in range(4)], 2035, 2560, tag="P1-quiz")
+q.head("快速測驗　クイッククイズ", 26)
 q.ex("A2", "單選", "B", "旅展は月曜日、11月9日に閉幕しました。",
      "台北旅展哪天落幕?", opts=["A. 週日", "B. 週一(11月9日)", "C. 週三"], size=22.5, gap=8)
 q.ex("A2", "單選", "A", "旅展には123の国と都市が集まりました。",
@@ -80,7 +82,7 @@ q.ex("A2", "單選", "C", "ダブルイレブンは水曜日、11月11日です�
      "雙11是星期幾?", opts=["A. 週一", "B. 週五", "C. 週三(11月11日)"], size=22.5, gap=8)
 q.ex("A2", "單選", "B", "マスコットパレードは毎日14:00に行われます。",
      "旅展吉祥物大遊行每天幾點?", opts=["A. 中午12點", "B. 下午2點", "C. 晚上7點"], size=22.5, gap=8)
-q.head("標題填空 · 見出しの言葉", 26)
+q.head("標題填空　見出しの言葉", 26)
 q.ex("A2", "完成句子", "1,600", "旅展には1,600のブースがあります。",
      "台北旅展有___個攤位。", instr="空所補充", size=22.5, gap=8)
 q.ex("A2", "完成句子", "200", "当日券はNT$200です。",
@@ -101,23 +103,23 @@ print("P1 saved, exercises so far:", len(REG))
 # ============================================================ P2 · life
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("生活 · 暮らし", "Lucerna", "第 2 版 · 東北季風、泡湯、雙11退貨 · 北東モンスーン、温泉、ダブルイレブンの返品")
+p.band("生活　暮らし", "Lucerna", "第2版　東北季風、泡湯、雙11退貨　北東モンスーン、温泉、ダブルイレブンの返品")
 f = Flow(p, [(COLX[i], CW) for i in range(3)], 208, 2540, tag="P2-main")
-f.title("北台灣濕涼到雙11,外套隨身帶", 34)
+f.title("北台灣濕涼到雙11,外套隨身帶", 32)
 f.para("東北季風一波接一波,北台灣這週又濕又涼。氣象專家提醒,北北基宜一路濕涼到11月11日,白天高溫只有24到27度,清晨和夜間低溫會跌破20度。早晚溫差大,外套要隨身帶,出門也要記得帶傘。")
 f.para("高雄就不一樣了:白天高溫28到30度,夜間22到25度,天氣舒適,只是日夜溫差也大。南北天氣差很多,出門旅行之前,先查目的地的天氣,不要只看台北的預報就打包行李。")
 f.gloss("北東モンスーンの影響で、台湾北部は11月11日まで雨がちで涼しい天気が続きます。日中の最高気温は24〜27度、夜間と早朝の最低気温は20度を下回ります。高雄は日中28〜30度で暖かいままです。出かける前に、目的地の天気予報を確認しましょう。")
-f.title("秋冬泡湯,安全第一", 34)
+f.title("秋冬泡湯,安全第一", 32)
 f.para("天氣轉涼,泡湯的人多了。泡湯之前,先吃一點東西,不要空腹,也不要吃太飽。泡湯時間不要太長,覺得頭暈、心跳很快,就要馬上起來休息。心臟不好、血壓不穩的人,泡湯之前先問醫生。")
 f.para("泡湯也要看水質和衛生:先沖澡再下水,不要在池裡搓洗身體。毛巾不要放進池水裡。泡完湯,記得多喝水,讓身體慢慢回溫。")
 f.gloss("温泉の季節がやってきました。まず少し食べてから、入浴は短めにし、めまいを感じたらすぐに出ましょう。入浴前にシャワーを浴び、タオルを湯に入れないようにし、入浴後は水を飲みましょう。")
-f.title("雙11買了不合用?退貨有規則", 34)
+f.title("雙11買了不合用?退貨有規則", 32)
 f.para("雙11買東西,最怕買了不合用。台灣的消保法有7天鑑賞期:收到商品7天內,可以退貨。但是,有些商品是例外,例如拆封就不能退的個人衛生用品、容易壞的生鮮食品,買之前要先看清楚。")
-f.box("練習例子 · 練習の例", [
+f.box("練習例子　練習の例", [
     ("小美在雙11買了一件外套3,000元,收到後發現尺寸不合。她在7天內申請退貨,外套沒有拆吊牌,店家讓她退貨,她拿回3,000元。", "serif", False, INK, 22, 1.4),
     ("練習の数字：NT$3,000のコート、タグをつけたまま7日以内に返品 — NT$3,000の全額返金です。", "sans", False, GREY, 19.5, 1.35),
 ])
-f.head("讀懂了嗎? · わかりましたか？", 28)
+f.head("讀懂了嗎?　わかりましたか？", 28)
 f.ex("A2", "單選", "A", "台湾北部は11月11日まで雨がちで涼しい天気が続きます。",
      "北台灣濕涼的天氣會持續到哪天?", opts=["A. 11月11日", "B. 11月6日", "C. 11月22日"], size=22.5, gap=8)
 f.ex("A2", "單選", "B", "北部の最低気温は20度を下回ります。",
@@ -130,7 +132,7 @@ f.ex("A2", "單選", "C", "クーリングオフ期間は7日間です。",
      "台灣消保法的鑑賞期是幾天?", opts=["A. 3天", "B. 14天", "C. 7天"], size=22.5, gap=8)
 f.ex("A2", "單選", "A", "買う前に例外を確認しましょう。",
      "買東西之前,要先看清楚什麼?", opts=["A. 退貨例外和條件", "B. 店員的名字", "C. 包裝顏色"], size=22.5, gap=8)
-f.head("填一填 · 空所補充", 28)
+f.head("填一填　空所補充", 28)
 f.ex("A2", "完成句子", "東北季風", "北東モンスーンが雨がちで涼しい天気をもたらします。",
      "北台灣變濕變涼,是___的影響。", instr="空所補充", size=22.5, gap=8)
 f.ex("A2", "完成句子", "外套", "朝晩は涼しいです。上着を持って行きましょう。",
@@ -143,7 +145,7 @@ f.ex("A2", "完成句子", "吊牌", "返品できるように、タグをつけ
      "退貨的外套不能拆___。", instr="空所補充", size=22.5, gap=8)
 f.ex("A2", "完成句子", "預報", "荷造りをする前に、目的地の天気予報を確認しましょう。",
      "旅行之前,先查目的地的天氣___。", instr="空所補充", size=22.5, gap=8)
-f.head("算一算 · 計算してみよう", 28)
+f.head("算一算　計算してみよう", 28)
 f.ex("A2", "單選", "B", "3,000を全額返金：3,000 − 0 = 3,000。",
      "練習:外套3,000元全額退貨,小美拿回多少?", opts=["A. 0元", "B. 3,000元", "C. 1,500元"], size=22.5, gap=8)
 f.ex("A2", "單選", "A", "27 − 20 = 気温差7度。",
@@ -164,9 +166,9 @@ image(p, "rain.jpg", rx, 208, CW, 300)
 caption(p, rx, 208 + 300 + 6, CW, "秋雨綿綿,出門記得帶傘(資料照片)。北台灣本週又濕又涼。",
         "写真：CorraleH — CC0（Wikimedia Commons）")
 by = 208 + 300 + 96
-p.rect(rx, by, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 470, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "事實框 · 今週の事実", 24, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "事實框　今週の事実", 24, "sans", True, OLIVE); yy += 56
 for t in [
     "北北基宜:濕涼到11月11日,低溫跌破20度",
     "高雄:白天28到30度,夜間22到25度",
@@ -175,15 +177,15 @@ for t in [
     "泡湯:先沖澡再下水,頭暈馬上起來",
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
-p.rect(rx, by + 488, CW, 250, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(rx, by + 488, CW, 250, fill="#f0eee5")
 yy = by + 488 + 18
-p.text(rx + 22, yy + 26, "你呢? · あなたは？", 25, "sans", True, OLIVE); yy += 54
+p.text(rx + 22, yy + 26, "你呢?　あなたは？", 25, "sans", True, OLIVE); yy += 54
 yy = p.para(rx + 22, yy + 24, "你喜歡泡湯嗎?雙11你買了什麼?退過貨嗎?", 22.5, "serif", False, INK, CW - 44, 1.36) + 4
 p.para(rx + 22, yy + 21, "温泉は好きですか。ダブルイレブンで何を買いましたか。返品したことはありますか。", 20, "sans", False, GREY, CW - 44, 1.3)
 by3 = by + 488 + 250 + 18
-p.rect(rx, by3, CW, 460, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by3, CW, 460, fill=BOX)
 yy = by3 + 18
-p.text(rx + 22, yy + 26, "退貨前先看 · 返品する前に", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "退貨前先看　返品する前に", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "7天內申請退貨,商品要保持完整",
     "吊牌不要拆,包裝盡量留好",

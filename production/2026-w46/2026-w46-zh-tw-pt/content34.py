@@ -6,26 +6,26 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-tw-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P3 · culture
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("文化 · Cultura", "Lucerna", "第 3 版 · 金馬影展、鋼雕倒數 · O festival Golden Horse e a reta final da arte em aço")
+p.band("文化　Cultura", "Lucerna", "第3版　金馬影展、鋼雕倒數　O festival Golden Horse e a reta final da arte em aço")
 f = Flow(p, [(COLX[i], CW) for i in range(3)], 208, 2540, tag="P3-main")
-f.title("金馬影展:一年一度的大電影課", 34)
+f.title("金馬影展:一年一度的大電影課", 32)
 f.para("2026台北金馬影展從11月6日放到11月22日,入圍影片都在影展放映。金馬影展,就是一年一度的大電影課:看片、聽影人分享、學電影怎麼拍。今年有587部影片報名,入圍名單在10月1日公布,《狂忘警探》入圍11項,是入圍最多的影片。")
 f.para("頒獎典禮在下週日(11月22日)舉行,地點在台北流行音樂中心,下午5點先走星光大道,晚上6點30分典禮開始。今年的主題是「再見江湖」,主持人是香港演員柯煒林,第一次主持金馬獎。得獎名單要到典禮當天才揭曉,現在誰也不知道誰會得獎。")
 f.gloss("O Festival de Cinema Golden Horse de Taipé 2026 vai de 6 a 22 nov. e exibe os filmes indicados: 587 inscrições, indicações anunciadas em 1.º out., com um filme na frente com 11 indicações. O 63.º Golden Horse Awards segue no domingo, 22 nov., no Taipei Music Center — tapete vermelho às 17:00, cerimônia às 18:30, apresentado por Will Or (Ko Wai-lam).")
-f.title("鋼雕藝術節:最後兩週,快去看", 34)
+f.title("鋼雕藝術節:最後兩週,快去看", 32)
 f.para("2026高雄國際鋼雕藝術節展到11月22日,主題是 SUPER STAGE,地點在駁二蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區。本週末還有節目:11月14日(週六)下午在蓬萊B3倉庫有演出,11月15日(週日)下午在鹽埕街區有活動。想去的人,先查主辦單位的最新公告。")
 f.para("主題展「安全第一 SUPER SAFE」把蓬萊B3倉庫變成一座「保險箱」:保險箱裡,裝的是高雄的勞動記憶。85歲素人藝術家林洪玉秀用金屬紗網編出永不凋謝的花,作品叫《萬年吉祥花》,是本屆最動人的亮點之一。她年輕時在鹽埕學裁縫,為新娘縫婚紗,如今把人生經歷編進金屬花裡。")
 f.gloss("O Festival Internacional de Escultura em Aço de Kaohsiung (23 out.-22 nov., SUPER STAGE) entra nas duas últimas semanas, com programas de fim de semana em 14-15 nov. no armazém B3 de Penglai e em Yancheng. A mostra temática SUPER SAFE transforma o armazém num cofre de aço que guarda as memórias do trabalho de Kaohsiung — incluindo as flores de metal eternas de Lin Hung Yu-hsiu, de 85 anos.")
-f.title("小雪快到了,冬天更深了", 34)
+f.title("小雪快到了,冬天更深了", 32)
 f.para("下週日(11月22日)也是小雪,是立冬之後的下一個節氣。小雪的意思是天氣更冷,開始下小雪——在台灣,小雪很少真的下雪,主要是提醒大家:冬天更深了,要注意保暖。")
 f.gloss("No domingo que vem (22 nov.) é também Xiaoxue (Neve Menor), o termo solar depois de Lidong: inverno mais profundo, hora de se agasalhar.")
-f.head("讀懂了嗎? · Entendeu?", 28)
+f.head("讀懂了嗎?　Entendeu?", 28)
 f.ex("A2", "單選", "A", "O festival de cinema vai de 6 a 22 nov.",
      "金馬影展放到哪天?", opts=["A. 11月22日", "B. 11月15日", "C. 11月9日"], size=22.5, gap=8)
 f.ex("A2", "單選", "B", "587 filmes inscritos este ano.",
@@ -38,7 +38,7 @@ f.ex("B1", "單選", "B", "O festival do aço fecha em 22 nov.",
      "高雄鋼雕藝術節展到哪天?", opts=["A. 11月15日", "B. 11月22日", "C. 12月22日"], size=22.5, gap=8)
 f.ex("B1", "單選", "C", "As flores de metal de Lin Hung Yu-hsiu nunca murcham.",
      "林洪玉秀的《萬年吉祥花》是用什麼做的?", opts=["A. 真花", "B. 紙花", "C. 金屬紗網"], size=22.5, gap=8)
-f.head("填一填 · Complete", 28)
+f.head("填一填　Complete", 28)
 f.ex("A2", "完成句子", "入圍", "A lista de indicações foi anunciada em 1.º out.",
      "金馬獎___名單在10月1日公布。", instr="Complete", size=22.5, gap=8)
 f.ex("A2", "完成句子", "星光大道", "O tapete vermelho começa às 17:00.",
@@ -51,7 +51,7 @@ f.ex("B1", "完成句子", "小雪", "Xiaoxue é o termo solar depois de Lidong.
      "立冬之後的下一個節氣是___。", instr="Complete", size=22.5, gap=8)
 f.ex("B1", "完成句子", "柯煒林", "Will Or apresenta a cerimônia deste ano.",
      "今年金馬獎主持人是___。", instr="Complete", size=22.5, gap=8)
-f.head("算一算 · Calcule", 28)
+f.head("算一算　Calcule", 28)
 f.ex("B1", "單選", "C", "De 6 a 22 nov. inclusive são 17 dias.",
      "金馬影展11月6日到11月22日,一共幾天?", opts=["A. 15天", "B. 16天", "C. 17天"], size=22.5, gap=8)
 f.ex("B1", "單選", "B", "Das 14:00 às 17:00 são 3 horas.",
@@ -69,9 +69,9 @@ f.end_report()
 
 rx = COLX[3]
 by = 208
-p.rect(rx, by, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 470, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "金馬小表 · Golden Horse", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "金馬小表　Golden Horse", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "影展:11月6日到11月22日",
     "報名:587部影片,入圍10月1日公布",
@@ -80,15 +80,15 @@ for t in [
     "主題:再見江湖;主持人:柯煒林",
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
-p.rect(rx, by + 488, CW, 260, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(rx, by + 488, CW, 260, fill="#f0eee5")
 yy = by + 488 + 18
-p.text(rx + 22, yy + 26, "你呢? · E você?", 25, "sans", True, OLIVE); yy += 54
+p.text(rx + 22, yy + 26, "你呢?　E você?", 25, "sans", True, OLIVE); yy += 54
 yy = p.para(rx + 22, yy + 24, "你最想看哪一部入圍電影?你去過駁二看展嗎?", 22.5, "serif", False, INK, CW - 44, 1.36) + 4
 p.para(rx + 22, yy + 21, "Qual filme indicado você mais gostaria de ver? Já visitou uma exposição no Pier-2?", 20, "sans", False, GREY, CW - 44, 1.3)
 by3 = by + 488 + 260 + 18
-p.rect(rx, by3, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by3, CW, 430, fill=BOX)
 yy = by3 + 18
-p.text(rx + 22, yy + 26, "鋼雕倒數行程 · Últimas semanas", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "鋼雕倒數行程　Últimas semanas", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "日期:10月23日到11月22日",
     "地點:駁二蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區",
@@ -104,22 +104,22 @@ print("P3 saved, exercises so far:", len(REG))
 # ============================================================ P4 · sport
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("體育 · Esporte", "Lucerna", "第 4 版 · 封王遊行預告 + 運動集點 · Prévia do desfile do título e pontos de esporte")
+p.band("體育　Esporte", "Lucerna", "第4版　封王遊行預告 + 運動集點　Prévia do desfile do título e pontos de esporte")
 f = Flow(p, [(COLX[i], CW) for i in range(3)], 208, 1020, tag="P4-main")
-f.title("下週日,封王遊行天母出發!", 34)
-f.byline("Reportagem da redação · Fonte: notícias esportivas TSNA e governo municipal de Taipé, 30-31 out.")
+f.title("下週日,封王遊行天母出發!", 32)
+f.byline("Reportagem da redação　Fonte: notícias esportivas TSNA e governo municipal de Taipé, 30-31 out.")
 f.para("味全龍拿下隊史第6座總冠軍,封王遊行訂在下週日(11月22日)下午2點,從天母棒球場出發,終點是台北大巨蛋松菸大道。球團在11月21日、22日兩天,在天母棒球場辦球迷感謝祭:21日有草地音樂會,球迷可以在草坪上搭帳篷過夜;22日有球員互動、拍照和簽名,還有投打棒球教室。")
 f.para("台北市政府也一起慶祝:11月整個月,市民到267間運動場館運動,U幣集點翻倍送。平常運動一次拿5個U幣,11月拿10個,滿100個U幣可以換成悠遊卡儲值金。穿上紅色衣服,一起上街為龍隊喝采,也順便養成運動習慣。")
 f.gloss("O desfile do título dos Wei Chuan Dragons está marcado para o domingo que vem (22 nov.) às 14:00, do Estádio de Beisebol de Tianmu ao Taipei Dome. Um festival de agradecimento aos torcedores de dois dias acontece em 21-22 nov. em Tianmu: show na grama e acampamento noturno no dia 21, atividades com os jogadores no dia 22. A cidade de Taipé dobra os pontos U-Sport em todo novembro: 10 pontos por visita em vez de 5, em 267 locais.")
-f.title("棒球詞卡 · Palavras do beisebol", 34)
+f.title("棒球詞卡　Palavras do beisebol", 32)
 f.para("遊行:大家走上街頭慶祝,叫遊行。感謝祭:球隊謝謝球迷的活動,叫感謝祭。集點:每次運動累積點數,叫集點。封王:拿下總冠軍,叫封王——上週本報已經教過這個詞了。")
 f.gloss("Quatro palavras: 遊行 (desfile), 感謝祭 (festival de agradecimento aos torcedores), 集點 (acumular pontos), 封王 (conquistar o título).")
 f.end_report()
 
 # ---- chart: U-Sport points in November (10 points per visit, 100 to convert) ----
 chy = 1070
-p.hline(MX, COLX[0] + 3 * CW + 2 * GUT, chy - 18, GOLD, 2)
-p.text(MX, chy + 28, "U幣集點怎麼算 · Pontos U-Sport — barras em proporção aos pontos", 27, "sans", True, OLIVE)
+p.hline(MX, COLX[0] + 3 * CW + 2 * GUT, chy - 18, OLIVE, 2)
+p.text(MX, chy + 28, "U幣集點怎麼算　Pontos U-Sport — barras em proporção aos pontos", 27, "sans", True, OLIVE)
 BX = MX + 215
 SCALE = 9.0
 rows = [("運動1次", 10), ("運動5次", 50), ("運動10次", 100)]
@@ -128,14 +128,14 @@ for label, val in rows:
     p.text(MX + 20, ry + 22, label, 22, "serif", False, INK)
     p.text(BX - 14, ry + 22, str(val), 22, "serif", True, INK, anchor="end")
     if val > 0:
-        p.rect(BX, ry, val * SCALE, 28, fill="#a4553a")
+        p.rect(BX, ry, val * SCALE, 28, fill=OLIVE)
     ry += 40
 chart_end = ry + 10
 p.text(MX, chart_end + 24, "11月運動一次拿10個U幣,5次50個,10次100個,滿100個可以換成悠遊卡儲值金。平常一次只有5個U幣。", 21, "serif", False, GREY)
 p.text(MX, chart_end + 56, "Nota: as visitas de novembro dão 10 pontos cada (geralmente 5). 10 visitas × 10 = 100 pontos, o limite de conversão.", 20, "sans", False, GREY)
 
 e = Flow(p, [(COLX[i], CW) for i in range(3)], int(chart_end) + 64, 2540, tag="P4-ex")
-e.head("讀懂了嗎? · Entendeu?", 26)
+e.head("讀懂了嗎?　Entendeu?", 26)
 e.ex("B1", "單選", "B", "O desfile é domingo, 22 nov., às 14:00.",
      "封王遊行在哪天下午2點出發?", opts=["A. 11月15日", "B. 11月22日", "C. 11月9日"], size=21.5, gap=6)
 e.ex("B1", "單選", "C", "O desfile começa no Estádio de Beisebol de Tianmu.",
@@ -148,7 +148,7 @@ e.ex("B1", "單選", "A", "100 pontos viram crédito no EasyCard.",
      "滿幾個U幣可以換成悠遊卡儲值金?", opts=["A. 100個", "B. 50個", "C. 10個"], size=21.5, gap=6)
 e.ex("B1", "單選", "C", "267 locais participam.",
      "U幣集點有幾間運動場館參加?", opts=["A. 67間", "B. 167間", "C. 267間"], size=21.5, gap=6)
-e.head("填一填 · Complete", 28)
+e.head("填一填　Complete", 28)
 e.ex("B1", "完成句子", "大巨蛋", "O desfile termina no Taipei Dome.",
      "封王遊行終點是台北___松菸大道。", instr="Complete", size=21.5, gap=6)
 e.ex("B1", "完成句子", "遊行", "Um desfile: todos vão às ruas comemorar.",
@@ -161,7 +161,7 @@ e.ex("B1", "完成句子", "帳篷", "Os torcedores acampam à noite na grama.",
      "球迷可以在草坪上搭___過夜。", instr="Complete", size=21.5, gap=6)
 e.ex("B1", "完成句子", "紅色", "Vista vermelho pelos Dragons.",
      "看遊行要穿___衣服,為龍隊喝采。", instr="Complete", size=21.5, gap=6)
-e.head("看圖答題 · Leia o gráfico", 28)
+e.head("看圖答題　Leia o gráfico", 28)
 e.ex("B1", "單選", "B", "5 visitas × 10 pontos = 50 pontos.",
      "運動5次,一共幾個U幣?", opts=["A. 10個", "B. 50個", "C. 100個"], size=21.5, gap=6)
 e.ex("B1", "單選", "A", "10 visitas × 10 pontos = 100 pontos.",
@@ -182,9 +182,9 @@ image(p, "baseball.jpg", rx, 208, CW, 300)
 caption(p, rx, 208 + 300 + 6, CW, "棒球舊照(資料照片)。下週日,龍隊封王遊行從天母出發。",
         "Foto: Bain News Service — Domínio público (Wikimedia Commons)")
 by = 208 + 300 + 132
-p.rect(rx, by, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 470, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "遊行小檔 · Ficha do desfile", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "遊行小檔　Ficha do desfile", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "遊行:11月22日(日)下午2點出發",
     "起點:天母棒球場;終點:台北大巨蛋松菸大道",
@@ -193,9 +193,9 @@ for t in [
     "22日:球員互動、拍照、簽名、棒球教室",
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
-p.rect(rx, by + 488, CW, 230, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(rx, by + 488, CW, 230, fill="#f0eee5")
 yy = by + 488 + 18
-p.text(rx + 22, yy + 26, "你呢? · E você?", 25, "sans", True, OLIVE); yy += 54
+p.text(rx + 22, yy + 26, "你呢?　E você?", 25, "sans", True, OLIVE); yy += 54
 yy = p.para(rx + 22, yy + 24, "你會去看封王遊行嗎?你一週運動幾次?", 22.5, "serif", False, INK, CW - 44, 1.36) + 4
 p.para(rx + 22, yy + 21, "Vai ver o desfile do título? Quantas vezes por semana se exercita?", 20, "sans", False, GREY, CW - 44, 1.3)
 p.foot(4)

@@ -17,8 +17,8 @@ nativeLabel: "Deutsch"
 exercises: 150
 pages: 8
 pdf: 2026-w46-zh-tw-de.pdf
-pdfBytes: 2133642
-pdfSha256: e0c8ea5a73b349e87496d9a83d90cce9b3f5197943fff03e0b5c240259c6017a
+pdfBytes: 1502046
+pdfSha256: f82e36d092a0cb6e795b86baa24c20df709278059f36844667fae1332602eddd
 discordThread: "1562312921759875144"
 draft: false
 ---

@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-tw-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P8 · test & keys
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("測驗與答案 · 시험과 정답", "Lucerna", "第 8 版 · 本週大測驗 + 全部答案 · 이번 주 시험과 모든 정답")
+p.band("測驗與答案　시험과 정답", "Lucerna", "第8版　本週大測驗 + 全部答案　이번 주 시험과 모든 정답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判斷對錯 · 참 / 거짓", 21, OLIVE, 5)
+f.head("A　判斷對錯　참 / 거짓", 21, OLIVE, 5)
 f.ex("A2", "完形單選", "A", "여행 박람회는 월요일인 11월 9일에 막을 내렸어요.",
      "台北旅展週一(11月9日)落幕。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "더블 일레븐은 11월 11일이지 11월 9일이 아니에요.",
@@ -26,7 +26,7 @@ f.ex("B1", "完形單選", "A", "아츠 인 더 파크는 무료 입장이에요
      "藝趣嘉年華免費入場。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "B", "철 축제는 11월 22일에 막을 내려요. 11월 15일이 아니에요.",
      "鋼雕藝術節11月15日閉幕。(A. 對 · B. 錯)", size=13.8, gap=0)
-f.head("B · 本週大測驗 · 이번 주 큰 퀴즈", 21, OLIVE, 5)
+f.head("B　本週大測驗　이번 주 큰 퀴즈", 21, OLIVE, 5)
 f.ex("A2", "單選", "B", "박람회는 제34회예요.",
      "今年旅展是第幾屆? A. 第30屆 · B. 第34屆 · C. 第40屆", size=13.8, gap=0)
 f.ex("A2", "單選", "C", "현장 티켓은 NT$200이에요.",
@@ -47,7 +47,7 @@ f.ex("B2", "單選", "C", "3,000 − 220 = 2,780.",
      "滿3,000折220,實付多少? A. 3,000元 · B. 2,220元 · C. 2,780元", size=13.8, gap=0)
 f.ex("B2", "單選", "B", "NT$2,000이 넘는 물건에는 관세가 붙을 수 있어요.",
      "跨境包裹超過多少錢要補稅? A. 200元 · B. 2,000元 · C. 20,000元", size=13.8, gap=0)
-f.head("C · 完成句子 · 빈칸 채우기", 21, OLIVE, 5)
+f.head("C　完成句子　빈칸 채우기", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "落幕", "박람회는 11월 9일에 막을 내렸어요.",
      "旅展11月9日___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("A2", "完成句子", "清單", "먼저 쇼핑 목록을 쓰세요.",
@@ -68,7 +68,7 @@ f.ex("B2", "完成句子", "門檻", "구매 금액 조건을 확인하세요.",
      "領券之前,先看___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("B2", "完成句子", "實付金額", "실제로 낸 최종 금액이 중요해요.",
      "比價要比___。", instr="빈칸 채우기", size=13.8, gap=0)
-f.head("D · 讀一讀,答一答 · 읽고 답하기", 21, OLIVE, 5)
+f.head("D　讀一讀,答一答　읽고 답하기", 21, OLIVE, 5)
 f.para("阿玲住在台北。週一(11月9日)她去南港展覽館,看了旅展最後一天,下午2點看了吉祥物大遊行。週三是雙11,她先列好清單,買了一本書450元、一件外套1,550元,加起來正好2,000元。週六她去香港銅鑼灣,看了免費的藝趣嘉年華,晚上8點30分看了夜光巡遊。", 15, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "그녀는 마지막 날인 월요일에 박람회에 가요.",
      "阿玲週一去哪裡? A. 大巨蛋 · B. 南港展覽館 · C. 駁二", size=13.8, gap=0)
@@ -80,7 +80,7 @@ f.ex("B1", "單選", "A", "야간 퍼레이드는 20:30에 시작해요.",
      "夜光巡遊晚上幾點開始? A. 8點30分 · B. 6點 · C. 10點", size=13.8, gap=0)
 f.ex("B2", "單選", "A", "순서: 박람회, 그다음 쇼핑, 그다음 카니발.",
      "這三天她的順序是? A. 先看旅展,再買東西,再看嘉年華 · B. 先看嘉年華,再看旅展 · C. 先買東西,再看旅展,再看嘉年華", size=13.8, gap=0)
-f.head("E · 情景說話 · 상황에서 말하기", 21, OLIVE, 5)
+f.head("E　情景說話　상황에서 말하기", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "박람회는 월요일인 11월 9일에 막을 내렸어요.",
      "— 旅展哪天落幕? — 週一___落幕。(A. 11月9日 · B. 11月6日)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "더블 일레븐은 수요일인 11월 11일이에요.",
@@ -93,7 +93,7 @@ f.ex("B1", "完形單選", "A", "퍼레이드는 톈무 스타디움에서 출�
      "— 封王遊行從哪裡出發? — ___(A. 天母棒球場 · B. 台北大巨蛋)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "A", "할인뿐만 아니라 무료 배송도 있어요. 不但…而且….",
      "— 雙11有什麼好處? — 不但有___,而且有免運。(A. 折扣 · B. 門票)", size=13.8, gap=0)
-f.head("F · 寫一寫 · 쓰기", 21, OLIVE, 5)
+f.head("F　寫一寫　쓰기", 21, OLIVE, 5)
 MODELO = ("雙11之前,我先列好購物清單:一本書450元,一件外套1,550元,加起來2,000元,正好是我的預算。"
           "我先領好優惠券,再比實付金額,最後才結帳。"
           "收到包裹7天內是鑑賞期,不合用可以退貨,但是吊牌不能拆。"
@@ -107,20 +107,20 @@ f.para("모범 답안: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · 모든 정답과 해설 — 페이지 순서대로, 문제마다 짧은 해설과 함께", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "모든 해설은 한국어 · ✓ = 쓰기 모범 답안", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　모든 정답과 해설 — 페이지 순서대로, 문제마다 짧은 해설과 함께", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "모든 해설은 한국어　✓ = 쓰기 모범 답안", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— 제 {pg} 면 —", 12.8, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
+    af.para(f"— 제 {pg} 면 —", 13.0, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":
             txt = f"{e_['n']}. ✓ {e_['note']}"
-        af.para(txt, 12.8, "sans", False, INK, lh=1.12, gap=1, split=False)
+        af.para(txt, 13.0, "sans", False, INK, lh=1.12, gap=1, split=False)
 af.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-test.svg")

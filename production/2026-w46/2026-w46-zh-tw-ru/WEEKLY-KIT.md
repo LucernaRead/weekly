@@ -51,3 +51,23 @@ Fixes applied at the source (build `content*.py` / `ABSTRACT.txt`), full re-rend
 - **Re-gate:** freeze diff rc=0, added CJK 0; p8.py compare CLEAN, 150/150 noted both, keydiff=[]. Occlusion audit: selftest OK (all 6 planted classes fired, clean controls silent), 0 flags, 0 NEW vs core. P7 phrases 8/8 at exactly 2 occurrences. Simplified-residue spot scan clean (core CJK set; Latin editions add 0 CJK).
 - **Final files:** print PDF 8837523 bytes, SHA-256 745e8668ddb5eaab0a1674cddfcfc90de8363e4fe8ab17d368ee2a88622a795c; web PDF 1700024 bytes (< 7 MB), SHA-256 b67a80292092313c394a5c527b6543ba1abf9faff30889729026ec6084cc8662; pdftotext 58354 bytes on both PDFs, byte-identical print vs web; text.md 59161 bytes (exported from the edition's own SVG text layer, H1 preserved verbatim).
 - **Gate evidence:** `hidden_files/w46/zh-tw-fix/gates/` (freeze/p8/occlusion JSONs + txt), render logs `hidden_files/w46/zh-tw-fix/render-*.log`, `webpdf-textmd.log`; full report `hidden_files/w46/zh-tw-fix/FIX-REPORT.md`.
+
+## D5 rebuild (2026-11-16, §1.1 + D5)
+
+- Scope: §1.1 port (fanout) + D5 font routing in one rebuild; only font
+  sizes changed, never wording. This build supersedes the §1.1 pins above.
+- Install: `d5_port_zhtw.py --target zh-tw --reader ru`
+  (mode ru, variant TC); routing FAILURES: 0;
+  fix2 retained (`_QUOTE_CLS` x4, fix2 block x1); D1 fix 1.
+- Baseline D5 census: Latin 297 / Cyrillic
+  480 / curly-in-CJK 0.
+- Gates (run2): TOTAL: 18/19 PASS.
+- Deliverables (builder originals, patched/):
+  - print `Lucerna-VOL3-RU.pdf` 5,638,728 B
+    SHA-256 `92ad4ec2d045577cc435c1074f371a48a2aa77599fb33e20179bf2683ebb5499`
+  - web `2026-w46-zh-tw-ru.web.pdf` 1,678,623 B SHA-256 `92ed43a2eedbee006387b7c611e226cfe76145a15375a5cf8442ba2020a0cd05`
+  - text `2026-w46-zh-tw-ru.text.md.new` 62,036 B SHA-256 `be4f1ecfa424ec9ca0a78c5b5c2879ec35e35d9626d52ffa6ce1a86438a30df5`
+    (D5 joiner export; gate 15a REFLOW accepted per D30 — content-identical,
+    line breaks only; native verifier ADOPT)
+- Fixes (font size only):
+- `content34.py:200` P4 right-box Russian para size: 20 → 19.5 (over by SPILL +4.2px below box (G11 run1); probe margin 2-line para, last line y=1335.4, ~17.6px above box bottom 1358.0)

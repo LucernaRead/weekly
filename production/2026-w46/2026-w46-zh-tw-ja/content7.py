@@ -4,17 +4,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-tw-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P7 · language focus
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("語言 · ことばの焦点", "Lucerna", "語言聚焦 · 三個級別,三個主題 · 3つのレベル、3つのテーマ")
+p.band("語言　ことばの焦点", "Lucerna", "語言聚焦　三個級別,三個主題　3つのレベル、3つのテーマ")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 雙11的話 · ダブルイレブン", 24)
+a.head("A2　雙11的話　ダブルイレブン", 24)
 a.para("ダブルイレブンで役立つ言葉が4つあります。清單（買い物リスト）、實付金額（実際に支払う金額）、領券（クーポンをもらうこと）、鑑賞期（クーリングオフ期間）です。一度覚えれば、どのセールもよくわかります。", 21.5)
 a.glossline("ダブルイレブンの言葉4つ：清單、實付金額、領券、鑑賞期。")
 a.para("清單は買い物の前に書くリストです。實付金額は割引の後に実際に支払う金額です。領券はクーポンがなくなる前にもらうことです。鑑賞期は商品が届いてから7日間で、ほとんどの商品を返品できます。", 21.5)
@@ -31,7 +31,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 影展與鋼雕 · 映画と鉄", 24)
+b.head("B1　影展與鋼雕　映画と鉄", 24)
 b.para("映画と鉄が今週の見出しを分け合っています。言葉をグループにまとめると覚えやすいです。映画（入圍、頒獎、星光大道）と鉄（鋼雕、保險箱、勞動記憶）です。", 21.5)
 b.glossline("言葉をグループに分けましょう。映画（入圍/頒獎）、鉄（鋼雕/保險箱）。")
 b.para("入圍はノミネートされることです。頒獎は賞を授与することです。星光大道は授賞式の前のレッドカーペットです。鋼雕は鉄で作られた彫刻です。保險箱は高雄の労働の記憶を収めた金庫です。", 21.5)
@@ -48,7 +48,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 港台說法 · 台湾と香港の言い方", 24)
+c.head("B2　港台說法　台湾と香港の言い方", 24)
 c.para("台湾と香港には、それぞれ独自の言い方があります。今週は、打卡（写真を撮って投稿すること）、集點（ポイントをためること）、遊行（街のパレード）、感謝祭（ファン感謝祭）です。", 21.5)
 c.glossline("今号の台湾・香港の言葉4つ：打卡、集點、遊行、感謝祭。")
 c.para("旅展での打卡は、「ここに来たよ」と伝えるために写真を投稿することです。集點は運動するたびにポイントをためることです。遊行は街を行くお祝いの行進です。感謝祭はチームがファンに感謝するお祭りです。", 21.5)
@@ -71,21 +71,21 @@ errs = [
     ("「滿5,000折800,實付5,800元」", "→「滿5,000折800,實付4,200元」", "割引は引きます。5,000 − 800 = 4,200で、5,800ではありません。"),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易錯診所 · 間違いやすいところ", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易錯診所　間違いやすいところ", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「雙11不但有折扣,而且有免運。」 — 文型「不但…而且…」は2つの良いことをつなぎます。「〜だけでなく、〜も」という意味です。自分で作ってみましょう。旅展不但有攤位,而且有表演（ブースだけでなく、ショーもあります）。"
 wcn = "文型：不但…而且… — 「〜だけでなく、〜も」。"
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本週句式 · 文型", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本週句式　文型", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -94,9 +94,9 @@ lt = "「編輯好:雙11我的包裹到了!我買了一本書和一件外套,都
 lcn = "編集部の例文です（実際の手紙ではありません）。VOL.2で約束した読者の手紙と第8版の優秀作文は締め切りまでに届かず、例文の掲載と募集を続けます。"
 lt2 = "延期披露:VOL.2曾預告本期起刊登真實讀者來信和第8版最佳作文;截至截稿,本報未收到可刊登的真實來信與投稿,因此本期仍刊登編輯範例,並繼續公開徵集。你的來信,下一期見。"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lt2, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 40
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "讀者園地 · 読者の広場", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "讀者園地　読者の広場", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 21, lt2, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
@@ -106,8 +106,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本週金句 · 今週の名文句 — 今号の記事から一字一句そのまま", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本週金句　今週の名文句 — 今号の記事から一字一句そのまま", 27, "sans", True, OLIVE)
 quotes = [
     ("「先列清單,再比價,最後才結帳」", "まずリストを作り、値段を比べ、それから払いましょう。", "p. 1"),
     ("「旅展四天,一次看完123個國家及城市」", "4日間の旅展で、123の国と都市を一度に見られます。", "p. 1"),
@@ -121,15 +121,16 @@ quotes = [
 colw = (RIGHT - MX - GUT) // 2
 for i, (q, en, pg) in enumerate(quotes):
     cx = MX + (i // 4) * (colw + GUT)
-    cyq = fy + 66 + (i % 4) * 138
+    pitch = 138 if fy + 754 <= 2565 else max(124.0, (2363 - fy) / 4)
+    cyq = fy + 66 + (i % 4) * pitch
     yyq = p.para(cx, cyq + 21, q, 21.5, "serif", False, INK, colw, 1.38)
     p.para(cx, yyq + 20, en + " (" + pg + ")", 19.5, "sans", False, GREY, colw, 1.35)
 
 # ---- next week ----
-py = fy + 66 + 4 * 138 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期預告 · 来週（VOL.4）", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "下週日11月22日,三件大事同一天:封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕,還有小雪、你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+py = fy + 66 + 4 * pitch + 18
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期預告　来週（VOL.4）", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "下週日11月22日,三件大事同一天:封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕,還有小雪、你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-lang.svg")

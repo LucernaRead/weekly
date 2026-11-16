@@ -1,0 +1,22 @@
+GATES 2026-w46-zh-tw-nl [run1]
+TOTAL: 18/19 PASS
+G1: PASS TOTAL=150 OVF=False HDW=False
+G2: PASS defects=0
+G3: PASS lat=0 cyr=0 curly_cjk=0 noto_sans=0
+G4: PASS print=5451565 B
+G5: PASS web=1494129 B
+G6: PASS selftest=OK flags=0
+G7: PASS noted=150/150
+G8: PASS status=CLEAN keydiff=[]
+G9: PASS freeze=8/8 rc=0
+G10: PASS cjk_added=0 latin_added=229
+G11: PASS spills=0 observe=133
+G12: PASS defects=0 backup=ok
+G13: PASS TOUCH=0 NEAR=0
+G14: PASS defects=0 ratios=n=536 med=1.002 bold_med=None
+G15a: FAIL print/web diff={} pdfdiff=IDENTICAL text.md REFLOW (D30) difflines=42 multiset=0
+G15b: RECORDED rc=1 (D27, diagnostic only)
+G15c: PASS rc=0
+G16: PASS defective=0
+D18: PASS min gap=21.0px gaps=[42.0, 42.0, 42.0, 21.0]
+D37: PASS min margin=31.5pt worst=[31.5, '折扣、回饋、免運，常常不能同時用。領券要先看門檻和名額：有的券先領先用，領完就沒', 1453.4599999999998, 1128.0] content-edge min=20.6px

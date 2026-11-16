@@ -47,3 +47,23 @@ Fixes applied at the source (build `content*.py` / `ABSTRACT.txt`), full re-rend
 - **Re-gate:** freeze diff rc=0, added CJK 0; p8.py compare CLEAN, 150/150 noted both, keydiff=[]. Occlusion audit: selftest OK (all 6 planted classes fired, clean controls silent), 0 flags, 0 NEW vs core. P7 phrases 8/8 at exactly 2 occurrences. Simplified-residue spot scan clean (core CJK set; Latin editions add 0 CJK).
 - **Final files:** print PDF 15632996 bytes, SHA-256 ad62003b7e54ed1bf9c65d6dec939beaa87f2e45d7e551a000e9a45430faeb8a; web PDF 2075639 bytes (< 7 MB), SHA-256 776c892766c7a80601d8df0c921921054842694ec9e63812e121c4de9001bf82; pdftotext 46523 bytes on both PDFs, byte-identical print vs web; text.md 47298 bytes (exported from the edition's own SVG text layer, H1 preserved verbatim).
 - **Gate evidence:** `hidden_files/w46/zh-tw-fix/gates/` (freeze/p8/occlusion JSONs + txt), render logs `hidden_files/w46/zh-tw-fix/render-*.log`, `webpdf-textmd.log`; full report `hidden_files/w46/zh-tw-fix/FIX-REPORT.md`.
+
+## D5 rebuild (2026-11-16, §1.1 + D5)
+
+- Scope: §1.1 port (fanout) + D5 font routing in one rebuild; only font
+  sizes changed, never wording. This build supersedes the §1.1 pins above.
+- Install: `d5_port_zhtw.py --target zh-tw --reader pt`
+  (mode latin, variant TC); routing FAILURES: 0;
+  fix2 retained (`_QUOTE_CLS` x4, fix2 block x1); D1 fix 1.
+- Baseline D5 census: Latin 596 / Cyrillic
+  0 / curly-in-CJK 0.
+- Gates (run1): TOTAL: 18/19 PASS.
+- Deliverables (builder originals, patched/):
+  - print `Lucerna-VOL3-PT.pdf` 5,460,061 B
+    SHA-256 `08492b6502ffda21cb8556d746ca08ed28e7fab004f74bf81066d2961a59cac3`
+  - web `2026-w46-zh-tw-pt.web.pdf` 1,502,560 B SHA-256 `351a62ae294c5c8dfcc21242998e05562559c09a53c37d2ba4ba24bcd6faf3d5`
+  - text `2026-w46-zh-tw-pt.text.md.new` 49,762 B SHA-256 `a3336a63f91c057cb31760b70c4a2322b622c85118615bf85b1b1771b81e6d04`
+    (D5 joiner export; gate 15a REFLOW accepted per D30 — content-identical,
+    line breaks only; native verifier ADOPT)
+- Fixes (font size only):
+- (none — run1 ALL-GREEN apart from accepted residuals)
