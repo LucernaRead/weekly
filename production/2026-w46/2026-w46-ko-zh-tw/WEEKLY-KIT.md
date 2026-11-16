@@ -138,3 +138,18 @@ Re-gates on the final artifacts (all 11 editions; full logs/JSONs under `hidden_
 - D1 survives: `规` = 0 in this edition; expanded OpenCC s2t Simplified-only scan re-run on the final SVGs returns exactly the 2 adjudicated non-defects (`峰` U+5CF0 ×8, `准` U+51C6 ×1). P6 gloss `譯注｜재다 衡量 · 규모 規模 · 섞다 混淆。` intact.
 - Render: 0 FLOW OVERFLOW / HEAD TOO WIDE. `Lucerna-VOL3-ZHTW-web.pdf` 2654630 bytes (< 7 MB), 8 pages, pdftotext 50903 bytes. `Lucerna-VOL3-ZHTW.pdf` 32054373 bytes, 8 pages, pdftotext 50903 bytes. `2026-w46-ko-zh-tw.text.md` regenerated via `textmd.py` (headers byte-identical to pre-fix, 340 items, 27530 bytes; diff vs pre-fix export is only the restored P3 gloss line).
 - Change isolation: hash diff vs the pre-fix snapshot — exactly 9 files changed in this edition (svg/p3, svg/p4, svg/p7, cards p3/p4/p7, print PDF, web PDF, `.text.md`); SVG-text multiset diff — the ONLY string changes are the three fixes (P3 gloss wrap lines, P4 item-54 stem, P7 item-103 stem). No other string changed anywhere.
+
+## 补记：D5 字体重建（2026-11-15）
+
+- 安装：移植模板 `tools/mechanism-w47/svglib-ko-d5.py` 原样装为版内 `svglib.py`，仅改写 `_D5_READER = "cjk"`（读者 zh-tw）；D1 fix 与 §1.1 样式一次做完（生产 svglib 为 pre-D1 旧样式，D1 fix 0 处、Newsreader 0 处）。
+- 路由单元测试 `test_d5_routing.py`：FAILURES: 0。fix2（U+201C/U+201D/U+2019 → Newsreader）保留，`_QUOTE_CLS` 在位。
+- 基线普查（`d5_census.py`，修前）：见 builder 报告 §0.4；重建后拉丁/西里尔/弯引号 in CJK 均为 0。
+- 修复（只降字号，不改文案）：
+- 无字号修复（run1 仅 G15a 模板空白线差异；无可修项）
+- 终轮门禁 run2：18/19（fr 17/19）。唯一未过项 G15a 系模板 SOP §1.1 空白线渲染所致 pdfdiff（仅 `_` 字符缺失，见 builder 报告 §0.5 与 §10）；fr 另有 G2 门禁计数含冻结基线日志 1 项，交付侧为 0（G1 HEAD 0 佐证，见 §10）。G15b 仅记录（D27）。creambox defects 0，ratios n=385 med=1.008，P8 行数 200→201，页脚余量 48.9→48.9px。
+- 交付物（run2 实测，builder 原件）：
+  - 印 PDF `Lucerna-VOL3-ZHTW.pdf` — 32027360 bytes, SHA-256 `929363c9102d178264e17c65c8a5f826ba61449990eea311dee0fdae7bed726a`
+  - 网 PDF（render）`Lucerna-VOL3-ZHTW-web.pdf` — 2596037 bytes, SHA-256 `074d51794b21c5e5a1140bf6afa83e0e942af9d7fc541212fed75477d41f7eaa`
+  - 网 PDF（builder）`2026-w46-ko-zh-tw.web.pdf` — 2596046 bytes, SHA-256 `a1a6126589e60ce306ef602f3e2ae3e9787659e9f7f50ae7ec8de69beab7294e`
+  - text.md `2026-w46-ko-zh-tw.text.md.new` — 27298 bytes, SHA-256 `92f6473216072e3566b68595271973f8868b5faf290e3f80842c251407cc5ea3`（与 fanout `.text.md.new` 逐字节相同；原生校验器 ADOPT）
+- 本 build 取代旧交付物行（旧印/网 pin 已过期，见 builder 报告 §9）。

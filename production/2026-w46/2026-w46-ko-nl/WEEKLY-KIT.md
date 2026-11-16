@@ -133,3 +133,18 @@ Re-gates on the final artifacts (all 11 editions; full logs/JSONs under `hidden_
 - P3 gloss-box geometry: gloss lines inside their box (top margin 38.5, bottom margin 47.725); occlusion 0. Visual: P3 full frame checked (restored gloss inside its box, no overflow); P4 item 54 / P7 item 103 checked at full frame in the core + spot checks (de P4, ja P7).
 - Render: 0 FLOW OVERFLOW / HEAD TOO WIDE. `Lucerna-VOL3-NL-web.pdf` 2291086 bytes (< 7 MB), 8 pages, pdftotext 53178 bytes. `Lucerna-VOL3-NL.pdf` 32464313 bytes, 8 pages, pdftotext 53178 bytes. `2026-w46-ko-nl.text.md` regenerated via `textmd.py` (headers byte-identical to pre-fix, 338 items, 28108 bytes; diff vs pre-fix export is only the restored P3 gloss line).
 - Change isolation: hash diff vs the pre-fix snapshot — exactly 9 files changed in this edition (svg/p3, svg/p4, svg/p7, cards p3/p4/p7, print PDF, web PDF, `.text.md`); SVG-text multiset diff — the ONLY string changes are the three fixes (P3 gloss wrap lines, P4 item-54 stem, P7 item-103 stem). No other string changed anywhere.
+
+## 补记：D5 字体重建（2026-11-15）
+
+- 安装：移植模板 `tools/mechanism-w47/svglib-ko-d5.py` 原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`（读者 nl）；D1 fix 与 §1.1 样式一次做完（生产 svglib 为 pre-D1 旧样式，D1 fix 0 处、Newsreader 0 处）。
+- 路由单元测试 `test_d5_routing.py`：FAILURES: 0。fix2（U+201C/U+201D/U+2019 → Newsreader）保留，`_QUOTE_CLS` 在位。
+- 基线普查（`d5_census.py`，修前）：见 builder 报告 §0.4；重建后拉丁/西里尔/弯引号 in CJK 均为 0。
+- 修复（只降字号，不改文案）：
+- A: P1-headline 流 6×f.para 24→22（行40–45，ja 行39–44）+ 6×f.ex 19.5→18.5 + f.head 25→24: `content12.py:40` para 24 / ex 19.5 / head 25 → para 22 / ex 18.5 / head 24 (over FLOW OVERFLOW need 99px（流止 y=1942，底 1828）; probe margin run2 流止 y=1249，余 579px；G6 7 旗标同清)
+- 终轮门禁 run2：18/19（fr 17/19）。唯一未过项 G15a 系模板 SOP §1.1 空白线渲染所致 pdfdiff（仅 `_` 字符缺失，见 builder 报告 §0.5 与 §10）；fr 另有 G2 门禁计数含冻结基线日志 1 项，交付侧为 0（G1 HEAD 0 佐证，见 §10）。G15b 仅记录（D27）。creambox defects 0，ratios n=400 med=1.007，P8 行数 227→228，页脚余量 59.9→59.9px。
+- 交付物（run2 实测，builder 原件）：
+  - 印 PDF `Lucerna-VOL3-NL.pdf` — 30531643 bytes, SHA-256 `f70a5afd5cc88cb21979fd68e4f5c26952c4db837787e2403afee5c1371b1f36`
+  - 网 PDF（render）`Lucerna-VOL3-NL-web.pdf` — 2146787 bytes, SHA-256 `1cfd76b81a9da304b30eca6c7ee35995d238aaef60921b7ead60def0598aea53`
+  - 网 PDF（builder）`2026-w46-ko-nl.web.pdf` — 2146777 bytes, SHA-256 `bc3ac3ce84dd99b275e9b0bc7f2163c9c02b5646a13e408234c7624ac0b869b6`
+  - text.md `2026-w46-ko-nl.text.md.new` — 27897 bytes, SHA-256 `dafd27b0fb7b748c58521151d0397f2f5810a895861b73d9adb900d5aedd9cea`（与 fanout `.text.md.new` 逐字节相同；原生校验器 ADOPT）
+- 本 build 取代旧交付物行（旧印/网 pin 已过期，见 builder 报告 §9）。

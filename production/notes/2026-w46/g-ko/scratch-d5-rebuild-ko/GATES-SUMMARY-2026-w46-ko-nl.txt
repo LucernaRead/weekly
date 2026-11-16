@@ -1,0 +1,21 @@
+GATES-SUMMARY 2026-w46-ko-nl round=run2
+G1: PASS — TOTAL 150, FLOW 0, HEAD 0
+G2: PASS — defects 0 (patched 0, baseline-side 0)
+G3: PASS — latin 0, cyr 0, curly_cjk 0 (total 0), noto_sans_elements 0
+G4: PASS — print Lucerna-VOL3-NL.pdf 30531643B
+G5: PASS — builder web 2146777B; render web 2146787B (<7MB)
+G6: PASS — flags []
+G7: PASS — noted 150/150
+G8: PASS — CLEAN keydiff=[137, 138]
+G9: PASS — freeze baseline 8/8 byte-identical
+G10: PASS — cjk_added {}, latin_added 0
+G11: PASS — SPILL 0, OBSERVE 431, == baseline set: True 
+G12: PASS — DEFECT 0, OBSERVE 0, titles 73, body 995, backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-ko/backup/scratch-fanout-ko/backup/2026-w46-ko-nl, flags=[]
+G13: PASS — 0 TOUCH, 0 NEAR
+G14: PASS — defects 0, observes 0, ratios n=400 med=1.007 bold_med=1.04 reg_med=0.991, p8rows 227->228 slack 59.9->59.9
+G15a: FAIL — print=web multiset diff 0 (print 32380 chars, web 32380 chars), text.md BYTE-IDENTICAL vs fanout.new: True, pdfdiff DIFF, web-vs-issues decomp {"'·'": 127, "'—'": 1}
+G15c: PASS — rc=0 verdict: ADOPT (0 UNEXPECTED) line classes: {'SEP': 0, 'CJK': 0, 'WORD': 0, 'FURN': 0, 'FURNOK': 0, 'REWRAP': 61, 'TRIM': 1, 'OTHER': 0}
+G16: PASS — defective 0
+D18: PASS — gap 360.6px (slogan end 1229.7, date start 1590.3, centre 975.9)
+D37: PASS — binding margin 12.9px (9.7pt), row y=394.0 end=1426.6
+ALL-GREEN: False (18/19 scored; G15b record-only)

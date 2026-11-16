@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 시험과 답 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("시험과 답 · 測驗與答案", "Lucerna", "제8면 · 이번 주의 큰 시험 + 모든 답")
+p.band("시험과 답　測驗與答案", "Lucerna", "제8면　이번 주의 큰 시험 + 모든 답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 이번 주 연표", 21, OLIVE, 5)
+f.head("A　이번 주 연표", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "消防日在11月9日週一",
      "소방의 날은 11월 ___일이에요. (A. 9 · B. 11)", size=13.8, gap=0)
 f.ex("B1", "完形單選", "A", "高考在11月19日週四",
@@ -29,7 +29,7 @@ f.ex("B1", "完形單選", "A", "蝦醬1公斤20,269韓元",
      "새우젓 1킬로그램은 ___원이에요. (A. 20,269 · B. 5,557)", size=13.8, gap=0)
 f.ex("B1", "完形單選", "A", "雪嶽山實際觀測峰值10月16日",
      "설악산 실제 관측 절정은 10월 ___일이었어요. (A. 16 · B. 20)", size=13.8, gap=0)
-f.head("B · 일반 문제", 21, OLIVE, 5)
+f.head("B　일반 문제", 21, OLIVE, 5)
 f.ex("A2", "單選", "A", "今年考生551,864人",
      "올해 수험생은 몇 명이에요? A. 551,864명 · B. 1,312명 · C. 3,271명", size=13.8, gap=0)
 f.ex("B1", "單選", "B", "考場全國1,312處",
@@ -46,7 +46,7 @@ f.ex("B1", "單選", "A", "定期報名截止11月10日17點",
      "한능검 정기 접수는 언제 닫혀요? A. 11월 10일 17시 · B. 11월 13일 · C. 11월 28일", size=13.8, gap=0)
 f.ex("A2", "單選", "B", "山火注意期到12月15日",
      "산불조심기간은 언제까지예요? A. 11월 9일까지 · B. 12월 15일까지 · C. 11월 19일까지", size=13.8, gap=0)
-f.head("C · 읽고 답하기", 21, OLIVE, 5)
+f.head("C　읽고 답하기", 21, OLIVE, 5)
 f.para("지민이는 대학생이에요. 수요일에 친구에게 가래떡을 나눠 줘요. 토요일에는 가족과 김장을 도와요. 다음 주에는 한능검 시험을 준비해요. 지민이는 한국사를 좋아해요.", 15, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "智敏週三分享年糕條",
      "지민이는 수요일에 무엇을 해요? A. 단풍을 봐요 · B. 가래떡을 나눠 줘요 · C. 시험을 봐요", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "單選", "B", "下週準備韓史考試",
      "다음 주에 지민이는 무엇을 준비해요? A. 수능 · B. 한능검 시험 · C. 빼빼로데이", size=13.8, gap=0)
 f.ex("B1", "單選", "C", "智敏喜歡韓國史",
      "지민이는 무엇을 좋아해요? A. 야구 · B. 사과 · C. 한국사", size=13.8, gap=0)
-f.head("D · 문장 만들기", 21, OLIVE, 5)
+f.head("D　문장 만들기", 21, OLIVE, 5)
 f.ex("A2", "造句", "저는 수요일에 가래떡을 나눠 줘요.", "語序：主語+時間+賓語+動詞",
      "저는 / 수요일에 / 가래떡을 나눠 줘요 → ___", instr="造句", size=13.8, gap=0)
 f.ex("A2", "造句", "우리는 김장을 도와요.", "主語+賓語+動詞的語序",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "지민이는 단풍을 보러 가요.", "보러 가요 = �
      "지민이는 / 단풍을 / 보러 가요 → ___", instr="造句", size=13.8, gap=0)
 f.ex("B1", "造句", "수험생은 도서관에서 공부해요.", "動作場所用「에서」",
      "수험생은 / 도서관에서 / 공부해요 → ___", instr="造句", size=13.8, gap=0)
-f.head("E · 번역", 21, OLIVE, 5)
+f.head("E　번역", 21, OLIVE, 5)
 f.ex("A2", "翻譯", "11月12日是D-7。", "對照第 1 版",
      "11월 12일은 D-7예요. → ___", instr="翻譯", size=13.8, gap=0)
 f.ex("A2", "翻譯", "泡菜季正忙。", "對照第 2 版",
@@ -74,7 +74,7 @@ f.ex("B1", "翻譯", "11월 11일은 이름이 세 개예요.", "對照第 3 版
      "11月11日有三個名字。→ ___", instr="翻譯", size=13.8, gap=0)
 f.ex("B2", "翻譯", "저는 수요일에 친구에게 가래떡을 나눠 줘요.", "對照第 5 版",
      "我週三和朋友分享年糕條。→ ___", instr="翻譯", size=13.8, gap=0)
-f.head("F · 이번 주의 말", 21, OLIVE, 5)
+f.head("F　이번 주의 말", 21, OLIVE, 5)
 f.match_set("B2", "詞彙配對",
             ["절정", "김장", "예보", "관측"],
             ["겨울 김치를 담그는 일",
@@ -84,7 +84,7 @@ f.match_set("B2", "詞彙配對",
             ["b", "a", "d", "c"],
             ["절정=最佳時期 b", "김장=醃過冬泡菜 a", "예보=提前預報 d", "관측=實際觀測 c"],
             instr="把詞和釋義配對")
-f.head("G · 도서관에서", 21, OLIVE, 5)
+f.head("G　도서관에서", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "週三分享年糕條",
      "— 수요일에 무엇을 해요? — ___을 나눠 줘요. (A. 가래떡 · B. 김치)", size=13.8, gap=0)
 f.ex("B1", "完形單選", "A", "泡菜季＝醃過冬泡菜",
@@ -95,7 +95,7 @@ f.ex("B1", "完形單選", "A", "日期不同因標準不同",
      "— 단풍 절정 날짜가 왜 달라요? — ___이 달라서예요. (A. 기준 · B. 날씨)", size=13.8, gap=0)
 f.ex("B1", "完形單選", "A", "措施只適用於11月19日",
      "— 수능 조치는 언제 적용돼요? — 11월 ___일에만 적용돼요. (A. 19 · B. 9)", size=13.8, gap=0, bw=354)
-f.head("H · 써 보기", 21, OLIVE, 5)
+f.head("H　써 보기", 21, OLIVE, 5)
 MODELO = ("나의 11월 11일은 세 가지 이름으로 시작해요. "
           "아침에는 친구에게 빼빼로를 건네고, 점심에는 가래떡을 나눠 먹어요. "
           "농업인의 날이라 쌀밥이 더 고마워요. 오후에는 가족과 김장을 도와요. "
@@ -110,15 +110,15 @@ f.para("예: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 답 =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "답 · 全部答案與簡析（第 1–8 版）", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "每題附一句中文簡析 · 帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "답　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "每題附一句中文簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— 第 {pg} 版 —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+    af.para(f"— 第{pg}版 —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":

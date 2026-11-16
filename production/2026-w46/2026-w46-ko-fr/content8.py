@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 시험과 답 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("시험과 답 · Test et réponses", "Lucerna", "제8면 · 이번 주의 큰 시험 + 모든 답")
+p.band("시험과 답　Test et réponses", "Lucerna", "제8면　이번 주의 큰 시험 + 모든 답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 이번 주 연표", 21, OLIVE, 5)
+f.head("A　이번 주 연표", 21, OLIVE, 5)
 f.ex("B1", "Texte à trous", "A", "La journée des pompiers, c'est le lundi 9 novembre",
      "소방의 날은 11월 ___일이에요. (A. 9 · B. 11)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "Le Suneung a lieu le jeudi 19 novembre",
@@ -29,7 +29,7 @@ f.ex("B1", "Texte à trous", "A", "Crevettes salées : 20 269 wons le kilo",
      "새우젓 1킬로그램은 ___원이에요. (A. 20,269 · B. 5,557)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "Pic observé à Seoraksan : 16 octobre",
      "설악산 실제 관측 절정은 10월 ___일이었어요. (A. 16 · B. 20)", size=13.8, gap=0)
-f.head("B · 일반 문제", 21, OLIVE, 5)
+f.head("B　일반 문제", 21, OLIVE, 5)
 f.ex("A2", "Choix multiple", "A", "Candidats cette année : 551 864",
      "올해 수험생은 몇 명이에요? A. 551,864명 · B. 1,312명 · C. 3,271명", size=13.8, gap=0)
 f.ex("B1", "Choix multiple", "B", "Centres d'examen dans tout le pays : 1 312",
@@ -46,7 +46,7 @@ f.ex("B1", "Choix multiple", "A", "Fin des inscriptions : 10 novembre, 17 h",
      "한능검 정기 접수는 언제 닫혀요? A. 11월 10일 17시 · B. 11월 13일 · C. 11월 28일", size=13.8, gap=0)
 f.ex("A2", "Choix multiple", "B", "La vigilance dure jusqu'au 15 décembre",
      "산불조심기간은 언제까지예요? A. 11월 9일까지 · B. 12월 15일까지 · C. 11월 19일까지", size=13.8, gap=0)
-f.head("C · 읽고 답하기", 21, OLIVE, 5)
+f.head("C　읽고 답하기", 21, OLIVE, 5)
 f.para("지민이는 대학생이에요. 수요일에 친구에게 가래떡을 나눠 줘요. 토요일에는 가족과 김장을 도와요. 다음 주에는 한능검 시험을 준비해요. 지민이는 한국사를 좋아해요.", 15, lh=1.3, split=False)
 f.ex("A2", "Choix multiple", "B", "Jimin partage des garaetteok le mercredi",
      "지민이는 수요일에 무엇을 해요? A. 단풍을 봐요 · B. 가래떡을 나눠 줘요 · C. 시험을 봐요", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Choix multiple", "B", "La semaine prochaine, elle prépare l'examen 
      "다음 주에 지민이는 무엇을 준비해요? A. 수능 · B. 한능검 시험 · C. 빼빼로데이", size=13.8, gap=0)
 f.ex("B1", "Choix multiple", "C", "Jimin aime l'histoire de Corée",
      "지민이는 무엇을 좋아해요? A. 야구 · B. 사과 · C. 한국사", size=13.8, gap=0)
-f.head("D · 문장 만들기", 21, OLIVE, 5)
+f.head("D　문장 만들기", 21, OLIVE, 5)
 f.ex("A2", "Former une phrase", "저는 수요일에 가래떡을 나눠 줘요.", "Ordre des mots : sujet + temps + objet + verbe",
      "저는 / 수요일에 / 가래떡을 나눠 줘요 → ___", instr="Former une phrase", size=13.8, gap=0)
 f.ex("A2", "Former une phrase", "우리는 김장을 도와요.", "Ordre : sujet + objet + verbe",
@@ -65,7 +65,7 @@ f.ex("B1", "Former une phrase", "지민이는 단풍을 보러 가요.", "보러
      "지민이는 / 단풍을 / 보러 가요 → ___", instr="Former une phrase", size=13.8, gap=0)
 f.ex("B1", "Former une phrase", "수험생은 도서관에서 공부해요.", "Le lieu de l'action prend « 에서 »",
      "수험생은 / 도서관에서 / 공부해요 → ___", instr="Former une phrase", size=13.8, gap=0)
-f.head("E · 번역", 21, OLIVE, 5)
+f.head("E　번역", 21, OLIVE, 5)
 f.ex("A2", "Traduction", "Le 12 novembre, c'est D-7.", "Voir page 1",
      "11월 12일은 D-7예요. → ___", instr="Traduire", size=13.8, gap=0)
 f.ex("A2", "Traduction", "La saison du kimjang bat son plein.", "Voir page 2",
@@ -74,7 +74,7 @@ f.ex("B1", "Traduction", "11월 11일은 이름이 세 개예요.", "Voir page 3
      "Le 11 novembre a trois noms. → ___", instr="Traduire", size=13.8, gap=0)
 f.ex("B2", "Traduction", "저는 수요일에 친구에게 가래떡을 나눠 줘요.", "Voir page 5",
      "Le mercredi, je partage des garaetteok avec un ami. → ___", instr="Traduire", size=13.8, gap=0)
-f.head("F · 이번 주의 말", 21, OLIVE, 5)
+f.head("F　이번 주의 말", 21, OLIVE, 5)
 f.match_set("B2", "Appariement",
             ["절정", "김장", "예보", "관측"],
             ["겨울 김치를 담그는 일",
@@ -84,7 +84,7 @@ f.match_set("B2", "Appariement",
             ["b", "a", "d", "c"],
             ["절정=le plus beau moment b", "김장=le kimchi de l'hiver a", "예보 = une prévision donnée à l'avance d", "관측 = une observation réelle c"],
             instr="Associer")
-f.head("G · 도서관에서", 21, OLIVE, 5)
+f.head("G　도서관에서", 21, OLIVE, 5)
 f.ex("B1", "Texte à trous", "A", "Partager des garaetteok le mercredi",
      "— 수요일에 무엇을 해요? — ___을 나눠 줘요. (A. 가래떡 · B. 김치)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "Kimjang = le kimchi de l'hiver",
@@ -95,7 +95,7 @@ f.ex("B1", "Texte à trous", "A", "Les dates diffèrent car les critères diffè
      "— 단풍 절정 날짜가 왜 달라요? — ___이 달라서예요. (A. 기준 · B. 날씨)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "Les mesures ne s'appliquent que le 19 novembre",
      "— 수능 조치는 언제 적용돼요? — 11월 ___일에만 적용돼요. (A. 19 · B. 9)", size=13.8, gap=0, bw=354)
-f.head("H · 써 보기", 21, OLIVE, 5)
+f.head("H　써 보기", 21, OLIVE, 5)
 MODELO = ("나의 11월 11일은 세 가지 이름으로 시작해요. "
           "아침에는 친구에게 빼빼로를 건네고, 점심에는 가래떡을 나눠 먹어요. "
           "농업인의 날이라 쌀밥이 더 고마워요. 오후에는 가족과 김장을 도와요. "
@@ -110,13 +110,13 @@ f.para("예: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 답 =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "답 · Réponses — classées par page, cherchez le numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Chaque réponse avec une courte note en français · ✓ = exercice à texte modèle", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "답　Réponses — classées par page, cherchez le numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Chaque réponse avec une courte note en français　✓ = exercice à texte modèle", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— 제{pg}면 —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

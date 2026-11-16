@@ -137,3 +137,19 @@ Re-gates on the final artifacts (all 11 editions; full logs/JSONs under `hidden_
 - P3 gloss-box geometry: gloss lines inside their box (top margin 38.5, bottom margin 47.725); occlusion 0. Visual: P3 full frame checked (restored gloss inside its box, no overflow); P4 item 54 / P7 item 103 checked at full frame in the core + spot checks (de P4, ja P7).
 - Render: 0 FLOW OVERFLOW / HEAD TOO WIDE. `Lucerna-VOL3-web.pdf` 2301018 bytes (< 7 MB), 8 pages, pdftotext 53675 bytes. `Lucerna-VOL3.pdf` 32469019 bytes, 8 pages, pdftotext 53675 bytes. `2026-w46-ko-pt.text.md` regenerated via `textmd.py` (headers byte-identical to pre-fix, 338 items, 28267 bytes; diff vs pre-fix export is only the restored P3 gloss line).
 - Change isolation: hash diff vs the pre-fix snapshot — exactly 9 files changed in this edition (svg/p3, svg/p4, svg/p7, cards p3/p4/p7, print PDF, web PDF, `.text.md`); SVG-text multiset diff — the ONLY string changes are the three fixes (P3 gloss wrap lines, P4 item-54 stem, P7 item-103 stem). No other string changed anywhere.
+
+## 补记：D5 字体重建（2026-11-15）
+
+- 安装：移植模板 `tools/mechanism-w47/svglib-ko-d5.py` 原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`（读者 pt）；D1 fix 与 §1.1 样式一次做完（生产 svglib 为 pre-D1 旧样式，D1 fix 0 处、Newsreader 0 处）。
+- 路由单元测试 `test_d5_routing.py`：FAILURES: 0。fix2（U+201C/U+201D/U+2019 → Newsreader）保留，`_QUOTE_CLS` 在位。
+- 基线普查（`d5_census.py`，修前）：见 builder 报告 §0.4；重建后拉丁/西里尔/弯引号 in CJK 均为 0。
+- 修复（只降字号，不改文案）：
+- A: P1-headline 流 6×f.para 24→22（行40–45，ja 行39–44）+ 6×f.ex 19.5→18.5 + f.head 25→24: `content12.py:40` para 24 / ex 19.5 / head 25 → para 22 / ex 18.5 / head 24 (over FLOW OVERFLOW need 99px（流止 y=1942，底 1828）; probe margin run2 流止 y=1165，余 663px；G6 7 旗标同清)
+- D: P1 副刊头行 y=394 16→15: `content12.py:20` 16 → 15 (over 实墨越右栏线 −14.5px（名义 −3.6px）; probe margin run2 实墨余 +17.2px；名义余 25.6px)
+- 终轮门禁 run2：18/19（fr 17/19）。唯一未过项 G15a 系模板 SOP §1.1 空白线渲染所致 pdfdiff（仅 `_` 字符缺失，见 builder 报告 §0.5 与 §10）；fr 另有 G2 门禁计数含冻结基线日志 1 项，交付侧为 0（G1 HEAD 0 佐证，见 §10）。G15b 仅记录（D27）。creambox defects 0，ratios n=400 med=1.005，P8 行数 234→235，页脚余量 47.7→47.7px。
+- 交付物（run2 实测，builder 原件）：
+  - 印 PDF `Lucerna-VOL3-PT.pdf` — 30541259 bytes, SHA-256 `e71861658e0a7e3da669b382fc54f83096b8c05a86c500aee7571aba9de80b45`
+  - 网 PDF（render）`Lucerna-VOL3-PT-web.pdf` — 2156785 bytes, SHA-256 `8bdd2ceeb52ab131260ec62cd1567f6e2154dd9e92b95d2232e6a950df16d2ae`
+  - 网 PDF（builder）`2026-w46-ko-pt.web.pdf` — 2156779 bytes, SHA-256 `5496bc97cc9feec62bb4c7ed602295e094504d79d3d44f2130a0ef0d51dd5794`
+  - text.md `2026-w46-ko-pt.text.md.new` — 28056 bytes, SHA-256 `7cca4b7ff513662288a4dd081d5bfbbc2a611c82547a1162c96278fb61765acd`（与 fanout `.text.md.new` 逐字节相同；原生校验器 ADOPT）
+- 本 build 取代旧交付物行（旧印/网 pin 已过期，见 builder 报告 §9）。
