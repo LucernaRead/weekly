@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Lucerna · 周报</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">Lucerna<span class="lc-wm-small">周报</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一只雄性野生火鸡站在高高的芦苇丛中，羽毛深褐带铜色，昂着头，长长的尾巴垂到地面。">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>奥杜邦画的野生火鸡。</figcaption>
+        </figure>
+        <h3 lang="en">Black Friday Week: The Sales Started Early</h3>
+        <p class="lc-excerpt" lang="en">On Friday, November 27, the shops open early for Black Friday — the biggest shopping day of the year. But the sales did not wait for Friday.</p>
+        <p class="lc-teaser">打折10月就开始了，但便宜不等于划算：这期教你怎么看懂折扣。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The First Sunday of Advent: Four Candles, Four Weeks</h4><p>11月29日星期日点亮将临期第一支蜡烛，四个星期日通向圣诞节。</p></li>
+          <li data-page="3"><h4 lang="en">At the Movies: Two Witches and a Fox</h4><p>11月21日，《魔法坏女巫：善行》上映，讲艾尔法巴和格琳达的故事；《疯狂动物城2》11月26日上映。</p></li>
+          <li data-page="4"><h4 lang="en">Derby Weekend: Liverpool, Arsenal, Twickenham</h4><p>11月29日星期日，埃弗顿对利物浦12点开赛，阿森纳对曼城16点30分开赛：德比周末。</p></li>
+          <li data-page="5"><h4 lang="en">Into the Jungle: Eleven Campmates, Three Weeks</h4><p>11月16日星期一21点，11位名人在ITV1进入丛林，节目持续约三周。</p></li>
+          <li data-page="6"><h4 lang="en">The Budget and Your Winter Bills</h4><p>10月28日的预算承诺，这个冬天给英格兰许多家庭100英镑能源补贴，还下调燃油税。</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the week</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">bargain</p><p class="lc-gloss">比平时便宜买到的东西：'A real bargain!' 的意思是价格非常划算。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一场草坪足球赛：红衣球员追球，白衣球员滑铲，身后站着蓝衣裁判。">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>草坪上的足球运动员。</figcaption>
+        </figure>
+        <h3 lang="de">Erster Advent am Sonntag — die Märkte sind voll</h3>
+        <p class="lc-excerpt" lang="de">Am Sonntag, dem 29. November, ist der erste Advent: Die erste Kerze brennt auf dem Adventskranz, und am Dienstag, dem 1. Dezember, öffnet sich das erste Türchen des Adventskalenders.</p>
+        <p class="lc-teaser">将临期第一支蜡烛星期日点亮，圣诞集市处处开张。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Der erste Advent: Kerzen, Kranz und Lieder</h4><p>将临期第一个星期日是11月29日：先点一支蜡烛，此后每个星期日多点一支，直到圣诞节。</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte in vollem Gang: Dresden und Nürnberg öffnen</h4><p>德累斯顿圣诞集市11月25日开，纽伦堡11月27日开；科隆从11月16日就开了。</p></li>
+          <li data-page="4"><h4 lang="de">3:1 in Serbien — heute Abend das Endspiel in Berlin</h4><p>德国11月13日在贝尔格莱德3比1获胜，今晚在柏林对荷兰：赢了就进四分之一决赛。</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender fertig — der Nikolaus kommt bald</h4><p>将临日历的第一扇门12月1日打开，圣尼古拉斯也快来了。</p></li>
+          <li data-page="6"><h4 lang="de">Der Haushalt 2027: 560,9 Milliarden — und die Stromsteuer?</h4><p>11月27日，联邦议院表决2027年预算：5609亿欧元，电税问题仍未定。</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>词语页收录这期的本周句子，并由易错诊所纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="de">Adventskranz</p><p class="lc-gloss">四支蜡烛的花环：圣诞节前的每个星期日多点一支蜡烛。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一张老黑白照片里的巴黎窄街：拐角一家咖啡馆，高高的老房子，远处一座教堂尖塔。">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>阿杰拍的巴黎街道。</figcaption>
+        </figure>
+        <h3 lang="fr">Les Bleus en quarts : Turin attend son roi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 15 novembre, à Bordeaux, la France a battu la Turquie 2-1 : un but contre son camp de Topçu à la 49e minute, puis le premier but en Bleu de Kroupi, à la 80e.</p>
+        <p class="lc-teaser">法国在波尔多击败土耳其，以小组第一收官：现在轮到都灵了。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 23 novembre : une semaine en quatre temps</h4><p>一周分四段：黑色周11月23日星期一在商店和网上开始，真正的正日子是星期五。</p></li>
+          <li data-page="3"><h4 lang="fr">Strasbourg, capitale de Noël</h4><p>11月27日星期四14点，斯特拉斯堡开启法国最古老的圣诞集市，一直开到12月24日。</p></li>
+          <li data-page="4"><h4 lang="fr">Les Bleus en quarts, Turin en demies</h4><p>法国在波尔多2比1击败土耳其，以13分夺得A1组第一：四分之一决赛在2027年3月。</p></li>
+          <li data-page="5"><h4 lang="fr">Vendredi 27 novembre : le Black Friday</h4><p>黑色星期五是11月27日星期五，美国感恩节次日；黑色周持续到11月30日网络星期一。</p></li>
+          <li data-page="6"><h4 lang="fr">Le Sénat vote mercredi 18 : et après ?</h4><p>参议院审议2027年社保预算，在1200多项修正案之后，于11月18日星期三表决。</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">brader</p><p class="lc-gloss">低价出售：黑色星期五，商店低价卖大衣、运动鞋和屏幕。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一间朴素房间里一台带轮子的灰色选票扫描仪：一个带小绿屏和投纸口的箱子。">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>一台计票机。</figcaption>
+        </figure>
+        <h3 lang="es">El domingo 29, España vota</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral termina el viernes 27 de noviembre, a las 24:00. El sábado 28 es la jornada de reflexión: un día de silencio, sin propaganda ni actos de campaña.</p>
+        <p class="lc-teaser">竞选星期五结束，星期日西班牙投票：这期讲解计票怎么运作。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 23 al domingo 29</h4><p>竞选最后一周逐日追踪：政党收尾造势，电视播出辩论，选民阅读政纲。</p></li>
+          <li data-page="3"><h4 lang="es">Se enciende el Adviento: cuatro velas hacia la Navidad</h4><p>将临期11月29日星期日开始：圣诞节前有四个等待的星期日。</p></li>
+          <li data-page="4"><h4 lang="es">La Champions decide y la Liga no para</h4><p>欧冠周：星期二皇马主场对埃因霍温，贝蒂斯对斯洛万；星期三巴萨、马竞、比利亚雷亚尔出场。</p></li>
+          <li data-page="5"><h4 lang="es">Black Friday con cabeza: comprar sin perder la cabeza</h4><p>黑色星期五是11月27日星期五：商店和网站降价一天，11月30日接着是网络星期一。</p></li>
+          <li data-page="6"><h4 lang="es">Leer el resultado: cómo se cuentan los votos</h4><p>计票怎么算：国会有350名议员，176席即绝对多数。</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el escrutinio</p><p class="lc-gloss">投票箱关闭后，清点选票的工作。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一张老椭圆形体育场的黑白航拍照片：有跑道、看台和周围的树木。">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>从上空看一座老体育场。</figcaption>
+        </figure>
+        <h3 lang="it">L'Italia cade a Bruxelles: addio ai quarti</h3>
+        <p class="lc-excerpt" lang="it">Giovedì 12 novembre, a San Siro, l'Italia batte 3–1 la Francia: va sotto dopo dieci minuti, con il gol di Olise, poi rimonta con due gol di Pio Esposito e uno di Frattesi.</p>
+        <p class="lc-teaser">意大利在圣西罗击败法国，随后在布鲁塞尔1比4落败：四分之一决赛没了。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Il 25 novembre: una panchina rossa, un numero da ricordare</h4><p>11月25日是消除针对妇女暴力日：意大利各地有红色长椅，记住号码1522。</p></li>
+          <li data-page="3"><h4 lang="it">BookCity apre i libri: sette giorni con la Luna</h4><p>11月23日星期日20点，米兰书展开幕：第15届，11月23日至29日，共1360场活动。</p></li>
+          <li data-page="4"><h4 lang="it">Torna la Serie A: la 12ª giornata e poi la Champions</h4><p>意甲11月21日星期六回归：第12轮，拉齐奥对莱切，星期日晚上亚特兰大对国际米兰，随后是欧冠。</p></li>
+          <li data-page="5"><h4 lang="it">Torino, il cinema: 120 film e una stella per Travolta</h4><p>11月24日星期一，都灵电影节开幕，第44届至12月2日：120部影片，还有一颗献给特拉沃尔塔的星。</p></li>
+          <li data-page="6"><h4 lang="it">La manovra: dopo gli emendamenti, tocca alla Camera</h4><p>预算法：10月15日送交布鲁塞尔，10月28日获批，约260亿欧元、157条；现在轮到众议院。</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la rimonta</p><p class="lc-gloss">落后一方反败为胜：意大利对法国的逆转。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一幅画：1894年圣保罗一条宽阔的土路，低矮的房屋、一座教堂塔楼、一座横跨小溪的小桥和一辆马车。">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>1894年的圣保罗三月二十五日街。</figcaption>
+        </figure>
+        <h3 lang="pt">Black Friday: sexta, 27, é o dia das ofertas</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 27 de novembro, é a Black Friday: o maior dia de ofertas do comércio brasileiro.</p>
+        <p class="lc-teaser">星期五是巴西最大的购物日，优惠已经持续了一整周。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 27 de novembro: a Black Friday</h4><p>11月27日星期五是黑色星期五：商店早早开门，网站全天促销，整周已是黑色周。</p></li>
+          <li data-page="3"><h4 lang="pt">O Advento começa: quatro velas até o Natal</h4><p>将临期11月29日星期日开始：圣诞节前四周，教堂、家中和街上亮起灯光。</p></li>
+          <li data-page="4"><h4 lang="pt">O Brasil perdeu para o Japão: 3 a 2 em Singapura</h4><p>11月14日星期六，巴西在新加坡2比3输给日本：日本不到20分钟就2比0领先，维尼修斯梅开二度。</p></li>
+          <li data-page="5"><h4 lang="pt">O gabarito chegou: quarta, 18 de novembro</h4><p>Enem官方答案11月18日星期三公布：180道客观题，11月15日星期日宣布。</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: por que dia 18, e não dia 30</h4><p>答案为什么18号出、不是30号：2026年Enem分两个星期日，11月8日和15日；个人成绩2027年1月18日公布。</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">a oferta</p><p class="lc-gloss">短时间内的更低价格：黑色星期五就是优惠日。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一张1912年的黑白球队合影：11名足球运动员穿白衫深色短裤，7人站立、4人坐在草地上，身后是人群。">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>1912年的荷兰队。</figcaption>
+        </figure>
+        <h3 lang="nl">Dinsdag: PSV in Madrid, Feyenoord thuis</h3>
+        <p class="lc-excerpt" lang="nl">Op dinsdag 24 november is het Europees voetbal: PSV speelt in Madrid tegen Real Madrid en Feyenoord speelt thuis tegen FC Porto.</p>
+        <p class="lc-teaser">星期二是欧洲足球之夜：埃因霍温客场挑战皇马，费耶诺德主场对阵波尔图。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: Black Friday en pakjesavond</h4><p>圣尼古拉斯11月14日到了，现在是放鞋时间：孩子们放出鞋子加一根胡萝卜，礼物夜在12月5日。</p></li>
+          <li data-page="3"><h4 lang="nl">Een week na de intocht: de schoen en het boek</h4><p>到达一周后：鞋子和书，第88届，每晚的圣尼古拉斯新闻。</p></li>
+          <li data-page="4"><h4 lang="nl">Europees voetbal en de Klassieker</h4><p>11月24日星期二，埃因霍温客场对皇马，费耶诺德主场对波尔图，都是21点。</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>每周日20点RTL 4播《荒岛求生》：19位荷兰和佛兰德名人，在马来西亚一座岛上待34天。</p></li>
+          <li data-page="6"><h4 lang="nl">Kopen of zelf maken? Black Friday en pakjesavond</h4><p>11月27日星期四是黑色星期五：商店给玩具、书籍和电子产品打折，或者自己动手做个带诗的惊喜礼物。</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de klassieker</p><p class="lc-gloss">费耶诺德对阿贾克斯的比赛，荷兰最大的比赛。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">Leven</li>
+          <li lang="nl">Cultuur</li>
+          <li lang="nl">Sport</li>
+          <li lang="nl">Jongeren</li>
+          <li lang="nl">Verdieping</li>
+          <li lang="nl">Taal</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一张雪花晶体的黑白显微照片：两个六边形薄片和两个杆状晶体，位于一轮圆形光场上。">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>显微镜下的雪花晶体。</figcaption>
+        </figure>
+        <h3 lang="ru">Сборная выиграла 3:2: камбэк в Ташкенте</h3>
+        <p class="lc-excerpt" lang="ru">В четверг, 12 ноября, сборная России играла с Узбекистаном в Ташкенте. К 70-й минуте россияне проигрывали 0:2.</p>
+        <p class="lc-teaser">俄罗斯在塔什干0比2落后——随后九分钟内三粒进球扭转了比赛。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">Неделя 23–29 ноября: акварель, морж и День матери</h4><p>11月23日至29日这一周，秋天最后一个完整周：下雪、结霜、白天短，太阳约16点10分落下。</p></li>
+          <li data-page="3"><h4 lang="ru">День матери: 29 ноября</h4><p>母亲节是11月29日星期日：最好的礼物是亲手做的，这期教你怎么祝贺她。</p></li>
+          <li data-page="4"><h4 lang="ru">Сборная: камбэк 3:2 в Ташкенте</h4><p>11月12日在塔什干，俄罗斯3比2击败乌兹别克斯坦，九分钟内连进三球；联赛第15轮也进行了。</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: 27 ноября</h4><p>黑色星期五是11月27日星期五：商店降价一天，这期教你如何明智购物。</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 23–29 ноября: как её прожить</h4><p>11月23日至29日是平凡的一周：五个工作日，然后是周末，这期教你怎么过好它。</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">камбэк</p><p class="lc-gloss">源自英语 comeback：落后一方反败为胜；九分钟内的逆转。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Большой разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一幅北斋木刻版画：戴草帽的农民挑着稻捆走过小桥、穿过金色田野，身后是蓝色的树木和山丘。">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>农民挑着稻谷丰收归来。</figcaption>
+        </figure>
+        <h3 lang="ja">勤労感謝の日と、黒い金よう日</h3>
+        <p class="lc-excerpt" lang="ja">23日（月よう日）は、勤労感謝の日です。働く人に、ありがとう、と言う日です。2026年の11月の3連休は、21日（土よう日）から始まります。今年最後の3連休です。</p>
+        <p class="lc-teaser">星期一是劳动感谢日，也是今年最后一个三连休。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">働く人に、ありがとう</h4><p>劳动感谢日是11月23日星期一，11月21日至23日的三连休是今年最后一个。</p></li>
+          <li data-page="3"><h4 lang="ja">黒い金よう日 — 日本のセール</h4><p>黑色星期五是美国感恩节次日：2026年是11月27日，日本的大促销约从11月20日开始。</p></li>
+          <li data-page="4"><h4 lang="ja">4人が8勝1敗 — 九州場所</h4><p>九州场所进行到第9天后，4人8胜1负：大之里、雾岛、热海富士、若元春；最后一天是11月22日。</p></li>
+          <li data-page="5"><h4 lang="ja">30語から、トップテンへ</h4><p>30个词语11月5日入围，前十名和大奖将于12月1日14点在东京会馆揭晓。</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて東京へ</h4><p>红叶最佳观赏期移到东京：枫叶约11月30日，银杏11月29日，大阪12月6日。</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>词语页把这期的本周短语原样收录，并纠正常见错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">勤労感謝</p><p class="lc-gloss">劳动感谢日，11月23日：向劳动者说谢谢的日子。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一座钢桥横跨雾气弥漫的山谷，山谷里满是红、橙、黄的秋树。">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>雾中的秋日山谷。</figcaption>
+        </figure>
+        <h3 lang="ko">수능 뒤의 일주일 — 한능검, 김장철</h3>
+        <p class="lc-excerpt" lang="ko">11월 23일 월요일부터 29일 일요일까지, 이번 주는 수능 뒤의 일주일이에요. 목요일 11월 19일에 수능을 본 수험생들은 이제 푹 쉬어요. 토요일 11월 28일에는 한능검 시험이 있어요. 일요일 11월 29일에는 서울어텀페스타가 마지막 날을 맞아요.</p>
+        <p class="lc-teaser">考试结束了：这是高考后的一周，星期六有历史考试。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장철이 왔어요 — 서울은 11월 30일이 적기예요</h4><p>腌泡菜季：日均气温4度以下最合适；首尔是11月30日，大田是12月2日。</p></li>
+          <li data-page="3"><h4 lang="ko">수능이 끝난 수험생, 공연장에서 가을을 보내요</h4><p>首尔秋日节9月18日至11月29日，共73天，主题是“首尔的秋天，城市变成艺术”。</p></li>
+          <li data-page="4"><h4 lang="ko">K리그 37라운드 — 서울은 대전과, 울산은 전북과 만나요</h4><p>K联赛1最终轮，第37轮：前六名争亚冠名额，后六名争保级。</p></li>
+          <li data-page="5"><h4 lang="ko">수능이 끝난 뒤 — 공연을 보고, 한능검을 준비해요</h4><p>考完试：休息、见朋友、看演出；秋日节持续到11月29日，成绩12月11日公布。</p></li>
+          <li data-page="6"><h4 lang="ko">공정한 시험을 지키는 법 — 스마트안경과 수능</h4><p>维护考试公平：一位税务考试状元承认用智能眼镜作弊，政府坚持高考日期11月19日不变。</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>易错诊所用这期的例句纠正本周的典型错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">한능검</p><p class="lc-gloss">韩国史能力检定考试的简称；考试在11月28日星期六。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">생활</li>
+          <li lang="ko">문화</li>
+          <li lang="ko">스포츠</li>
+          <li lang="ko">청년</li>
+          <li lang="ko">깊이 읽기</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一把椅子上的网络交换机，缠着一团蓝色网线，地上一个橙色线盘，周围是红色桌腿。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>2003年法国的一场局域网聚会。</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG让一追三，第一次拿冠军</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16总决赛打完了。11月15日星期日凌晨3点，在纽约的巴克莱中心，BLG 3比1打赢了GEN，拿了冠军。这是BLG第一次拿S赛冠军，也是LPL的第四座冠军奖杯。</p>
+        <p class="lc-teaser">BLG在纽约3比1击败GEN：BLG首个世界冠军，也是LPL的第四座冠军奖杯。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">供暖来了，冬天怎么过</h4><p>11月15日，中国北方开始供暖：北京、天津、石家庄、济南、郑州从午夜起暖和起来。</p></li>
+          <li data-page="3"><h4 lang="zh-cn">广州粤剧周，越唱越热闹</h4><p>11月6日，广州荔湾粤剧周开幕：24天粤剧，直到11月29日。</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：BLG是冠军</h4><p>11月15日凌晨3点，纽约S16总决赛：BLG 3比1击败GEN，拿下首冠。</p></li>
+          <li data-page="5"><h4 lang="zh-cn">黑五来了，买什么好？</h4><p>中国的黑五主要是进口货：天猫国际和京东全球购，在国外网站买，或请人代购。</p></li>
+          <li data-page="6"><h4 lang="zh-cn">暖气从哪里来？</h4><p>暖气从哪里来？煤炭：内蒙古煤矿满负荷生产，新疆每天发80列运煤车。</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>易错诊所用这期的例句和小林的来信纠正本周的典型错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">冠军</p><p class="lc-gloss">冠军，获胜者：谁拿了冠军？BLG拿了冠军。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">生活</li>
+          <li lang="zh-cn">文化</li>
+          <li lang="zh-cn">体育</li>
+          <li lang="zh-cn">青年</li>
+          <li lang="zh-cn">深读</li>
+          <li lang="zh-cn">词语</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一座装饰华丽的剧场观众席：成排的蓝色座椅、蓝色舞台幕布、楼座，以及蓝金两色装饰华丽的天花板。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>一座剧场观众席，幕布合着。</figcaption>
+        </figure>
+        <h3 lang="zh-tw">金馬63之夜，名單今晚揭曉</h3>
+        <p class="lc-excerpt" lang="zh-tw">第63屆金馬獎頒獎典禮在11月22日（週日）晚上舉行，地點在台北流行音樂中心。典禮晚上6點30分開始，之前下午5點先走星光大道。今年的主題是「再見江湖」，主持人是香港演員柯煒林，第一次主持金馬獎。</p>
+        <p class="lc-teaser">第63届金马奖星期日晚上在台北举行：获奖名单今晚揭晓。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪之後，冬天怎麼過</h4><p>11月22日小雪，第二十四节气的第20个、冬天的第2个：天更冷了，头、脖子和脚要保暖。</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬得獎片進戲院</h4><p>2026台北金马影展11月6日至22日，共17天，587部影片报名；得奖片在典礼后进戏院上映。</p></li>
+          <li data-page="4"><h4 lang="zh-tw">11月22日，封王遊行天母出發！</h4><p>11月22日星期六14点，味全龙封王游行从天母棒球场出发，前往台北大巨蛋。</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港聖誕，中環先亮燈</h4><p>香港圣诞：中环先亮灯，MegaBox圣诞11月23日开幕，爵士11月24日收尾。</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月23日到29日，一週五件大事</h4><p>11月23日至29日，五件大事：星期一MegaBox圣诞，星期二爵士收尾，星期五黑五和圣诞市集，星期六电竞总决赛。</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>易错诊所用这期的例句纠正本周的典型错误。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">揭曉</p><p class="lc-gloss">揭晓（获奖者）：获奖名单揭晓，就叫揭晓。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">生活</li>
+          <li lang="zh-tw">文化</li>
+          <li lang="zh-tw">體育</li>
+          <li lang="zh-tw">青年</li>
+          <li lang="zh-tw">深讀</li>
+          <li lang="zh-tw">語言</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>

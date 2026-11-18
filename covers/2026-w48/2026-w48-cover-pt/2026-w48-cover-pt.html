@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>A Lucerna · Semanário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">A Lucerna<span class="lc-wm-small">Semanário</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Um peru selvagem macho, de penas escuras e bronzeadas, está entre juncos altos, de cabeça erguida e a longa cauda até o chão.">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>Um peru selvagem, desenhado por Audubon.</figcaption>
+        </figure>
+        <h3 lang="en">Black Friday Week: The Sales Started Early</h3>
+        <p class="lc-excerpt" lang="en">On Friday, November 27, the shops open early for Black Friday — the biggest shopping day of the year. But the sales did not wait for Friday.</p>
+        <p class="lc-teaser">As promoções começaram em outubro, e nem toda oferta é uma oferta.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The First Sunday of Advent: Four Candles, Four Weeks</h4><p>No domingo, 29 de novembro, acende-se a primeira vela do Advento, e quatro domingos levam ao Natal.</p></li>
+          <li data-page="3"><h4 lang="en">At the Movies: Two Witches and a Fox</h4><p>Em 21 de novembro estreia Wicked: For Good, com Elphaba e Glinda; Zootropolis 2 chega em 26 de novembro.</p></li>
+          <li data-page="4"><h4 lang="en">Derby Weekend: Liverpool, Arsenal, Twickenham</h4><p>No domingo, 29 de novembro, o Everton joga contra o Liverpool às 12:00 e o Arsenal contra o Manchester City às 16:30.</p></li>
+          <li data-page="5"><h4 lang="en">Into the Jungle: Eleven Campmates, Three Weeks</h4><p>Na segunda, 16 de novembro, às 21:00, onze famosos entram na selva na ITV1, por cerca de três semanas.</p></li>
+          <li data-page="6"><h4 lang="en">The Budget and Your Winter Bills</h4><p>O orçamento de 28 de outubro promete 100 libras de ajuda com energia para muitas casas na Inglaterra neste inverno.</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the week</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">bargain</p><p class="lc-gloss">Algo comprado por menos que o preço habitual: 'A real bargain!' significa um preço muito bom.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Um jogo de futebol na relva: um jogador de vermelho persegue a bola enquanto um jogador de branco desliza para o desarme; um árbitro de azul está atrás deles.">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>Jogadores de futebol na relva.</figcaption>
+        </figure>
+        <h3 lang="de">Erster Advent am Sonntag — die Märkte sind voll</h3>
+        <p class="lc-excerpt" lang="de">Am Sonntag, dem 29. November, ist der erste Advent: Die erste Kerze brennt auf dem Adventskranz, und am Dienstag, dem 1. Dezember, öffnet sich das erste Türchen des Adventskalenders.</p>
+        <p class="lc-teaser">A primeira vela do Advento arde no domingo, e os mercados de Natal estão abertos em toda parte.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Der erste Advent: Kerzen, Kranz und Lieder</h4><p>O primeiro domingo do Advento começa no domingo, 29 de novembro: uma vela, e depois uma vela nova a cada domingo até o Natal.</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte in vollem Gang: Dresden und Nürnberg öffnen</h4><p>O mercado de Natal de Dresden abre em 25 de novembro e o de Nuremberg em 27 de novembro; Colônia está aberto desde 16 de novembro.</p></li>
+          <li data-page="4"><h4 lang="de">3:1 in Serbien — heute Abend das Endspiel in Berlin</h4><p>A Alemanha venceu por 3:1 em Belgrado em 13 de novembro e joga esta noite em Berlim contra os Países Baixos.</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender fertig — der Nikolaus kommt bald</h4><p>A primeira porta do calendário do Advento abre em 1º de dezembro, e São Nicolau chega em breve.</p></li>
+          <li data-page="6"><h4 lang="de">Der Haushalt 2027: 560,9 Milliarden — und die Stromsteuer?</h4><p>Em 27 de novembro, o Bundestag vota o orçamento de 2027: 560,9 bilhões de euros, e o imposto sobre a eletricidade ainda está em aberto.</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>A página de língua reúne as frases da semana deste número, e a clínica de erros corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="de">Adventskranz</p><p class="lc-gloss">Uma coroa com quatro velas: a cada domingo antes do Natal acende-se mais uma vela.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma rua estreita de Paris numa velha fotografia a preto e branco: um café na esquina, casas antigas altas e uma torre de igreja ao longe.">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>Uma rua de Paris, fotografada por Atget.</figcaption>
+        </figure>
+        <h3 lang="fr">Les Bleus en quarts : Turin attend son roi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 15 novembre, à Bordeaux, la France a battu la Turquie 2-1 : un but contre son camp de Topçu à la 49e minute, puis le premier but en Bleu de Kroupi, à la 80e.</p>
+        <p class="lc-teaser">A França venceu a Turquia em Bordeaux e terminou em primeiro do grupo: agora Turim espera.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 23 novembre : une semaine en quatre temps</h4><p>A semana em quatro tempos: a Black Week começa na segunda, 23 de novembro, nas lojas e online, e o dia de verdade é sexta.</p></li>
+          <li data-page="3"><h4 lang="fr">Strasbourg, capitale de Noël</h4><p>Na quinta, 27 de novembro, às 14:00, Estrasburgo abre seu mercado de Natal, o mais antigo da França, aberto até 24 de dezembro.</p></li>
+          <li data-page="4"><h4 lang="fr">Les Bleus en quarts, Turin en demies</h4><p>A França venceu a Turquia por 2 a 1 em Bordeaux e terminou em primeiro do grupo A1 com 13 pontos: as quartas de final chegam em março de 2027.</p></li>
+          <li data-page="5"><h4 lang="fr">Vendredi 27 novembre : le Black Friday</h4><p>A Black Friday é na sexta, 27 de novembro, o dia depois do Dia de Ação de Graças americano.</p></li>
+          <li data-page="6"><h4 lang="fr">Le Sénat vote mercredi 18 : et après ?</h4><p>O Senado examina o orçamento 2027 da Seguridade Social, e vota na quarta, 18 de novembro, após mais de 1.200 emendas.</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">brader</p><p class="lc-gloss">Vender a preço baixo: na Black Friday, as lojas vendem casacos, tênis e telas a preço de saldo.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Um scanner de cédulas cinza com rodas numa sala simples: uma caixa com uma pequena tela verde e uma ranhura para a cédula.">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>Uma máquina que conta os votos.</figcaption>
+        </figure>
+        <h3 lang="es">El domingo 29, España vota</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral termina el viernes 27 de noviembre, a las 24:00. El sábado 28 es la jornada de reflexión: un día de silencio, sin propaganda ni actos de campaña.</p>
+        <p class="lc-teaser">A campanha termina na sexta, e no domingo a Espanha vota.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 23 al domingo 29</h4><p>A última semana de campanha, dia a dia: os partidos encerram seus atos, a televisão exibe debates, e os eleitores leem os programas.</p></li>
+          <li data-page="3"><h4 lang="es">Se enciende el Adviento: cuatro velas hacia la Navidad</h4><p>O Advento começa no domingo, 29 de novembro: quatro domingos de espera antes do Natal.</p></li>
+          <li data-page="4"><h4 lang="es">La Champions decide y la Liga no para</h4><p>Semana de Champions: na terça, o Real Madrid recebe o PSV e o Betis joga contra o Slovan.</p></li>
+          <li data-page="5"><h4 lang="es">Black Friday con cabeza: comprar sin perder la cabeza</h4><p>A Black Friday é na sexta, 27 de novembro: lojas e sites baixam os preços por um dia, e a Cyber Monday chega em 30 de novembro.</p></li>
+          <li data-page="6"><h4 lang="es">Leer el resultado: cómo se cuentan los votos</h4><p>Como se contam os votos: o Congresso tem 350 deputados, e 176 cadeiras dão a maioria absoluta.</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el escrutinio</p><p class="lc-gloss">A contagem dos votos depois de fechar as urnas.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma fotografia aérea em preto e branco de um estádio antigo oval, com pista de atletismo, arquibancadas e árvores ao redor.">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>Um estádio antigo, visto de cima.</figcaption>
+        </figure>
+        <h3 lang="it">L'Italia cade a Bruxelles: addio ai quarti</h3>
+        <p class="lc-excerpt" lang="it">Giovedì 12 novembre, a San Siro, l'Italia batte 3–1 la Francia: va sotto dopo dieci minuti, con il gol di Olise, poi rimonta con due gol di Pio Esposito e uno di Frattesi.</p>
+        <p class="lc-teaser">A Itália venceu a França em San Siro, e depois perdeu por 4 a 1 em Bruxelas.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Il 25 novembre: una panchina rossa, un numero da ricordare</h4><p>O 25 de novembro é o dia contra a violência contra as mulheres: bancos vermelhos por toda a Itália, e o número 1522 para lembrar.</p></li>
+          <li data-page="3"><h4 lang="it">BookCity apre i libri: sette giorni con la Luna</h4><p>No domingo, 23 de novembro, às 20:00, a BookCity abre em Milão: 15.ª edição, 23–29 de novembro, tema 'Il senno sulla Luna', 1.360 eventos.</p></li>
+          <li data-page="4"><h4 lang="it">Torna la Serie A: la 12ª giornata e poi la Champions</h4><p>A Serie A volta no sábado, 21 de novembro: a 12.ª rodada, com Lazio–Lecce, Atalanta–Inter no domingo à noite, e depois a Champions.</p></li>
+          <li data-page="5"><h4 lang="it">Torino, il cinema: 120 film e una stella per Travolta</h4><p>Na segunda, 24 de novembro, abre o Festival de Cinema de Turim, 44.ª edição até 2 de dezembro: 120 filmes e uma estrela para Travolta.</p></li>
+          <li data-page="6"><h4 lang="it">La manovra: dopo gli emendamenti, tocca alla Camera</h4><p>A lei orçamentária: enviada a Bruxelas em 15 de outubro, aprovada em 28 de outubro, cerca de 26 bilhões de euros.</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la rimonta</p><p class="lc-gloss">Quando um time está perdendo e depois vence: a virada da Itália contra a França.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma pintura de uma rua larga de terra em São Paulo em 1894: casas baixas, uma torre de igreja, uma pequena ponte sobre um riacho e uma carroça de cavalo.">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>A Rua 25 de Março, em São Paulo, em 1894.</figcaption>
+        </figure>
+        <h3 lang="pt">Black Friday: sexta, 27, é o dia das ofertas</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 27 de novembro, é a Black Friday: o maior dia de ofertas do comércio brasileiro.</p>
+        <p class="lc-teaser">Sexta é o maior dia de compras do Brasil, e as ofertas já rolam a semana toda.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 27 de novembro: a Black Friday</h4><p>Sexta, 27 de novembro, é a Black Friday: as lojas abrem cedo, os sites fazem promoções o dia todo — e a semana inteira já é de esquenta.</p></li>
+          <li data-page="3"><h4 lang="pt">O Advento começa: quatro velas até o Natal</h4><p>O Advento começa no domingo, 29 de novembro: quatro semanas antes do Natal, e as luzes aparecem nas igrejas, nas casas e nas ruas.</p></li>
+          <li data-page="4"><h4 lang="pt">O Brasil perdeu para o Japão: 3 a 2 em Singapura</h4><p>No sábado, 14 de novembro, o Brasil perdeu por 3 a 2 para o Japão em Singapura: o Japão abriu 2 a 0 em menos de 20 minutos.</p></li>
+          <li data-page="5"><h4 lang="pt">O gabarito chegou: quarta, 18 de novembro</h4><p>O gabarito oficial do Enem saiu na quarta, 18 de novembro: 180 questões objetivas, anunciado no domingo, 15 de novembro.</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: por que dia 18, e não dia 30</h4><p>Por que o gabarito saiu dia 18, e não dia 30: o Enem 2026 teve dois domingos, 8 e 15 de novembro.</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">a oferta</p><p class="lc-gloss">Um preço mais baixo por um tempo curto: a Black Friday é o dia das ofertas.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma fotografia de equipe em preto e branco de 1912: onze jogadores de camisa branca e calção escuro, sete em pé e quatro sentados na grama, com uma multidão atrás.">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>A seleção holandesa de 1912.</figcaption>
+        </figure>
+        <h3 lang="nl">Dinsdag: PSV in Madrid, Feyenoord thuis</h3>
+        <p class="lc-excerpt" lang="nl">Op dinsdag 24 november is het Europees voetbal: PSV speelt in Madrid tegen Real Madrid en Feyenoord speelt thuis tegen FC Porto.</p>
+        <p class="lc-teaser">Terça é noite de futebol europeu: o PSV em Madrid, o Feyenoord em casa contra o Porto.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: Black Friday en pakjesavond</h4><p>Sinterklaas chegou em 14 de novembro, e agora começa o tempo do sapato: as crianças colocam o sapato com uma cenoura.</p></li>
+          <li data-page="3"><h4 lang="nl">Een week na de intocht: de schoen en het boek</h4><p>Uma semana depois da chegada: o sapato e o livro, a 88.ª edição, e o Sinterklaasjournaal todas as noites.</p></li>
+          <li data-page="4"><h4 lang="nl">Europees voetbal en de Klassieker</h4><p>Na terça, 24 de novembro, o PSV joga em Madrid contra o Real Madrid e o Feyenoord joga em casa contra o Porto, os dois às 21:00.</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>Todo domingo às 20:00 na RTL 4, Expeditie Robinson: 19 famosos holandeses e flamengos, 34 dias numa ilha na Malásia.</p></li>
+          <li data-page="6"><h4 lang="nl">Kopen of zelf maken? Black Friday en pakjesavond</h4><p>Na quinta, 27 de novembro, é a Black Friday: as lojas descontam brinquedos, livros e eletrônicos, ou você faz uma surpresa com um poema.</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de klassieker</p><p class="lc-gloss">O jogo entre o Feyenoord e o Ajax, o maior jogo dos Países Baixos.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">Leven</li>
+          <li lang="nl">Cultuur</li>
+          <li lang="nl">Sport</li>
+          <li lang="nl">Jongeren</li>
+          <li lang="nl">Verdieping</li>
+          <li lang="nl">Taal</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma microfotografia em preto e branco de cristais de neve: duas placas hexagonais e dois cristais em forma de bastão sobre um campo redondo de luz.">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>Cristais de neve sob o microscópio.</figcaption>
+        </figure>
+        <h3 lang="ru">Сборная выиграла 3:2: камбэк в Ташкенте</h3>
+        <p class="lc-excerpt" lang="ru">В четверг, 12 ноября, сборная России играла с Узбекистаном в Ташкенте. К 70-й минуте россияне проигрывали 0:2.</p>
+        <p class="lc-teaser">A Rússia perdia por 0 a 2 em Tashkent — e então três gols em nove minutos viraram o jogo.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">Неделя 23–29 ноября: акварель, морж и День матери</h4><p>A semana de 23 a 29 de novembro, a última semana completa do outono: neve, geada, dias curtos, e o sol se põe por volta das 16:10.</p></li>
+          <li data-page="3"><h4 lang="ru">День матери: 29 ноября</h4><p>O Dia das Mães é no domingo, 29 de novembro: o melhor presente é feito à mão, e a edição mostra como parabenizá-la.</p></li>
+          <li data-page="4"><h4 lang="ru">Сборная: камбэк 3:2 в Ташкенте</h4><p>Em 12 de novembro, em Tashkent, a Rússia venceu o Uzbequistão por 3 a 2, após três gols em nove minutos.</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: 27 ноября</h4><p>A Black Friday é na sexta, 27 de novembro: as lojas baixam os preços por um dia, e a edição mostra como comprar com juízo.</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 23–29 ноября: как её прожить</h4><p>De 23 a 29 de novembro é uma semana comum: cinco dias úteis, depois o fim de semana, e a edição mostra como vivê-la.</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">камбэк</p><p class="lc-gloss">Do inglês 'comeback': um time perdia — e venceu; a virada em nove minutos.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Большой разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma gravura de Hokusai: camponeses de chapéu de palha carregam feixes de arroz por uma ponte e por campos dourados, com árvores azuis e colinas atrás.">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>Camponeses carregam a colheita de arroz.</figcaption>
+        </figure>
+        <h3 lang="ja">勤労感謝の日と、黒い金よう日</h3>
+        <p class="lc-excerpt" lang="ja">23日（月よう日）は、勤労感謝の日です。働く人に、ありがとう、と言う日です。2026年の11月の3連休は、21日（土よう日）から始まります。今年最後の3連休です。</p>
+        <p class="lc-teaser">Segunda é o Dia de Ação de Graças pelo Trabalho, e este é o último fim de semana longo do ano.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">働く人に、ありがとう</h4><p>O Dia de Ação de Graças pelo Trabalho é na segunda, 23 de novembro, e o fim de semana longo de 21 a 23 de novembro é o último do ano.</p></li>
+          <li data-page="3"><h4 lang="ja">黒い金よう日 — 日本のセール</h4><p>A Black Friday é o dia depois do Dia de Ação de Graças americano: em 2026 é 27 de novembro.</p></li>
+          <li data-page="4"><h4 lang="ja">4人が8勝1敗 — 九州場所</h4><p>Após nove dias do torneio de Kyushu, quatro lutadores estão com 8-1: Onosato, Kirishima, Atamifuji e Wakamotoharu.</p></li>
+          <li data-page="5"><h4 lang="ja">30語から、トップテンへ</h4><p>Trinta palavras foram indicadas em 5 de novembro, e o top dez e o grande prêmio chegam em 1º de dezembro, às 14:00, no Tokyo Kaikan.</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて東京へ</h4><p>As melhores cores de outono chegam a Tóquio: os bordos por volta de 30 de novembro, os ginkgos em 29 de novembro, e Osaka em 6 de dezembro.</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>A página de língua reúne as frases da semana, palavra por palavra deste número, e corrige os erros comuns.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">勤労感謝</p><p class="lc-gloss">O Dia de Ação de Graças pelo Trabalho, 23 de novembro: um dia para agradecer a quem trabalha.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Uma ponte de aço cruza um vale enevoado coberto de árvores de outono vermelhas, laranjas e amarelas.">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>Um vale de outono na névoa.</figcaption>
+        </figure>
+        <h3 lang="ko">수능 뒤의 일주일 — 한능검, 김장철</h3>
+        <p class="lc-excerpt" lang="ko">11월 23일 월요일부터 29일 일요일까지, 이번 주는 수능 뒤의 일주일이에요. 목요일 11월 19일에 수능을 본 수험생들은 이제 푹 쉬어요. 토요일 11월 28일에는 한능검 시험이 있어요. 일요일 11월 29일에는 서울어텀페스타가 마지막 날을 맞아요.</p>
+        <p class="lc-teaser">O exame acabou: esta é a semana depois do CSAT, com o teste de história no sábado.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장철이 왔어요 — 서울은 11월 30일이 적기예요</h4><p>Temporada de kimjang: o melhor momento é quando a média diária é de 4 °C ou menos; em Seul é 30 de novembro, em Daejeon é 2 de dezembro.</p></li>
+          <li data-page="3"><h4 lang="ko">수능이 끝난 수험생, 공연장에서 가을을 보내요</h4><p>O Seoul Autumn Festa dura de 18 de setembro a 29 de novembro, 73 dias, tema 'O outono de Seul, a cidade vira arte'.</p></li>
+          <li data-page="4"><h4 lang="ko">K리그 37라운드 — 서울은 대전과, 울산은 전북과 만나요</h4><p>A última rodada da K League 1, rodada 37: os seis primeiros lutam pelas vagas na ACL, e os seis últimos lutam para sobreviver.</p></li>
+          <li data-page="5"><h4 lang="ko">수능이 끝난 뒤 — 공연을 보고, 한능검을 준비해요</h4><p>Depois do exame: descansar, ver os amigos, assistir a espetáculos; o Autumn Festa dura até 29 de novembro.</p></li>
+          <li data-page="6"><h4 lang="ko">공정한 시험을 지키는 법 — 스마트안경과 수능</h4><p>Provas justas: um primeiro lugar num exame fiscal admitiu ter colado com óculos inteligentes.</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>A clínica de erros corrige os erros típicos da semana, com exemplos do número.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">한능검</p><p class="lc-gloss">Abreviação do teste de proficiência em história da Coreia; o teste é no sábado, 28 de novembro.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">생활</li>
+          <li lang="ko">문화</li>
+          <li lang="ko">스포츠</li>
+          <li lang="ko">청년</li>
+          <li lang="ko">깊이 읽기</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Um switch de rede numa cadeira com um emaranhado de cabos azuis, um carretel de cabo laranja no chão, e pernas de mesa vermelhas ao redor.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>Uma LAN party em 2003, na França.</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG让一追三，第一次拿冠军</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16总决赛打完了。11月15日星期日凌晨3点，在纽约的巴克莱中心，BLG 3比1打赢了GEN，拿了冠军。这是BLG第一次拿S赛冠军，也是LPL的第四座冠军奖杯。</p>
+        <p class="lc-teaser">O BLG venceu o GEN por 3 a 1 em Nova York: o primeiro título mundial do BLG, o quarto da LPL.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">供暖来了，冬天怎么过</h4><p>Em 15 de novembro começa o aquecimento no norte da China: Pequim, Tianjin e Shijiazhuang esquentam a partir da meia-noite.</p></li>
+          <li data-page="3"><h4 lang="zh-cn">广州粤剧周，越唱越热闹</h4><p>Em 6 de novembro abre a Semana de Ópera Cantonesa de Liwan, em Guangzhou: 24 dias de ópera, até 29 de novembro.</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：BLG是冠军</h4><p>Em 15 de novembro, às 3:00, a final S16 em Nova York: o BLG venceu o GEN por 3 a 1 e levou o primeiro título.</p></li>
+          <li data-page="5"><h4 lang="zh-cn">黑五来了，买什么好？</h4><p>A Black Friday da China é sobretudo importação: Tmall Global e JD Worldwide, comprar em sites estrangeiros.</p></li>
+          <li data-page="6"><h4 lang="zh-cn">暖气从哪里来？</h4><p>De onde vem o calor? Do carvão: as minas da Mongólia Interior trabalham a pleno vapor, e Xinjiang envia 80 trens de carvão por dia.</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>A clínica de erros corrige os erros típicos da semana, com exemplos do número, e uma carta de Xiao Lin.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">冠军</p><p class="lc-gloss">O campeão, o vencedor: quem levou o campeonato? O BLG levou o campeonato.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">生活</li>
+          <li lang="zh-cn">文化</li>
+          <li lang="zh-cn">体育</li>
+          <li lang="zh-cn">青年</li>
+          <li lang="zh-cn">深读</li>
+          <li lang="zh-cn">词语</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Um ornamentado auditório de teatro: fileiras de assentos azuis, uma cortina de palco azul, balcões, e um teto ricamente decorado em azul e dourado.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>Um auditório de teatro, cortina fechada.</figcaption>
+        </figure>
+        <h3 lang="zh-tw">金馬63之夜，名單今晚揭曉</h3>
+        <p class="lc-excerpt" lang="zh-tw">第63屆金馬獎頒獎典禮在11月22日（週日）晚上舉行，地點在台北流行音樂中心。典禮晚上6點30分開始，之前下午5點先走星光大道。今年的主題是「再見江湖」，主持人是香港演員柯煒林，第一次主持金馬獎。</p>
+        <p class="lc-teaser">Os 63.º Golden Horse Awards são no domingo à noite em Taipei.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪之後，冬天怎麼過</h4><p>Em 22 de novembro é Xiaoxue, a Neve Menor, o 20.º termo solar e o segundo do inverno.</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬得獎片進戲院</h4><p>O Festival de Cinema Golden Horse de Taipei 2026 durou de 6 a 22 de novembro, 17 dias, com 587 filmes inscritos.</p></li>
+          <li data-page="4"><h4 lang="zh-tw">11月22日，封王遊行天母出發！</h4><p>No sábado, 22 de novembro, às 14:00, o desfile de campeões dos Wei Chuan Dragons sai do Estádio de Beisebol de Tianmu até o Taipei Dome.</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港聖誕，中環先亮燈</h4><p>Natal em Hong Kong: primeiro as luzes de Central, o Natal do MegaBox abre em 23 de novembro, e o jazz fecha em 24 de novembro.</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月23日到29日，一週五件大事</h4><p>De 23 a 29 de novembro, cinco grandes eventos: segunda o Natal do MegaBox, terça o jazz fecha, sexta Black Friday.</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>A clínica de erros corrige os erros típicos da semana, com exemplos do número.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">揭曉</p><p class="lc-gloss">Anunciar (os vencedores): a lista de vencedores é anunciada, diz-se 揭曉.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">生活</li>
+          <li lang="zh-tw">文化</li>
+          <li lang="zh-tw">體育</li>
+          <li lang="zh-tw">青年</li>
+          <li lang="zh-tw">深讀</li>
+          <li lang="zh-tw">語言</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>

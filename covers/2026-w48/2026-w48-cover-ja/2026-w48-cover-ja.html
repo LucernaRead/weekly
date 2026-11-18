@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Lucerna · 週刊</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">Lucerna<span class="lc-wm-small">週刊</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="濃いブロンズ色の羽のオスの野生七面鳥が、高い葦の間に立ち、頭を上げて、長い尾を地面まで垂らしています。">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>オーデュボンが描いた野生の七面鳥。</figcaption>
+        </figure>
+        <h3 lang="en">Black Friday Week: The Sales Started Early</h3>
+        <p class="lc-excerpt" lang="en">On Friday, November 27, the shops open early for Black Friday — the biggest shopping day of the year. But the sales did not wait for Friday.</p>
+        <p class="lc-teaser">セールは10月から始まりました。安いからといって、お得とは限りません。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The First Sunday of Advent: Four Candles, Four Weeks</h4><p>11月29日（日よう日）にアドベントの1本目のろうそくがともされ、4つの日よう日がクリスマスにつながります。</p></li>
+          <li data-page="3"><h4 lang="en">At the Movies: Two Witches and a Fox</h4><p>11月21日、『ウィキッド: フォー・グッド』が映画館で公開されます。『ズートピア2』は11月26日です。</p></li>
+          <li data-page="4"><h4 lang="en">Derby Weekend: Liverpool, Arsenal, Twickenham</h4><p>11月29日（日よう日）、エヴァートン対リヴァプールは12時、アーセナル対マンチェスター・シティは16時30分です。</p></li>
+          <li data-page="5"><h4 lang="en">Into the Jungle: Eleven Campmates, Three Weeks</h4><p>11月16日（月よう日）21時、11人の有名人がITV1でジャングルに入ります。約3週間の番組です。</p></li>
+          <li data-page="6"><h4 lang="en">The Budget and Your Winter Bills</h4><p>10月28日の予算は、この冬、イングランドの多くの家庭に100ポンドのエネルギー支援を約束しています。</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the week</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">bargain</p><p class="lc-gloss">ふだんより安く買った物。「A real bargain!」は「とても安い!」という意味です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="芝生のサッカーの試合。赤い選手がボールを追い、白い選手がスライディングタックルをします。後ろには青い服の審判がいます。">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>芝生の上のサッカー選手たち。</figcaption>
+        </figure>
+        <h3 lang="de">Erster Advent am Sonntag — die Märkte sind voll</h3>
+        <p class="lc-excerpt" lang="de">Am Sonntag, dem 29. November, ist der erste Advent: Die erste Kerze brennt auf dem Adventskranz, und am Dienstag, dem 1. Dezember, öffnet sich das erste Türchen des Adventskalenders.</p>
+        <p class="lc-teaser">最初のアドベントのろうそくが日曜日にともり、クリスマスマーケットはどこでも開いています。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Der erste Advent: Kerzen, Kranz und Lieder</h4><p>最初のアドベントは11月29日（日よう日）に始まります。ろうそくが1本ずつ増えていきます。</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte in vollem Gang: Dresden und Nürnberg öffnen</h4><p>ドレスデンは11月25日、ニュルンベルクは11月27日に開きます。ケルンは11月16日からです。</p></li>
+          <li data-page="4"><h4 lang="de">3:1 in Serbien — heute Abend das Endspiel in Berlin</h4><p>ドイツは11月13日にベオグラードで3対1で勝ち、今夜ベルリンでオランダと対戦します。勝てば準々決勝が決まります。</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender fertig — der Nikolaus kommt bald</h4><p>アドベントカレンダーの最初の扉は12月1日に開きます。サンタクロースももうすぐ来ます。</p></li>
+          <li data-page="6"><h4 lang="de">Der Haushalt 2027: 560,9 Milliarden — und die Stromsteuer?</h4><p>11月27日、連邦議会は2027年度予算を採決します。5,609億ユーロで、電気税はまだ未定です。</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>ことばのページは、今週の文をこの号から集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="de">Adventskranz</p><p class="lc-gloss">4本のろうそくのリース。クリスマス前の日よう日ごとに、ろうそくが1本ずつ増えていきます。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="古い白黒写真のパリの狭い通り。角にカフェ、背の高い古い家々、遠くに教会の尖塔が見えます。">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>アジェが撮ったパリの通り。</figcaption>
+        </figure>
+        <h3 lang="fr">Les Bleus en quarts : Turin attend son roi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 15 novembre, à Bordeaux, la France a battu la Turquie 2-1 : un but contre son camp de Topçu à la 49e minute, puis le premier but en Bleu de Kroupi, à la 80e.</p>
+        <p class="lc-teaser">フランスはボルドーでトルコに勝ち、グループ首位で終わりました。次はトリノが待っています。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 23 novembre : une semaine en quatre temps</h4><p>4つの時間に分けた1週間。ブラックウィークは11月23日（月よう日）に、お店とネットで始まります。本番は金よう日です。</p></li>
+          <li data-page="3"><h4 lang="fr">Strasbourg, capitale de Noël</h4><p>11月27日（木よう日）14時、ストラスブールはフランスで一番古いクリスマスマーケットを開きます。12月24日までです。</p></li>
+          <li data-page="4"><h4 lang="fr">Les Bleus en quarts, Turin en demies</h4><p>フランスはボルドーでトルコに2対1で勝ち、A1グループを13ポイントで首位で終えました。準々決勝は2027年3月です。</p></li>
+          <li data-page="5"><h4 lang="fr">Vendredi 27 novembre : le Black Friday</h4><p>ブラックフライデーは11月27日（金よう日）、アメリカの感謝祭の翌日です。</p></li>
+          <li data-page="6"><h4 lang="fr">Le Sénat vote mercredi 18 : et après ?</h4><p>上院は2027年度の社会保障予算を審議し、1,200件以上の修正案の後、11月18日（水よう日）に採決します。</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">brader</p><p class="lc-gloss">安く売ること。ブラックフライデーには、お店がコートやスニーカー、画面を安く売ります。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="何もない部屋にある、車輪付きの灰色の投票用紙スキャナー。小さな緑色の画面と、投票用紙を入れるすき間があります。">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>票を数える機械。</figcaption>
+        </figure>
+        <h3 lang="es">El domingo 29, España vota</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral termina el viernes 27 de noviembre, a las 24:00. El sábado 28 es la jornada de reflexión: un día de silencio, sin propaganda ni actos de campaña.</p>
+        <p class="lc-teaser">選挙運動は金よう日に終わり、日よう日にスペインは投票します。今号は開票の仕組みを説明します。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 23 al domingo 29</h4><p>選挙運動の最後の1週間を日ごとに追います。政党は集会を締めくくり、テレビは討論を放送し、有権者は公約を読みます。</p></li>
+          <li data-page="3"><h4 lang="es">Se enciende el Adviento: cuatro velas hacia la Navidad</h4><p>アドベントは11月29日（日よう日）に始まります。クリスマスまで、待つ日よう日が4回あります。</p></li>
+          <li data-page="4"><h4 lang="es">La Champions decide y la Liga no para</h4><p>チャンピオンズリーグの週。火よう日、レアル・マドリードはPSVを迎え、ベティスはスロヴァンと対戦します。</p></li>
+          <li data-page="5"><h4 lang="es">Black Friday con cabeza: comprar sin perder la cabeza</h4><p>ブラックフライデーは11月27日（金よう日）。お店とウェブサイトが1日だけ値下げします。</p></li>
+          <li data-page="6"><h4 lang="es">Leer el resultado: cómo se cuentan los votos</h4><p>票の数え方。下院は350議席で、176議席が絶対多数です。</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el escrutinio</p><p class="lc-gloss">投票箱が閉まった後の、票の数え方のことです。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="陸上競技のトラック、観客席、まわりの木々がある古い楕円形のスタジアムの、白黒の空中写真です。">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>上から見た古いスタジアム。</figcaption>
+        </figure>
+        <h3 lang="it">L'Italia cade a Bruxelles: addio ai quarti</h3>
+        <p class="lc-excerpt" lang="it">Giovedì 12 novembre, a San Siro, l'Italia batte 3–1 la Francia: va sotto dopo dieci minuti, con il gol di Olise, poi rimonta con due gol di Pio Esposito e uno di Frattesi.</p>
+        <p class="lc-teaser">イタリアはサン・シーロでフランスに勝ち、ブリュッセルで1対4で負けました。準々決勝は消えました。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Il 25 novembre: una panchina rossa, un numero da ricordare</h4><p>11月25日は女性に対する暴力に反対する日です。イタリア中に赤いベンチがあり、1522という番号を覚えてください。</p></li>
+          <li data-page="3"><h4 lang="it">BookCity apre i libri: sette giorni con la Luna</h4><p>11月23日（日よう日）20時、ミラノでブックシティが開きます。第15回、11月23日から29日です。</p></li>
+          <li data-page="4"><h4 lang="it">Torna la Serie A: la 12ª giornata e poi la Champions</h4><p>セリエAは11月21日（土よう日）に戻ります。第12節、ラツィオ対レッチェ、日曜の夜はアタランタ対インテルです。</p></li>
+          <li data-page="5"><h4 lang="it">Torino, il cinema: 120 film e una stella per Travolta</h4><p>11月24日（月よう日）、トリノ映画祭が開きます。第44回、12月2日まで。120本の映画と、トラヴォルタへの星です。</p></li>
+          <li data-page="6"><h4 lang="it">La manovra: dopo gli emendamenti, tocca alla Camera</h4><p>予算法。10月15日にブリュッセルへ送られ、10月28日に承認されました。約260億ユーロです。</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la rimonta</p><p class="lc-gloss">負けていたチームが勝つこと。フランスに対するイタリアの逆転です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1894年のサンパウロの広い土の通りを描いた絵。低い家々、教会の塔、小川にかかる小さな橋、馬車が見えます。">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>1894年のサンパウロ、3月25日通り。</figcaption>
+        </figure>
+        <h3 lang="pt">Black Friday: sexta, 27, é o dia das ofertas</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 27 de novembro, é a Black Friday: o maior dia de ofertas do comércio brasileiro.</p>
+        <p class="lc-teaser">金よう日はブラジルで一番大きな買い物の日で、セールは1週間前から続いています。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 27 de novembro: a Black Friday</h4><p>11月27日（金よう日）はブラックフライデーです。お店は早く開き、ウェブサイトは1日中セールをします。</p></li>
+          <li data-page="3"><h4 lang="pt">O Advento começa: quatro velas até o Natal</h4><p>アドベントは11月29日（日よう日）に始まります。クリスマスまで4週間。教会や家、通りにも明かりがともります。</p></li>
+          <li data-page="4"><h4 lang="pt">O Brasil perdeu para o Japão: 3 a 2 em Singapura</h4><p>11月14日（土よう日）、ブラジルはシンガポールで日本に2対3で負けました。日本は20分以内に2対0としました。</p></li>
+          <li data-page="5"><h4 lang="pt">O gabarito chegou: quarta, 18 de novembro</h4><p>エネムの公式解答は11月18日（水よう日）に出ました。180問の客観式問題で、11月15日（日よう日）に発表されました。</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: por que dia 18, e não dia 30</h4><p>なぜ解答が30日ではなく18日に出たのか。2026年のエネムは11月8日と15日の2回の日よう日でした。</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">a oferta</p><p class="lc-gloss">短い間だけ安い値段。ブラックフライデーはセールの日です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1912年の白黒のチーム写真。白いシャツの選手11人、7人が立ち、4人が芝生に座り、後ろに観衆がいます。">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>1912年のオランダ代表チーム。</figcaption>
+        </figure>
+        <h3 lang="nl">Dinsdag: PSV in Madrid, Feyenoord thuis</h3>
+        <p class="lc-excerpt" lang="nl">Op dinsdag 24 november is het Europees voetbal: PSV speelt in Madrid tegen Real Madrid en Feyenoord speelt thuis tegen FC Porto.</p>
+        <p class="lc-teaser">火よう日はヨーロッパサッカーの夜です。PSVはマドリードで、フェイエノールトはホームです。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: Black Friday en pakjesavond</h4><p>シンタクラースは11月14日に到着しました。これから靴の時間です。子どもたちはニンジンと一緒に靴を置きます。</p></li>
+          <li data-page="3"><h4 lang="nl">Een week na de intocht: de schoen en het boek</h4><p>到着から1週間後。靴と本、第88回、そして毎晩のシンタクラースニュースです。</p></li>
+          <li data-page="4"><h4 lang="nl">Europees voetbal en de Klassieker</h4><p>11月24日（火よう日）、PSVはマドリードでレアル・マドリードと、フェイエノールトはホームでポルトと対戦します。</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>毎週日よう日20時、RTL 4で『Expeditie Robinson』。オランダとフランドルの有名人19人です。</p></li>
+          <li data-page="6"><h4 lang="nl">Kopen of zelf maken? Black Friday en pakjesavond</h4><p>11月27日（木よう日）はブラックフライデーです。お店はおもちゃや本、電化製品を値下げします。</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de klassieker</p><p class="lc-gloss">フェイエノールトとアヤックスの試合。オランダで一番大きな試合です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">Leven</li>
+          <li lang="nl">Cultuur</li>
+          <li lang="nl">Sport</li>
+          <li lang="nl">Jongeren</li>
+          <li lang="nl">Verdieping</li>
+          <li lang="nl">Taal</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="雪の結晶の白黒の顕微鏡写真。六角形の板が2つと、棒状の結晶が2つ、丸い光の上にあります。">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>顕微鏡の下の雪の結晶。</figcaption>
+        </figure>
+        <h3 lang="ru">Сборная выиграла 3:2: камбэк в Ташкенте</h3>
+        <p class="lc-excerpt" lang="ru">В четверг, 12 ноября, сборная России играла с Узбекистаном в Ташкенте. К 70-й минуте россияне проигрывали 0:2.</p>
+        <p class="lc-teaser">ロシアはタシケントで0対2で負けていました。でも、9分で3ゴールが決まり、試合が変わりました。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">Неделя 23–29 ноября: акварель, морж и День матери</h4><p>11月23日から29日の週、秋の最後の1週間です。雪、霜、短い日。太陽は16時10分ごろに沈みます。</p></li>
+          <li data-page="3"><h4 lang="ru">День матери: 29 ноября</h4><p>母の日は11月29日（日よう日）です。一番いいプレゼントは手作りのもの。今号はお祝いの言い方を教えます。</p></li>
+          <li data-page="4"><h4 lang="ru">Сборная: камбэк 3:2 в Ташкенте</h4><p>11月12日、タシケントでロシアはウズベキスタンに3対2で勝ちました。9分で3ゴール。リーグ第15節も行われました。</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: 27 ноября</h4><p>ブラックフライデーは11月27日（金よう日）です。お店が1日だけ値下げします。今号は賢い買い方を教えます。</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 23–29 ноября: как её прожить</h4><p>11月23日から29日は普通の1週間です。平日が5日、週末が2日。今号はその過ごし方を教えます。</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">камбэк</p><p class="lc-gloss">英語の 'comeback' から。負けていたチームが勝つこと。9分での逆転です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Большой разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="北斎の木版画。麦わら帽子の農民たちが、橋を渡り、金色の田んぼを通って稲の束を運びます。後ろには青い木々と丘があります。">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>農民が稲の収穫を運びます。</figcaption>
+        </figure>
+        <h3 lang="ja">勤労感謝の日と、黒い金よう日</h3>
+        <p class="lc-excerpt" lang="ja">23日（月よう日）は、勤労感謝の日です。働く人に、ありがとう、と言う日です。2026年の11月の3連休は、21日（土よう日）から始まります。今年最後の3連休です。</p>
+        <p class="lc-teaser">月よう日は勤労感謝の日です。今年最後の3連休です。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">働く人に、ありがとう</h4><p>勤労感謝の日は11月23日（月よう日）です。11月21日から23日の3連休は、今年最後の3連休です。</p></li>
+          <li data-page="3"><h4 lang="ja">黒い金よう日 — 日本のセール</h4><p>ブラックフライデーはアメリカの感謝祭の翌日です。2026年は11月27日です。</p></li>
+          <li data-page="4"><h4 lang="ja">4人が8勝1敗 — 九州場所</h4><p>九州場所9日目が終わり、8勝1敗が4人います。大の里、霧島、熱海富士、若元春です。千秋楽は11月22日です。</p></li>
+          <li data-page="5"><h4 lang="ja">30語から、トップテンへ</h4><p>30語が11月5日にノミネートされました。トップテンと大賞は12月1日14時、東京會舘で発表されます。</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて東京へ</h4><p>紅葉の見頃は東京へ移ります。モミジは11月30日ごろ、イチョウは11月29日、大阪は12月6日です。</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>ことばのページは、今週のフレーズをこの号からそのまま集めて、よくある間違いを直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">勤労感謝</p><p class="lc-gloss">勤労感謝の日、11月23日。働く人に、ありがとう、と言う日です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="鉄の橋が、赤やオレンジ、黄色の秋の木々に覆われた霧の谷を渡っています。">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>霧の中の秋の谷。</figcaption>
+        </figure>
+        <h3 lang="ko">수능 뒤의 일주일 — 한능검, 김장철</h3>
+        <p class="lc-excerpt" lang="ko">11월 23일 월요일부터 29일 일요일까지, 이번 주는 수능 뒤의 일주일이에요. 목요일 11월 19일에 수능을 본 수험생들은 이제 푹 쉬어요. 토요일 11월 28일에는 한능검 시험이 있어요. 일요일 11월 29일에는 서울어텀페스타가 마지막 날을 맞아요.</p>
+        <p class="lc-teaser">試験は終わりました。修能試験の後の週です。土よう日には歴史の試験があります。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장철이 왔어요 — 서울은 11월 30일이 적기예요</h4><p>キムジャンの季節。1日の平均気温が4度以下の時が一番いいです。ソウルは11月30日、テジョンは12月2日です。</p></li>
+          <li data-page="3"><h4 lang="ko">수능이 끝난 수험생, 공연장에서 가을을 보내요</h4><p>ソウルオータムフェスタは9月18日から11月29日まで、73日間です。テーマは「ソウルの秋、街がアートになる」です。</p></li>
+          <li data-page="4"><h4 lang="ko">K리그 37라운드 — 서울은 대전과, 울산은 전북과 만나요</h4><p>Kリーグ1の最終ラウンド、第37節。上位6チームはACL出場権を、下位6チームは残留をかけて戦います。</p></li>
+          <li data-page="5"><h4 lang="ko">수능이 끝난 뒤 — 공연을 보고, 한능검을 준비해요</h4><p>試験の後。休んで、友だちに会って、公演を見ます。オータムフェスタは11月29日まで。点数は12月11日です。</p></li>
+          <li data-page="6"><h4 lang="ko">공정한 시험을 지키는 법 — 스마트안경과 수능</h4><p>公平な試験。税務試験のトップがスマートグラスでのカンニングを認め、政府は修能試験の日程11月19日を守りました。</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>間違いの診療所は、今週のよくある間違いを、この号の例で直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">한능검</p><p class="lc-gloss">韓国史能力検定試験の略です。試験は11月28日（土よう日）です。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">생활</li>
+          <li lang="ko">문화</li>
+          <li lang="ko">스포츠</li>
+          <li lang="ko">청년</li>
+          <li lang="ko">깊이 읽기</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="椅子の上のネットワークスイッチと青いケーブルの束、床のオレンジ色のケーブルリール、まわりの赤いテーブルの脚。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>2003年、フランスでのLANパーティー。</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG让一追三，第一次拿冠军</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16总决赛打完了。11月15日星期日凌晨3点，在纽约的巴克莱中心，BLG 3比1打赢了GEN，拿了冠军。这是BLG第一次拿S赛冠军，也是LPL的第四座冠军奖杯。</p>
+        <p class="lc-teaser">BLGはニューヨークでGENに3対1で勝ちました。BLG初の世界タイトル、LPLの4つ目です。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">供暖来了，冬天怎么过</h4><p>11月15日、中国北部で暖房が始まります。北京、天津、石家荘、済南、鄭州は真夜中から暖かくなります。</p></li>
+          <li data-page="3"><h4 lang="zh-cn">广州粤剧周，越唱越热闹</h4><p>11月6日、広州・荔湾の粤劇週間が始まります。11月29日まで、24日間の粤劇です。</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：BLG是冠军</h4><p>11月15日3時、ニューヨークでS16決勝。BLGはGENに3対1で勝ち、初優勝しました。</p></li>
+          <li data-page="5"><h4 lang="zh-cn">黑五来了，买什么好？</h4><p>中国のブラックフライデーは主に輸入品です。Tmall GlobalとJD Worldwideで買います。</p></li>
+          <li data-page="6"><h4 lang="zh-cn">暖气从哪里来？</h4><p>暖かさはどこから来るのか。石炭です。内モンゴルの炭鉱はフル稼働で、新疆は1日に80本の石炭列車を送ります。</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>間違いの診療所は、今週のよくある間違いを、この号の例と小林さんからの手紙で直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">冠军</p><p class="lc-gloss">チャンピオン、勝者。誰が優勝したのか。BLGが優勝しました。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">生活</li>
+          <li lang="zh-cn">文化</li>
+          <li lang="zh-cn">体育</li>
+          <li lang="zh-cn">青年</li>
+          <li lang="zh-cn">深读</li>
+          <li lang="zh-cn">词语</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="華やかな劇場の客席。青い座席の列、青い舞台の幕、バルコニー、青と金で豊かに飾られた天井。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>劇場の客席、カーテンは閉まっています。</figcaption>
+        </figure>
+        <h3 lang="zh-tw">金馬63之夜，名單今晚揭曉</h3>
+        <p class="lc-excerpt" lang="zh-tw">第63屆金馬獎頒獎典禮在11月22日（週日）晚上舉行，地點在台北流行音樂中心。典禮晚上6點30分開始，之前下午5點先走星光大道。今年的主題是「再見江湖」，主持人是香港演員柯煒林，第一次主持金馬獎。</p>
+        <p class="lc-teaser">第63回金馬奨は日曜日の夜、台北で開かれます。受賞者は今夜発表されます。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪之後，冬天怎麼過</h4><p>11月22日は小雪、二十四節気の20番目、冬の2番目です。寒くなります。頭、首、足を温かくしてください。</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬得獎片進戲院</h4><p>2026年台北金馬映画祭は11月6日から22日まで、17日間、587本の映画が応募されました。</p></li>
+          <li data-page="4"><h4 lang="zh-tw">11月22日，封王遊行天母出發！</h4><p>11月22日（土よう日）14時、味全龍の優勝パレードが天母野球場から台北ドームへ出発します。</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港聖誕，中環先亮燈</h4><p>香港のクリスマス。まず中環のイルミネーション、メガボックスのクリスマスは11月23日に開きます。</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月23日到29日，一週五件大事</h4><p>11月23日から29日、5つのイベント。月よう日はメガボックス、火よう日はジャズ、金よう日はブラックフライデーです。</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>間違いの診療所は、今週のよくある間違いを、この号の例で直します。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">揭曉</p><p class="lc-gloss">発表すること（受賞者）。受賞者の名簿が発表されます。これを揭曉と言います。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">生活</li>
+          <li lang="zh-tw">文化</li>
+          <li lang="zh-tw">體育</li>
+          <li lang="zh-tw">青年</li>
+          <li lang="zh-tw">深讀</li>
+          <li lang="zh-tw">語言</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>
